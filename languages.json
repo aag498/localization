@@ -1,0 +1,22 @@
+{
+  "ru": {
+    "ru/game.yml": "#isMaster",
+    "ru/general.yml": "#*",
+    "ru/legacy_mc.yml": "#*",
+    "ru/lobby.yml": "#isLobby",
+    "ru/new_mc.yml": "#1.16.5",
+    "ru/party.yml": "#Core #isLobby",
+    "ru/words.yml": "#*"
+  },
+
+  "en": {
+    "en/en.yml": "#*",
+    "en/game.yml": "#isMaster",
+    "en/sw.yml": "#isMaster",
+    "en/legacy_mc.yml": "#*",
+    "en/lobby.yml": "#isLobby",
+    "en/new_mc.yml": "#1.16.5",
+    "en/party.yml": "#Core",
+    "en/words.yml": "#*"
+  }
+}

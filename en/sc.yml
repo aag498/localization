@@ -1,0 +1,425 @@
+# ---------------------
+#         boards
+# ---------------------
+
+# game
+board_skyclash_event_label: '§fNext event:'
+board_skyclash_event: '§a%event% %time%'
+board_skyclash_players_left: '§fPlayers left: §a%left%'
+skyclash_empty_chest: '§cEmpty'
+
+# lobby
+skyclash_board_level: '§fYour Level: §7%level%'
+skyclash_board_lootchests: '§fLoot chests: §e%amount%'
+skyclash_board_tokens: '§fTokens: §2%tokens%'
+skyclash_board_souls: '§fSouls: §b%amount%§7/%max%'
+
+skyclash_board_doubles_wins: '§fDoubles Wins: §a%wins%'
+skyclash_board_doubles_kills: '§fDoubles Kills: §a%kills%'
+
+skyclash_board_solo_wins: '§fSolo Wins: §a%wins%'
+skyclash_board_solo_kills: '§fSolo Kills: §a%kills%'
+
+# soulwell
+skyclash_lobby_soulwell: '§7Soul Well'
+
+# -----------------------
+#         SW-Game
+# -----------------------
+skyclash_selected_random: '§aSelected random kit: §e%kit%'
+skyclash_actionbar_kit: "§7Selected kit: §a%kit%"
+skyclash_item_kitselector: '§aKit Selector §7(Right Click)'
+
+# events
+skyclash_refill_event: 'Refill'
+skyclash_doom_event: 'Doom'
+skyclash_end_event: 'Game End'
+skyclash_start_event: 'Start'
+
+skyclash_sudden_death: '§cSUDDEN DEATH §b+1 §cDRAGON'
+skyclash_dragon_name: '§c§lBig black cock'
+
+# cages localization
+skyclash_cage_glass_cock: '§7Default cage'
+skyclash_cage_red_glass_cock: '§cCool red cage'
+skyclash_cage_prisma: '§3Prisma'
+skyclash_cage_mechanics: '§6Mechanics'
+skyclash_cage_penis: '§dPenis'
+skyclash_cage_shit: '§6Shit pile'
+skyclash_cage_house: '§6House'
+
+# ranked
+skyclash_rating_update: "%delta%§7 Rating (%rating%§7)"
+skyclash_leaderboard_message: '§a§kA§a>> You are now §b#%position%§a on the Ranked Leaderboard <<§kA'
+skyclash_division_message: '%division%§7 is currently %rating%§7 rating ahead'
+skyclash_ranked_chat_disabled: '§cChat is disabled in ranked mode'
+skyclash_ranked_matchmaking_warn: '§cThe game you were routed to has significantly different average rating than yours (§e%average%§c)'
+skyclash_ranked_niggers_gameended: 'No winner - no rating! kys kys kys ksy'
+# divisions
+skyclash_masters_division: '§2Masters Division'
+skyclash_diamond_division: '§bDiamond Division'
+skyclash_gold_division: '§6Gold Division'
+skyclash_iron_division: '§fIron Division'
+skyclash_stone_division: '§7Stone Division'
+
+# Shop GUI
+skyclash_shop_gui: '§8SkyClash shop'
+skyclash_shop_gui_kitsandperks: '§aKits & perks'
+skyclash_shop_gui_kitsandperks_lore: |-
+  §7Change the way you play by
+  §7picking kits and perks!
+  §7 
+  §7Win kits and perks in the §bSoul
+  §bWell§7 or buy them directly
+  §7using §6coins§7.
+
+skyclash_shop_gui_soulwell: '§bSoul Well'
+skyclash_shop_gui_soulwell_lore: |-
+  §7Use §bSouls §7to roll the well
+  §7and win kits & perks!
+  §7 
+  §7Earn §bSouls §7by killing players
+  §7in SkyClash. This category contains 
+  §bSoul Harvesting§7 and §bSoul 
+  §bUpgrading§7.
+  §7 
+  §7Souls: §b%souls%
+  §7 
+  §eClick to browse!
+
+skyclash_shop_gui_cosmetics: '§aCosmetics'
+skyclash_shop_gui_cosmetics_lore: |-
+  §7Browse and equip all the
+  §7available in-game SkyClash
+  §7cosmetics.
+  §7 
+  §7Find cosmetics in §6Loot
+  §6Chests§7 or buy them directly
+  §7using §atokens§7.
+  §7 
+  §eClick to browse!
+
+skyclash_shop_gui_leveling: '§dSkyClash Level Progression'
+skyclash_shop_gui_leveling_lore: |-
+  §7View information about your
+  §7SkyClash Level progression,
+  §7select your Prestige Icon, and
+  §7view level rewards.
+  §7 
+  §7Progress: §b%exp%§7/§a%req_exp%
+  §7%level_formatted% %bar% §7%next_level_formatted%
+  §7 
+  §eClick to view!
+
+skyclash_shop_gui_lootchests: '§fOpen Loot Chests'
+skyclash_shop_gui_lootchests_lore: |-
+  §7Click to open a SkyClash Loot
+  §7Chest which can contain
+  §aCOMMON§7, §9RARE§7, §5EPIC
+  §7or §6LEGENDARY§7 cosmetics!
+  §7 
+  §7 %arrow%%amount% §fLoot Chests§c available!
+  §7 
+  §eClick to open!
+
+skyclash_shop_gui_buylootchests: '§6Buy Loot Chests'
+skyclash_shop_gui_buylootchests_lore: |-
+  §7Click to see the Astrona Store
+  §7link where you can purchase
+  §6SkyClash Loot Chests§7!
+  §7 
+  §eClick to view Store link!
+
+skyclash_shop_gui_infolootchests: '§6Buy Loot Chests'
+skyclash_shop_gui_infolootchests_lore: |-
+  §7Open §6SkyClash Loot Chests §7to unlock
+  §7in-game cosmetics! §6Loot Chests §7can
+  §7be purchased at the Astrona Store:
+  §e$store_link$
+  §6SkyClash Loot Chests§7!
+  §7 
+  §eYour 5 most recent items found are:
+  §e%history%
+
+skyclash_shop_gui_niggareaper: '§cNigga Reaper'
+skyclash_shop_gui_niggareaper_lore: |-
+  §7Speak with the Nigga Reaper.
+  §7 
+  §7This category contains §bFemboy's
+  §bDescent§7, the §bFemboy§7, §5Head Collection§7,
+  §7and §3Femboy's Brewery.
+  §7 
+  §eClick to browse!
+
+# Cosmetics GUI
+skyclash_cosmetics_gui: '§8My Cosmetics'
+
+skyclash_cosmetics_gui_appendix: |-
+  §7Unlocked: §a%unlocked%/%total% §8(%perc%%)
+  §7Currently Selected:
+  §a%selected%
+  
+
+skyclash_cosmetics_projectiles: '§aProjectile Trails'
+skyclash_cosmetics_projectiles_lore: |-
+  §7Change your projectile particle
+  §7trail effect.
+  §7 
+  $skyclash_cosmetics_gui_appendix$
+  §7 
+  §eClick to view!
+
+skyclash_cosmetics_cages: '§aCages'
+skyclash_cosmetics_cages_lore: |-
+  §7Change the color of your
+  §7spawning cell
+  §7 
+  $skyclash_cosmetics_gui_appendix$
+
+skyclash_cosmetics_dances: '§aVictory Dances'
+skyclash_cosmetics_dances_lore: |-
+  §7Celebrate by gloating and
+  §7showing off to other players
+  §7wehenever you win!
+  §7 
+  $skyclash_cosmetics_gui_appendix$
+
+skyclash_cosmetics_killeffects: '§aKill Effects'
+skyclash_cosmetics_killeffects_lore: |-
+  §7Pick an effect to trigger
+  §7whenever you eliminate another
+  §7player!
+  §7 
+  $skyclash_cosmetics_gui_appendix$
+
+skyclash_cosmetics_deathcries: '§aDeath cries'
+skyclash_cosmetics_deathcries_lore: |-
+  §7Let others know just how salty
+  §7your teas are every time you
+  §7die with these death crues!
+  §7 
+  $skyclash_cosmetics_gui_appendix$
+
+skyclash_cosmetics_balloons: '§aBalloons'
+skyclash_cosmetics_balloons_lore: |-
+  §7Attach a balloon to your spawn
+  §7island!
+  §7 
+  $skyclash_cosmetics_gui_appendix$
+
+skyclash_cosmetics_killmessages: '§aKill Messages'
+skyclash_cosmetics_killmessages_lore: |-
+  §7Select a Kill Message package to
+  §7replace chat messages when you
+  §7kill players!
+  §7 
+  $skyclash_cosmetics_gui_appendix$
+
+skyclash_cosmetics_sprays: '§aSprays'
+skyclash_cosmetics_sprays_lore: |-
+  §7Select a spray to show off all
+  §7over the place! Spray slots can
+  §7be found around the center.
+  §7islands.
+  §7 
+  $skyclash_cosmetics_gui_appendix$
+
+
+# Kits and perks gui
+skyclash_kitsandperks_gui: '§8Kits & Perks'
+skyclash_kits_gui_name: '§a%type% Kits'
+skyclash_kits_gui_lore: |-
+  §7Selection of unique kits for
+  §7%type% games.
+
+skyclash_perks_gui_name: '§a%type% Perks'
+skyclash_perks_gui_lore: |-
+  §7Selection of unique perks for
+  §7%type% games.
+
+# ----------------------
+#     stats shit
+# ----------------------
+skyclash_stats_gui: 'SkyClash Statistics'
+skyclash_stats_name: '§a%mode% Stats'
+skyclash_stats_lore: |-
+  §7Wins: §a%wins%
+  §7Losses: §a%losses%
+  §7 
+  §7Kills: §a%kills%
+  §7Assists: §a%assists%
+  §7Deaths: §a%deaths%
+  §7 
+  §7Melee Kills: §a%melee_kills%
+  §7Bow Kills: §a%bow_kills%
+  §7Void Kills: §a%void_kills%
+  §7 
+  §7Arrows Shot: §a%arrows_shot%
+  §7Arrows Hit: §a%arrows_hit%
+  §7 
+  §7Chests Opened: §a%chests_opened%
+  §7Enderpearls Thrown: §a%ep_thrown%
+  §7Souls Gathered: §a%souls_gathered%
+  §7Heads: §a%heads%
+
+skyclash_lobby_stats_holo: |-
+  §6§lYour SkyClash Profile
+  §fYour Level: §7%level%
+  §fProgress: §b%lvl_current%§7/§a%lvl_required%
+  §fTotal Wins: §a%wins%
+  §fTotal Kills: §a%kills%
+  §fTotal Heads: §5%heads%
+  §fAchievements: §e%ach_current%§a/%ach_overall%
+
+# --------------------
+#         KITS
+# --------------------
+
+# quick kit selector gui
+skyclash_item_kitselector_gui: '§8Kit Selector'
+skyclash_randomkit: '§eRandom Kit'
+skyclash_randomkit_lore: |-
+  §7Click to select random kit.
+
+# ranked
+skyclash_kit_ranked_armorer: 'Armorer'
+skyclash_kit_ranked_scout: 'Scout'
+skyclash_kit_ranked_champion: 'Champion'
+
+# insane
+skyclash_kit_insane_armorer: 'Armorer'
+skyclash_kit_insane_armorsmith: 'Armorsmith'
+skyclash_kit_insane_baseballplayer: 'Baseball Player'
+skyclash_kit_insane_cannoneer: 'Cannoneer'
+skyclash_kit_insane_ecologist: 'Ecologist'
+skyclash_kit_insane_enchanter: 'Enchanter'
+skyclash_kit_insane_enderman: 'Enderman'
+skyclash_kit_insane_guardian: 'Guardian'
+skyclash_kit_insane_healer: 'Healer'
+skyclash_kit_insane_hunter: 'Hunter'
+skyclash_kit_insane_jester: 'Jester'
+skyclash_kit_insane_jester_description: |-
+  §7You receive a random sword
+skyclash_kit_insane_troll: 'Troll'
+skyclash_kit_insane_princess: 'Princess'
+skyclash_kit_insane_pyro: 'Pyro'
+skyclash_kit_insane_farmer: 'Farmer'
+skyclash_kit_insane_fisherman: 'Fisherman'
+skyclash_kit_insane_enderchest: 'Enderchest'
+skyclash_kit_insane_enderchest_description: |-
+  §7After game start
+  §7you get an addition chest with loot
+skyclash_kit_insane_frog: 'Frog'
+skyclash_kit_insane_engineer: 'Engineer'
+skyclash_kit_insane_pigrider: 'Pig Rider'
+skyclash_kit_insane_salmon: 'Salmon'
+skyclash_kit_insane_slime: 'Slime'
+skyclash_kit_insane_knight: 'Knight'
+skyclash_kit_insane_warlock: 'Warlock'
+skyclash_kit_insane_pharaoh: 'Pharaoh'
+skyclash_kit_insane_batguy: 'Batguy'
+skyclash_kit_insane_disco: 'Disco'
+skyclash_kit_insane_energix: 'Energix'
+skyclash_kit_insane_scout: 'Scout'
+skyclash_kit_insane_snowman: 'Snowman'
+skyclash_kit_insane_speleologist: 'Speleologist'
+skyclash_kit_insane_cactus: 'Cactus'
+skyclash_kit_insane_magician: 'Magican'
+skyclash_kit_insane_sloth: 'Sloth'
+skyclash_kit_insane_grenade: 'Grenade'
+skyclash_kit_insane_pro: 'Pro'
+skyclash_corrupted_pearl: 'Corrupted Pearl (30s)'
+skyclash_corrupted_pearl_cooldown: 'You can not use corrupt pearl. Wait §c%left% seconds.'
+
+# Death cries
+skyclash_deathcry_pig: 'Pig Death Cry'
+skyclash_deathcry_enderman: 'Enderman Death Cry'
+skyclash_deathcry_ghost: 'Ghost Death Cry'
+skyclash_deathcry_wither_death: 'Wither Death Cry'
+
+# prestige icons
+skyclash_prestigeicon_default: '§aDefault'
+skyclash_prestigeicon_iron: '§fIron'
+skyclash_prestigeicon_gold: '§6Gold'
+skyclash_prestigeicon_diamond: '§bDiamond'
+skyclash_prestigeicon_emerald: '§2Emerald'
+skyclash_prestigeicon_sapphire: '§3Sapphire'
+skyclash_prestigeicon_ruby: '§4Ruby'
+skyclash_prestigeicon_crystal: '§dCrystal'
+skyclash_prestigeicon_opal: '§9Opal'
+skyclash_prestigeicon_amethyst: '§5Amethyst'
+skyclash_prestigeicon_rainbow: '§fRainbow'
+skyclash_prestigeicon_firstclass: '§7First Class'
+skyclash_prestigeicon_assassin: '§4Assassin'
+skyclash_prestigeicon_veteran: '§cVeteran'
+skyclash_prestigeicon_godlike: '§eGod Like'
+skyclash_prestigeicon_warrior: '§fWarrior'
+skyclash_prestigeicon_captain: '§fCaptain'
+skyclash_prestigeicon_solider: '§fSoldier'
+skyclash_prestigeicon_infantry: '§aInfantry'
+skyclash_prestigeicon_sergeant: '§cSergeant'
+skyclash_prestigeicon_lieutenant: '§9Lieutenant'
+skyclash_prestigeicon_admiral: '§6Admiral'
+skyclash_prestigeicon_general: '§1General'
+skyclash_prestigeicon_villain: '§8Villain'
+skyclash_prestigeicon_skilled: '§dSkilled'
+skyclash_prestigeicon_sneaky: '§fSneaky'
+skyclash_prestigeicon_overlord: '§cOverlord'
+skyclash_prestigeicon_warchief: '§6War Chief'
+skyclash_prestigeicon_warlock: '§aWarlock'
+skyclash_prestigeicon_emperor: '§aEmperor'
+skyclash_prestigeicon_mythuic: '§fMythic'
+skyclash_prestigeicon_omega: '§cOmega'
+
+# ---------------------------------
+# Leveling thingy and prestiges GUI
+# ---------------------------------
+skyclash_levelprogression_toggle_hide: '§cHide level!'
+skyclash_levelprogression_toggle_show: '§aShow level!'
+skyclash_levelprogression_toggle_lore: |-
+  §7Toggles whether your SkyClash
+  §7Level and Prestige Icon show
+  §7next to your name.
+
+skyclash_levelprogression_prestigeicons: '§6Prestige Icons'
+skyclash_levelprogression_prestigeicons_lore: |-
+  §7Select a Prestige Icon to
+  §7display next to your name in
+  §7chat. You can unlock new
+  §7Prestige Icons by prestiging
+  §7your SkyClash Level or by
+  §7donating coins to Angel of
+  §7Death!
+  §7 
+  §7%display_shit%
+  §7
+  §eClick to view!
+
+skyclash_levelprogression_hiding: '§aYou are now hiding your level!'
+skyclash_levelprogression_showing: '§aYou are now showing your level!'
+
+skyclash_levelprogression_pregressbar: |-
+  §7Progress: §b%current_xp%§7/§a%required_xp%
+  %bar%
+
+skyclash_levelprogression_prestigeicon_lore: |-
+  §7Sets your current Prestige Icon to: §f%symbol%
+  §7 
+  §7%display_shit%
+
+skyclash_prestige_reset: '§aYou reset your prestige icon!'
+skyclash_prestige_unavailable: '§cYou can''t set %required% prestige!'
+skyclash_prestige_set: '§aYou set %prestige%§a prestige icon!'
+
+cages_open_timer_message: '§eThe cages will open in %time%§e %ending%'
+cages_opened: '§eThe cages are opened! §cFIGHT!'
+skyclash_refilled_title: '§eAll chests have been refilled'
+
+skyclash_gamereward_experience: 'SkyClash Experience'
+
+#
+# Victory dances
+#
+
+skyclash_victorydance_fireworks: 'Fireworks'
+skyclash_victorydance_nigga_rider: 'Dragon Rider'

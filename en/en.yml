@@ -1,0 +1,1246 @@
+# =======================
+#         General
+# =======================
+prefix: '§bAstrona §3Network§7 §7> '
+discord_link: 'https://discord.gg/astrona'
+store_link: 'https://store.astrona.net'
+
+motd: |-
+    §7               §bAstrona Network §3[1.8-1.20]
+    §7                      §7In development...
+motd_maintenance: |-
+    §7               §bAstrona Network §3[1.8-1.20]
+    §7                     §cMAINTENANCE MODE
+motd_devserver: |-
+    §7               §bAstrona Network §3[1.8-1.20]
+    §7                     §bDevelopment Server
+motd_alpha: |-
+    §7               §bAstrona Network §3[1.8-1.20]
+    §7                     §6ALPHA-SERVER
+motd_not_connected: |-
+    §7               §bAstrona Network §3[1.8-1.20]
+    §7                      §cTechnical issues
+core_not_connected: |-
+  §cThe main game Coordinator has disconnected :(
+  §f
+  §fYou will be able to log in as soon as
+  §fThe connection with it is restored.
+  §f
+
+core_userinfo: |-
+    §6Username: §f%username%
+    §6UUID: §f%uuid%
+    §6Rank: §f%rank%
+    §6Fake Rank: §f%fakerank%
+    §6Domain: §f%domain%
+    §6IP: §f%address%
+    §6Network: §f%network%
+    §6Server: §f%server%
+    §6First Login: §f%firstLogin%
+
+unknown: '§cunknown'
+never: '§cnever'
+close: '§cClose'
+general_line: '§9§m-------------------------------------------------'
+
+unclaimed_level_rewards: '{"text":"§aYou have §b%rewards% §aunclaimed leveling %ending%","clickEvent":{"action":"run_command","value":"/rewards"},"hoverEvent":{"action":"show_text","value":"§eClick to open the §3Astrona Leveling §emenu"}}'
+
+unclaimed_level_rewards_onemore: 'rewards\n§eClick here to view them!'
+unclaimed_level_rewards_single: 'reward\n§eClick here to view it!'
+unclaimed_level_rewards_plural: 'rewards\n§eClick here to view them!'
+
+open_rewards_menu_description: '§eClick to open the §3Astrona Leveling §emenu'
+
+store_link_message: '§eRanks, Mystery Boxes, Network Boosters and more: §b$store_link$'
+
+
+# =======================
+#        Spectators
+# =======================
+
+# =======================
+#         Scoreboards
+# =======================
+board_display_name: '§e§l%name%'
+board_achievements: '§fAchievements: §e%achievements%'
+board_netlevel: '§fNetwork Level: §3%level%'
+board_coins: '§fCoins: §a%coins%'
+board_tokens: '§fTokens: §2%tokens%'
+board_lobby: '§fLobby: §a%number%'
+board_online: '§fPlayers: §a%online%'
+board_datetime: '§7%time%'
+board_group: '§fRank: §c%rank%'
+board_website: '§e$website_url$'
+board_hub_title: "ASTRONA"
+board_kills: '§fKills: §a%kills%'
+#
+#
+#
+gui_mapselector_item_name: '§aMap selector (%mode%)'
+gui_mapselector_item_lore: |-
+  §7Pick which map you want to play
+  §7from a list of available games
+  §7 
+  §eClick to browse!
+
+gui_mapselector_random_name: '§aRandom map'
+gui_mapselector_randomfav_name: '§aRandom Favorite §7(soon :tm:)'
+
+gui_mapselector_info_name: '§aMap selection'
+gui_mapselector_info_lore: |-
+  §7For now, the development of
+  §7Astrona Network has just began
+  §7so this feature is available only
+  §7for §bPRO§c+ §7players.
+
+gui_mapselector_norank: '§eYou need §bPRO§c+§e to select maps!'
+gui_mapselector_noservers_name: '§cNo servers available'
+gui_mapselector_noservers_lore: |-
+  §7Maybe there are technical issues
+
+# =======================
+#         Languages
+# =======================
+
+language_gui_entry_already_selected: |-
+  §cYou have chosen this language already!
+language_changed: '§aLanguage changed to §6%language%'
+
+# =======================
+#         Boosters
+# =======================
+
+# Make boosters!!!
+
+# =======================
+#          Leveling
+# =======================
+big_notify_message_line: '§f§m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
+levelup: |-
+  §f$big_notify_message_line$
+  §f 
+  §f                      §a§ke§f §6LEVEL UP §a§ke
+  §f            §7You are now §3Astrona Level §a%level%§7!
+  §f 
+  §f    §7Play games, collect rewards, and complete quests!
+  §f 
+  §f$big_notify_message_line$
+
+enabled: '§aEnabled'
+disabled: '§cDisabled'
+
+profile_icon: '§aMy Profile §7(Right Click)'
+
+configuration_reloaded: '$prefix$Config reloaded!'
+
+player_offline: |-
+  §f$general_line$
+  §cThis player is offline!
+  §f$general_line$
+player_not_found: |-
+  §f$general_line$
+  §cThis player has never played on our project!
+  §f$general_line$
+player_incorrect_name: '$prefix$You entered the wrong nickname'
+# =======================
+#           GUI
+# =======================
+gui_loading_icon_name: '§7Data is loading...'
+gui_loading_icon_lore: ''
+gui_back_to_menu_icon_name: '§6Back'
+gui_back_to_menu_icon_lore: |-
+  §7Click to return to
+  §7the previous gui
+gui_totalcoins: '§7Total coins: §6%coins%'
+
+prev_page_name: '§6Previous page'
+next_page_name: '§6Next page'
+go_to_page: '§7Go to page %page%/%max%'
+
+server_name: 'Astrona Network'
+vk_group_url: 'vk.com/travellerland'
+vk_support_url: 'vk.me/travellerland'
+website_url: 'www.astrona.net'
+discord: '§d§lDiscord'
+discord_url: 'https://discord.gg/astrona'
+discord_clicktojoin: |-
+  §a §a
+  §aJoin our discord server to keep up with updates!
+  §e§n$discord_url$
+  §a §a
+kick_server_disconnect: '§cYou were kicked when connecting to the selected server: %reason%'
+kick_server_notify: |-
+  You were disconnected when you tried to connect to §c%kick_from%:
+  §c %reason%
+fallback_server: |-
+  You were transferred to server §c%kick_to_name% §fdue to the following reason:
+  §c%reason%
+fallback_server_disconnect: |-
+  §cThe server you were on was turned off
+  §cNo other server found
+  §f
+  §7kick:%reason%
+fallback_server_notify: |-
+  $prefix$The server you were on was turned off. You were sended to §c%kick_to_name%
+  §c kick:%reason%
+
+tab_header: |
+  §bYou are playing on §3§lASTRONA.NET
+tab_footer: |-
+
+  §aRanks, Boosters & MORE! §3§lSTORE.ASTRONA.NET
+
+# =======================
+#          Servers
+# =======================
+server_not_found: '§cServer not found'
+server_already_connected: '§cYou are already connected to this server'
+servers_not_found: '§cServers not found'
+server_already_is_full: '§cServer is full'
+server_unknown_slots: '§cServer did not send the number of slots'
+server_teleportation_rejected: "§cYou can't teleport to this server using the command!"
+server_teleportation_started: '§aSending you to §6%server%'
+
+core_unavailable: '$prefix$An error occurred connecting to Core!'
+
+no_online_players: '$prefix$No players online'
+no_online_staff: '$prefix$No staff online'
+
+command_incorrect_usage: '$prefix$Incorrect use of the command!'
+
+command_usage: '§cUsage: %usage%'
+
+command_unavailable_group: '§cYou must be %group_name%§c or higher to use this command!'
+
+command_only_admin: '§cYou have to be admin or higher to use this command!'
+
+command_only_superstar: |-
+  $general_line$
+  §cYou do not have permission to use this command! You need §fYOUTUBE §crank or §6PRO§c+.
+  $general_line$
+
+command_speed_not_available_for: '$prefix$This command is not available in this mode'
+command_speed_usage: '<speed> [walk/fly]'
+command_speed_invalid_speed: '$prefix$You specified incorrect speed'
+command_speed_set_walk: '$prefix$Walk speed set to §c%speed%'
+command_speed_set_fly: '$prefix$Fly speed set to §c%speed%'
+command_speed_set_all: '$prefix$Speed set to §c%speed%'
+
+command_gamemode_usage: '<mode> $arg_opt_name$'
+command_setproperty_usage: '$arg_name$ <key> <value>'
+
+server_loading: '$prefix$The server is loading, wait...'
+
+command_send_usage: '$arg_name$ $arg_server$'
+command_sendall_usage: '$arg_server$'
+
+arg_reason: '<reason>'
+arg_time: '<time>'
+
+arg_pattern: '<reg exp>'
+arg_opt_pattern: '[reg exp]'
+arg_server: '<server>'
+
+arg_admin_name: '<admin nickname>'
+arg_opt_name: '[player nickname]'
+arg_name: '<player nickname>'
+arg_id: '<player id>'
+arg_name_or_ip: '<player nickname/IP>'
+
+arg_msg: '<message>'
+
+gamemode_invalid: '$prefix$You specified the wrong game mode'
+gamemode_unavailable: "$prefix$You can't set this game mode"
+gamemode_unavailable_others: "$prefix$You can't set the game mode to another player"
+gamemode_unavailable_here: "$prefix$You can't set this game mode on this mode"
+gamemode_unavailable_timer: "$prefix$You can't change gamemode in fight"
+gamemode_changed: 'Updated your game mode to %mode%'
+gamemode_target_changed: '$prefix$You changed the player gamemode %target%'
+
+right_click: '§e§lRIGHT CLICK'
+shop_icon: '§aShop §7(Right Click)'
+lobby_select_icon: '§aLobby Selector §7(Right Click)'
+lobby_select_icon_lore: |-
+  §7Right-click to switch between different lobbies!
+  §7Use this to stay with your friends.
+
+lobby_players_hidden: '§cPlayer visibility disabled!'
+lobby_players_shown: '§aPlayer visibility enabled!'
+
+hide_players_icon: '§fPlayers: §aShown'
+show_players_icon: '§fPlayers: §cHidden'
+
+hider_icon_lore: |-
+  §7Right-click to toggle player visibility!
+
+core_reconnect_success_title: '§aTechnical issues have been resolved.'
+core_reconnect_success_subtitle: '§aEnjoy the game!'
+core_reconnect_message: |-
+  $general_line$
+  §cWe are currently experiencing minor technical issues.
+  §cYou might not be able to use commands or move between servers.
+  §fPlease wait until we sort this out!
+  $general_line$
+core_reconnect_server_not_found: '§cServer for reconnecting was not found'
+
+command_chat_usage: |-
+  §cUsage: /chat <%available%>
+  §cCurrent channel - §6%current%
+
+command_chat_invalid_mode: |-
+  $general_line$
+  §cThe mode you entered does not exist! Available modes: §c%modes%
+  $general_line$
+command_chat_mode_set: '§aYou are now in the "%mode% §achannel"'
+chat_mode_all_name: '§6ALL'
+chat_mode_party_name: '§6PARTY'
+chat_mode_staff_name: '§6STAFF'
+chat_mode_helper_name: '§6HELPER'
+chat_mode_party_empty: '§cYou are no longer in a party, so you have been moved to the §6ALL §channel'
+
+confirmation_gui_title: 'Confirm'
+
+confirmation_gui_yes: '§aConfirm'
+confirmation_gui_yes_lore: ''
+
+confirmation_gui_no: '§cCancel'
+confirmation_gui_no_lore: ''
+
+confirmation_gui_cancel_message: ''
+
+# denick command
+command_denick_base: |-
+  §6Nick Information of §f%fakename%
+  §6ID: §f#%nickid%
+  §6Group: %group%
+  §6Used by: §f%used_by%
+command_denick_notfound: '§cThis nickname does not exist in the database!'
+command_denick_unused: '§7None' # This name is used by: None / Gamer name :)
+
+# addictive
+coming_soon: '§7Coming soon...'
+loading: '§cLoading...'
+
+#======================
+#      My Profile
+#======================
+
+# =====================
+#     Core commands
+# =====================
+command_setproperty_result: |-
+  $general_line$
+  §6Property changed. 
+  §6%key% §7-> §f%value%
+  §6For: %player% 
+  $general_line$
+
+# =====================
+#       Settings
+# =====================
+
+# Categories
+settings_click_enable: '§7Click to enable'
+settings_click_disable: '§7Click to disable'
+settings_chat_itemname: 'Chat Settings'
+settings_social_itemname: 'Social Settings'
+settings_api_itemname: 'API Settings'
+settings_personal_guild_itemname: 'Personal Guild Settings'
+settings_game_itemname: 'Game Settings'
+settings_lobby_itemname: 'Lobby Settings'
+
+settings_splitter_name: '§8⇡ §7Categories'
+settings_splitter_lore: '§8⇣ §7Settings'
+
+clickable_settings_category_lore: '§eClick to view!'
+requires_superstar_to_enable: '§cRequires §6PRO§c+ to enable!'
+settings_pmprivacy_lore: |-
+  §7Options:
+  §f§c%arrow-max%Max
+  §f§6%arrow-high%High
+  §f§e%arrow-medium%Medium
+  §f§a%arrow-low%Low
+  §f§8%arrow-none%None
+
+settings_clicktochange: '§eClick to change to %option%§e!'
+
+settings_particlequality_lore: |-
+  Options:
+  §c%arrow-off%Off
+  §e%arrow-low%Low
+  §d%arrow-medium%Medium
+  §a%arrow-high%High
+  §6%arrow-extreme%Extreme
+
+settings_friendnotifications_lore: |-
+  §7Options:
+  §6%arrow-all%All
+  §a%arrow-best%Best
+  §8%arrow-none%None
+
+settings_otheroptions_lore: |-
+  §7Options:
+  §c%arrow-max%Max
+  §6%arrow-high%High
+  §a%arrow-medium%Medium
+  §8%arrow-none%None
+
+settings_friendrequest_lore: |-
+  §7Options:
+  §f §c%arrow-max%Max
+  §f §6%arrow-high%High
+  §f §a%arrow-medium%Medium
+  §f §8%arrow-none%None
+
+settings_duelinviteprivacy_lore: |-
+  §7Options:
+  §f §c%arrow-max%Max
+  §f §6%arrow-high%High
+  §f §a%arrow-medium%Medium
+  §f §8%arrow-none%None
+
+settings_partyinviteprivacy_lore: |-
+  §7Options:
+  §c%arrow-max%Max
+  §6%arrow-high%High
+  §a%arrow-medium%Medium
+  §8%arrow-none%None
+
+settings_guildinviteprivacy_lore: |-
+  §7Options:
+  §c%arrow-max%Max
+  §6%arrow-high%High
+  §a%arrow-medium%Medium
+  §8%arrow-none%None
+  
+
+# Game settings
+settings_autoqueue_item_name: 'Auto Queue'
+settings_autoqueue_item_lore: |-
+  §7Toggles whether or not you will
+  §7auto queue after a game ends.
+  
+settings_particlequality_item_name: 'Particle Quality'
+settings_particlequality_item_lore: |-
+  §7Toggles quality of.
+  §7particles.
+
+settings_autotip_item_name: 'Auto-Tip'
+settings_autotip_item_lore: |-
+  §7Toggles whether you
+  §7automatically tip all active
+  §7boosters.
+
+settings_bloodandgore_item_name: 'Blood & Gore'
+settings_bloodandgore_item_lore: |-
+  §7Toggles ability to see blood and
+  §7gore.
+
+settings_lobbyprotection_item_name: '/lobby Protection'
+settings_lobbyprotection_item_lore: |-
+  §7Requires you to type the /lobby
+  §7command twice to avoid
+  §7accidents.
+
+settings_mapselector_item_name: 'In-Game Map Selector'
+settings_mapselector_item_lore: |-
+  §7Toggles whether the "Play
+  §7Again?" paper opens the Map
+  §7Selector at the end of games
+  §7that support it. When disabled
+  §7it will queue you for a random
+  §7map automatically.
+  
+
+# Chat settings
+chatfilterlore: |-
+  §7You will see messages that are
+  §7considered inappropriate.
+  
+settings_pmchatfilter_item_name: 'PM Chat Filter'
+settings_publicchatfilter_item_name: 'Public Chat Filter'
+settings_partychatfilter_item_name: 'Party Chat Filter'
+settings_guildchatfilter_item_name: 'Guild Chat Filter'
+
+settings_pmchatfilter_item_lore: '$chatfilterlore$'
+settings_publicchatfilter_item_lore: '$chatfilterlore$'
+settings_partychatfilter_item_lore: '$chatfilterlore$'
+settings_guildchatfilter_item_lore: '$chatfilterlore$'
+
+settings_chatvisibility_item_name: 'Chat Visibility'
+settings_chatvisibility_item_lore: |-
+  §7Toggles the ability to
+  §7see chat.
+
+settings_guildchatvisibility_item_name: 'Guild Chat Visibility'
+settings_guildchatvisibility_item_lore: |-
+  §7Toggles the ability to
+  §7see guild chat.
+
+settings_lobbyjoinmessage_item_name: 'Lobby Join Message (Self)'
+settings_lobbyjoinmessage_item_lore: |-
+  §7Toggle whether your join message
+  §7is sent when you join a lobby.
+  §7 
+  §aRequires §bPRO§c+
+
+settings_lobbyjoinmessage_unavailable_item_lore: |-
+  §7Toggles whether your join message
+  §7is sent when you join a lobby.
+  §7 
+  §cRequires §bPRO§c+
+  
+settings_pmsounds_item_name: 'Private Message Sounds'
+settings_pmsounds_item_lore: |-
+  §7Toggle hearing a ding when you
+  §7receive a new Private Message.
+
+settings_partymessagesounds_item_name: 'Party Message Sounds'
+settings_partymessagesounds_item_lore: |-
+  §7Toggle hearing a ding when you
+  §7receive a new Party Message.
+
+settings_guildmessagesounds_item_name: 'Guild Message Sounds'
+settings_guildmessagesounds_item_lore: |-
+  §7Toggle hearing a ding when you
+  §7receive a new Guild Message.
+
+settings_chatalerts_item_name: 'Chat Alerts'
+settings_chatalerts_item_lore: |-
+  §7Toggles the ping sound and text
+  §7highlight when you're mentioned
+  §7in chat.
+
+# Social settings
+settings_onlinestatus_item_name: 'Online Status'
+settings_onlinestatus_item_lore: |-
+  §7Change your Online status
+
+settings_onlinestatus_lore: |-
+  §7Options:
+  §a%arrow-online%Online
+  §e%arrow-away%Away
+  §5%arrow-busy%Busy
+  §8%arrow-invisible%Appear Offline
+
+settings_pmprivacy_item_name: 'PM Privacy'
+
+# PM Privacy settings descriptions
+
+settings_pmprivacy_none: |-
+  §7Anyone can message you
+settings_pmprivacy_max: |-
+  §7Staff and best friends can 
+  §7message you.
+settings_pmprivacy_high: |-
+  §7Staff and friends can message
+  §7you.
+settings_pmprivacy_medium: |-
+  §7Staff, friends and guild
+  §7members can message you.
+settings_pmprivacy_low: |-
+  §7Staff, friends, guild members,
+  §7and party members can message
+  §7you.
+
+settings_friendrequest_item_name: 'Friend Request Privacy'
+
+# Friend Request Privacy settings descriptions
+settings_friendrequest_none: |-
+  §7Anyone can send you friend
+  §7requests.
+settings_friendrequest_max: |-
+  §7Only staff can send you friend
+  §7requests.
+settings_friendrequest_high: |-
+  §7Staff and guild members can send
+  §7you friend requests.
+settings_friendrequest_medium: |-
+  §7Staff, guild members and party
+  §7members can send you friend
+  §7requests.
+
+settings_friendnotifications_item_name: 'Friend Notifications'
+
+# Friend Request Privacy settings descriptions
+settings_friendnotifications_none: |-
+  §7You receive no messages for your
+  §7friends logging in or out.
+settings_friendnotifications_all: |-
+  §7You receive messages for all
+  §7your friends logging in or out.
+settings_friendnotifications_best: |-
+  §7You receive messages for only
+  §7your best friends logging in or
+  §7out.
+
+settings_duelinviteprivacy_item_name: 'Duel Invite Privacy'
+
+# Duel invite privacy settings descriptions
+settings_duelinviteprivacy_none: |-
+  §7Anyone can send you a Duel
+  §7request.
+settings_duelinviteprivacy_max: |-
+  §7Staff and best friends can send
+  §7you Duel requests.
+settings_duelinviteprivacy_high: |-
+  §7Staff and friends can send you
+  §7Duel requests.
+settings_duelinviteprivacy_medium: |-
+  §7Staff, friends, and guild
+  §7members can send you Duel
+  §7requests.
+
+settings_partyinviteprivacy_item_name: 'Party Invite Privacy'
+
+# Party invite privacy settings descriptions
+settings_partyinviteprivacy_none: |-
+  §7Anyone can send you party
+  §7invites.
+settings_partyinviteprivacy_max: |-
+  §7Staff and best friends can send
+  §7you party invites.
+settings_partyinviteprivacy_high: |-
+  §7Staff and friends can send you
+  §7party invites.
+settings_partyinviteprivacy_medium: |-
+  §7Staff, friends and guild
+  §7members can send you party
+  §7invites.
+
+settings_guildinviteprivacy_item_name: 'Guild Invite Privacy'
+
+# Guild invite privacy settings descriptions
+settings_guildinviteprivacy_none: |-
+  §7Anyone can send you guild
+  §7invites.
+settings_guildinviteprivacy_max: |-
+  §7Staff and best friends can send
+  §7you guild invites.
+settings_guildinviteprivacy_high: |-
+  §7Staff and friends can send you
+  §7guild invites.
+settings_guildinviteprivacy_medium: |-
+  §7Staff, friends and party
+  §7members can send you guild 
+  §7invites.
+
+# Lobby settings
+settings_playersvisibility_item_name: 'Player Visibility'
+settings_playersvisibility_item_lore: '§7Toggles the ability to see players.'
+
+settings_petvisibility_item_name: 'Pet Visibility'
+settings_petvisibility_item_lore: '§7Toggles the ability to see pets.'
+
+settings_autospawnpet_item_name: 'Auto Spawn Pet'
+settings_autospawnpet_item_lore: |-
+  §7Toggles whether or not your pet
+  §7will auto spawn upon joining a
+  §7lobby.
+
+settings_lobbydarkmode_item_name: 'Lobby Dark Mode'
+settings_lobbydarkmode_item_lore: |-
+  §7Toggles whether lobbies will
+  §7appear nighttime for you.
+
+settings_autodenygifts_item_name: 'Auto Deny Gifts'
+settings_autodenygifts_item_lore: |-
+  §7When enabled any gift requests
+  §7will be auto denied.
+  
+# API settings
+settings_apionlinestatus_item_name: 'Online Status'
+settings_apionlinestatus_item_lore: |-
+  §7When disabled external tools
+  §7will be unable to know if you
+  §7are online and your server
+  §7location using the Public API.
+  
+settings_apirecentgames_item_name: 'Recent Games'
+settings_apirecentgames_item_lore: |-
+  §7When disabled external tools
+  §7will be unable to access your
+  §7recently played games using the
+  §7Public API.
+
+settings_apiwinstreaks_item_name: 'Winstreaks'
+settings_apiwinstreaks_item_lore: |-
+  §7When disabled external tools
+  §7will be unable to view your
+  §7winstreak information for
+  §7supported games.
+  
+# Personal Guild Settings
+settings_guildnotifications_item_name: 'Guild Notifications'
+settings_guildnotifications_item_lore: |-
+  §7Receive messages when your
+  §7fellow guild members log in or
+  §7out.
+  
+settings_guildshowonlineonly_item_name: 'Guild Online Only'
+settings_guildshowonlineonly_item_lore: |-
+  §7Only show online members when
+  §7using /guild list
+
+# friends
+friend_splitter: '§9§m-----------------------------------------------------'
+
+friend_request_accepted: |-
+  $friend_splitter$
+  §aYou are now friends with %player%
+  $friend_splitter$
+
+friend_request_denied: |-
+  $friend_splitter$
+  §cYou declined %player%'s§c friend request!
+  $friend_splitter$
+
+friend_request_denied_by: |-
+  $friend_splitter$
+  §a%player%§c declined your friend request
+  $friend_splitter$
+
+friend_removed: |-
+  $friend_splitter$
+  §cYou removed %player%§c from your friend list!
+  $friend_splitter$
+
+friend_removed_by: |-
+  $friend_splitter$
+  §c%player%§c removed you from their friend list!
+  $friend_splitter$
+
+friend_request_sent: |-
+  $friend_splitter$
+  §aYou sent a friend request to %player%!§a They have a whole life to accept it!
+  $friend_splitter$
+
+friend_request_received: '{"text":"§9§m-----------------------------------------------------\n","extra":[{"text":"%playerDisplay%§e has sent you a friend request!\n"},{"text":"§a§l[ACCEPT]","clickEvent":{"action":"run_command","value":"/friend accept %player%"},"hoverEvent":{"action":"show_text","value":{"text":"§aClick here to accept!"}}},{"text":"§7 - "},{"text":"§c§l[DENY]","clickEvent":{"action":"run_command","value":"/friend deny %player%"},"hoverEvent":{"action":"show_text","value":{"text":"§cClick here to deny!"}}},{"text":"§9§m-----------------------------------------------------"}]}'
+
+friend_already_sent_invitation: |-
+  $friend_splitter$
+  §cYou have already sent a friend request to this player.
+  $friend_splitter$
+
+friend_request_absent: |-
+  $friend_splitter$
+  §cYou don't have a friend request from this player
+  $friend_splitter$
+
+friend_privacy_forbidden: |-
+  $friend_splitter$
+  §cYou can't send friend request to this player.
+  $friend_splitter$
+
+friend_join_the_game: '§aFriend > %name%§e joined.'
+friend_left_the_game: '§aFriend > %name%§e left.'
+# ======================
+#      Punishments
+# ======================
+
+punishment_muted_splitter: '§c§m-----------------------------------------------------'
+punishment_muted: |-
+  $punishment_muted_splitter$
+  §cYou are currently muted for %reason%
+  §7Your mute will expire in §c%duration%
+  §c 
+  §7Find out more here: §ehttps://astrona.net/mutes
+  §7Mute ID: §f#%muteid%
+  $punishment_muted_splitter$
+
+punishment_mute_lifted: '§aYour mute expired! gj dolbaeb!!'
+punishment_mute_executed: '§eMuted %player%§e for §b%duration%§e. Reason: §f%reason%'
+punishment_unmute_not_muted: '§cThis player is not muted'
+punishment_unmute_successful: '§eUnmuted %player%§e for §f%reason%'
+
+punishment_permaban_executed: '§ePermanently banned %player%§e. Reason: §f%reason%'
+punishment_tempban_executed: '§eTemporary banned %player%§e for §b%duration%§e. Reason: §f%reason%'
+punishment_unban_not_muted: '§cThis player is not banned'
+punishment_unban_successful: '§eUnbanned %player%§e for §f%reason%'
+
+staffchat_unmuted_message: '%executor%§e unmuted §e%violator%§e. Reason: §f%reason%'
+staffchat_unbanned_message: '%executor%§e unbanned §e%violator%§e. Reason: §f%reason%'
+
+staffchat_muted_message: '%executor%§e muted §e%violator%§e. Reason: §f%reason%'
+staffchat_permabanned_message: '%executor%§e permanently banned §e%violator%§e. Reason: §f%reason%'
+staffchat_tempbanned_message: '%executor%§e temporary banned §e%violator%§e for §f%duration%§e. Reason: §f%reason%'
+
+# ======================
+#       Parties
+# ======================
+
+party_message_header: '§9§m-----------------------------------------------------'
+
+party_command_help: |-
+  $party_message_header$
+  §e/party accept <player>§7 - §bAccept a party invite from a player
+  §e/party chat§7 - §bSend a chat message to the entire party
+  §e/party demote <player>§7 - §bDemotes another party member from Moderator to Member
+  §e/party disband§7 - §bDisbands the party
+  §e/party invite <players...>§7 - §bInvite another player to your party
+  §e/party kick <player>§7 - §bRemove a player from your party
+  §e/party kickoffline§7 - §bRemove all players that are offline in your party
+  §e/party leave§7 - §bLeaves your current party
+  §e/party list§7 - §bLists the players in your current party
+  §e/party mute§7 - §bMutes party chat so only Staff, Party Mods and the Leader can use it
+  §e/party poll <question/answer/answer/answer...>§7 - §bCreates a poll for party members to vote on
+  §e/party private§7 - §bEnables private games for your party
+  §e/party promote <player>§7 - §bPromotes another party member to either Party Mod or Party Leader
+  §e/party setting <setting>§7 - §bToggles specified party setting
+  §e/party transfer <player>§7 - §bTransfers the party to another player
+  §e/party warp§7 - §bWarps the members of a party to your current server
+  $party_message_header$
+
+party_command_list_mod_append: '§bParty Moderators: %moderators%'
+party_command_list_mem_append: '§bParty Members: %members%'
+
+party_command_list_base: |-
+  §bParty Members (%count%)
+  §b 
+  §bParty leader: %leader%
+
+party_player_left_broadcast: |-
+  $party_message_header$
+  %player%§c left the party 
+  $party_message_header$
+
+party_player_kickoffline_broadcast: |-
+  $party_message_header$
+  %player%§c was removed from the party for being offline for too long 
+  $party_message_header$
+
+party_player_removed_broadcast: |-
+  $party_message_header$
+  %player%§c was removed from the party 
+  $party_message_header$
+
+party_new_leader_selected: |-
+  $party_message_header$
+  §eA leader left the party, so we've chosen %player%§e as new leader alhamdullybe inshalla mashalaaa 
+  $party_message_header$
+
+party_kickoffline_message: |-
+  $party_message_header$
+  §eKicked §a%amount%§e offline gamers from party
+  $party_message_header$
+
+party_private_noperms: |-
+  $party_message_header$
+  §cYou do not have permission to use this command! You need §fYOUTUBE§c rank or §6PRO§c+.
+  $party_message_header$
+
+party_invited_message_broadcast: |-
+  $party_message_header$
+  %inviter%§a invited %target% §ato join the party.
+  $party_message_header$
+
+party_invite_expired: |-
+  $party_message_header$
+  §cParty invite from %player%§c has expired.
+  $party_message_header$
+
+party_invite_received: '{"text":"§9§m-----------------------------------------------------\n","extra":[{"text":"%playerDisplay%§e has invited to you join their party!\n"},{"text":"§eYou have §c60 §eseconds to accept. §6Click here to join\n","clickEvent":{"action":"run_command","value":"/party accept %player%"},"hoverEvent":{"action":"show_text","value":{"text":"§6Click here to accept!"}}},{"text":"§9§m-----------------------------------------------------"}]}'
+
+party_not_leader: |-
+  $party_message_header$
+  §cYou are not a party leader
+  $party_message_header$
+
+party_invite_expired_broadcast: |-
+  $party_message_header$
+  §cInvite to %player%§c has expired
+  $party_message_header$
+
+party_invite_forbidden: |-
+  $party_message_header$
+  §cYou cannot invite this player
+  $party_message_header$
+
+party_invite_joined: |-
+  $party_message_header$
+  §eYou have joined %player%'s§e party
+  $party_message_header$
+
+party_warp_summoned: |-
+  $party_message_header$
+  §eParty leader, %player%§e, summoned you to their server.
+  $party_message_header$
+party_warp_summoned_target: |-
+  $party_message_header$
+  §eYou summoned %players%§e to your server.
+  $party_message_header$
+
+party_invite_offline: |-
+  $party_message_header$
+  §cYou cannot invite that player since they're offline
+  $party_message_header$
+
+party_disbanded_empty_broadcast: |-
+  $party_message_header$
+  §cThe party was disbanded because all invites expired and the party was empty.
+  $party_message_header$
+
+party_disbanded_broadcast: |-
+  $party_message_header$
+  §cThe party was disbanded by leader.
+  $party_message_header$
+
+# Party settings broadcasts
+
+party_mute_enabled_broadcast: |-
+  $party_message_header$
+  §cThe party chat was muted by %player%
+  $party_message_header$
+
+party_mute_disabled_broadcast: |-
+  $party_message_header$
+  §aThe party chat was unmuted by %player%
+  $party_message_header$  
+
+party_allinvite_enabled_broadcast: |-
+  $party_message_header$
+  §aEveryone can invite now
+  $party_message_header$
+
+party_allinvite_disabled_broadcast: |-
+  $party_message_header$
+  §cOnly party moderators and leader can invite now
+  $party_message_header$
+
+party_publicstatus_enabled_broadcast: |-
+  $party_message_header$
+  §aEveryone can join the party now!
+  $party_message_header$
+
+party_publicstatus_disabled_broadcast: |-
+  $party_message_header$
+  §cNow players can join only by invitations
+  $party_message_header$
+
+party_privategames_enabled_broadcast: |-
+  $party_message_header$
+  §aPrivate games are enabled by %player%
+  $party_message_header$
+
+party_privategames_disabled_broadcast: |-
+  $party_message_header$
+  §cPrivate games are disabled
+  $party_message_header$
+
+
+party_chat_forbidden_mute: |-
+  $party_message_header$
+  §cYou cannot send messages because party chat is currently muted!
+  $party_message_header$
+
+party_invite_forbidden_settings: |-
+  $party_message_header$
+  §cYou cannot invite players due to party settings!
+  $party_message_header$
+
+party_not_moderation: |-
+  $party_message_header$
+  §cYou can not moderate this party!
+  $party_message_header$
+
+party_joined_message_broadcast: |-
+  $party_message_header$
+  %player% §ajoined the party.
+  $party_message_header$
+
+party_removed_message_broadcast: |-
+  $party_message_header$
+  %player% §chas been removed from the party.
+  $party_message_header$
+
+party_disconnected_broadcast: |-
+  $party_message_header$
+  %player% §chas disconnected, they have 5 minutes to rejoin before they are removed from the party.
+  $party_message_header$
+
+party_without_party: |-
+  $party_message_header$
+  §cYou are not in party.
+  $party_message_header$
+
+party_with_party: |-
+  $party_message_header$
+  §cYou are already in party.
+  $party_message_header$
+
+party_transferred_broadcast: |-
+  $party_message_header$
+  %player%§e is a new party leader
+  $party_message_header$
+
+party_promote_self: |-
+  $party_message_header$
+  §cYou can't promote yourself!
+  $party_message_header$
+
+party_demote_self: |-
+  $party_message_header$
+  §cYou can't demote yourself!
+  $party_message_header$
+
+party_transfer_self: |-
+  $party_message_header$
+  §cYou can't transfer party leadership to yourself!
+  $party_message_header$
+
+party_transferred_full_broadcast: |-
+  $party_message_header$
+  %oldleader%§e has promoted %player%§e to Party Leader
+  %oldleader%§e is now a Party Moderator
+  $party_message_header$
+
+party_promoted_broadcast: |-
+  $party_message_header$
+  %player%§e is the new party moderator
+  $party_message_header$
+
+party_demoted_broadcast: |-
+  $party_message_header$
+  %player%§e is no longer party moderator
+  $party_message_header$
+
+party_chat_broadcast: |-
+  §9Party > %player%§f: %message%
+
+# ======================
+#        Vanish
+# ======================
+
+function_disabled_vanish: '§cThis feature is disabled in vanish!'
+
+# ======================
+#       Maintenance
+# ======================
+command_dolbaeb_protection: '§cmex get the fuck off internals, ebaniy dolbaeb'
+gamemode_maintenance_currently: '§c%mode% is currently in Maintenance, for status updates check our discord at §b$discord_link$'
+
+# messages
+message_self: '§cYou cannot write yourself a message!'
+reply_nobody_pm: '§cNobody messaged you yet'
+
+message_send_hover: |-
+  §fMessage to %name%
+  §fClick here to write more
+  §fOr use §c/append [message]
+message_receive_hover: |-
+  §fClick here to reply %name%§f's message
+  §fOr use §c/reply [message]
+
+message_format: '§6%from% §f→ §6%to%§f: §f%message%'
+
+# --------------------------------
+#           Server-State
+# --------------------------------
+networkstate_alpha_disconnect_online: |-
+  §cThe Administration changed this server state to§6 Alpha§c!
+  §eIf you want to play here, make sure to purchase §6PRO§c+
+networkstate_alpha_disconnect: |-
+  §cThe server is in alpha!
+  §eIf you want to play here, make sure to purchase §6PRO§c+
+
+networkstate_development_disconnect_online: |-
+  §cThe Administration changed this server state to§b development§c!
+  §cMake sure to connect to correct IP address.
+  §c 
+  §cMore info at: §e$website_url$/dev
+networkstate_development_disconnect: |-
+  §cThis is a development server and you don't have
+  §cpermission to join.
+  §c 
+  §cMore info at: §e$website_url$/dev
+
+networkstate_maintenance_disconnect_online: |-
+  §cWe're sorry to interrupt your gaming experience,
+  §cbut the server is in maintenance mode now!
+  §c 
+  §cMore info at: §e$website_url$/dev
+networkstate_maintenance_disconnect: |-
+  §cThe network is under maintenance!
+  §c 
+  §cMore info at: §e$website_url$/dev
+
+
+# Leaderboards
+stat_player_top_title: '§6§l%mode% - best players'
+stat_player_top_subtitle: '§7%field% %timestamp%'
+stat_player_top_mode_changer_title: '§6§lSelect mode'
+stat_player_top_changer_value_active: '§a%value%'
+stat_player_top_changer_value: '§7%value%'
+stat_player_top_changer_scroll_vertical: '§7↓ ... ↓'
+stat_player_top_changer_scroll_horizontal: '§7← %values% §7→'
+stat_player_mode_changed: 'Mode switched to §c%mode%'
+stat_player_period_changed: 'Display period switched to §c%period%'
+
+prop_player_top_title: '§b§lTop %count% players'
+prop_player_top_subtitle: '§7%type%'
+
+prop_player_top_entry: '§e%place%. %player%'
+prop_player_top_player_entry: '%name% §7- §e%value%'
+prop_player_top_empty_entry: '§7No data loaded'
+
+player_top_entry: '$prop_player_top_entry$'
+player_top_entry_you: '§a§l%place%. §l%player%'
+player_top_player_entry: '$prop_player_top_player_entry$'
+player_top_empty_entry: '$prop_player_top_empty_entry$'
+
+level_player_top_name: 'By Network Level'
+kills_player_top_name: 'Lifetime Kills'
+#deaths_player_top_name: 'Lifetime Deaths' ????
+#best_kill_series_player_top_name: 'By best kill stream' ???
+final_kills_player_top_name: 'By final kills'
+wins_player_top_name: '§b§l§nLifetime Wins'
+best_winstreak_player_top_name: '§b§l§nBest Winstreak'
+sclevel_player_top_name: '§b§l§nSkyclash Levels'
+rating_player_top_name: '§b§l§nRanked Rating'
+
+ranked_mode_display: '§7Ranked'
+
+overall_player_top_name: '§7All Modes'
+
+week_player_top_name: 'Weekly'
+month_player_top_name: 'Monthly'
+today_player_top_name: 'Daily'
+all_player_top_name: 'Lifetime'
+player_top_resets_in: '§7Resets in: %duration%'
+player_top_never_resets: '§7Never resets.'
+player_top_nodata_self: '§7You have no data yet'
+player_top_nodata: '§7No data loaded'
+player_top_settings: '§6Click to change settings!'
+
+click_for_stats: '§e§lCLICK FOR STATS'
+
+# Cases and shit
+rarity_common: '§a§lCOMMON'
+rarity_rare: '§b§lRARE'
+rarity_epic: '§5§lEPIC'
+rarity_legendary: '§6§lLEGENDARY'
+
+# rewards
+astrona_experience: 'Astrona Experience'
+reward_coin_mode_name: '§6%amount% §7%mode%'
+reward_coin_name: '§6%amount%'
+reward_gold_name: '§e%amount%'
+reward_dust_name: '§5%amount% mystery dust'
+reward_experience_name: '§3%exp% Astrona Experience'
+reward_game_item_name: '§a%name% §8(§7%category%§8)'
+
+# disguises
+core_vanish_enabled: '§aYou are now vanished!'
+core_vanish_disabled: '§cYou are no longer vanished!'
+core_vanish_lobbyonly: '§cYou can only vanish in the lobby!'
+core_vanish_nochat: '§cYou cannot chat while vanished!'
+core_vanish_notification: '§cYou are currently vanished! (just a reminder)'
+core_vanish_noserver: '§cYou cannot play while you''re vanished!'
+
+lobby_active_statuses: "§fYou are currently %statuses%"
+lobby_status_vanished: "§cVANISHED"
+lobby_status_nicked_ingame: "§cNICKED (in games only)"
+lobby_status_nicked: "§cNICKED"
+
+command_available_only_in_lobby: '§cThis command is only available in the lobby!'
+
+nicks_eula: "Nicknames allow you to play with a different username to not get recognized.\n\nAll rules still apply. You can still be reported and all name history is stored.\n\n"
+nicks_eula_accept: "§0§n> I understand, set up my nickname"
+
+nicks_setup_group: "Let's get you set up with your nickname! First, you'll need to choose which §lRANK§0 you would like to be shown as when nicked\n\n"
+nicks_setup_group_set: "§aSet you nick rank to %group%§a!"
+
+nicks_setup_skin: "Awesome! Now, which §lSKIN§0 would you like to have while nicked?\n\n"
+nicks_setup_skin_own: "> My normal skin\n"
+nicks_setup_skin_own_tt: 'Use your own skin'
+nicks_setup_skin_steve_alex: "> Steve/Alex skin\n"
+nicks_setup_skin_steve_alex_tt: 'Use Steve or Alex skin'
+nicks_setup_skin_random: "> Random skin\n"
+nicks_setup_skin_random_tt: "Use random skin from our database"
+nicks_setup_skin_set: "§aYour skin has been set to %name%!"
+
+nicks_setup_name: "Alright, now you'll need to choose the §lNAME§0 to use!\n\n"
+nicks_setup_name_random: "> Use a random name\n\n"
+nicks_setup_name_random_tt: "Click here to use a randomly generated name\nYou can do this %count%x more in the next 24 hours"
+nicks_setup_name_goback: "To go back to being your usual self, type: §l/nick reset§0"
+
+nicks_setup_name_generated: "We've generated a random username for you:\n\n"
+nicks_setup_name_generated_use: "§a§n§lUSE NAME"
+nicks_setup_name_generated_use_tt: "Click here to use this name"
+nicks_setup_name_generated_tryagain: "§c§n§lTRY AGAIN"
+nicks_setup_name_generated_tryagain_tt: "Click here to regenerate name"
+# explanation depends on user group. for YT iw will say "gj ure nicked everywhere",
+# for PRO+ it will show up "you will be nicked only ingame"
+nicks_setup_finished_explanation_yt: "§0You will be nicked as %name%§0 in lobbies and in games."
+nicks_setup_finished_explanation_supercock: "§0When you go into a game you will be nicked as %name%§0. You will not be nicked in lobbies."
+nicks_setup_finished: "You have finished setting up your nickname!\n\n%explanation%\n\n$nicks_setup_name_goback$"
+
+report_book_title: 'Report %name%'
+
+report_book_chat: 'Chat Abuse/Spam'
+report_book_chat_tt: 'Breaking chat related rules or scamming'
+
+report_book_chat_global: 'Public Chat'
+report_book_chat_party: 'Party Chat'
+report_book_chat_guild: 'Guild Chat'
+report_book_chat_direct: 'Direct Messages'
+
+report_book_cheating: 'Cheating (Hacking)'
+report_book_cheating_tt: 'Using disallowed modifications to gain an unfair advantage'
+
+report_book_bad_name: 'Bad Name'
+report_book_bad_name_tt: 'Having an inappropriate username'
+
+report_book_guild: 'Guild Name/Tag'
+report_book_guild_tt: 'Inappropriate guild information'
+report_book_guild_name: 'Guild Name'
+report_book_guild_name_tt: 'Inappropriate guild name'
+report_book_guild_tag: 'Guild Tag'
+report_book_guild_tag_tt: 'Inappropriate guild tag'
+
+report_book_cross_teaming: 'Cross Teaming'
+report_book_cross_teaming_tt: 'Working with the other team to get an advantage'
+
+report_book_bad_skin: 'Bad Skin/Cape'
+report_book_bad_skin_tt: 'Having an inappropriate skin or cape'
+
+report_book_badpetname: 'Bad Pet Name'
+report_book_badpetname_tt: 'Having an inappropriate pet name'
+
+
+# KOSTIL xd
+report_book_boosting: '$report_book_stats_boosting$'
+report_book_boosting_tt: '$report_book_stats_boosting_tt$'
+report_book_stats_boosting: 'Stats Boosting'
+report_book_stats_boosting_tt: 'Using illegitimate methods to boost game stats'
+
+report_book_baditemname: 'Bad Item Name'
+report_book_baditemname_tt: 'Having an inappropriate in-game item'
+
+report_book_signs: 'Signs/Holograms'
+report_book_signs_tt: 'Creating an inappropriate sign or hologram'
+
+report_book_submit_title: "You're about to report %name% for %reason%"
+report_book_submit: "§a§lSubmit Report"
+report_book_cancel: "§c§lCancel Report"
+report_book_closed: "§cYou've closed your report"
+
+report_invalidinternalcommand: "§cSorry, I cannot recognize this report type! Use: /report <player>"
+
+report_book_is_cheating_title: "Is %name% Cheating (Hacking)?"
+report_book_is_cheating_yes: "§a§lYES"
+report_book_is_cheating_no: "§c§lNO"
+
+report_book_submit_tt: "Click to report %name% for %reason%"
+
+report_error_self: '§cYou cannot report yourself!'
+report_error_alreadycreated: '§cYou already have %type%-report opened on %player%'
+report_error_internal_error: '§cInternal error occurred on report creation procedure! Contact admins >.<'
+report_error_unknown_error: '§cUnknown nigga error ahhh'
+
+report_accepted_notification: "§aYour §e%type%§a-record against %name% was accepted! Thanks for your feedback!"
+report_denied_notification: "§cYour §e%type%§c-record against %name% was denied. Thanks for wasting our time, dumb nigger"
+
+# watchcat
+watchcat_ban_broadcast: "§f[WATCHCAT CHEAT DETECTION] §c§lA player has been removed from your game for hacking or abuse"
+staff_ban_broadcast: "§c§lA player has been removed from your game for hacking or abuse. §bThanks for reporting it!"

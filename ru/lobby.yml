@@ -1,0 +1,344 @@
+gamemode_selector_gui_no_slots_lore: |-
+  §f
+  §cНа этом сервере нет свободных мест
+  §f
+  §7Если Вы хотите входить на заполненные
+  §7сервера §cбез ограничений§7, приобретайте
+  §7§nлюбую привилегию§7 на нашем сайте
+  §f
+  §7Наш сайт: §f$website_url$
+gamemode_selector_gui_full_servers_lore: |-
+  §f
+  §7Один или несколько серверов переполнены
+  §7Заходить на §cпереполненные сервера §7могут
+  §7§nтолько донатеры§7. Купить привилегию можно
+  §7на нашем сайте §f$website_url$
+gamemode_selector_gui_offline_lore: |-
+  §cРежим пока не работает
+  §f
+  §7Следите за новостями в нашей
+  §7группе в VK: §f$vk_group_url$
+gamemode_selector_gui_title: 'Игровые режимы'
+gamemode_selector_gui_hub_teleport: '§6Вернуться в хаб'
+gamemode_selector_gui_hub_teleport_lore: |-
+  §f
+  §eНажмите для телепортации
+gamemode_selector_gui_help: '§6Помощь по серверу'
+gamemode_selector_gui_help_lore: |-
+  §f
+  §7Для всех тех, кто еще не освоил
+  §7основных аспектов игры на $server_name$
+  §f
+  §eНажмите для просмотра информации
+gamemode_selector_gui_donate: '§6Привилегии'
+gamemode_selector_gui_donate_lore: |-
+  §f
+  §7Любой желающий может помочь проекту
+  §7материально. А у нас, в свою очередь,
+  §7есть что предложить таким игрокам
+  §f
+  §eНажмите для перехода
+gamemode_selector_gui_choose_server: '§eНажмите, чтобы выбрать сервер!'
+gamemode_selector_gui_connect: '§eНажмите, чтобы присоединиться!'
+gamemode_selector_gui_entry_available: '§6%mode%'
+gamemode_selector_gui_entry_disabled: '§c%mode%'
+gamemode_selector_gui_entry_list_item_available: '§f%mode%:'
+gamemode_selector_gui_entry_list_item_full: '§c%mode%:'
+gamemode_selector_gui_single_mode_info: '§7Онлайн: §f%online%§7, серверов: §f%servers%'
+gamemode_selector_gui_mode_info: '§7- $gamemode_selector_gui_single_mode_info$'
+gamemode_selector_gui_uncommon_single_online: '§7Сейчас онлайн §f%format%'
+gamemode_selector_gui_uncommon_online: '§7 - Текущий онлайн: §f%online%/%slots%'
+gamemode_selector_gui_entry_large: '§7Доступно режимов: §f%modes%§7, онлайн: §f%online%'
+
+uncommon_survival_description: |-
+  §7Андрей
+  §7Где
+  §7Сука
+  §cЛокализация??
+uncommon_skyblock_description: |-
+  §7Начни игру на острове в небе
+  §7и развивайся. Выполняй задания,
+  §7торгуйся с другими игроками...
+  §7Приглашай друзей в совместную игру
+  §7и построй лучший остров!
+uncommon_anarchy_description: |-
+  §7Выживай на единственном на сервере
+  §7режиме БЕЗ ПРАВИЛ! Строй свои базы,
+  §7ходи на рейды, собирай аирдропы и
+  §7переживай случайные события!
+  §f
+  §cРекомендуемая версия для игры на
+  §cданном режиме - 1.16
+uncommon_smasher_description: |-
+  §7Незамысловатый режим, главной задачей
+  §7которого является убийство игроков...
+  §7Зарабатывай очки, покупай улучшения и
+  §7повышай свой навык в PvP!
+uncommon_smasher_classic_description: |-
+  §7Незамысловатый режим, главной задачей
+  §7которого является убийство игроков...
+  §7Классическая версия режима, известная
+  §7многим еще с давних времён.
+  §7
+  §cДанная версия режима не предусматривает
+  §cпрокачку вещей, все игроки равны.
+
+uncommon_ru2b2t_description: |-
+  §7Выживание без плагинов, вайпов и
+  §7правил. Еще большая анархия.
+
+  §cРекомендуемая версия для игры на
+  §cданном режиме - 1.15 или выше
+
+master_sw_description: |-
+  §7Каждый игрок появляется на отдельном
+  §7острове. Ищите вещи в сундуках
+  §7и устраните всех противников
+
+master_bw_description: |-
+  §7Сражение между несколькими командами
+  §7за право на возрождение! Защитите
+  §7свою кровать и уничтожьте другие,
+  §7если хотите победить...
+
+master_duels_description: |-
+  §7Сражение между игроками на равных
+  §7Куча режимов в вашем распоряжении,
+  §7сражайтесь в одиночку или с друзьями
+  §7Выясните, кто круче - раз и навсегда!
+
+master_ag_description: |-
+  §7Весёлые аркадные игры для тех, кому
+  §7уже надоели обычные PVP режимы!
+
+master_cc_description: |-
+  §7Захватывайте кубы, экипируйтесь получше
+  §7и уничтожьте своих соперников! Помните,
+  §7что у вас есть всего 3 жизни
+
+master_mm_description: |-
+  §7Кажется, в городе завёлся маньяк...
+  §7Оберегайся, если ты мирный житель
+  §7Расследуй убийство как детектив, или
+  §7убей всех жителей без лишнего шума!
+
+uncommon_selector_gui_title: 'Выбор сервера %name%'
+uncommon_selector_gui_no_servers: '§6Сервера не найдены'
+uncommon_selector_gui_no_servers_lore: |-
+  §7Мы не нашли серверов для этого
+  §7режима. Вероятно, они перезапускаются
+  §7или пока не запущены
+
+mini_selector_gui_title: 'Выбор подрежима'
+mini_selector_gui_entry: '§6%mode%'
+mini_selector_gui_entry_lore: |-
+  §f
+  §7Всего серверов: §f%servers%
+  §7Свободно серверов: §f%free_servers%
+  §f
+  §7Общий онлайн: §f%total_online%
+  §f
+mini_selector_gui_entry_lore_join: |-
+  §eЛКМ, чтобы начать быструю игру
+  §eПКМ, чтобы выбрать сервер и карту
+mini_selector_gui_entry_lore_queue: |-
+  §eНажмите, чтобы встать в очередь
+mini_selector_gui_entry_lore_unavailable: |-
+  §f
+  §7Данный режим временно не работает,
+  §7или он еще не запустился. Пожалуйста,
+  §7подождите, мы уже занимаемся проблемой :)
+arena_spectate_gui_title: 'Наблюдение за игрой'
+arena_spectate_gui_entry: '§6Игра %mini%'
+arena_spectate_gui_entry_lore: |-
+  §f
+  §7Текущая карта: §a%map%
+  §7Игроков онлайн: §a%players%
+  §f
+  §eКликни для телепорта на %server%
+arena_spectate_gui_no_permission_icon: '§6Наблюдение невозможно'
+arena_spectate_gui_no_permission_icon_lore: |-
+  §7Наблюдать за начатыми играми
+  §7могут только §6Premium §7и выше
+  §7Вы можете приобрести привилегию
+  §7на сайте §f$website_url$
+arena_spectate_gui_no_arenas_icon: '§6Нет начатых игр'
+arena_spectate_gui_no_arenas_icon_lore: |-
+  §7Ни одна игра еще не началась или
+  §7все игры уже закончились
+map_cluster_gui_title: 'Выбор карт %mode%'
+map_cluster_gui_entry: '§6%map_name%'
+map_cluster_gui_entry_lore: |-
+  §f
+  §7Игроков, ожидающих игры: §c%total_online%
+  §7Доступных серверов: §c%total_servers%
+  §f
+  §eКликни, чтобы играть на этой карте!
+map_cluster_gui_best: '§6Оптимальный сервер'
+map_cluster_gui_best_lore: |-
+  §f
+  §7Доступных серверов: §f%stand_by_servers%
+  §7Всего серверов: §f%total_servers%
+  §f
+  §7Общий онлайн: §f%total_online%
+  §f
+  §eКликни для поиска оптимального сервера!
+
+gamemode_select_icon: '§6Выбор режима'
+gamemode_select_icon_lore: |-
+  §7Используйте этот предмет
+  §7для выбора режима
+
+spectate_npc_hologram_title: '§eНаблюдение за играми'
+spectate_npc_hologram_action: '§fНажмите, чтобы открыть'
+
+gamemode_npc_full_single: '§cНа режиме нет свободных мест'
+gamemode_npc_full_plural: '§cНа одном из серверов нет мест'
+
+gamemode_npc_maintenance: '§c§lТЕХ. РАБОТЫ'
+
+gamemode_npc_status_players: '§e%players% Играют'
+gamemode_npc_default_status: '§eИГРАТЬ'
+
+# dynamic NPC status lines declared here
+gamemode_npc_skywars_status: '§d§lВ РАЗРАБОТКЕ'
+
+game_status_holo_info_total_online: '§fОбщий онлайн §7- §c%value%'
+game_status_holo_info_total_servers: '§fВсего серверов §7- §c%value%'
+game_status_holo_info_busy_servers: '§fИдет игра §7- §c%value%'
+game_status_holo_info_free_servers: '§fСвободных §7- §c%value%'
+
+elite_not_available: |-
+  $prefix$Данная возможность доступна только для подписчиков §aElite
+  §c * §fВы можете купить подписку на нашем сайте §d$website_url$
+
+nick_not_nicked: '$prefix$Вы не замаскированы'
+nick_already_nicked: '$prefix$Вы замаскированы, чтобы сменить свой ник сначала сбросьте его - §c/nick reset'
+
+nick_error_no_nicks_found: '$prefix$Случайные ники для маскировки не найдены. Пожалуйста, повторите попытку позже'
+nick_error_invalid_name: '$prefix$Указанный вами ник не может быть установлен'
+nick_error_user_not_found: '$prefix$Произошла неизвестная ошибка при установке никнейма (не подключен к игровому координатору)'
+nick_error_already_used: '$prefix$Указанный вами ник уже используется кем-то'
+nick_error_already_registered: '$prefix$Игрок с указанным вами ником уже зарегистрирован на сервере'
+
+nick_reset: '$prefix$Маскировка отключены. Теперь у вас обычный никнейм'
+nick_selected: |-
+  $prefix$Вы успешно изменили свой ник на §a%nick%
+  §c * §fСменить скин можно командой §c/skin <ник скина>
+  §c * §fВаши друзья и персонал могут видеть вашу маскировку
+  §c * §fДругие игроки не смогут найти вас на сервере по основному никнейму
+
+nick_gui_title: 'Настройка маскировки'
+nick_gui_nickname_entry: '§6Ник %nick%'
+nick_gui_nickname_entry_lore: |-
+  §f
+  §7Данный ник будет отображаться всем
+  §7игрокам при ваших последующих входах
+  §7на сервер
+  §c
+nick_gui_nickname_entry_lore_selected: |-
+  §cДанный никнейм уже выбран вами
+nick_gui_nickname_entry_lore_select: |-
+  §eНажмите, чтобы выбрать этот никнейм!
+
+nick_gui_special_groups: '§6Специальные группы'
+nick_gui_special_groups_lore: |-
+  §f
+  §7Специальные группы для маскировки, доступные
+  §7только для избранных...
+  §f
+  §aВы - избранный! Милости просим в этот раздел
+  §f
+  §eНажмите, чтобы посмотреть специальные группы
+
+nick_gui_normal_groups: '§6Обычные группы'
+nick_gui_normal_groups_lore: |-
+  §f
+  §7Возврат к стандартным привилегиям, доступным
+  §7для маскировки по умолчанию
+  §f
+  §eНажмите, чтобы вернуться к обычным группам
+
+nick_default_group: '§7игрока'
+
+nick_gui_selector: '§6Поменять свой никнейм'
+nick_gui_selector_lore: |-
+  §f
+  §7Завершить процесс маскировки и перейти
+  §7к использованию выбранных ника и префикса
+  §f
+  §cВнимание! §7Ваши друзья и персонал проекта
+  §7смогут видеть вашу маскировку. Нарушение
+  §7правил проекта по-прежнему наказуемо!
+  §f
+nick_gui_selector_lore_select_masks: |-
+  §cДля продолжения Вы должны выбрать ник
+  §cи привилегию для маскировки
+nick_gui_selector_lore_click_to_mask: |-
+  §7Вы будете видны как §c%nick_format% §7для
+  §7всех игроков на сервере
+  §f
+  §eНажмите, чтобы замаскироваться для всех!
+
+nick_gui_group_entry: '§6Группа %group%'
+nick_gui_group_entry_lore: |-
+  §f
+  §7Вы будете замаскированы под выбранную
+  §7здесь привилегию, но будете по-прежнему
+  §7иметь все права своей привилегии
+  §c
+nick_gui_group_entry_lore_selected: |-
+  §cЭта привилегия уже выбрана для маскировки
+nick_gui_group_entry_lore_select: |-
+  §eНажмите, чтобы выбрать данную привилегию!
+
+lobby_selector_gui_hub_title: 'Выбор хаба'
+lobby_selector_gui_lobby_title: 'Выбор лобби'
+
+lobby_selector_gui_no_lobbies: '§6Лобби отсутствуют'
+lobby_selector_gui_no_lobbies_lore: |-
+  §7Мы не нашли лобби для этого
+  §7режима. Наши разработчики уже
+  §7занимаются этой проблемой! :)
+lobby_selector_gui_lobby_entry_available: '§a%lobby_name%'
+lobby_selector_gui_lobby_entry_already_in: '§c%lobby_name%'
+lobby_selector_gui_lobby_entry_online: '§7Онлайн в лобби: §f%online%'
+lobby_selector_gui_lobby_entry_friend_title: '§7Онлайн друзья в лобби:'
+lobby_selector_gui_lobby_entry_friend: '§f- %friend_name%'
+lobby_selector_gui_lobby_entry_more_friends: '§7...и еще §f%format%'
+lobby_selector_gui_lobby_entry_already_in_lore: '§cВы уже находитесь в этом лобби'
+lobby_selector_gui_lobby_entry_connect_lore: '§eНажмите, чтобы подключиться'
+
+friend_gui_lore: |-
+  §7Уровень: %level%
+  §7Ачивмент поинты: %ap%
+  §7Гильдия: %guild%
+
+friend_gui_lore_online: |-
+  §7Онлайн статус: %status%
+
+friend_gui_lore_offline: |-
+  §7Последний онлайн: %last%
+
+lobby_languageselector_self_item_lore: |-
+  §7Сменить язык на Русский.
+  §7 
+  §7Доступны на данный момент:
+  §f  * SkyWars
+  §f  * Bed Wars
+
+lobby_nick_active_bar: '§fМаскировка §cАКТИВНА'
+lobby_vanish_active_bar: '§fРежим невидимки §cВКЛЮЧЕН'
+lobby_booster_active_bar: '§fБустер §cx%multiplier% §fна §c%expires%'
+
+lobby_bossbar_messages: |-
+  §e§lASTRONA
+  §6§lASTRONA
+  
+
+lobby_kaboomed_player: '§aИгрок §f%player%§a запущен в воздух!'
+
+command_spawn_result: '$prefix$Вы были телепортированы на спавн'
+
+hub_join_title: ''
+hub_join_subtitle: '§7Traveller-Land'

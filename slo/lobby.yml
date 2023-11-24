@@ -1,0 +1,657 @@
+gamemode_selector_gui_no_slots_lore: |-
+  §f
+  §cThere is no empty slots
+  §f
+  §7If you want to join full servers
+  §7purchase §nany rank§7 on our site
+  §f
+  §7Our site: §f$website_url$
+gamemode_selector_gui_full_servers_lore: |-
+  §f
+  §7One or more servres are full
+  §7If you want to join full servers
+  §7purchase §nany rank§7 on
+  §7our site §f$website_url$
+gamemode_selector_gui_offline_lore: |-
+  §cGame mode is offline
+gamemode_selector_gui_title: 'Game modes'
+gamemode_selector_gui_hub_teleport: '§6Return to hub'
+gamemode_selector_gui_hub_teleport_lore: |-
+  §f
+  §eClick to teleport
+gamemode_selector_gui_help: '§6Server guide'
+gamemode_selector_gui_help_lore: |-
+  §f
+  §7For every one that didn`t mastered
+  §7main aspects of $server_name$
+  §f
+  §eClick to show info
+gamemode_selector_gui_donate: '§6Ranks'
+gamemode_selector_gui_donate_lore: |-
+  §f
+  §7Every one can help project materially.
+  §7And we can offer something to you.
+  §f
+  §eClick to go
+gamemode_selector_gui_choose_server: '§eClick to choose server!'
+gamemode_selector_gui_connect: '§eClick to join!'
+gamemode_selector_gui_entry_available: '§6%mode%'
+gamemode_selector_gui_entry_disabled: '§c%mode%'
+gamemode_selector_gui_entry_list_item_available: '§f%mode%:'
+gamemode_selector_gui_entry_list_item_full: '§c%mode%:'
+gamemode_selector_gui_single_mode_info: '§7Online: §f%online%§7, servers: §f%servers%'
+gamemode_selector_gui_mode_info: '§7- $gamemode_selector_gui_single_mode_info$'
+gamemode_selector_gui_uncommon_single_online: '§7Online now §f%format%'
+gamemode_selector_gui_uncommon_online: '§7 - Current online: §f%online%/%slots%'
+gamemode_selector_gui_entry_large: '§7Available modes: §f%modes%§7, online: §f%online%'
+gamemode_selector_unavailable: '§cThis game mode is not available!'
+
+master_sw_description: |-
+  §7Every player spawns on his island.
+  §7Loot islands and fight players
+
+master_bw_description: |-
+  §7Fight between teams for bed!
+  §7Protect your bed and destroy other ones to win
+  §7If you want to win...
+
+uncommon_anarchy_description: |-
+  §7Survive on the only server mode
+  §7WITHOUT RULES! Build your bases,
+  §7go on raids, loot airdrops
+  §7and experience random events!
+  §f
+  §cRecommended version for playing on
+  §cthis mode - 1.16
+master_duels_description: |-
+  §7Battle between players on equal terms
+  §7Many modes at your disposal,
+  §7fight solo or with friends
+  §7Find out who's cooler
+
+master_ag_description: |-
+  §7Fun arcade games for those who
+  §7are already tired of the usual PVP modes!
+
+master_cc_description: |-
+  §7Capture cubes, equip yourself better
+  §7and destroy your rivals!
+  §7Remember that you only have 3 lives
+
+master_mm_description: |-
+  §7There's probably a maniac in town...
+  §7Watch out if you're a civilian
+  §7Investigate a murder like a detective, or
+  §7kill all the inhabitants without making noise!
+
+uncommon_selector_gui_title: 'Server selection %name%'
+uncommon_selector_gui_no_servers: '§6No servers found'
+uncommon_selector_gui_no_servers_lore: |-
+  §7We have not found servers for this game mode
+  §7They are probably restarting not launched yet
+
+mini_selector_gui_title: 'Game mode selection'
+mini_selector_gui_entry: '§6%mode%'
+mini_selector_gui_entry_lore: |-
+  §f
+  §7Servers total: §f%servers%
+  §7Servers free: §f%free_servers%
+  §f
+  §7Total players: §f%total_online%
+  §f
+mini_selector_gui_entry_lore_join: |-
+  §eLMB to start quick game
+  §eRMB to choose server and map
+mini_selector_gui_entry_lore_queue: |-
+  §eClick to get in queue
+mini_selector_gui_entry_lore_unavailable: |-
+  §f
+  §7This mode temporarily does not work or did not start.
+  §7Wait a while, we are fixing problem :)
+arena_spectate_gui_title: 'Game spectating'
+arena_spectate_gui_entry: '§6Game %mini%'
+arena_spectate_gui_entry_lore: |-
+  §f
+  §7Current map: §a%map%
+  §7Players online: §a%players%
+  §f
+  §eClick to go to %server% server
+arena_spectate_gui_no_permission_icon: '§6Spectating is unavailable'
+arena_spectate_gui_no_permission_icon_lore: |-
+  §7Only §6Premium §7and higher players
+  §7can spectate running games.
+  §7You can purchase ranks on
+  §7the website §f$website_url$
+arena_spectate_gui_no_arenas_icon: '§6No games running'
+arena_spectate_gui_no_arenas_icon_lore: |-
+  §7No games have started yet or
+  §7all games have already ended
+map_cluster_gui_title: 'Map selection: %mode%'
+map_cluster_gui_entry: '§6%map_name%'
+map_cluster_gui_entry_lore: |-
+  §f
+  §7Players waiting for game: §c%total_online%
+  §7Total servers: §c%total_servers%
+  §f
+  §eClick to play on this map!
+map_cluster_gui_best: '§6Optimal server'
+map_cluster_gui_best_lore: |-
+  §f
+  §7Free servers: §f%stand_by_servers%
+  §7Total servers: §f%total_servers%
+  §f
+  §7Total players: §f%total_online%
+  §f
+  §eClick to find optimal server!
+
+gamemode_select_icon: '§aGame Menu §7(Right Click)'
+gamemode_select_icon_lore: |-
+  §7Right Click to bring up the Game Menu!
+
+spectate_npc_hologram_title: '§eSpectate games'
+spectate_npc_hologram_action: '§fClick to open'
+
+gamemode_npc_full_single: '§cThere are no free slots on the game mode'
+gamemode_npc_full_plural: '§cThere are no free slots on the game mode'
+
+gamemode_npc_maintenance: '§c§lMAINTENANCE'
+
+gamemode_npc_status_players: '§e%players% Playing'
+gamemode_npc_default_status: '§e§lCLICK TO JOIN'
+
+# dynamic NPC status lines declared here
+gamemode_npc_skywars_status: '§d§lIN DEVELOPMENT'
+
+game_status_holo_info_total_online: '§fTotal players §7- §c%value%'
+game_status_holo_info_total_servers: '§fTotal servers §7- §c%value%'
+game_status_holo_info_busy_servers: '§fThe game is in progress §7- §c%value%'
+game_status_holo_info_free_servers: '§fFree servers §7- §c%value%'
+
+elite_not_available: |-
+  $prefix$This feature is only available for §aElite §fsubscribers
+  §c * §fYou can buy subscribe on our website §d$website_url$
+
+nick_error_no_nicks_found: '$prefix$Random nicknames for disguise were not found. Please try again later'
+nick_error_invalid_name: '$prefix$The nickname you specified cannot be installed'
+nick_error_user_not_found: '$prefix$An unknown error occurred when installing the nickname (not connected to the game coordinator)'
+nick_error_already_used: '$prefix$The nickname you specified is already being used by someone'
+nick_error_already_registered: '$prefix$The player with the nickname you specified is already registered on the server'
+
+nick_selected: '§aYou have successfully changed your nickname to §a%nick%'
+
+nick_gui_title: 'Disguise settings'
+nick_gui_nickname_entry: '§6Nickname %nick%'
+nick_gui_nickname_entry_lore: |-
+  §f
+  §7This nickname will be displayed to everyone
+  §7players when you log in
+  §7to the server
+  §c
+nick_gui_nickname_entry_lore_selected: |-
+  §cThis nickname is already selected by you
+nick_gui_nickname_entry_lore_select: |-
+  §eClick to select this nickname
+
+nick_gui_special_groups: '§6Special ranks'
+nick_gui_special_groups_lore: |-
+  §f
+  §7Special ranks for disguise, available only
+  §7for the chosen ones...
+  §7You are the chosen one! Welcome to this section
+  §f
+  §eClick to browse special ranks
+
+nick_gui_normal_groups: '§6Common ranks'
+nick_gui_normal_groups_lore: |-
+  §f
+  §7Return to standart ranks, available for
+  §7disguise by default
+  §f
+  §eClick to return to common ranks
+
+nick_default_group: '§7player'
+
+nick_gui_selector: '§6Change nickname'
+nick_gui_selector_lore: |-
+  §f
+  §7Complete the disguise process and switch 
+  §7to using the selected nickname and prefix
+  §f
+  §cAttention! §7Your friends and project staff
+  §7will be able to see your disguise. Violation
+  §7the rules of the project is still punishable!
+  §f
+nick_gui_selector_lore_select_masks: |-
+  §cTo continue, you must select a nickname
+  §cand rank of disguise
+nick_gui_selector_lore_click_to_mask: |-
+  §7You will be seen as §c%nick_format% §7for
+  §7all players
+  §f
+  §eClick to disguise
+
+nick_gui_group_entry: '§6Group %group%'
+nick_gui_group_entry_lore: |-
+  §f
+  §7You will be disguised as rank selected here,
+  §7but you will still have 
+  §7all the rights of your rank
+  §c
+nick_gui_group_entry_lore_selected: |-
+  §cThis rank is already selected for disguise
+nick_gui_group_entry_lore_select: |-
+  §eClick to select this rank
+
+nick_too_long: '$prefix$Specified nickname is too long or has invalid characters!'
+nick_not_nicked: '$prefix$You are not disguised'
+nick_already_nicked: '$prefix$You are already disguised, to change your nickname first reset it - §c/nick reset'
+nick_reset: '$prefix$Your disguise has been reset.'
+
+lobby_joinmessage_PRO: '%player% §6joined the lobby!'
+lobby_joinmessage_superstar: ' §b>§c>§a>§r %player%§f §6joined the lobby! §a<§c<§b<'
+
+lobby_selector_gui_hub_title: 'Hub selection'
+lobby_selector_gui_lobby_title: 'Lobby selection'
+lobby_selector_gui_no_lobbies: '§6No lobbies found'
+lobby_selector_gui_no_lobbies_lore: |-
+  §7We didn't find a lobby for this game mode.
+  §7Our developers already trying to fix problem :)
+lobby_selector_gui_lobby_entry_available: '§a%lobby_name%'
+lobby_selector_gui_lobby_entry_already_in: '§c%lobby_name%'
+lobby_selector_gui_lobby_entry_offline: '§c%lobby_name%'
+lobby_selector_gui_lobby_entry_offline_lore: '§7Offline'
+lobby_selector_gui_lobby_entry_online: '§7Players: %online%'
+lobby_selector_gui_lobby_entry_friend_title: '§7Online friends in lobby:'
+lobby_selector_gui_lobby_entry_friend: '§f- %friend_name%'
+lobby_selector_gui_lobby_entry_more_friends: '§7...and §f%format% §7 more'
+lobby_selector_gui_lobby_entry_already_in_lore: '§cYou are already in this lobby'
+lobby_selector_gui_lobby_entry_connect_lore: '§eClick to join lobby'
+
+# here we write which modes are already translated
+
+lobby_languageselector_self_item_lore: |-
+  §7Change language to English.
+  §7 
+  §7Currently available:
+  §f  * SkyClash
+  §f  * Bed Wars
+  
+
+# My Profile
+lobby_gui_myprofile_characterinfo_name: '§aCharacter Information'
+lobby_gui_myprofile_characterinfo_lore: |-
+  §7Rank: %rank%
+  §7Level: §6%level%
+  §7Experience until next level: §6%xpuntilnextlevel%
+  §7Achievement points: §e%ap%
+  §7Mystery Dust: §b%mysterydust%
+  §7Quests Completed: §6%questscompleted%
+  §7Karma: §d%karma%
+  §7Astrona Gold: §6%gold%
+  §7 
+  §eClick to see the Astrona Store link.
+
+friend_gui_lore: |-
+  §7Astrona Level: §6%level%
+  §7Achievement Points: §e%ap%
+  §7Guild: %guild%
+
+friend_gui_lore_online: |-
+  §7Online Status: §b%status%
+
+friend_gui_lore_offline: |-
+  §7Last Online: §b%last%
+
+lobby_gui_myprofile_title: 'My Profile'
+lobby_gui_myprofile_head_lore: |-
+  §7Astrona Level: §6%level%
+  §7Achievement Points: §e%ap%
+
+lobby_gui_myprofile_friends_name: '§aFriends'
+lobby_gui_myprofile_friends_lore: |-
+  §7View your Astrona friends'
+  §7profiles, and interact with your
+  §7online friends!
+
+lobby_gui_myprofile_party_name: '§aParty'
+lobby_gui_myprofile_party_lore: |-
+  §7Create a party and join up with
+  §7other players to play games
+  §7together!
+
+lobby_gui_myprofile_guild_name: '§aGuild'
+lobby_gui_myprofile_guild_lore: |-
+  §7Form a guild with other Astrona
+  §7players to conquer game modes
+  §7and work towards common Astrona
+  §7rewards.
+
+lobby_gui_myprofile_recentplayers_name: '§aRecent Players'
+lobby_gui_myprofile_recentplayers_lore: |-
+  §7View players you have played
+  §7recent games with.
+
+lobby_gui_myprofile_gotohousing_name: '§aGo to Housing'
+
+lobby_gui_myprofile_socialmedia_name: '§aSocial Media'
+lobby_gui_myprofile_socialmedia_lore: |-
+  §7Click to edit your Social Media
+  §7links.
+
+lobby_gui_myprofile_statsviewer_name: '§aStats Viewer'
+lobby_gui_myprofile_statsviewer_lore: |-
+  §7Showcases your stats for each
+  §7game and an overview of all.
+  §7 
+  §7Players ranked §bPRO §7or higher
+  §7can use §f/stats (username) §7to view
+  §7other players' stats.
+  §7 
+  §eClick to view your stats!
+
+lobby_gui_myprofile_coinboosters_name: '§aCoin Boosters'
+lobby_gui_myprofile_coinboosters_lore: |-
+  §7Activate your personal
+  §7and network boosters for
+  §7extra coins.
+  §7 
+  §eClick to activate
+  §eboosters!
+
+lobby_gui_myprofile_appearances_name: '§aCustomize Appearances'
+lobby_gui_myprofile_appearances_lore: |-
+  §7 
+  §7Customize the following visual
+  §7options for your player!
+  §f  • PRO+ Rank Color
+  §f  • Punch Messages
+  §f  • Glow
+  §f  • Status
+  §7 
+  §eClick to view!
+
+lobby_gui_myprofile_achievements_name: '§aAchievements'
+lobby_gui_myprofile_achievements_lore: |-
+  §7Track your progress as you unlock
+  §7Achievements and rank up points.
+  §7 
+  §eClick to view your achievements!
+
+lobby_gui_myprofile_leveling_name: '§aAstrona Leveling'
+lobby_gui_myprofile_leveling_lore: |-
+  §7Playing games and completing quests
+  §7will reward you with §3Astrona Experience§7,
+  §7which is required to level up and
+  §7acquire new perks and rewards!
+  §7 
+  §3Astrona Level §a%level% %bar%
+  §7 
+  §7Experience until next level: §3%xpuntilnextlevel%
+  §7 
+  §eClick to see your rewards!
+
+lobby_gui_myprofile_questsandchallenges_name: '§aQuests & Challenges'
+lobby_gui_myprofile_questsandchallenges_lore: |-
+  §7Completing quests and challenges
+  §7will reward you with §6Coins§7, §3Astrona
+  §3Experience §7and more!
+  §7 
+  §7You can complete a maximum of §a10
+  §7challenges every day.
+  §7 
+  §7Challenges completed today: §a%completed%
+  §7 
+  §eClick to view Quests & Challenges
+
+lobby_gui_myprofile_settings_name: '§aSettings & Visibility'
+lobby_gui_myprofile_settings_lore: |-
+  §7Allows you to edit and control
+  §7various personal settings.
+  §7 
+  §eClick to edit your settings!
+
+lobby_gui_myprofile_recentgames_name: '§aRecent Games'
+lobby_gui_myprofile_recentgames_lore: |-
+  §7View your recently played games.
+  §7 
+  §eClick to view!
+
+lobby_gui_myprofile_accstatus_name: '§aAccount Status'
+lobby_gui_myprofile_accstatus_lore: |-
+  §7Check your punishment history
+  §7and see where you stand.
+  §7 
+  §eClick to view!
+  
+lobby_gui_myprofile_languages_name: '§aSelect Language'
+lobby_gui_myprofile_languages_lore: |-
+  §7Change your language.
+  §7 
+  §7Currently available:
+  §7  §f• English
+  §7  §f• Russian
+  §7 
+  §7More languages coming soon!
+  §7 
+  §eClick to change your language!
+
+lobby_gui_myprofile_astronastore_name: '§aAstrona Store'
+lobby_gui_myprofile_astronastore_lore_1: |-
+  §7View the Astrona Store from
+  §7right here in-game!
+  §7 
+  §7Your Astrona Gold: §6%gold%
+  §7 
+  §c§lSTORE SALE
+  §c§l25% OFF EVERYTHING!
+  
+lobby_gui_myprofile_astronastore_lore_2: |-
+  §7View the Astrona Store from
+  §7right here in-game!
+  §7 
+  §7Your Astrona Gold: §6%gold%
+  §7 
+  §f§lSTORE SALE
+  §f§l25% OFF EVERYTHING!
+
+# Bossbar messages in the main lobby
+lobby_bossbar_messages: |-
+  §e§lAstrona
+  §6§lAstrona
+
+# ----------------------------
+#         Daily Rewards
+# ----------------------------
+
+deliveryman_npc_title: '§bThe Delivery Man'
+deliveryman_npc_subtitle: '%amount% Deliveries!'
+
+deliveryman_gui_title: '§8The Delivery Man'
+
+# rewards
+deliveryman_clickhere: '§eClick here to claim!'
+
+deliveryman_reward_survey: 'Survey'
+deliveryman_reward_survey_lore: |-
+  §7I have no clue what the
+  §7fuck is Survey reward xd
+  §7 
+  $deliveryman_clickhere$
+deliveryman_reward_daily: 'Daily reward'
+deliveryman_reward_daily_lore: |-
+  §7Free 2,200 Network
+  §7Experience and 3,000 SkyClash
+  §7Coins!
+  §7 
+  $deliveryman_clickhere$
+deliveryman_reward_mysterybox: 'Mystery Box'
+deliveryman_reward_mysterybox_lore: |-
+  §7Your free monthly §b%mb_amount% §7(Total of §b%mb_overall%)
+  §7Mystery Boxes for %mb_month% have arrived!
+  §7 
+  $deliveryman_clickhere$
+
+# claims
+delivery_claimed_daily: '§aClaimed your daily reward: '
+delivery_claimed_mysterybox: '§aClaimed your monthly %amount% %reward% delivery!'
+
+# already claimed
+delivery_claimed_message: '§cYou have claimed this reward recently! Check back in %duration%'
+delivery_claimed: |-
+  §7You have already picked up this 
+  §7delivery, come back later!
+  §7 
+  §7Next delivery: %duration%
+delivery_reward_claimed_message: '§cYou have already looted this delivery! Check back in %duration%'
+delivery_reward_claimed: |-
+  §7You have claimed this reward
+  §7recently! Check back in: %duration%
+
+# unavailable messages
+delivery_rank_unavailable: '§cYou do not have the rank required for this bonus! Purchase ranks at $store_link$'
+survey_unavailable: |-
+  §7Survey is not available yet.
+delivery_mb_unavailable: |-
+  §7Your free monthly §b%mb_amount% §7(Total of §b%mb_overall%)
+  §7Mystery Boxes for %mb_month% have arrived!
+  §7 
+  §7Requires %mingroup%
+
+# -------------------
+#     Stats Viewer
+# -------------------
+lobby_statsviewer_gui: '§8Stats Viewer'
+lobby_statsviewer_item: '§a%type% Stats'
+
+lobby_statsviewer_sw: |-
+  §7Wins: §a%wins%
+  §7Solo Wins: §a%solo_wins%
+  §7Team Wins: §a%team_wins%
+  §7Mega Wins: §a%mega_wins%
+  §7Ranked Wins: §a%ranked_wins%
+  §7 
+  §7Kills: §a%kills%
+  §7Solo Kills: §a%solo_kills%
+  §7Team Kills: §a%team_kills%
+  §7Mega Kills: §a%mega_kills%
+  §7Ranked Kills: §a%ranked_kills%
+  §7 
+  §7Souls: §a%souls%
+  §7Coins: §a%coins%
+
+# Appearences
+lobby_customization_gui: '§8Customize Appearances'
+
+lobby_customization_pluscolor: '§aPRO+ Rank Color'
+lobby_customization_pluscolor_lore: |-
+  §7Players ranked §bPRO§c+
+  §7can unlock and switch the
+  §7color of their +.
+  §7 
+  §eClick to change!
+
+lobby_customization_punchmsg: '§aPunch Messages'
+lobby_customization_punchmsg_lore: |-
+  §7Customize the message when you
+  §7use your punch ability!
+  §7 
+  §cPunching in lobbies is only
+  §cavailable to §bPRO§c+ players
+  §cor those who own the Punching
+  §cFriends item from idk
+  §cwhere. we will do this shit 
+  §clater a bit :P
+
+lobby_customization_glow: '§aGlow'
+lobby_customization_glow_lore: |-
+  §7Gives you in-game character an
+  §7outline in the color of your
+  §7rank.
+  §7 
+  §cNote:§7 The glowing effect 
+  §7will only be visible to players
+  §7using Minecraft 1.9 or later!
+  §7 
+  §cNot un-lockable yet!
+
+lobby_customization_status: '§aStatus'
+lobby_customization_status_lore: |-
+  §7Set a status to be displayed
+  §7above your head in lobbies.
+  §7 
+  §eClick to change!
+
+# Rank color thing
+lobby_rankcolor_gui: '§8Customize Appearances'
+lobby_rankcolor_name: '%color% Rank Color'
+lobby_rankcolor_prefix: '§aChanged your prefix color to %color%§a!'
+lobby_rankcolor_plus: '§aChanged your plus color to %color%§a!'
+lobby_rankcolor_plus_obtainable: '§3Obtainable at %requirement%'
+lobby_rankcolor_plus_lore: |-
+  §7Changes the color of the plus in §bPRO§c+
+  §7to dark blue, turning it into §bPRO%plus%
+  §7 
+  §7Shown in tab list also when chatting
+  §7and joining lobbies!
+lobby_rankcolor_toggleprefixcolor: '§aToggle prefix color'
+lobby_rankcolor_toggleprefixcolor_lore: |-
+  §7Selected: %selected%
+  §7 
+  §7Click to change the color to %next%
+lobby_rankcolor_plus_unavailable: '§cTo select this rank color you need %requirement%§a!'
+
+# punchmessgaes
+lobby_punchmessage_reset: '§cReset Punch Message'
+lobby_punchmessage_currentlyselected: '§eCurrently selected: §a%selected%'
+lobby_punchmessages_gui: '§8Punch Messages'
+lobby_punchmessage_desc_item: '§aPunching Players'
+lobby_punchmessage_desc_item_lore: |-
+  §7Punching staff members §7(§2[MOD]
+  §7and §c[ADMIN]§7) is a feature
+  §7available to all §bPRO§c+
+  §7players.
+  §7 
+  §7Players may also unlock the
+  §7ability to punch their friends in
+  §7lobbies as a reward in the
+  §7some competitions like
+  §7killing niggers or idk
+
+lobby_punchmessage_item: ''
+lobby_punchmessage_item_lore: |-
+  §7Select the %name%
+  §7for when you punch a staff or friend;
+  §7 
+  §aRight click to preview
+lobby_punchmessage_locked_lore: |-
+  §cThis can be unlocked through
+  §7%requirement%
+lobby_punchmessage_noaccess_lore: |-
+  §cYou do not have access to lobby punching!
+
+lobby_punchmessage_loving_name: 'Loving Punch Message'
+lobby_punchmessage_loving: '§7%player%§7 lovingly punched %target%§7 into the sky!'
+
+lobby_punchmessage_boop_name: 'Boop Punch Message'
+lobby_punchmessage_boop: '§7%player%§7 §d§lbooped %target%§7 into the sky!'
+
+lobby_punchmessage_snowball_name: 'Snowball Punch Message'
+lobby_punchmessage_snowball: '§7%player%§7 §f§lsnowballed %target%§7 into the sky!'
+
+lobby_punchmessage_glorious_name: 'Glorious Punch Message'
+lobby_punchmessage_glorious: '§7%player%§7 §6gloriously punched %target%§7 into the sky!'
+
+lobby_punchmessage_spooky_name: 'Spooky Punch Message'
+lobby_punchmessage_spooky: '§7%player%§7 §6§lspooked %target%§7 into the sky!'
+
+lobby_punchmessage_fished_name: 'Fished Punch Message'
+lobby_punchmessage_fished: '§7%player%§7 §a§lfished %target%§7 into the sky!'
+
+lobby_punchmessage_code_name: 'Skid Punch Message'
+lobby_punchmessage_code: '§7%player%§7 §e§kAI§ccode broke§e§kAI§7 %target%§7 into the sky!'
+
+lobby_punchmessage_solar_name: 'Solar Punch Message'
+lobby_punchmessage_solar: '§7%player%§7 §e§llaunched§7 %target%§7 into the §e§lsun!'
+
+lobby_punchmessage_celebratory_name: 'Celebratory Punch Message'
+lobby_punchmessage_celebratory: '§7%player%§7 §6§llaunched§7 %target%§7 into the sky in §6§lmoment of celebration§7!'

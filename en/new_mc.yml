@@ -1,0 +1,2106 @@
+block_minecraft_air: Air
+block_minecraft_barrier: Barrier
+block_minecraft_stone: Stone
+block_minecraft_granite: Granite
+block_minecraft_polished_granite: Polished Granite
+block_minecraft_diorite: Diorite
+block_minecraft_polished_diorite: Polished Diorite
+block_minecraft_andesite: Andesite
+block_minecraft_polished_andesite: Polished Andesite
+block_minecraft_hay_block: Hay Bale
+block_minecraft_grass_block: Grass Block
+block_minecraft_dirt: Dirt
+block_minecraft_coarse_dirt: Coarse Dirt
+block_minecraft_podzol: Podzol
+block_minecraft_cobblestone: Cobblestone
+block_minecraft_oak_planks: Oak Planks
+block_minecraft_spruce_planks: Spruce Planks
+block_minecraft_birch_planks: Birch Planks
+block_minecraft_jungle_planks: Jungle Planks
+block_minecraft_acacia_planks: Acacia Planks
+block_minecraft_dark_oak_planks: Dark Oak Planks
+block_minecraft_oak_sapling: Oak Sapling
+block_minecraft_spruce_sapling: Spruce Sapling
+block_minecraft_birch_sapling: Birch Sapling
+block_minecraft_jungle_sapling: Jungle Sapling
+block_minecraft_acacia_sapling: Acacia Sapling
+block_minecraft_dark_oak_sapling: Dark Oak Sapling
+block_minecraft_oak_door: Oak Door
+block_minecraft_spruce_door: Spruce Door
+block_minecraft_birch_door: Birch Door
+block_minecraft_jungle_door: Jungle Door
+block_minecraft_acacia_door: Acacia Door
+block_minecraft_dark_oak_door: Dark Oak Door
+block_minecraft_bedrock: Bedrock
+block_minecraft_water: Water
+block_minecraft_lava: Lava
+block_minecraft_sand: Sand
+block_minecraft_red_sand: Red Sand
+block_minecraft_sandstone: Sandstone
+block_minecraft_chiseled_sandstone: Chiseled Sandstone
+block_minecraft_cut_sandstone: Cut Sandstone
+block_minecraft_red_sandstone: Red Sandstone
+block_minecraft_chiseled_red_sandstone: Chiseled Red Sandstone
+block_minecraft_cut_red_sandstone: Cut Red Sandstone
+block_minecraft_gravel: Gravel
+block_minecraft_gold_ore: Gold Ore
+block_minecraft_nether_gold_ore: Nether Gold Ore
+block_minecraft_iron_ore: Iron Ore
+block_minecraft_coal_ore: Coal Ore
+block_minecraft_oak_wood: Oak Wood
+block_minecraft_spruce_wood: Spruce Wood
+block_minecraft_birch_wood: Birch Wood
+block_minecraft_jungle_wood: Jungle Wood
+block_minecraft_acacia_wood: Acacia Wood
+block_minecraft_dark_oak_wood: Dark Oak Wood
+block_minecraft_oak_log: Oak Log
+block_minecraft_spruce_log: Spruce Log
+block_minecraft_birch_log: Birch Log
+block_minecraft_jungle_log: Jungle Log
+block_minecraft_acacia_log: Acacia Log
+block_minecraft_dark_oak_log: Dark Oak Log
+block_minecraft_stripped_oak_log: Stripped Oak Log
+block_minecraft_stripped_spruce_log: Stripped Spruce Log
+block_minecraft_stripped_birch_log: Stripped Birch Log
+block_minecraft_stripped_jungle_log: Stripped Jungle Log
+block_minecraft_stripped_acacia_log: Stripped Acacia Log
+block_minecraft_stripped_dark_oak_log: Stripped Dark Oak Log
+block_minecraft_stripped_oak_wood: Stripped Oak Wood
+block_minecraft_stripped_spruce_wood: Stripped Spruce Wood
+block_minecraft_stripped_birch_wood: Stripped Birch Wood
+block_minecraft_stripped_jungle_wood: Stripped Jungle Wood
+block_minecraft_stripped_acacia_wood: Stripped Acacia Wood
+block_minecraft_stripped_dark_oak_wood: Stripped Dark Oak Wood
+block_minecraft_oak_leaves: Oak Leaves
+block_minecraft_spruce_leaves: Spruce Leaves
+block_minecraft_birch_leaves: Birch Leaves
+block_minecraft_jungle_leaves: Jungle Leaves
+block_minecraft_acacia_leaves: Acacia Leaves
+block_minecraft_dark_oak_leaves: Dark Oak Leaves
+block_minecraft_dead_bush: Dead Bush
+block_minecraft_grass: Grass
+block_minecraft_fern: Fern
+block_minecraft_sponge: Sponge
+block_minecraft_wet_sponge: Wet Sponge
+block_minecraft_glass: Glass
+block_minecraft_kelp_plant: Kelp Plant
+block_minecraft_kelp: Kelp
+block_minecraft_dried_kelp_block: Dried Kelp Block
+block_minecraft_white_stained_glass: White Stained Glass
+block_minecraft_orange_stained_glass: Orange Stained Glass
+block_minecraft_magenta_stained_glass: Magenta Stained Glass
+block_minecraft_light_blue_stained_glass: Light Blue Stained Glass
+block_minecraft_yellow_stained_glass: Yellow Stained Glass
+block_minecraft_lime_stained_glass: Lime Stained Glass
+block_minecraft_pink_stained_glass: Pink Stained Glass
+block_minecraft_gray_stained_glass: Gray Stained Glass
+block_minecraft_light_gray_stained_glass: Light Gray Stained Glass
+block_minecraft_cyan_stained_glass: Cyan Stained Glass
+block_minecraft_purple_stained_glass: Purple Stained Glass
+block_minecraft_blue_stained_glass: Blue Stained Glass
+block_minecraft_brown_stained_glass: Brown Stained Glass
+block_minecraft_green_stained_glass: Green Stained Glass
+block_minecraft_red_stained_glass: Red Stained Glass
+block_minecraft_black_stained_glass: Black Stained Glass
+block_minecraft_white_stained_glass_pane: White Stained Glass Pane
+block_minecraft_orange_stained_glass_pane: Orange Stained Glass Pane
+block_minecraft_magenta_stained_glass_pane: Magenta Stained Glass Pane
+block_minecraft_light_blue_stained_glass_pane: Light Blue Stained Glass Pane
+block_minecraft_yellow_stained_glass_pane: Yellow Stained Glass Pane
+block_minecraft_lime_stained_glass_pane: Lime Stained Glass Pane
+block_minecraft_pink_stained_glass_pane: Pink Stained Glass Pane
+block_minecraft_gray_stained_glass_pane: Gray Stained Glass Pane
+block_minecraft_light_gray_stained_glass_pane: Light Gray Stained Glass Pane
+block_minecraft_cyan_stained_glass_pane: Cyan Stained Glass Pane
+block_minecraft_purple_stained_glass_pane: Purple Stained Glass Pane
+block_minecraft_blue_stained_glass_pane: Blue Stained Glass Pane
+block_minecraft_brown_stained_glass_pane: Brown Stained Glass Pane
+block_minecraft_green_stained_glass_pane: Green Stained Glass Pane
+block_minecraft_red_stained_glass_pane: Red Stained Glass Pane
+block_minecraft_black_stained_glass_pane: Black Stained Glass Pane
+block_minecraft_glass_pane: Glass Pane
+block_minecraft_dandelion: Dandelion
+block_minecraft_poppy: Poppy
+block_minecraft_blue_orchid: Blue Orchid
+block_minecraft_allium: Allium
+block_minecraft_azure_bluet: Azure Bluet
+block_minecraft_red_tulip: Red Tulip
+block_minecraft_orange_tulip: Orange Tulip
+block_minecraft_white_tulip: White Tulip
+block_minecraft_pink_tulip: Pink Tulip
+block_minecraft_oxeye_daisy: Oxeye Daisy
+block_minecraft_cornflower: Cornflower
+block_minecraft_lily_of_the_valley: Lily of the Valley
+block_minecraft_wither_rose: Wither Rose
+block_minecraft_sunflower: Sunflower
+block_minecraft_lilac: Lilac
+block_minecraft_tall_grass: Tall Grass
+block_minecraft_tall_seagrass: Tall Seagrass
+block_minecraft_large_fern: Large Fern
+block_minecraft_rose_bush: Rose Bush
+block_minecraft_peony: Peony
+block_minecraft_seagrass: Seagrass
+block_minecraft_sea_pickle: Sea Pickle
+block_minecraft_brown_mushroom: Brown Mushroom
+block_minecraft_red_mushroom_block: Red Mushroom Block
+block_minecraft_brown_mushroom_block: Brown Mushroom Block
+block_minecraft_mushroom_stem: Mushroom Stem
+block_minecraft_gold_block: Block of Gold
+block_minecraft_iron_block: Block of Iron
+block_minecraft_smooth_stone: Smooth Stone
+block_minecraft_smooth_sandstone: Smooth Sandstone
+block_minecraft_smooth_red_sandstone: Smooth Red Sandstone
+block_minecraft_smooth_quartz: Smooth Quartz Block
+block_minecraft_stone_slab: Stone Slab
+block_minecraft_smooth_stone_slab: Smooth Stone Slab
+block_minecraft_sandstone_slab: Sandstone Slab
+block_minecraft_red_sandstone_slab: Red Sandstone Slab
+block_minecraft_cut_sandstone_slab: Cut Sandstone Slab
+block_minecraft_cut_red_sandstone_slab: Cut Red Sandstone Slab
+block_minecraft_petrified_oak_slab: Petrified Oak Slab
+block_minecraft_cobblestone_slab: Cobblestone Slab
+block_minecraft_brick_slab: Brick Slab
+block_minecraft_stone_brick_slab: Stone Brick Slab
+block_minecraft_nether_brick_slab: Nether Brick Slab
+block_minecraft_quartz_slab: Quartz Slab
+block_minecraft_oak_slab: Oak Slab
+block_minecraft_spruce_slab: Spruce Slab
+block_minecraft_birch_slab: Birch Slab
+block_minecraft_jungle_slab: Jungle Slab
+block_minecraft_acacia_slab: Acacia Slab
+block_minecraft_dark_oak_slab: Dark Oak Slab
+block_minecraft_dark_prismarine_slab: Dark Prismarine Slab
+block_minecraft_prismarine_slab: Prismarine Slab
+block_minecraft_prismarine_brick_slab: Prismarine Brick Slab
+block_minecraft_bricks: Bricks
+block_minecraft_tnt: TNT
+block_minecraft_bookshelf: Bookshelf
+block_minecraft_mossy_cobblestone: Mossy Cobblestone
+block_minecraft_obsidian: Obsidian
+block_minecraft_torch: Torch
+block_minecraft_wall_torch: Wall Torch
+block_minecraft_soul_torch: Soul Torch
+block_minecraft_soul_wall_torch: Soul Wall Torch
+block_minecraft_fire: Fire
+block_minecraft_spawner: Spawner
+block_minecraft_respawn_anchor: Respawn Anchor
+block_minecraft_oak_stairs: Oak Stairs
+block_minecraft_spruce_stairs: Spruce Stairs
+block_minecraft_birch_stairs: Birch Stairs
+block_minecraft_jungle_stairs: Jungle Stairs
+block_minecraft_acacia_stairs: Acacia Stairs
+block_minecraft_dark_oak_stairs: Dark Oak Stairs
+block_minecraft_dark_prismarine_stairs: Dark Prismarine Stairs
+block_minecraft_prismarine_stairs: Prismarine Stairs
+block_minecraft_prismarine_brick_stairs: Prismarine Brick Stairs
+block_minecraft_chest: Chest
+block_minecraft_trapped_chest: Trapped Chest
+block_minecraft_redstone_wire: Redstone Wire
+block_minecraft_diamond_ore: Diamond Ore
+block_minecraft_coal_block: Block of Coal
+block_minecraft_diamond_block: Block of Diamond
+block_minecraft_crafting_table: Crafting Table
+block_minecraft_wheat: Wheat Crops
+block_minecraft_farmland: Farmland
+block_minecraft_furnace: Furnace
+block_minecraft_oak_sign: Oak Sign
+block_minecraft_spruce_sign: Spruce Sign
+block_minecraft_birch_sign: Birch Sign
+block_minecraft_acacia_sign: Acacia Sign
+block_minecraft_jungle_sign: Jungle Sign
+block_minecraft_dark_oak_sign: Dark Oak Sign
+block_minecraft_oak_wall_sign: Oak Wall Sign
+block_minecraft_spruce_wall_sign: Spruce Wall Sign
+block_minecraft_birch_wall_sign: Birch Wall Sign
+block_minecraft_acacia_wall_sign: Acacia Wall Sign
+block_minecraft_jungle_wall_sign: Jungle Wall Sign
+block_minecraft_dark_oak_wall_sign: Dark Oak Wall Sign
+block_minecraft_ladder: Ladder
+block_minecraft_scaffolding: Scaffolding
+block_minecraft_rail: Rail
+block_minecraft_powered_rail: Powered Rail
+block_minecraft_activator_rail: Activator Rail
+block_minecraft_detector_rail: Detector Rail
+block_minecraft_cobblestone_stairs: Cobblestone Stairs
+block_minecraft_sandstone_stairs: Sandstone Stairs
+block_minecraft_red_sandstone_stairs: Red Sandstone Stairs
+block_minecraft_lever: Lever
+block_minecraft_stone_pressure_plate: Stone Pressure Plate
+block_minecraft_oak_pressure_plate: Oak Pressure Plate
+block_minecraft_spruce_pressure_plate: Spruce Pressure Plate
+block_minecraft_birch_pressure_plate: Birch Pressure Plate
+block_minecraft_jungle_pressure_plate: Jungle Pressure Plate
+block_minecraft_acacia_pressure_plate: Acacia Pressure Plate
+block_minecraft_dark_oak_pressure_plate: Dark Oak Pressure Plate
+block_minecraft_light_weighted_pressure_plate: Light Weighted Pressure Plate
+block_minecraft_heavy_weighted_pressure_plate: Heavy Weighted Pressure Plate
+block_minecraft_iron_door: Iron Door
+block_minecraft_redstone_ore: Redstone Ore
+block_minecraft_redstone_torch: Redstone Torch
+block_minecraft_redstone_wall_torch: Redstone Wall Torch
+block_minecraft_stone_button: Stone Button
+block_minecraft_oak_button: Oak Button
+block_minecraft_spruce_button: Spruce Button
+block_minecraft_birch_button: Birch Button
+block_minecraft_jungle_button: Jungle Button
+block_minecraft_acacia_button: Acacia Button
+block_minecraft_dark_oak_button: Dark Oak Button
+block_minecraft_snow: Snow
+block_minecraft_white_carpet: White Carpet
+block_minecraft_orange_carpet: Orange Carpet
+block_minecraft_magenta_carpet: Magenta Carpet
+block_minecraft_light_blue_carpet: Light Blue Carpet
+block_minecraft_yellow_carpet: Yellow Carpet
+block_minecraft_lime_carpet: Lime Carpet
+block_minecraft_pink_carpet: Pink Carpet
+block_minecraft_gray_carpet: Gray Carpet
+block_minecraft_light_gray_carpet: Light Gray Carpet
+block_minecraft_cyan_carpet: Cyan Carpet
+block_minecraft_purple_carpet: Purple Carpet
+block_minecraft_blue_carpet: Blue Carpet
+block_minecraft_brown_carpet: Brown Carpet
+block_minecraft_green_carpet: Green Carpet
+block_minecraft_red_carpet: Red Carpet
+block_minecraft_black_carpet: Black Carpet
+block_minecraft_ice: Ice
+block_minecraft_frosted_ice: Frosted Ice
+block_minecraft_packed_ice: Packed Ice
+block_minecraft_blue_ice: Blue Ice
+block_minecraft_cactus: Cactus
+block_minecraft_clay: Clay
+block_minecraft_white_terracotta: White Terracotta
+block_minecraft_orange_terracotta: Orange Terracotta
+block_minecraft_magenta_terracotta: Magenta Terracotta
+block_minecraft_light_blue_terracotta: Light Blue Terracotta
+block_minecraft_yellow_terracotta: Yellow Terracotta
+block_minecraft_lime_terracotta: Lime Terracotta
+block_minecraft_pink_terracotta: Pink Terracotta
+block_minecraft_gray_terracotta: Gray Terracotta
+block_minecraft_light_gray_terracotta: Light Gray Terracotta
+block_minecraft_cyan_terracotta: Cyan Terracotta
+block_minecraft_purple_terracotta: Purple Terracotta
+block_minecraft_blue_terracotta: Blue Terracotta
+block_minecraft_brown_terracotta: Brown Terracotta
+block_minecraft_green_terracotta: Green Terracotta
+block_minecraft_red_terracotta: Red Terracotta
+block_minecraft_black_terracotta: Black Terracotta
+block_minecraft_terracotta: Terracotta
+block_minecraft_sugar_cane: Sugar Cane
+block_minecraft_jukebox: Jukebox
+block_minecraft_oak_fence: Oak Fence
+block_minecraft_spruce_fence: Spruce Fence
+block_minecraft_birch_fence: Birch Fence
+block_minecraft_jungle_fence: Jungle Fence
+block_minecraft_dark_oak_fence: Dark Oak Fence
+block_minecraft_acacia_fence: Acacia Fence
+block_minecraft_oak_fence_gate: Oak Fence Gate
+block_minecraft_spruce_fence_gate: Spruce Fence Gate
+block_minecraft_birch_fence_gate: Birch Fence Gate
+block_minecraft_jungle_fence_gate: Jungle Fence Gate
+block_minecraft_dark_oak_fence_gate: Dark Oak Fence Gate
+block_minecraft_acacia_fence_gate: Acacia Fence Gate
+block_minecraft_pumpkin_stem: Pumpkin Stem
+block_minecraft_attached_pumpkin_stem: Attached Pumpkin Stem
+block_minecraft_pumpkin: Pumpkin
+block_minecraft_carved_pumpkin: Carved Pumpkin
+block_minecraft_jack_o_lantern: Jack o'Lantern
+block_minecraft_netherrack: Netherrack
+block_minecraft_soul_sand: Soul Sand
+block_minecraft_glowstone: Glowstone
+block_minecraft_nether_portal: Nether Portal
+block_minecraft_white_wool: White Wool
+block_minecraft_orange_wool: Orange Wool
+block_minecraft_magenta_wool: Magenta Wool
+block_minecraft_light_blue_wool: Light Blue Wool
+block_minecraft_yellow_wool: Yellow Wool
+block_minecraft_lime_wool: Lime Wool
+block_minecraft_pink_wool: Pink Wool
+block_minecraft_gray_wool: Gray Wool
+block_minecraft_light_gray_wool: Light Gray Wool
+block_minecraft_cyan_wool: Cyan Wool
+block_minecraft_purple_wool: Purple Wool
+block_minecraft_blue_wool: Blue Wool
+block_minecraft_brown_wool: Brown Wool
+block_minecraft_green_wool: Green Wool
+block_minecraft_red_wool: Red Wool
+block_minecraft_black_wool: Black Wool
+block_minecraft_lapis_ore: Lapis Lazuli Ore
+block_minecraft_lapis_block: Lapis Lazuli Block
+block_minecraft_dispenser: Dispenser
+block_minecraft_dropper: Dropper
+block_minecraft_note_block: Note Block
+block_minecraft_cake: Cake
+block_minecraft_bed_occupied: This bed is occupied
+block_minecraft_bed_obstructed: This bed is obstructed
+block_minecraft_bed_no_sleep: You can sleep only at night or during thunderstorms
+block_minecraft_bed_too_far_away: You may not rest now; the bed is too far away
+block_minecraft_bed_not_safe: You may not rest now; there are monsters nearby
+block_minecraft_spawn_not_valid: You have no home bed or charged respawn anchor, or
+  it was obstructed
+block_minecraft_set_spawn: Respawn point set
+block_minecraft_oak_trapdoor: Oak Trapdoor
+block_minecraft_spruce_trapdoor: Spruce Trapdoor
+block_minecraft_birch_trapdoor: Birch Trapdoor
+block_minecraft_jungle_trapdoor: Jungle Trapdoor
+block_minecraft_acacia_trapdoor: Acacia Trapdoor
+block_minecraft_dark_oak_trapdoor: Dark Oak Trapdoor
+block_minecraft_iron_trapdoor: Iron Trapdoor
+block_minecraft_cobweb: Cobweb
+block_minecraft_stone_bricks: Stone Bricks
+block_minecraft_mossy_stone_bricks: Mossy Stone Bricks
+block_minecraft_cracked_stone_bricks: Cracked Stone Bricks
+block_minecraft_chiseled_stone_bricks: Chiseled Stone Bricks
+block_minecraft_infested_stone: Infested Stone
+block_minecraft_infested_cobblestone: Infested Cobblestone
+block_minecraft_infested_stone_bricks: Infested Stone Bricks
+block_minecraft_infested_mossy_stone_bricks: Infested Mossy Stone Bricks
+block_minecraft_infested_cracked_stone_bricks: Infested Cracked Stone Bricks
+block_minecraft_infested_chiseled_stone_bricks: Infested Chiseled Stone Bricks
+block_minecraft_piston: Piston
+block_minecraft_sticky_piston: Sticky Piston
+block_minecraft_iron_bars: Iron Bars
+block_minecraft_melon: Melon
+block_minecraft_brick_stairs: Brick Stairs
+block_minecraft_stone_brick_stairs: Stone Brick Stairs
+block_minecraft_vine: Vines
+block_minecraft_nether_bricks: Nether Bricks
+block_minecraft_nether_brick_fence: Nether Brick Fence
+block_minecraft_nether_brick_stairs: Nether Brick Stairs
+block_minecraft_nether_wart: Nether Wart
+block_minecraft_warped_wart_block: Warped Wart Block
+block_minecraft_warped_stem: Warped Stem
+block_minecraft_stripped_warped_stem: Stripped Warped Stem
+block_minecraft_warped_hyphae: Warped Hyphae
+block_minecraft_stripped_warped_hyphae: Stripped Warped Hyphae
+block_minecraft_crimson_stem: Crimson Stem
+block_minecraft_stripped_crimson_stem: Stripped Crimson Stem
+block_minecraft_crimson_hyphae: Crimson Hyphae
+block_minecraft_stripped_crimson_hyphae: Stripped Crimson Hyphae
+block_minecraft_warped_nylium: Warped Nylium
+block_minecraft_crimson_nylium: Crimson Nylium
+block_minecraft_warped_fungus: Warped Fungus
+block_minecraft_crimson_fungus: Crimson Fungus
+block_minecraft_crimson_roots: Crimson Roots
+block_minecraft_warped_roots: Warped Roots
+block_minecraft_nether_sprouts: Nether Sprouts
+block_minecraft_shroomlight: Shroomlight
+block_minecraft_weeping_vines: Weeping Vines
+block_minecraft_weeping_vines_plant: Weeping Vines Plant
+block_minecraft_twisting_vines: Twisting Vines
+block_minecraft_twisting_vines_plant: Twisting Vines Plant
+block_minecraft_soul_soil: Soul Soil
+block_minecraft_basalt: Basalt
+block_minecraft_polished_basalt: Polished Basalt
+block_minecraft_warped_planks: Warped Planks
+block_minecraft_warped_slab: Warped Slab
+block_minecraft_warped_pressure_plate: Warped Pressure Plate
+block_minecraft_warped_fence: Warped Fence
+block_minecraft_warped_trapdoor: Warped Trapdoor
+block_minecraft_warped_fence_gate: Warped Fence Gate
+block_minecraft_warped_stairs: Warped Stairs
+block_minecraft_warped_button: Warped Button
+block_minecraft_warped_door: Warped Door
+block_minecraft_warped_sign: Warped Sign
+block_minecraft_warped_wall_sign: Warped Wall Sign
+block_minecraft_crimson_planks: Crimson Planks
+block_minecraft_crimson_slab: Crimson Slab
+block_minecraft_crimson_pressure_plate: Crimson Pressure Plate
+block_minecraft_crimson_fence: Crimson Fence
+block_minecraft_crimson_trapdoor: Crimson Trapdoor
+block_minecraft_crimson_fence_gate: Crimson Fence Gate
+block_minecraft_crimson_stairs: Crimson Stairs
+block_minecraft_crimson_button: Crimson Button
+block_minecraft_crimson_door: Crimson Door
+block_minecraft_crimson_sign: Crimson Sign
+block_minecraft_crimson_wall_sign: Crimson Wall Sign
+block_minecraft_soul_fire: Soul Fire
+block_minecraft_cauldron: Cauldron
+block_minecraft_enchanting_table: Enchanting Table
+block_minecraft_anvil: Anvil
+block_minecraft_chipped_anvil: Chipped Anvil
+block_minecraft_damaged_anvil: Damaged Anvil
+block_minecraft_end_stone: End Stone
+block_minecraft_end_portal_frame: End Portal Frame
+block_minecraft_mycelium: Mycelium
+block_minecraft_lily_pad: Lily Pad
+block_minecraft_dragon_egg: Dragon Egg
+block_minecraft_redstone_lamp: Redstone Lamp
+block_minecraft_cocoa: Cocoa
+block_minecraft_ender_chest: Ender Chest
+block_minecraft_emerald_ore: Emerald Ore
+block_minecraft_emerald_block: Block of Emerald
+block_minecraft_redstone_block: Block of Redstone
+block_minecraft_tripwire: Tripwire
+block_minecraft_tripwire_hook: Tripwire Hook
+block_minecraft_command_block: Command Block
+block_minecraft_repeating_command_block: Repeating Command Block
+block_minecraft_chain_command_block: Chain Command Block
+block_minecraft_beacon: Beacon
+block_minecraft_beacon_primary: Primary Power
+block_minecraft_beacon_secondary: Secondary Power
+block_minecraft_cobblestone_wall: Cobblestone Wall
+block_minecraft_mossy_cobblestone_wall: Mossy Cobblestone Wall
+block_minecraft_carrots: Carrots
+block_minecraft_potatoes: Potatoes
+block_minecraft_daylight_detector: Daylight Detector
+block_minecraft_nether_quartz_ore: Nether Quartz Ore
+block_minecraft_hopper: Hopper
+block_minecraft_quartz_block: Block of Quartz
+block_minecraft_chiseled_quartz_block: Chiseled Quartz Block
+block_minecraft_quartz_pillar: Quartz Pillar
+block_minecraft_quartz_stairs: Quartz Stairs
+block_minecraft_slime_block: Slime Block
+block_minecraft_prismarine: Prismarine
+block_minecraft_prismarine_bricks: Prismarine Bricks
+block_minecraft_dark_prismarine: Dark Prismarine
+block_minecraft_sea_lantern: Sea Lantern
+block_minecraft_end_rod: End Rod
+block_minecraft_chorus_plant: Chorus Plant
+block_minecraft_chorus_flower: Chorus Flower
+block_minecraft_purpur_block: Purpur Block
+block_minecraft_purpur_pillar: Purpur Pillar
+block_minecraft_purpur_stairs: Purpur Stairs
+block_minecraft_purpur_slab: Purpur Slab
+block_minecraft_end_stone_bricks: End Stone Bricks
+block_minecraft_beetroots: Beetroots
+block_minecraft_grass_path: Grass Path
+block_minecraft_magma_block: Magma Block
+block_minecraft_nether_wart_block: Nether Wart Block
+block_minecraft_red_nether_bricks: Red Nether Bricks
+block_minecraft_bone_block: Bone Block
+block_minecraft_observer: Observer
+block_minecraft_shulker_box: Shulker Box
+block_minecraft_white_shulker_box: White Shulker Box
+block_minecraft_orange_shulker_box: Orange Shulker Box
+block_minecraft_magenta_shulker_box: Magenta Shulker Box
+block_minecraft_light_blue_shulker_box: Light Blue Shulker Box
+block_minecraft_yellow_shulker_box: Yellow Shulker Box
+block_minecraft_lime_shulker_box: Lime Shulker Box
+block_minecraft_pink_shulker_box: Pink Shulker Box
+block_minecraft_gray_shulker_box: Gray Shulker Box
+block_minecraft_light_gray_shulker_box: Light Gray Shulker Box
+block_minecraft_cyan_shulker_box: Cyan Shulker Box
+block_minecraft_purple_shulker_box: Purple Shulker Box
+block_minecraft_blue_shulker_box: Blue Shulker Box
+block_minecraft_brown_shulker_box: Brown Shulker Box
+block_minecraft_green_shulker_box: Green Shulker Box
+block_minecraft_red_shulker_box: Red Shulker Box
+block_minecraft_black_shulker_box: Black Shulker Box
+block_minecraft_white_glazed_terracotta: White Glazed Terracotta
+block_minecraft_orange_glazed_terracotta: Orange Glazed Terracotta
+block_minecraft_magenta_glazed_terracotta: Magenta Glazed Terracotta
+block_minecraft_light_blue_glazed_terracotta: Light Blue Glazed Terracotta
+block_minecraft_yellow_glazed_terracotta: Yellow Glazed Terracotta
+block_minecraft_lime_glazed_terracotta: Lime Glazed Terracotta
+block_minecraft_pink_glazed_terracotta: Pink Glazed Terracotta
+block_minecraft_gray_glazed_terracotta: Gray Glazed Terracotta
+block_minecraft_light_gray_glazed_terracotta: Light Gray Glazed Terracotta
+block_minecraft_cyan_glazed_terracotta: Cyan Glazed Terracotta
+block_minecraft_purple_glazed_terracotta: Purple Glazed Terracotta
+block_minecraft_blue_glazed_terracotta: Blue Glazed Terracotta
+block_minecraft_brown_glazed_terracotta: Brown Glazed Terracotta
+block_minecraft_green_glazed_terracotta: Green Glazed Terracotta
+block_minecraft_red_glazed_terracotta: Red Glazed Terracotta
+block_minecraft_black_glazed_terracotta: Black Glazed Terracotta
+block_minecraft_black_concrete: Black Concrete
+block_minecraft_red_concrete: Red Concrete
+block_minecraft_green_concrete: Green Concrete
+block_minecraft_brown_concrete: Brown Concrete
+block_minecraft_blue_concrete: Blue Concrete
+block_minecraft_purple_concrete: Purple Concrete
+block_minecraft_cyan_concrete: Cyan Concrete
+block_minecraft_light_gray_concrete: Light Gray Concrete
+block_minecraft_gray_concrete: Gray Concrete
+block_minecraft_pink_concrete: Pink Concrete
+block_minecraft_lime_concrete: Lime Concrete
+block_minecraft_yellow_concrete: Yellow Concrete
+block_minecraft_light_blue_concrete: Light Blue Concrete
+block_minecraft_magenta_concrete: Magenta Concrete
+block_minecraft_orange_concrete: Orange Concrete
+block_minecraft_white_concrete: White Concrete
+block_minecraft_black_concrete_powder: Black Concrete Powder
+block_minecraft_red_concrete_powder: Red Concrete Powder
+block_minecraft_green_concrete_powder: Green Concrete Powder
+block_minecraft_brown_concrete_powder: Brown Concrete Powder
+block_minecraft_blue_concrete_powder: Blue Concrete Powder
+block_minecraft_purple_concrete_powder: Purple Concrete Powder
+block_minecraft_cyan_concrete_powder: Cyan Concrete Powder
+block_minecraft_light_gray_concrete_powder: Light Gray Concrete Powder
+block_minecraft_gray_concrete_powder: Gray Concrete Powder
+block_minecraft_pink_concrete_powder: Pink Concrete Powder
+block_minecraft_lime_concrete_powder: Lime Concrete Powder
+block_minecraft_yellow_concrete_powder: Yellow Concrete Powder
+block_minecraft_light_blue_concrete_powder: Light Blue Concrete Powder
+block_minecraft_magenta_concrete_powder: Magenta Concrete Powder
+block_minecraft_orange_concrete_powder: Orange Concrete Powder
+block_minecraft_white_concrete_powder: White Concrete Powder
+block_minecraft_turtle_egg: Turtle Egg
+block_minecraft_piston_head: Piston Head
+block_minecraft_moving_piston: Moving Piston
+block_minecraft_red_mushroom: Red Mushroom
+block_minecraft_snow_block: Snow Block
+block_minecraft_attached_melon_stem: Attached Melon Stem
+block_minecraft_melon_stem: Melon Stem
+block_minecraft_brewing_stand: Brewing Stand
+block_minecraft_end_portal: End Portal
+block_minecraft_flower_pot: Flower Pot
+block_minecraft_potted_oak_sapling: Potted Oak Sapling
+block_minecraft_potted_spruce_sapling: Potted Spruce Sapling
+block_minecraft_potted_birch_sapling: Potted Birch Sapling
+block_minecraft_potted_jungle_sapling: Potted Jungle Sapling
+block_minecraft_potted_acacia_sapling: Potted Acacia Sapling
+block_minecraft_potted_dark_oak_sapling: Potted Dark Oak Sapling
+block_minecraft_potted_fern: Potted Fern
+block_minecraft_potted_dandelion: Potted Dandelion
+block_minecraft_potted_poppy: Potted Poppy
+block_minecraft_potted_blue_orchid: Potted Blue Orchid
+block_minecraft_potted_allium: Potted Allium
+block_minecraft_potted_azure_bluet: Potted Azure Bluet
+block_minecraft_potted_red_tulip: Potted Red Tulip
+block_minecraft_potted_orange_tulip: Potted Orange Tulip
+block_minecraft_potted_white_tulip: Potted White Tulip
+block_minecraft_potted_pink_tulip: Potted Pink Tulip
+block_minecraft_potted_oxeye_daisy: Potted Oxeye Daisy
+block_minecraft_potted_cornflower: Potted Cornflower
+block_minecraft_potted_lily_of_the_valley: Potted Lily of the Valley
+block_minecraft_potted_wither_rose: Potted Wither Rose
+block_minecraft_potted_red_mushroom: Potted Red Mushroom
+block_minecraft_potted_brown_mushroom: Potted Brown Mushroom
+block_minecraft_potted_dead_bush: Potted Dead Bush
+block_minecraft_potted_cactus: Potted Cactus
+block_minecraft_potted_bamboo: Potted Bamboo
+block_minecraft_potted_crimson_fungus: Potted Crimson Fungus
+block_minecraft_potted_warped_fungus: Potted Warped Fungus
+block_minecraft_potted_crimson_roots: Potted Crimson Roots
+block_minecraft_potted_warped_roots: Potted Warped Roots
+block_minecraft_skeleton_wall_skull: Skeleton Wall Skull
+block_minecraft_skeleton_skull: Skeleton Skull
+block_minecraft_wither_skeleton_wall_skull: Wither Skeleton Wall Skull
+block_minecraft_wither_skeleton_skull: Wither Skeleton Skull
+block_minecraft_zombie_wall_head: Zombie Wall Head
+block_minecraft_zombie_head: Zombie Head
+block_minecraft_player_wall_head: Player Wall Head
+block_minecraft_player_head: Player Head
+block_minecraft_player_head_named: '%s''s Head'
+block_minecraft_creeper_wall_head: Creeper Wall Head
+block_minecraft_creeper_head: Creeper Head
+block_minecraft_dragon_wall_head: Dragon Wall Head
+block_minecraft_dragon_head: Dragon Head
+block_minecraft_end_gateway: End Gateway
+block_minecraft_structure_void: Structure Void
+block_minecraft_structure_block: Structure Block
+block_minecraft_void_air: Void Air
+block_minecraft_cave_air: Cave Air
+block_minecraft_bubble_column: Bubble Column
+block_minecraft_dead_tube_coral_block: Dead Tube Coral Block
+block_minecraft_dead_brain_coral_block: Dead Brain Coral Block
+block_minecraft_dead_bubble_coral_block: Dead Bubble Coral Block
+block_minecraft_dead_fire_coral_block: Dead Fire Coral Block
+block_minecraft_dead_horn_coral_block: Dead Horn Coral Block
+block_minecraft_tube_coral_block: Tube Coral Block
+block_minecraft_brain_coral_block: Brain Coral Block
+block_minecraft_bubble_coral_block: Bubble Coral Block
+block_minecraft_fire_coral_block: Fire Coral Block
+block_minecraft_horn_coral_block: Horn Coral Block
+block_minecraft_tube_coral: Tube Coral
+block_minecraft_brain_coral: Brain Coral
+block_minecraft_bubble_coral: Bubble Coral
+block_minecraft_fire_coral: Fire Coral
+block_minecraft_horn_coral: Horn Coral
+block_minecraft_dead_tube_coral: Dead Tube Coral
+block_minecraft_dead_brain_coral: Dead Brain Coral
+block_minecraft_dead_bubble_coral: Dead Bubble Coral
+block_minecraft_dead_fire_coral: Dead Fire Coral
+block_minecraft_dead_horn_coral: Dead Horn Coral
+block_minecraft_tube_coral_fan: Tube Coral Fan
+block_minecraft_brain_coral_fan: Brain Coral Fan
+block_minecraft_bubble_coral_fan: Bubble Coral Fan
+block_minecraft_fire_coral_fan: Fire Coral Fan
+block_minecraft_horn_coral_fan: Horn Coral Fan
+block_minecraft_dead_tube_coral_fan: Dead Tube Coral Fan
+block_minecraft_dead_brain_coral_fan: Dead Brain Coral Fan
+block_minecraft_dead_bubble_coral_fan: Dead Bubble Coral Fan
+block_minecraft_dead_fire_coral_fan: Dead Fire Coral Fan
+block_minecraft_dead_horn_coral_fan: Dead Horn Coral Fan
+block_minecraft_tube_coral_wall_fan: Tube Coral Wall Fan
+block_minecraft_brain_coral_wall_fan: Brain Coral Wall Fan
+block_minecraft_bubble_coral_wall_fan: Bubble Coral Wall Fan
+block_minecraft_fire_coral_wall_fan: Fire Coral Wall Fan
+block_minecraft_horn_coral_wall_fan: Horn Coral Wall Fan
+block_minecraft_dead_tube_coral_wall_fan: Dead Tube Coral Wall Fan
+block_minecraft_dead_brain_coral_wall_fan: Dead Brain Coral Wall Fan
+block_minecraft_dead_bubble_coral_wall_fan: Dead Bubble Coral Wall Fan
+block_minecraft_dead_fire_coral_wall_fan: Dead Fire Coral Wall Fan
+block_minecraft_dead_horn_coral_wall_fan: Dead Horn Coral Wall Fan
+block_minecraft_loom: Loom
+block_minecraft_conduit: Conduit
+block_minecraft_bamboo: Bamboo
+block_minecraft_bamboo_sapling: Bamboo Shoot
+block_minecraft_jigsaw: Jigsaw Block
+block_minecraft_composter: Composter
+block_minecraft_target: Target
+block_minecraft_polished_granite_stairs: Polished Granite Stairs
+block_minecraft_smooth_red_sandstone_stairs: Smooth Red Sandstone Stairs
+block_minecraft_mossy_stone_brick_stairs: Mossy Stone Brick Stairs
+block_minecraft_polished_diorite_stairs: Polished Diorite Stairs
+block_minecraft_mossy_cobblestone_stairs: Mossy Cobblestone Stairs
+block_minecraft_end_stone_brick_stairs: End Stone Brick Stairs
+block_minecraft_stone_stairs: Stone Stairs
+block_minecraft_smooth_sandstone_stairs: Smooth Sandstone Stairs
+block_minecraft_smooth_quartz_stairs: Smooth Quartz Stairs
+block_minecraft_granite_stairs: Granite Stairs
+block_minecraft_andesite_stairs: Andesite Stairs
+block_minecraft_red_nether_brick_stairs: Red Nether Brick Stairs
+block_minecraft_polished_andesite_stairs: Polished Andesite Stairs
+block_minecraft_diorite_stairs: Diorite Stairs
+block_minecraft_polished_granite_slab: Polished Granite Slab
+block_minecraft_smooth_red_sandstone_slab: Smooth Red Sandstone Slab
+block_minecraft_mossy_stone_brick_slab: Mossy Stone Brick Slab
+block_minecraft_polished_diorite_slab: Polished Diorite Slab
+block_minecraft_mossy_cobblestone_slab: Mossy Cobblestone Slab
+block_minecraft_end_stone_brick_slab: End Stone Brick Slab
+block_minecraft_smooth_sandstone_slab: Smooth Sandstone Slab
+block_minecraft_smooth_quartz_slab: Smooth Quartz Slab
+block_minecraft_granite_slab: Granite Slab
+block_minecraft_andesite_slab: Andesite Slab
+block_minecraft_red_nether_brick_slab: Red Nether Brick Slab
+block_minecraft_polished_andesite_slab: Polished Andesite Slab
+block_minecraft_diorite_slab: Diorite Slab
+block_minecraft_brick_wall: Brick Wall
+block_minecraft_prismarine_wall: Prismarine Wall
+block_minecraft_red_sandstone_wall: Red Sandstone Wall
+block_minecraft_mossy_stone_brick_wall: Mossy Stone Brick Wall
+block_minecraft_granite_wall: Granite Wall
+block_minecraft_stone_brick_wall: Stone Brick Wall
+block_minecraft_nether_brick_wall: Nether Brick Wall
+block_minecraft_andesite_wall: Andesite Wall
+block_minecraft_red_nether_brick_wall: Red Nether Brick Wall
+block_minecraft_sandstone_wall: Sandstone Wall
+block_minecraft_end_stone_brick_wall: End Stone Brick Wall
+block_minecraft_diorite_wall: Diorite Wall
+block_minecraft_barrel: Barrel
+block_minecraft_smoker: Smoker
+block_minecraft_blast_furnace: Blast Furnace
+block_minecraft_cartography_table: Cartography Table
+block_minecraft_fletching_table: Fletching Table
+block_minecraft_smithing_table: Smithing Table
+block_minecraft_grindstone: Grindstone
+block_minecraft_lectern: Lectern
+block_minecraft_stonecutter: Stonecutter
+block_minecraft_bell: Bell
+block_minecraft_ominous_banner: Ominous Banner
+block_minecraft_lantern: Lantern
+block_minecraft_soul_lantern: Soul Lantern
+block_minecraft_sweet_berry_bush: Sweet Berry Bush
+block_minecraft_campfire: Campfire
+block_minecraft_soul_campfire: Soul Campfire
+block_minecraft_beehive: Beehive
+block_minecraft_bee_nest: Bee Nest
+block_minecraft_honey_block: Honey Block
+block_minecraft_honeycomb_block: Honeycomb Block
+block_minecraft_lodestone: Lodestone
+block_minecraft_netherite_block: Block of Netherite
+block_minecraft_ancient_debris: Ancient Debris
+block_minecraft_crying_obsidian: Crying Obsidian
+block_minecraft_blackstone: Blackstone
+block_minecraft_blackstone_slab: Blackstone Slab
+block_minecraft_blackstone_stairs: Blackstone Stairs
+block_minecraft_blackstone_wall: Blackstone Wall
+block_minecraft_polished_blackstone_bricks: Polished Blackstone Bricks
+block_minecraft_polished_blackstone_brick_slab: Polished Blackstone Brick Slab
+block_minecraft_polished_blackstone_brick_stairs: Polished Blackstone Brick Stairs
+block_minecraft_polished_blackstone_brick_wall: Polished Blackstone Brick Wall
+block_minecraft_chiseled_polished_blackstone: Chiseled Polished Blackstone
+block_minecraft_cracked_polished_blackstone_bricks: Cracked Polished Blackstone Bricks
+block_minecraft_gilded_blackstone: Gilded Blackstone
+block_minecraft_polished_blackstone: Polished Blackstone
+block_minecraft_polished_blackstone_wall: Polished Blackstone Wall
+block_minecraft_polished_blackstone_slab: Polished Blackstone Slab
+block_minecraft_polished_blackstone_stairs: Polished Blackstone Stairs
+block_minecraft_polished_blackstone_pressure_plate: Polished Blackstone Pressure Plate
+block_minecraft_polished_blackstone_button: Polished Blackstone Button
+block_minecraft_cracked_nether_bricks: Cracked Nether Bricks
+block_minecraft_chiseled_nether_bricks: Chiseled Nether Bricks
+block_minecraft_quartz_bricks: Quartz Bricks
+block_minecraft_chain: Chain
+item_minecraft_name_tag: Name Tag
+item_minecraft_lead: Lead
+item_minecraft_iron_shovel: Iron Shovel
+item_minecraft_iron_pickaxe: Iron Pickaxe
+item_minecraft_iron_axe: Iron Axe
+item_minecraft_flint_and_steel: Flint and Steel
+item_minecraft_apple: Apple
+item_minecraft_cookie: Cookie
+item_minecraft_bow: Bow
+item_minecraft_arrow: Arrow
+item_minecraft_spectral_arrow: Spectral Arrow
+item_minecraft_tipped_arrow: Tipped Arrow
+item_minecraft_dried_kelp: Dried Kelp
+item_minecraft_coal: Coal
+item_minecraft_charcoal: Charcoal
+item_minecraft_diamond: Diamond
+item_minecraft_emerald: Emerald
+item_minecraft_iron_ingot: Iron Ingot
+item_minecraft_gold_ingot: Gold Ingot
+item_minecraft_iron_sword: Iron Sword
+item_minecraft_wooden_sword: Wooden Sword
+item_minecraft_wooden_shovel: Wooden Shovel
+item_minecraft_wooden_pickaxe: Wooden Pickaxe
+item_minecraft_wooden_axe: Wooden Axe
+item_minecraft_stone_sword: Stone Sword
+item_minecraft_stone_shovel: Stone Shovel
+item_minecraft_stone_pickaxe: Stone Pickaxe
+item_minecraft_stone_axe: Stone Axe
+item_minecraft_diamond_sword: Diamond Sword
+item_minecraft_diamond_shovel: Diamond Shovel
+item_minecraft_diamond_pickaxe: Diamond Pickaxe
+item_minecraft_diamond_axe: Diamond Axe
+item_minecraft_stick: Stick
+item_minecraft_bowl: Bowl
+item_minecraft_mushroom_stew: Mushroom Stew
+item_minecraft_golden_sword: Golden Sword
+item_minecraft_golden_shovel: Golden Shovel
+item_minecraft_golden_pickaxe: Golden Pickaxe
+item_minecraft_golden_axe: Golden Axe
+item_minecraft_string: String
+item_minecraft_feather: Feather
+item_minecraft_gunpowder: Gunpowder
+item_minecraft_wooden_hoe: Wooden Hoe
+item_minecraft_stone_hoe: Stone Hoe
+item_minecraft_iron_hoe: Iron Hoe
+item_minecraft_diamond_hoe: Diamond Hoe
+item_minecraft_golden_hoe: Golden Hoe
+item_minecraft_wheat_seeds: Wheat Seeds
+item_minecraft_pumpkin_seeds: Pumpkin Seeds
+item_minecraft_melon_seeds: Melon Seeds
+item_minecraft_melon_slice: Melon Slice
+item_minecraft_wheat: Wheat
+item_minecraft_bread: Bread
+item_minecraft_leather_helmet: Leather Cap
+item_minecraft_leather_chestplate: Leather Tunic
+item_minecraft_leather_leggings: Leather Pants
+item_minecraft_leather_boots: Leather Boots
+item_minecraft_chainmail_helmet: Chainmail Helmet
+item_minecraft_chainmail_chestplate: Chainmail Chestplate
+item_minecraft_chainmail_leggings: Chainmail Leggings
+item_minecraft_chainmail_boots: Chainmail Boots
+item_minecraft_iron_helmet: Iron Helmet
+item_minecraft_iron_chestplate: Iron Chestplate
+item_minecraft_iron_leggings: Iron Leggings
+item_minecraft_iron_boots: Iron Boots
+item_minecraft_diamond_helmet: Diamond Helmet
+item_minecraft_diamond_chestplate: Diamond Chestplate
+item_minecraft_diamond_leggings: Diamond Leggings
+item_minecraft_diamond_boots: Diamond Boots
+item_minecraft_golden_helmet: Golden Helmet
+item_minecraft_golden_chestplate: Golden Chestplate
+item_minecraft_golden_leggings: Golden Leggings
+item_minecraft_golden_boots: Golden Boots
+item_minecraft_flint: Flint
+item_minecraft_porkchop: Raw Porkchop
+item_minecraft_cooked_porkchop: Cooked Porkchop
+item_minecraft_chicken: Raw Chicken
+item_minecraft_cooked_chicken: Cooked Chicken
+item_minecraft_mutton: Raw Mutton
+item_minecraft_cooked_mutton: Cooked Mutton
+item_minecraft_rabbit: Raw Rabbit
+item_minecraft_cooked_rabbit: Cooked Rabbit
+item_minecraft_rabbit_stew: Rabbit Stew
+item_minecraft_rabbit_foot: Rabbit's Foot
+item_minecraft_rabbit_hide: Rabbit Hide
+item_minecraft_beef: Raw Beef
+item_minecraft_cooked_beef: Steak
+item_minecraft_painting: Painting
+item_minecraft_item_frame: Item Frame
+item_minecraft_golden_apple: Golden Apple
+item_minecraft_enchanted_golden_apple: Enchanted Golden Apple
+item_minecraft_sign: Sign
+item_minecraft_bucket: Bucket
+item_minecraft_water_bucket: Water Bucket
+item_minecraft_lava_bucket: Lava Bucket
+item_minecraft_pufferfish_bucket: Bucket of Pufferfish
+item_minecraft_salmon_bucket: Bucket of Salmon
+item_minecraft_cod_bucket: Bucket of Cod
+item_minecraft_tropical_fish_bucket: Bucket of Tropical Fish
+item_minecraft_minecart: Minecart
+item_minecraft_saddle: Saddle
+item_minecraft_redstone: Redstone Dust
+item_minecraft_snowball: Snowball
+item_minecraft_oak_boat: Oak Boat
+item_minecraft_spruce_boat: Spruce Boat
+item_minecraft_birch_boat: Birch Boat
+item_minecraft_jungle_boat: Jungle Boat
+item_minecraft_acacia_boat: Acacia Boat
+item_minecraft_dark_oak_boat: Dark Oak Boat
+item_minecraft_leather: Leather
+item_minecraft_milk_bucket: Milk Bucket
+item_minecraft_brick: Brick
+item_minecraft_clay_ball: Clay Ball
+item_minecraft_paper: Paper
+item_minecraft_book: Book
+item_minecraft_slime_ball: Slimeball
+item_minecraft_chest_minecart: Minecart with Chest
+item_minecraft_furnace_minecart: Minecart with Furnace
+item_minecraft_tnt_minecart: Minecart with TNT
+item_minecraft_hopper_minecart: Minecart with Hopper
+item_minecraft_command_block_minecart: Minecart with Command Block
+item_minecraft_egg: Egg
+item_minecraft_compass: Compass
+item_minecraft_fishing_rod: Fishing Rod
+item_minecraft_clock: Clock
+item_minecraft_glowstone_dust: Glowstone Dust
+item_minecraft_cod: Raw Cod
+item_minecraft_salmon: Raw Salmon
+item_minecraft_pufferfish: Pufferfish
+item_minecraft_tropical_fish: Tropical Fish
+item_minecraft_cooked_cod: Cooked Cod
+item_minecraft_cooked_salmon: Cooked Salmon
+item_minecraft_music_disc_13: Music Disc
+item_minecraft_music_disc_cat: Music Disc
+item_minecraft_music_disc_blocks: Music Disc
+item_minecraft_music_disc_chirp: Music Disc
+item_minecraft_music_disc_far: Music Disc
+item_minecraft_music_disc_mall: Music Disc
+item_minecraft_music_disc_mellohi: Music Disc
+item_minecraft_music_disc_stal: Music Disc
+item_minecraft_music_disc_strad: Music Disc
+item_minecraft_music_disc_ward: Music Disc
+item_minecraft_music_disc_11: Music Disc
+item_minecraft_music_disc_wait: Music Disc
+item_minecraft_music_disc_pigstep: Music Disc
+item_minecraft_music_disc_13_desc: C418 - 13
+item_minecraft_music_disc_cat_desc: C418 - cat
+item_minecraft_music_disc_blocks_desc: C418 - blocks
+item_minecraft_music_disc_chirp_desc: C418 - chirp
+item_minecraft_music_disc_far_desc: C418 - far
+item_minecraft_music_disc_mall_desc: C418 - mall
+item_minecraft_music_disc_mellohi_desc: C418 - mellohi
+item_minecraft_music_disc_stal_desc: C418 - stal
+item_minecraft_music_disc_strad_desc: C418 - strad
+item_minecraft_music_disc_ward_desc: C418 - ward
+item_minecraft_music_disc_11_desc: C418 - 11
+item_minecraft_music_disc_wait_desc: C418 - wait
+item_minecraft_music_disc_pigstep_desc: Lena Raine - Pigstep
+item_minecraft_bone: Bone
+item_minecraft_ink_sac: Ink Sac
+item_minecraft_red_dye: Red Dye
+item_minecraft_green_dye: Green Dye
+item_minecraft_cocoa_beans: Cocoa Beans
+item_minecraft_lapis_lazuli: Lapis Lazuli
+item_minecraft_purple_dye: Purple Dye
+item_minecraft_cyan_dye: Cyan Dye
+item_minecraft_light_gray_dye: Light Gray Dye
+item_minecraft_gray_dye: Gray Dye
+item_minecraft_pink_dye: Pink Dye
+item_minecraft_lime_dye: Lime Dye
+item_minecraft_yellow_dye: Yellow Dye
+item_minecraft_light_blue_dye: Light Blue Dye
+item_minecraft_magenta_dye: Magenta Dye
+item_minecraft_orange_dye: Orange Dye
+item_minecraft_bone_meal: Bone Meal
+item_minecraft_blue_dye: Blue Dye
+item_minecraft_black_dye: Black Dye
+item_minecraft_brown_dye: Brown Dye
+item_minecraft_white_dye: White Dye
+item_minecraft_sugar: Sugar
+block_minecraft_black_bed: Black Bed
+block_minecraft_red_bed: Red Bed
+block_minecraft_green_bed: Green Bed
+block_minecraft_brown_bed: Brown Bed
+block_minecraft_blue_bed: Blue Bed
+block_minecraft_purple_bed: Purple Bed
+block_minecraft_cyan_bed: Cyan Bed
+block_minecraft_light_gray_bed: Light Gray Bed
+block_minecraft_gray_bed: Gray Bed
+block_minecraft_pink_bed: Pink Bed
+block_minecraft_lime_bed: Lime Bed
+block_minecraft_yellow_bed: Yellow Bed
+block_minecraft_light_blue_bed: Light Blue Bed
+block_minecraft_magenta_bed: Magenta Bed
+block_minecraft_orange_bed: Orange Bed
+block_minecraft_white_bed: White Bed
+block_minecraft_repeater: Redstone Repeater
+block_minecraft_comparator: Redstone Comparator
+item_minecraft_filled_map: Map
+item_minecraft_shears: Shears
+item_minecraft_rotten_flesh: Rotten Flesh
+item_minecraft_ender_pearl: Ender Pearl
+item_minecraft_blaze_rod: Blaze Rod
+item_minecraft_ghast_tear: Ghast Tear
+item_minecraft_nether_wart: Nether Wart
+item_minecraft_potion: Potion
+item_minecraft_splash_potion: Splash Potion
+item_minecraft_lingering_potion: Lingering Potion
+item_minecraft_end_crystal: End Crystal
+item_minecraft_gold_nugget: Gold Nugget
+item_minecraft_glass_bottle: Glass Bottle
+item_minecraft_spider_eye: Spider Eye
+item_minecraft_fermented_spider_eye: Fermented Spider Eye
+item_minecraft_blaze_powder: Blaze Powder
+item_minecraft_magma_cream: Magma Cream
+item_minecraft_cauldron: Cauldron
+item_minecraft_brewing_stand: Brewing Stand
+item_minecraft_ender_eye: Eye of Ender
+item_minecraft_glistering_melon_slice: Glistering Melon Slice
+item_minecraft_bat_spawn_egg: Bat Spawn Egg
+item_minecraft_bee_spawn_egg: Bee Spawn Egg
+item_minecraft_blaze_spawn_egg: Blaze Spawn Egg
+item_minecraft_cat_spawn_egg: Cat Spawn Egg
+item_minecraft_cave_spider_spawn_egg: Cave Spider Spawn Egg
+item_minecraft_chicken_spawn_egg: Chicken Spawn Egg
+item_minecraft_cod_spawn_egg: Cod Spawn Egg
+item_minecraft_cow_spawn_egg: Cow Spawn Egg
+item_minecraft_creeper_spawn_egg: Creeper Spawn Egg
+item_minecraft_dolphin_spawn_egg: Dolphin Spawn Egg
+item_minecraft_donkey_spawn_egg: Donkey Spawn Egg
+item_minecraft_drowned_spawn_egg: Drowned Spawn Egg
+item_minecraft_elder_guardian_spawn_egg: Elder Guardian Spawn Egg
+item_minecraft_enderman_spawn_egg: Enderman Spawn Egg
+item_minecraft_endermite_spawn_egg: Endermite Spawn Egg
+item_minecraft_evoker_spawn_egg: Evoker Spawn Egg
+item_minecraft_ghast_spawn_egg: Ghast Spawn Egg
+item_minecraft_guardian_spawn_egg: Guardian Spawn Egg
+item_minecraft_hoglin_spawn_egg: Hoglin Spawn Egg
+item_minecraft_horse_spawn_egg: Horse Spawn Egg
+item_minecraft_husk_spawn_egg: Husk Spawn Egg
+item_minecraft_ravager_spawn_egg: Ravager Spawn Egg
+item_minecraft_llama_spawn_egg: Llama Spawn Egg
+item_minecraft_magma_cube_spawn_egg: Magma Cube Spawn Egg
+item_minecraft_mooshroom_spawn_egg: Mooshroom Spawn Egg
+item_minecraft_mule_spawn_egg: Mule Spawn Egg
+item_minecraft_ocelot_spawn_egg: Ocelot Spawn Egg
+item_minecraft_panda_spawn_egg: Panda Spawn Egg
+item_minecraft_parrot_spawn_egg: Parrot Spawn Egg
+item_minecraft_pig_spawn_egg: Pig Spawn Egg
+item_minecraft_piglin_spawn_egg: Piglin Spawn Egg
+item_minecraft_piglin_brute_spawn_egg: Piglin Brute Spawn Egg
+item_minecraft_pillager_spawn_egg: Pillager Spawn Egg
+item_minecraft_phantom_spawn_egg: Phantom Spawn Egg
+item_minecraft_polar_bear_spawn_egg: Polar Bear Spawn Egg
+item_minecraft_pufferfish_spawn_egg: Pufferfish Spawn Egg
+item_minecraft_rabbit_spawn_egg: Rabbit Spawn Egg
+item_minecraft_fox_spawn_egg: Fox Spawn Egg
+item_minecraft_salmon_spawn_egg: Salmon Spawn Egg
+item_minecraft_sheep_spawn_egg: Sheep Spawn Egg
+item_minecraft_shulker_spawn_egg: Shulker Spawn Egg
+item_minecraft_silverfish_spawn_egg: Silverfish Spawn Egg
+item_minecraft_skeleton_spawn_egg: Skeleton Spawn Egg
+item_minecraft_skeleton_horse_spawn_egg: Skeleton Horse Spawn Egg
+item_minecraft_slime_spawn_egg: Slime Spawn Egg
+item_minecraft_spider_spawn_egg: Spider Spawn Egg
+item_minecraft_squid_spawn_egg: Squid Spawn Egg
+item_minecraft_stray_spawn_egg: Stray Spawn Egg
+item_minecraft_strider_spawn_egg: Strider Spawn Egg
+item_minecraft_trader_llama_spawn_egg: Trader Llama Spawn Egg
+item_minecraft_tropical_fish_spawn_egg: Tropical Fish Spawn Egg
+item_minecraft_turtle_spawn_egg: Turtle Spawn Egg
+item_minecraft_vex_spawn_egg: Vex Spawn Egg
+item_minecraft_villager_spawn_egg: Villager Spawn Egg
+item_minecraft_wandering_trader_spawn_egg: Wandering Trader Spawn Egg
+item_minecraft_vindicator_spawn_egg: Vindicator Spawn Egg
+item_minecraft_witch_spawn_egg: Witch Spawn Egg
+item_minecraft_wither_skeleton_spawn_egg: Wither Skeleton Spawn Egg
+item_minecraft_wolf_spawn_egg: Wolf Spawn Egg
+item_minecraft_zoglin_spawn_egg: Zoglin Spawn Egg
+item_minecraft_zombie_spawn_egg: Zombie Spawn Egg
+item_minecraft_zombie_horse_spawn_egg: Zombie Horse Spawn Egg
+item_minecraft_zombified_piglin_spawn_egg: Zombified Piglin Spawn Egg
+item_minecraft_zombie_villager_spawn_egg: Zombie Villager Spawn Egg
+item_minecraft_experience_bottle: Bottle o' Enchanting
+item_minecraft_fire_charge: Fire Charge
+item_minecraft_writable_book: Book and Quill
+item_minecraft_written_book: Written Book
+item_minecraft_flower_pot: Flower Pot
+item_minecraft_map: Empty Map
+item_minecraft_carrot: Carrot
+item_minecraft_golden_carrot: Golden Carrot
+item_minecraft_potato: Potato
+item_minecraft_baked_potato: Baked Potato
+item_minecraft_poisonous_potato: Poisonous Potato
+item_minecraft_carrot_on_a_stick: Carrot on a Stick
+item_minecraft_nether_star: Nether Star
+item_minecraft_pumpkin_pie: Pumpkin Pie
+item_minecraft_enchanted_book: Enchanted Book
+item_minecraft_firework_rocket: Firework Rocket
+item_minecraft_firework_rocket_flight: 'Flight Duration:'
+item_minecraft_firework_star: Firework Star
+item_minecraft_firework_star_black: Black
+item_minecraft_firework_star_red: Red
+item_minecraft_firework_star_green: Green
+item_minecraft_firework_star_brown: Brown
+item_minecraft_firework_star_blue: Blue
+item_minecraft_firework_star_purple: Purple
+item_minecraft_firework_star_cyan: Cyan
+item_minecraft_firework_star_light_gray: Light Gray
+item_minecraft_firework_star_gray: Gray
+item_minecraft_firework_star_pink: Pink
+item_minecraft_firework_star_lime: Lime
+item_minecraft_firework_star_yellow: Yellow
+item_minecraft_firework_star_light_blue: Light Blue
+item_minecraft_firework_star_magenta: Magenta
+item_minecraft_firework_star_orange: Orange
+item_minecraft_firework_star_white: White
+item_minecraft_firework_star_custom_color: Custom
+item_minecraft_firework_star_fade_to: Fade to
+item_minecraft_firework_star_flicker: Twinkle
+item_minecraft_firework_star_trail: Trail
+item_minecraft_firework_star_shape_small_ball: Small Ball
+item_minecraft_firework_star_shape_large_ball: Large Ball
+item_minecraft_firework_star_shape_star: Star-shaped
+item_minecraft_firework_star_shape_creeper: Creeper-shaped
+item_minecraft_firework_star_shape_burst: Burst
+item_minecraft_firework_star_shape: Unknown Shape
+item_minecraft_nether_brick: Nether Brick
+item_minecraft_quartz: Nether Quartz
+item_minecraft_armor_stand: Armor Stand
+item_minecraft_iron_horse_armor: Iron Horse Armor
+item_minecraft_golden_horse_armor: Golden Horse Armor
+item_minecraft_diamond_horse_armor: Diamond Horse Armor
+item_minecraft_leather_horse_armor: Leather Horse Armor
+item_minecraft_prismarine_shard: Prismarine Shard
+item_minecraft_prismarine_crystals: Prismarine Crystals
+item_minecraft_chorus_fruit: Chorus Fruit
+item_minecraft_popped_chorus_fruit: Popped Chorus Fruit
+item_minecraft_beetroot: Beetroot
+item_minecraft_beetroot_seeds: Beetroot Seeds
+item_minecraft_beetroot_soup: Beetroot Soup
+item_minecraft_dragon_breath: Dragon's Breath
+item_minecraft_elytra: Elytra
+item_minecraft_totem_of_undying: Totem of Undying
+item_minecraft_shulker_shell: Shulker Shell
+item_minecraft_iron_nugget: Iron Nugget
+item_minecraft_knowledge_book: Knowledge Book
+item_minecraft_debug_stick: Debug Stick
+item_minecraft_debug_stick_empty: '%s has no properties'
+item_minecraft_debug_stick_update: '"%s" to %s'
+item_minecraft_debug_stick_select: selected "%s" (%s)
+item_minecraft_trident: Trident
+item_minecraft_scute: Scute
+item_minecraft_turtle_helmet: Turtle Shell
+item_minecraft_phantom_membrane: Phantom Membrane
+item_minecraft_nautilus_shell: Nautilus Shell
+item_minecraft_heart_of_the_sea: Heart of the Sea
+item_minecraft_crossbow: Crossbow
+item_minecraft_crossbow_projectile: 'Projectile:'
+item_minecraft_suspicious_stew: Suspicious Stew
+item_minecraft_creeper_banner_pattern: Banner Pattern
+item_minecraft_skull_banner_pattern: Banner Pattern
+item_minecraft_flower_banner_pattern: Banner Pattern
+item_minecraft_mojang_banner_pattern: Banner Pattern
+item_minecraft_globe_banner_pattern: Banner Pattern
+item_minecraft_creeper_banner_pattern_desc: Creeper Charge
+item_minecraft_skull_banner_pattern_desc: Skull Charge
+item_minecraft_flower_banner_pattern_desc: Flower Charge
+item_minecraft_mojang_banner_pattern_desc: Thing
+item_minecraft_globe_banner_pattern_desc: Globe
+item_minecraft_piglin_banner_pattern: Banner Pattern
+item_minecraft_piglin_banner_pattern_desc: Snout
+item_minecraft_sweet_berries: Sweet Berries
+item_minecraft_honey_bottle: Honey Bottle
+item_minecraft_honeycomb: Honeycomb
+item_minecraft_lodestone_compass: Lodestone Compass
+item_minecraft_netherite_scrap: Netherite Scrap
+item_minecraft_netherite_ingot: Netherite Ingot
+item_minecraft_netherite_helmet: Netherite Helmet
+item_minecraft_netherite_chestplate: Netherite Chestplate
+item_minecraft_netherite_leggings: Netherite Leggings
+item_minecraft_netherite_boots: Netherite Boots
+item_minecraft_netherite_axe: Netherite Axe
+item_minecraft_netherite_pickaxe: Netherite Pickaxe
+item_minecraft_netherite_hoe: Netherite Hoe
+item_minecraft_netherite_shovel: Netherite Shovel
+item_minecraft_netherite_sword: Netherite Sword
+item_minecraft_warped_fungus_on_a_stick: Warped Fungus on a Stick
+entity_minecraft_area_effect_tugrik: Area Effect gems
+entity_minecraft_armor_stand: Armor Stand
+entity_minecraft_arrow: Arrow
+entity_minecraft_bat: Bat
+entity_minecraft_bee: Bee
+entity_minecraft_blaze: Blaze
+entity_minecraft_boat: Boat
+entity_minecraft_cat: Cat
+entity_minecraft_cave_spider: Cave Spider
+entity_minecraft_chest_minecart: Minecart with Chest
+entity_minecraft_chicken: Chicken
+entity_minecraft_command_block_minecart: Minecart with Command Block
+entity_minecraft_cod: Cod
+entity_minecraft_cow: Cow
+entity_minecraft_creeper: Creeper
+entity_minecraft_dolphin: Dolphin
+entity_minecraft_donkey: Donkey
+entity_minecraft_drowned: Drowned
+entity_minecraft_dragon_fireball: Dragon Fireball
+entity_minecraft_egg: Thrown Egg
+entity_minecraft_elder_guardian: Elder Guardian
+entity_minecraft_end_crystal: End Crystal
+entity_minecraft_ender_dragon: Ender Dragon
+entity_minecraft_ender_pearl: Thrown Ender Pearl
+entity_minecraft_enderman: Enderman
+entity_minecraft_endermite: Endermite
+entity_minecraft_evoker_fangs: Evoker Fangs
+entity_minecraft_evoker: Evoker
+entity_minecraft_eye_of_ender: Eye of Ender
+entity_minecraft_falling_block: Falling Block
+entity_minecraft_fireball: Fireball
+entity_minecraft_firework_rocket: Firework Rocket
+entity_minecraft_fishing_bobber: Fishing Bobber
+entity_minecraft_fox: Fox
+entity_minecraft_furnace_minecart: Minecart with Furnace
+entity_minecraft_ghast: Ghast
+entity_minecraft_giant: Giant
+entity_minecraft_guardian: Guardian
+entity_minecraft_hoglin: Hoglin
+entity_minecraft_hopper_minecart: Minecart with Hopper
+entity_minecraft_horse: Horse
+entity_minecraft_husk: Husk
+entity_minecraft_ravager: Ravager
+entity_minecraft_illusioner: Illusioner
+entity_minecraft_item: Item
+entity_minecraft_item_frame: Item Frame
+entity_minecraft_killer_bunny: The Killer Bunny
+entity_minecraft_leash_knot: Leash Knot
+entity_minecraft_lightning_bolt: Lightning Bolt
+entity_minecraft_llama: Llama
+entity_minecraft_llama_spit: Llama Spit
+entity_minecraft_magma_cube: Magma Cube
+entity_minecraft_minecart: Minecart
+entity_minecraft_mooshroom: Mooshroom
+entity_minecraft_mule: Mule
+entity_minecraft_ocelot: Ocelot
+entity_minecraft_painting: Painting
+entity_minecraft_panda: Panda
+entity_minecraft_parrot: Parrot
+entity_minecraft_phantom: Phantom
+entity_minecraft_pig: Pig
+entity_minecraft_piglin: Piglin
+entity_minecraft_piglin_brute: Piglin Brute
+entity_minecraft_pillager: Pillager
+entity_minecraft_player: Player
+entity_minecraft_polar_bear: Polar Bear
+entity_minecraft_potion: Potion
+entity_minecraft_pufferfish: Pufferfish
+entity_minecraft_rabbit: Rabbit
+entity_minecraft_salmon: Salmon
+entity_minecraft_sheep: Sheep
+entity_minecraft_shulker: Shulker
+entity_minecraft_shulker_bullet: Shulker Bullet
+entity_minecraft_silverfish: Silverfish
+entity_minecraft_skeleton: Skeleton
+entity_minecraft_skeleton_horse: Skeleton Horse
+entity_minecraft_slime: Slime
+entity_minecraft_small_fireball: Small Fireball
+entity_minecraft_snowball: Snowball
+entity_minecraft_snow_golem: Snow Golem
+entity_minecraft_spawner_minecart: Minecart with Spawner
+entity_minecraft_spectral_arrow: Spectral Arrow
+entity_minecraft_spider: Spider
+entity_minecraft_squid: Squid
+entity_minecraft_stray: Stray
+entity_minecraft_strider: Strider
+entity_minecraft_tnt: Primed TNT
+entity_minecraft_tnt_minecart: Minecart with TNT
+entity_minecraft_trader_llama: Trader Llama
+entity_minecraft_trident: Trident
+entity_minecraft_tropical_fish: Tropical Fish
+entity_minecraft_tropical_fish_predefined_0: Anemone
+entity_minecraft_tropical_fish_predefined_1: Black Tang
+entity_minecraft_tropical_fish_predefined_2: Blue Tang
+entity_minecraft_tropical_fish_predefined_3: Butterflyfish
+entity_minecraft_tropical_fish_predefined_4: Cichlid
+entity_minecraft_tropical_fish_predefined_5: Clownfish
+entity_minecraft_tropical_fish_predefined_6: Cotton Candy Betta
+entity_minecraft_tropical_fish_predefined_7: Dottyback
+entity_minecraft_tropical_fish_predefined_8: Emperor Red Snapper
+entity_minecraft_tropical_fish_predefined_9: Goatfish
+entity_minecraft_tropical_fish_predefined_10: Moorish Idol
+entity_minecraft_tropical_fish_predefined_11: Ornate Butterflyfish
+entity_minecraft_tropical_fish_predefined_12: Parrotfish
+entity_minecraft_tropical_fish_predefined_13: Queen Angelfish
+entity_minecraft_tropical_fish_predefined_14: Red Cichlid
+entity_minecraft_tropical_fish_predefined_15: Red Lipped Blenny
+entity_minecraft_tropical_fish_predefined_16: Red Snapper
+entity_minecraft_tropical_fish_predefined_17: Threadfin
+entity_minecraft_tropical_fish_predefined_18: Tomato Clownfish
+entity_minecraft_tropical_fish_predefined_19: Triggerfish
+entity_minecraft_tropical_fish_predefined_20: Yellowtail Parrotfish
+entity_minecraft_tropical_fish_predefined_21: Yellow Tang
+entity_minecraft_tropical_fish_type_flopper: Flopper
+entity_minecraft_tropical_fish_type_stripey: Stripey
+entity_minecraft_tropical_fish_type_glitter: Glitter
+entity_minecraft_tropical_fish_type_blockfish: Blockfish
+entity_minecraft_tropical_fish_type_betty: Betty
+entity_minecraft_tropical_fish_type_clayfish: Clayfish
+entity_minecraft_tropical_fish_type_kob: Kob
+entity_minecraft_tropical_fish_type_sunstreak: Sunstreak
+entity_minecraft_tropical_fish_type_snooper: Snooper
+entity_minecraft_tropical_fish_type_dasher: Dasher
+entity_minecraft_tropical_fish_type_brinely: Brinely
+entity_minecraft_tropical_fish_type_spotty: Spotty
+entity_minecraft_turtle: Turtle
+entity_minecraft_vex: Vex
+entity_minecraft_villager_armorer: Armorer
+entity_minecraft_villager_butcher: Butcher
+entity_minecraft_villager_cartographer: Cartographer
+entity_minecraft_villager_cleric: Cleric
+entity_minecraft_villager_farmer: Farmer
+entity_minecraft_villager_fisherman: Fisherman
+entity_minecraft_villager_fletcher: Fletcher
+entity_minecraft_villager_leatherworker: Leatherworker
+entity_minecraft_villager_librarian: Librarian
+entity_minecraft_villager_mason: Mason
+entity_minecraft_villager_none: Villager
+entity_minecraft_villager_nitwit: Nitwit
+entity_minecraft_villager_shepherd: Shepherd
+entity_minecraft_villager_toolsmith: Toolsmith
+entity_minecraft_villager_weaponsmith: Weaponsmith
+entity_minecraft_villager: Villager
+entity_minecraft_wandering_trader: Wandering Trader
+entity_minecraft_iron_golem: Iron Golem
+entity_minecraft_vindicator: Vindicator
+entity_minecraft_witch: Witch
+entity_minecraft_wither: Wither
+entity_minecraft_wither_skeleton: Wither Skeleton
+entity_minecraft_wither_skull: Wither Skull
+entity_minecraft_wolf: Wolf
+entity_minecraft_experience_bottle: Thrown Bottle o' Enchanting
+entity_minecraft_experience_orb: Experience Orb
+entity_minecraft_zoglin: Zoglin
+entity_minecraft_zombie: Zombie
+entity_minecraft_zombie_horse: Zombie Horse
+entity_minecraft_zombified_piglin: Zombified Piglin
+entity_minecraft_zombie_villager: Zombie Villager
+effect_minecraft_speed: Speed
+effect_minecraft_slowness: Slowness
+effect_minecraft_haste: Haste
+effect_minecraft_mining_fatigue: Mining Fatigue
+effect_minecraft_strength: Strength
+effect_minecraft_instant_health: Instant Health
+effect_minecraft_instant_damage: Instant Damage
+effect_minecraft_jump_boost: Jump Boost
+effect_minecraft_nausea: Nausea
+effect_minecraft_regeneration: Regeneration
+effect_minecraft_resistance: Resistance
+effect_minecraft_fire_resistance: Fire Resistance
+effect_minecraft_water_breathing: Water Breathing
+effect_minecraft_invisibility: Invisibility
+effect_minecraft_blindness: Blindness
+effect_minecraft_night_vision: Night Vision
+effect_minecraft_hunger: Hunger
+effect_minecraft_weakness: Weakness
+effect_minecraft_poison: Poison
+effect_minecraft_wither: Wither
+effect_minecraft_health_boost: Health Boost
+effect_minecraft_absorption: Absorption
+effect_minecraft_saturation: Saturation
+effect_minecraft_glowing: Glowing
+effect_minecraft_luck: Luck
+effect_minecraft_unluck: Bad Luck
+effect_minecraft_levitation: Levitation
+effect_minecraft_slow_falling: Slow Falling
+effect_minecraft_conduit_power: Conduit Power
+effect_minecraft_dolphins_grace: Dolphin's Grace
+effect_minecraft_bad_omen: Bad Omen
+effect_minecraft_hero_of_the_village: Hero of the Village
+item_minecraft_tipped_arrow_effect_empty: Uncraftable Tipped Arrow
+item_minecraft_tipped_arrow_effect_water: Arrow of Splashing
+item_minecraft_tipped_arrow_effect_mundane: Tipped Arrow
+item_minecraft_tipped_arrow_effect_thick: Tipped Arrow
+item_minecraft_tipped_arrow_effect_awkward: Tipped Arrow
+item_minecraft_tipped_arrow_effect_night_vision: Arrow of Night Vision
+item_minecraft_tipped_arrow_effect_invisibility: Arrow of Invisibility
+item_minecraft_tipped_arrow_effect_leaping: Arrow of Leaping
+item_minecraft_tipped_arrow_effect_fire_resistance: Arrow of Fire Resistance
+item_minecraft_tipped_arrow_effect_swiftness: Arrow of Swiftness
+item_minecraft_tipped_arrow_effect_slowness: Arrow of Slowness
+item_minecraft_tipped_arrow_effect_water_breathing: Arrow of Water Breathing
+item_minecraft_tipped_arrow_effect_healing: Arrow of Healing
+item_minecraft_tipped_arrow_effect_harming: Arrow of Harming
+item_minecraft_tipped_arrow_effect_poison: Arrow of Poison
+item_minecraft_tipped_arrow_effect_regeneration: Arrow of Regeneration
+item_minecraft_tipped_arrow_effect_strength: Arrow of Strength
+item_minecraft_tipped_arrow_effect_weakness: Arrow of Weakness
+item_minecraft_tipped_arrow_effect_levitation: Arrow of Levitation
+item_minecraft_tipped_arrow_effect_luck: Arrow of Luck
+item_minecraft_tipped_arrow_effect_turtle_master: Arrow of the Turtle Master
+item_minecraft_tipped_arrow_effect_slow_falling: Arrow of Slow Falling
+item_minecraft_potion_effect_empty: Uncraftable Potion
+item_minecraft_potion_effect_water: Water Bottle
+item_minecraft_potion_effect_mundane: Mundane Potion
+item_minecraft_potion_effect_thick: Thick Potion
+item_minecraft_potion_effect_awkward: Awkward Potion
+item_minecraft_potion_effect_night_vision: Potion of Night Vision
+item_minecraft_potion_effect_invisibility: Potion of Invisibility
+item_minecraft_potion_effect_leaping: Potion of Leaping
+item_minecraft_potion_effect_fire_resistance: Potion of Fire Resistance
+item_minecraft_potion_effect_swiftness: Potion of Swiftness
+item_minecraft_potion_effect_slowness: Potion of Slowness
+item_minecraft_potion_effect_water_breathing: Potion of Water Breathing
+item_minecraft_potion_effect_healing: Potion of Healing
+item_minecraft_potion_effect_harming: Potion of Harming
+item_minecraft_potion_effect_poison: Potion of Poison
+item_minecraft_potion_effect_regeneration: Potion of Regeneration
+item_minecraft_potion_effect_strength: Potion of Strength
+item_minecraft_potion_effect_weakness: Potion of Weakness
+item_minecraft_potion_effect_levitation: Potion of Levitation
+item_minecraft_potion_effect_luck: Potion of Luck
+item_minecraft_potion_effect_turtle_master: Potion of the Turtle Master
+item_minecraft_potion_effect_slow_falling: Potion of Slow Falling
+item_minecraft_splash_potion_effect_empty: Splash Uncraftable Potion
+item_minecraft_splash_potion_effect_water: Splash Water Bottle
+item_minecraft_splash_potion_effect_mundane: Mundane Splash Potion
+item_minecraft_splash_potion_effect_thick: Thick Splash Potion
+item_minecraft_splash_potion_effect_awkward: Awkward Splash Potion
+item_minecraft_splash_potion_effect_night_vision: Splash Potion of Night Vision
+item_minecraft_splash_potion_effect_invisibility: Splash Potion of Invisibility
+item_minecraft_splash_potion_effect_leaping: Splash Potion of Leaping
+item_minecraft_splash_potion_effect_fire_resistance: Splash Potion of Fire Resistance
+item_minecraft_splash_potion_effect_swiftness: Splash Potion of Swiftness
+item_minecraft_splash_potion_effect_slowness: Splash Potion of Slowness
+item_minecraft_splash_potion_effect_water_breathing: Splash Potion of Water Breathing
+item_minecraft_splash_potion_effect_healing: Splash Potion of Healing
+item_minecraft_splash_potion_effect_harming: Splash Potion of Harming
+item_minecraft_splash_potion_effect_poison: Splash Potion of Poison
+item_minecraft_splash_potion_effect_regeneration: Splash Potion of Regeneration
+item_minecraft_splash_potion_effect_strength: Splash Potion of Strength
+item_minecraft_splash_potion_effect_weakness: Splash Potion of Weakness
+item_minecraft_splash_potion_effect_levitation: Splash Potion of Levitation
+item_minecraft_splash_potion_effect_luck: Splash Potion of Luck
+item_minecraft_splash_potion_effect_turtle_master: Splash Potion of the Turtle Master
+item_minecraft_splash_potion_effect_slow_falling: Splash Potion of Slow Falling
+item_minecraft_lingering_potion_effect_empty: Lingering Uncraftable Potion
+item_minecraft_lingering_potion_effect_water: Lingering Water Bottle
+item_minecraft_lingering_potion_effect_mundane: Mundane Lingering Potion
+item_minecraft_lingering_potion_effect_thick: Thick Lingering Potion
+item_minecraft_lingering_potion_effect_awkward: Awkward Lingering Potion
+item_minecraft_lingering_potion_effect_night_vision: Lingering Potion of Night Vision
+item_minecraft_lingering_potion_effect_invisibility: Lingering Potion of Invisibility
+item_minecraft_lingering_potion_effect_leaping: Lingering Potion of Leaping
+item_minecraft_lingering_potion_effect_fire_resistance: Lingering Potion of Fire Resistance
+item_minecraft_lingering_potion_effect_swiftness: Lingering Potion of Swiftness
+item_minecraft_lingering_potion_effect_slowness: Lingering Potion of Slowness
+item_minecraft_lingering_potion_effect_water_breathing: Lingering Potion of Water
+  Breathing
+item_minecraft_lingering_potion_effect_healing: Lingering Potion of Healing
+item_minecraft_lingering_potion_effect_harming: Lingering Potion of Harming
+item_minecraft_lingering_potion_effect_poison: Lingering Potion of Poison
+item_minecraft_lingering_potion_effect_regeneration: Lingering Potion of Regeneration
+item_minecraft_lingering_potion_effect_strength: Lingering Potion of Strength
+item_minecraft_lingering_potion_effect_weakness: Lingering Potion of Weakness
+item_minecraft_lingering_potion_effect_levitation: Lingering Potion of Levitation
+item_minecraft_lingering_potion_effect_luck: Lingering Potion of Luck
+item_minecraft_lingering_potion_effect_turtle_master: Lingering Potion of the Turtle
+  Master
+item_minecraft_lingering_potion_effect_slow_falling: Lingering Potion of Slow Falling
+enchantment_minecraft_sharpness: Sharpness
+enchantment_minecraft_smite: Smite
+enchantment_minecraft_bane_of_arthropods: Bane of Arthropods
+enchantment_minecraft_knockback: Knockback
+enchantment_minecraft_fire_aspect: Fire Aspect
+enchantment_minecraft_sweeping: Sweeping Edge
+enchantment_minecraft_protection: Protection
+enchantment_minecraft_fire_protection: Fire Protection
+enchantment_minecraft_feather_falling: Feather Falling
+enchantment_minecraft_blast_protection: Blast Protection
+enchantment_minecraft_projectile_protection: Projectile Protection
+enchantment_minecraft_respiration: Respiration
+enchantment_minecraft_aqua_affinity: Aqua Affinity
+enchantment_minecraft_depth_strider: Depth Strider
+enchantment_minecraft_frost_walker: Frost Walker
+enchantment_minecraft_soul_speed: Soul Speed
+enchantment_minecraft_efficiency: Efficiency
+enchantment_minecraft_silk_touch: Silk Touch
+enchantment_minecraft_unbreaking: Unbreaking
+enchantment_minecraft_looting: Looting
+enchantment_minecraft_fortune: Fortune
+enchantment_minecraft_luck_of_the_sea: Luck of the Sea
+enchantment_minecraft_lure: Lure
+enchantment_minecraft_power: Power
+enchantment_minecraft_flame: Flame
+enchantment_minecraft_punch: Punch
+enchantment_minecraft_infinity: Infinity
+enchantment_minecraft_thorns: Thorns
+enchantment_minecraft_mending: Mending
+enchantment_minecraft_binding_curse: Curse of Binding
+enchantment_minecraft_vanishing_curse: Curse of Vanishing
+enchantment_minecraft_loyalty: Loyalty
+enchantment_minecraft_impaling: Impaling
+enchantment_minecraft_riptide: Riptide
+enchantment_minecraft_channeling: Channeling
+enchantment_minecraft_multishot: Multishot
+enchantment_minecraft_quick_charge: Quick Charge
+enchantment_minecraft_piercing: Piercing
+block_minecraft_black_banner: Black Banner
+block_minecraft_red_banner: Red Banner
+block_minecraft_green_banner: Green Banner
+block_minecraft_brown_banner: Brown Banner
+block_minecraft_blue_banner: Blue Banner
+block_minecraft_purple_banner: Purple Banner
+block_minecraft_cyan_banner: Cyan Banner
+block_minecraft_light_gray_banner: Light Gray Banner
+block_minecraft_gray_banner: Gray Banner
+block_minecraft_pink_banner: Pink Banner
+block_minecraft_lime_banner: Lime Banner
+block_minecraft_yellow_banner: Yellow Banner
+block_minecraft_light_blue_banner: Light Blue Banner
+block_minecraft_magenta_banner: Magenta Banner
+block_minecraft_orange_banner: Orange Banner
+block_minecraft_white_banner: White Banner
+item_minecraft_shield: Shield
+item_minecraft_shield_black: Black Shield
+item_minecraft_shield_red: Red Shield
+item_minecraft_shield_green: Green Shield
+item_minecraft_shield_brown: Brown Shield
+item_minecraft_shield_blue: Blue Shield
+item_minecraft_shield_purple: Purple Shield
+item_minecraft_shield_cyan: Cyan Shield
+item_minecraft_shield_light_gray: Light Gray Shield
+item_minecraft_shield_gray: Gray Shield
+item_minecraft_shield_pink: Pink Shield
+item_minecraft_shield_lime: Lime Shield
+item_minecraft_shield_yellow: Yellow Shield
+item_minecraft_shield_light_blue: Light Blue Shield
+item_minecraft_shield_magenta: Magenta Shield
+item_minecraft_shield_orange: Orange Shield
+item_minecraft_shield_white: White Shield
+block_minecraft_banner_square_bottom_left_black: Black Base Dexter Canton
+block_minecraft_banner_square_bottom_left_red: Red Base Dexter Canton
+block_minecraft_banner_square_bottom_left_green: Green Base Dexter Canton
+block_minecraft_banner_square_bottom_left_brown: Brown Base Dexter Canton
+block_minecraft_banner_square_bottom_left_blue: Blue Base Dexter Canton
+block_minecraft_banner_square_bottom_left_purple: Purple Base Dexter Canton
+block_minecraft_banner_square_bottom_left_cyan: Cyan Base Dexter Canton
+block_minecraft_banner_square_bottom_left_light_gray: Light Gray Base Dexter Canton
+block_minecraft_banner_square_bottom_left_gray: Gray Base Dexter Canton
+block_minecraft_banner_square_bottom_left_pink: Pink Base Dexter Canton
+block_minecraft_banner_square_bottom_left_lime: Lime Base Dexter Canton
+block_minecraft_banner_square_bottom_left_yellow: Yellow Base Dexter Canton
+block_minecraft_banner_square_bottom_left_light_blue: Light Blue Base Dexter Canton
+block_minecraft_banner_square_bottom_left_magenta: Magenta Base Dexter Canton
+block_minecraft_banner_square_bottom_left_orange: Orange Base Dexter Canton
+block_minecraft_banner_square_bottom_left_white: White Base Dexter Canton
+block_minecraft_banner_square_bottom_right_black: Black Base Sinister Canton
+block_minecraft_banner_square_bottom_right_red: Red Base Sinister Canton
+block_minecraft_banner_square_bottom_right_green: Green Base Sinister Canton
+block_minecraft_banner_square_bottom_right_brown: Brown Base Sinister Canton
+block_minecraft_banner_square_bottom_right_blue: Blue Base Sinister Canton
+block_minecraft_banner_square_bottom_right_purple: Purple Base Sinister Canton
+block_minecraft_banner_square_bottom_right_cyan: Cyan Base Sinister Canton
+block_minecraft_banner_square_bottom_right_light_gray: Light Gray Base Sinister Canton
+block_minecraft_banner_square_bottom_right_gray: Gray Base Sinister Canton
+block_minecraft_banner_square_bottom_right_pink: Pink Base Sinister Canton
+block_minecraft_banner_square_bottom_right_lime: Lime Base Sinister Canton
+block_minecraft_banner_square_bottom_right_yellow: Yellow Base Sinister Canton
+block_minecraft_banner_square_bottom_right_light_blue: Light Blue Base Sinister Canton
+block_minecraft_banner_square_bottom_right_magenta: Magenta Base Sinister Canton
+block_minecraft_banner_square_bottom_right_orange: Orange Base Sinister Canton
+block_minecraft_banner_square_bottom_right_white: White Base Sinister Canton
+block_minecraft_banner_square_top_left_black: Black Chief Dexter Canton
+block_minecraft_banner_square_top_left_red: Red Chief Dexter Canton
+block_minecraft_banner_square_top_left_green: Green Chief Dexter Canton
+block_minecraft_banner_square_top_left_brown: Brown Chief Dexter Canton
+block_minecraft_banner_square_top_left_blue: Blue Chief Dexter Canton
+block_minecraft_banner_square_top_left_purple: Purple Chief Dexter Canton
+block_minecraft_banner_square_top_left_cyan: Cyan Chief Dexter Canton
+block_minecraft_banner_square_top_left_light_gray: Light Gray Chief Dexter Canton
+block_minecraft_banner_square_top_left_gray: Gray Chief Dexter Canton
+block_minecraft_banner_square_top_left_pink: Pink Chief Dexter Canton
+block_minecraft_banner_square_top_left_lime: Lime Chief Dexter Canton
+block_minecraft_banner_square_top_left_yellow: Yellow Chief Dexter Canton
+block_minecraft_banner_square_top_left_light_blue: Light Blue Chief Dexter Canton
+block_minecraft_banner_square_top_left_magenta: Magenta Chief Dexter Canton
+block_minecraft_banner_square_top_left_orange: Orange Chief Dexter Canton
+block_minecraft_banner_square_top_left_white: White Chief Dexter Canton
+block_minecraft_banner_square_top_right_black: Black Chief Sinister Canton
+block_minecraft_banner_square_top_right_red: Red Chief Sinister Canton
+block_minecraft_banner_square_top_right_green: Green Chief Sinister Canton
+block_minecraft_banner_square_top_right_brown: Brown Chief Sinister Canton
+block_minecraft_banner_square_top_right_blue: Blue Chief Sinister Canton
+block_minecraft_banner_square_top_right_purple: Purple Chief Sinister Canton
+block_minecraft_banner_square_top_right_cyan: Cyan Chief Sinister Canton
+block_minecraft_banner_square_top_right_light_gray: Light Gray Chief Sinister Canton
+block_minecraft_banner_square_top_right_gray: Gray Chief Sinister Canton
+block_minecraft_banner_square_top_right_pink: Pink Chief Sinister Canton
+block_minecraft_banner_square_top_right_lime: Lime Chief Sinister Canton
+block_minecraft_banner_square_top_right_yellow: Yellow Chief Sinister Canton
+block_minecraft_banner_square_top_right_light_blue: Light Blue Chief Sinister Canton
+block_minecraft_banner_square_top_right_magenta: Magenta Chief Sinister Canton
+block_minecraft_banner_square_top_right_orange: Orange Chief Sinister Canton
+block_minecraft_banner_square_top_right_white: White Chief Sinister Canton
+block_minecraft_banner_stripe_bottom_black: Black Base
+block_minecraft_banner_stripe_bottom_red: Red Base
+block_minecraft_banner_stripe_bottom_green: Green Base
+block_minecraft_banner_stripe_bottom_brown: Brown Base
+block_minecraft_banner_stripe_bottom_blue: Blue Base
+block_minecraft_banner_stripe_bottom_purple: Purple Base
+block_minecraft_banner_stripe_bottom_cyan: Cyan Base
+block_minecraft_banner_stripe_bottom_light_gray: Light Gray Base
+block_minecraft_banner_stripe_bottom_gray: Gray Base
+block_minecraft_banner_stripe_bottom_pink: Pink Base
+block_minecraft_banner_stripe_bottom_lime: Lime Base
+block_minecraft_banner_stripe_bottom_yellow: Yellow Base
+block_minecraft_banner_stripe_bottom_light_blue: Light Blue Base
+block_minecraft_banner_stripe_bottom_magenta: Magenta Base
+block_minecraft_banner_stripe_bottom_orange: Orange Base
+block_minecraft_banner_stripe_bottom_white: White Base
+block_minecraft_banner_stripe_top_black: Black Chief
+block_minecraft_banner_stripe_top_red: Red Chief
+block_minecraft_banner_stripe_top_green: Green Chief
+block_minecraft_banner_stripe_top_brown: Brown Chief
+block_minecraft_banner_stripe_top_blue: Blue Chief
+block_minecraft_banner_stripe_top_purple: Purple Chief
+block_minecraft_banner_stripe_top_cyan: Cyan Chief
+block_minecraft_banner_stripe_top_light_gray: Light Gray Chief
+block_minecraft_banner_stripe_top_gray: Gray Chief
+block_minecraft_banner_stripe_top_pink: Pink Chief
+block_minecraft_banner_stripe_top_lime: Lime Chief
+block_minecraft_banner_stripe_top_yellow: Yellow Chief
+block_minecraft_banner_stripe_top_light_blue: Light Blue Chief
+block_minecraft_banner_stripe_top_magenta: Magenta Chief
+block_minecraft_banner_stripe_top_orange: Orange Chief
+block_minecraft_banner_stripe_top_white: White Chief
+block_minecraft_banner_stripe_left_black: Black Pale Dexter
+block_minecraft_banner_stripe_left_red: Red Pale Dexter
+block_minecraft_banner_stripe_left_green: Green Pale Dexter
+block_minecraft_banner_stripe_left_brown: Brown Pale Dexter
+block_minecraft_banner_stripe_left_blue: Blue Pale Dexter
+block_minecraft_banner_stripe_left_purple: Purple Pale Dexter
+block_minecraft_banner_stripe_left_cyan: Cyan Pale Dexter
+block_minecraft_banner_stripe_left_light_gray: Light Gray Pale Dexter
+block_minecraft_banner_stripe_left_gray: Gray Pale Dexter
+block_minecraft_banner_stripe_left_pink: Pink Pale Dexter
+block_minecraft_banner_stripe_left_lime: Lime Pale Dexter
+block_minecraft_banner_stripe_left_yellow: Yellow Pale Dexter
+block_minecraft_banner_stripe_left_light_blue: Light Blue Pale Dexter
+block_minecraft_banner_stripe_left_magenta: Magenta Pale Dexter
+block_minecraft_banner_stripe_left_orange: Orange Pale Dexter
+block_minecraft_banner_stripe_left_white: White Pale Dexter
+block_minecraft_banner_stripe_right_black: Black Pale Sinister
+block_minecraft_banner_stripe_right_red: Red Pale Sinister
+block_minecraft_banner_stripe_right_green: Green Pale Sinister
+block_minecraft_banner_stripe_right_brown: Brown Pale Sinister
+block_minecraft_banner_stripe_right_blue: Blue Pale Sinister
+block_minecraft_banner_stripe_right_purple: Purple Pale Sinister
+block_minecraft_banner_stripe_right_cyan: Cyan Pale Sinister
+block_minecraft_banner_stripe_right_light_gray: Light Gray Pale Sinister
+block_minecraft_banner_stripe_right_gray: Gray Pale Sinister
+block_minecraft_banner_stripe_right_pink: Pink Pale Sinister
+block_minecraft_banner_stripe_right_lime: Lime Pale Sinister
+block_minecraft_banner_stripe_right_yellow: Yellow Pale Sinister
+block_minecraft_banner_stripe_right_light_blue: Light Blue Pale Sinister
+block_minecraft_banner_stripe_right_magenta: Magenta Pale Sinister
+block_minecraft_banner_stripe_right_orange: Orange Pale Sinister
+block_minecraft_banner_stripe_right_white: White Pale Sinister
+block_minecraft_banner_stripe_center_black: Black Pale
+block_minecraft_banner_stripe_center_red: Red Pale
+block_minecraft_banner_stripe_center_green: Green Pale
+block_minecraft_banner_stripe_center_brown: Brown Pale
+block_minecraft_banner_stripe_center_blue: Blue Pale
+block_minecraft_banner_stripe_center_purple: Purple Pale
+block_minecraft_banner_stripe_center_cyan: Cyan Pale
+block_minecraft_banner_stripe_center_light_gray: Light Gray Pale
+block_minecraft_banner_stripe_center_gray: Gray Pale
+block_minecraft_banner_stripe_center_pink: Pink Pale
+block_minecraft_banner_stripe_center_lime: Lime Pale
+block_minecraft_banner_stripe_center_yellow: Yellow Pale
+block_minecraft_banner_stripe_center_light_blue: Light Blue Pale
+block_minecraft_banner_stripe_center_magenta: Magenta Pale
+block_minecraft_banner_stripe_center_orange: Orange Pale
+block_minecraft_banner_stripe_center_white: White Pale
+block_minecraft_banner_stripe_middle_black: Black Fess
+block_minecraft_banner_stripe_middle_red: Red Fess
+block_minecraft_banner_stripe_middle_green: Green Fess
+block_minecraft_banner_stripe_middle_brown: Brown Fess
+block_minecraft_banner_stripe_middle_blue: Blue Fess
+block_minecraft_banner_stripe_middle_purple: Purple Fess
+block_minecraft_banner_stripe_middle_cyan: Cyan Fess
+block_minecraft_banner_stripe_middle_light_gray: Light Gray Fess
+block_minecraft_banner_stripe_middle_gray: Gray Fess
+block_minecraft_banner_stripe_middle_pink: Pink Fess
+block_minecraft_banner_stripe_middle_lime: Lime Fess
+block_minecraft_banner_stripe_middle_yellow: Yellow Fess
+block_minecraft_banner_stripe_middle_light_blue: Light Blue Fess
+block_minecraft_banner_stripe_middle_magenta: Magenta Fess
+block_minecraft_banner_stripe_middle_orange: Orange Fess
+block_minecraft_banner_stripe_middle_white: White Fess
+block_minecraft_banner_stripe_downright_black: Black Bend
+block_minecraft_banner_stripe_downright_red: Red Bend
+block_minecraft_banner_stripe_downright_green: Green Bend
+block_minecraft_banner_stripe_downright_brown: Brown Bend
+block_minecraft_banner_stripe_downright_blue: Blue Bend
+block_minecraft_banner_stripe_downright_purple: Purple Bend
+block_minecraft_banner_stripe_downright_cyan: Cyan Bend
+block_minecraft_banner_stripe_downright_light_gray: Light Gray Bend
+block_minecraft_banner_stripe_downright_gray: Gray Bend
+block_minecraft_banner_stripe_downright_pink: Pink Bend
+block_minecraft_banner_stripe_downright_lime: Lime Bend
+block_minecraft_banner_stripe_downright_yellow: Yellow Bend
+block_minecraft_banner_stripe_downright_light_blue: Light Blue Bend
+block_minecraft_banner_stripe_downright_magenta: Magenta Bend
+block_minecraft_banner_stripe_downright_orange: Orange Bend
+block_minecraft_banner_stripe_downright_white: White Bend
+block_minecraft_banner_stripe_downleft_black: Black Bend Sinister
+block_minecraft_banner_stripe_downleft_red: Red Bend Sinister
+block_minecraft_banner_stripe_downleft_green: Green Bend Sinister
+block_minecraft_banner_stripe_downleft_brown: Brown Bend Sinister
+block_minecraft_banner_stripe_downleft_blue: Blue Bend Sinister
+block_minecraft_banner_stripe_downleft_purple: Purple Bend Sinister
+block_minecraft_banner_stripe_downleft_cyan: Cyan Bend Sinister
+block_minecraft_banner_stripe_downleft_light_gray: Light Gray Bend Sinister
+block_minecraft_banner_stripe_downleft_gray: Gray Bend Sinister
+block_minecraft_banner_stripe_downleft_pink: Pink Bend Sinister
+block_minecraft_banner_stripe_downleft_lime: Lime Bend Sinister
+block_minecraft_banner_stripe_downleft_yellow: Yellow Bend Sinister
+block_minecraft_banner_stripe_downleft_light_blue: Light Blue Bend Sinister
+block_minecraft_banner_stripe_downleft_magenta: Magenta Bend Sinister
+block_minecraft_banner_stripe_downleft_orange: Orange Bend Sinister
+block_minecraft_banner_stripe_downleft_white: White Bend Sinister
+block_minecraft_banner_small_stripes_black: Black Paly
+block_minecraft_banner_small_stripes_red: Red Paly
+block_minecraft_banner_small_stripes_green: Green Paly
+block_minecraft_banner_small_stripes_brown: Brown Paly
+block_minecraft_banner_small_stripes_blue: Blue Paly
+block_minecraft_banner_small_stripes_purple: Purple Paly
+block_minecraft_banner_small_stripes_cyan: Cyan Paly
+block_minecraft_banner_small_stripes_light_gray: Light Gray Paly
+block_minecraft_banner_small_stripes_gray: Gray Paly
+block_minecraft_banner_small_stripes_pink: Pink Paly
+block_minecraft_banner_small_stripes_lime: Lime Paly
+block_minecraft_banner_small_stripes_yellow: Yellow Paly
+block_minecraft_banner_small_stripes_light_blue: Light Blue Paly
+block_minecraft_banner_small_stripes_magenta: Magenta Paly
+block_minecraft_banner_small_stripes_orange: Orange Paly
+block_minecraft_banner_small_stripes_white: White Paly
+block_minecraft_banner_cross_black: Black Saltire
+block_minecraft_banner_cross_red: Red Saltire
+block_minecraft_banner_cross_green: Green Saltire
+block_minecraft_banner_cross_brown: Brown Saltire
+block_minecraft_banner_cross_blue: Blue Saltire
+block_minecraft_banner_cross_purple: Purple Saltire
+block_minecraft_banner_cross_cyan: Cyan Saltire
+block_minecraft_banner_cross_light_gray: Light Gray Saltire
+block_minecraft_banner_cross_gray: Gray Saltire
+block_minecraft_banner_cross_pink: Pink Saltire
+block_minecraft_banner_cross_lime: Lime Saltire
+block_minecraft_banner_cross_yellow: Yellow Saltire
+block_minecraft_banner_cross_light_blue: Light Blue Saltire
+block_minecraft_banner_cross_magenta: Magenta Saltire
+block_minecraft_banner_cross_orange: Orange Saltire
+block_minecraft_banner_cross_white: White Saltire
+block_minecraft_banner_triangle_bottom_black: Black Chevron
+block_minecraft_banner_triangle_bottom_red: Red Chevron
+block_minecraft_banner_triangle_bottom_green: Green Chevron
+block_minecraft_banner_triangle_bottom_brown: Brown Chevron
+block_minecraft_banner_triangle_bottom_blue: Blue Chevron
+block_minecraft_banner_triangle_bottom_purple: Purple Chevron
+block_minecraft_banner_triangle_bottom_cyan: Cyan Chevron
+block_minecraft_banner_triangle_bottom_light_gray: Light Gray Chevron
+block_minecraft_banner_triangle_bottom_gray: Gray Chevron
+block_minecraft_banner_triangle_bottom_pink: Pink Chevron
+block_minecraft_banner_triangle_bottom_lime: Lime Chevron
+block_minecraft_banner_triangle_bottom_yellow: Yellow Chevron
+block_minecraft_banner_triangle_bottom_light_blue: Light Blue Chevron
+block_minecraft_banner_triangle_bottom_magenta: Magenta Chevron
+block_minecraft_banner_triangle_bottom_orange: Orange Chevron
+block_minecraft_banner_triangle_bottom_white: White Chevron
+block_minecraft_banner_triangle_top_black: Black Inverted Chevron
+block_minecraft_banner_triangle_top_red: Red Inverted Chevron
+block_minecraft_banner_triangle_top_green: Green Inverted Chevron
+block_minecraft_banner_triangle_top_brown: Brown Inverted Chevron
+block_minecraft_banner_triangle_top_blue: Blue Inverted Chevron
+block_minecraft_banner_triangle_top_purple: Purple Inverted Chevron
+block_minecraft_banner_triangle_top_cyan: Cyan Inverted Chevron
+block_minecraft_banner_triangle_top_light_gray: Light Gray Inverted Chevron
+block_minecraft_banner_triangle_top_gray: Gray Inverted Chevron
+block_minecraft_banner_triangle_top_pink: Pink Inverted Chevron
+block_minecraft_banner_triangle_top_lime: Lime Inverted Chevron
+block_minecraft_banner_triangle_top_yellow: Yellow Inverted Chevron
+block_minecraft_banner_triangle_top_light_blue: Light Blue Inverted Chevron
+block_minecraft_banner_triangle_top_magenta: Magenta Inverted Chevron
+block_minecraft_banner_triangle_top_orange: Orange Inverted Chevron
+block_minecraft_banner_triangle_top_white: White Inverted Chevron
+block_minecraft_banner_triangles_bottom_black: Black Base Indented
+block_minecraft_banner_triangles_bottom_red: Red Base Indented
+block_minecraft_banner_triangles_bottom_green: Green Base Indented
+block_minecraft_banner_triangles_bottom_brown: Brown Base Indented
+block_minecraft_banner_triangles_bottom_blue: Blue Base Indented
+block_minecraft_banner_triangles_bottom_purple: Purple Base Indented
+block_minecraft_banner_triangles_bottom_cyan: Cyan Base Indented
+block_minecraft_banner_triangles_bottom_light_gray: Light Gray Base Indented
+block_minecraft_banner_triangles_bottom_gray: Gray Base Indented
+block_minecraft_banner_triangles_bottom_pink: Pink Base Indented
+block_minecraft_banner_triangles_bottom_lime: Lime Base Indented
+block_minecraft_banner_triangles_bottom_yellow: Yellow Base Indented
+block_minecraft_banner_triangles_bottom_light_blue: Light Blue Base Indented
+block_minecraft_banner_triangles_bottom_magenta: Magenta Base Indented
+block_minecraft_banner_triangles_bottom_orange: Orange Base Indented
+block_minecraft_banner_triangles_bottom_white: White Base Indented
+block_minecraft_banner_triangles_top_black: Black Chief Indented
+block_minecraft_banner_triangles_top_red: Red Chief Indented
+block_minecraft_banner_triangles_top_green: Green Chief Indented
+block_minecraft_banner_triangles_top_brown: Brown Chief Indented
+block_minecraft_banner_triangles_top_blue: Blue Chief Indented
+block_minecraft_banner_triangles_top_purple: Purple Chief Indented
+block_minecraft_banner_triangles_top_cyan: Cyan Chief Indented
+block_minecraft_banner_triangles_top_light_gray: Light Gray Chief Indented
+block_minecraft_banner_triangles_top_gray: Gray Chief Indented
+block_minecraft_banner_triangles_top_pink: Pink Chief Indented
+block_minecraft_banner_triangles_top_lime: Lime Chief Indented
+block_minecraft_banner_triangles_top_yellow: Yellow Chief Indented
+block_minecraft_banner_triangles_top_light_blue: Light Blue Chief Indented
+block_minecraft_banner_triangles_top_magenta: Magenta Chief Indented
+block_minecraft_banner_triangles_top_orange: Orange Chief Indented
+block_minecraft_banner_triangles_top_white: White Chief Indented
+block_minecraft_banner_diagonal_left_black: Black Per Bend Sinister
+block_minecraft_banner_diagonal_left_red: Red Per Bend Sinister
+block_minecraft_banner_diagonal_left_green: Green Per Bend Sinister
+block_minecraft_banner_diagonal_left_brown: Brown Per Bend Sinister
+block_minecraft_banner_diagonal_left_blue: Blue Per Bend Sinister
+block_minecraft_banner_diagonal_left_purple: Purple Per Bend Sinister
+block_minecraft_banner_diagonal_left_cyan: Cyan Per Bend Sinister
+block_minecraft_banner_diagonal_left_light_gray: Light Gray Per Bend Sinister
+block_minecraft_banner_diagonal_left_gray: Gray Per Bend Sinister
+block_minecraft_banner_diagonal_left_pink: Pink Per Bend Sinister
+block_minecraft_banner_diagonal_left_lime: Lime Per Bend Sinister
+block_minecraft_banner_diagonal_left_yellow: Yellow Per Bend Sinister
+block_minecraft_banner_diagonal_left_light_blue: Light Blue Per Bend Sinister
+block_minecraft_banner_diagonal_left_magenta: Magenta Per Bend Sinister
+block_minecraft_banner_diagonal_left_orange: Orange Per Bend Sinister
+block_minecraft_banner_diagonal_left_white: White Per Bend Sinister
+block_minecraft_banner_diagonal_right_black: Black Per Bend
+block_minecraft_banner_diagonal_right_red: Red Per Bend
+block_minecraft_banner_diagonal_right_green: Green Per Bend
+block_minecraft_banner_diagonal_right_brown: Brown Per Bend
+block_minecraft_banner_diagonal_right_blue: Blue Per Bend
+block_minecraft_banner_diagonal_right_purple: Purple Per Bend
+block_minecraft_banner_diagonal_right_cyan: Cyan Per Bend
+block_minecraft_banner_diagonal_right_light_gray: Light Gray Per Bend
+block_minecraft_banner_diagonal_right_gray: Gray Per Bend
+block_minecraft_banner_diagonal_right_pink: Pink Per Bend
+block_minecraft_banner_diagonal_right_lime: Lime Per Bend
+block_minecraft_banner_diagonal_right_yellow: Yellow Per Bend
+block_minecraft_banner_diagonal_right_light_blue: Light Blue Per Bend
+block_minecraft_banner_diagonal_right_magenta: Magenta Per Bend
+block_minecraft_banner_diagonal_right_orange: Orange Per Bend
+block_minecraft_banner_diagonal_right_white: White Per Bend
+block_minecraft_banner_diagonal_up_left_black: Black Per Bend Inverted
+block_minecraft_banner_diagonal_up_left_red: Red Per Bend Inverted
+block_minecraft_banner_diagonal_up_left_green: Green Per Bend Inverted
+block_minecraft_banner_diagonal_up_left_brown: Brown Per Bend Inverted
+block_minecraft_banner_diagonal_up_left_blue: Blue Per Bend Inverted
+block_minecraft_banner_diagonal_up_left_purple: Purple Per Bend Inverted
+block_minecraft_banner_diagonal_up_left_cyan: Cyan Per Bend Inverted
+block_minecraft_banner_diagonal_up_left_light_gray: Light Gray Per Bend Inverted
+block_minecraft_banner_diagonal_up_left_gray: Gray Per Bend Inverted
+block_minecraft_banner_diagonal_up_left_pink: Pink Per Bend Inverted
+block_minecraft_banner_diagonal_up_left_lime: Lime Per Bend Inverted
+block_minecraft_banner_diagonal_up_left_yellow: Yellow Per Bend Inverted
+block_minecraft_banner_diagonal_up_left_light_blue: Light Blue Per Bend Inverted
+block_minecraft_banner_diagonal_up_left_magenta: Magenta Per Bend Inverted
+block_minecraft_banner_diagonal_up_left_orange: Orange Per Bend Inverted
+block_minecraft_banner_diagonal_up_left_white: White Per Bend Inverted
+block_minecraft_banner_diagonal_up_right_black: Black Per Bend Sinister Inverted
+block_minecraft_banner_diagonal_up_right_red: Red Per Bend Sinister Inverted
+block_minecraft_banner_diagonal_up_right_green: Green Per Bend Sinister Inverted
+block_minecraft_banner_diagonal_up_right_brown: Brown Per Bend Sinister Inverted
+block_minecraft_banner_diagonal_up_right_blue: Blue Per Bend Sinister Inverted
+block_minecraft_banner_diagonal_up_right_purple: Purple Per Bend Sinister Inverted
+block_minecraft_banner_diagonal_up_right_cyan: Cyan Per Bend Sinister Inverted
+block_minecraft_banner_diagonal_up_right_light_gray: Light Gray Per Bend Sinister
+  Inverted
+block_minecraft_banner_diagonal_up_right_gray: Gray Per Bend Sinister Inverted
+block_minecraft_banner_diagonal_up_right_pink: Pink Per Bend Sinister Inverted
+block_minecraft_banner_diagonal_up_right_lime: Lime Per Bend Sinister Inverted
+block_minecraft_banner_diagonal_up_right_yellow: Yellow Per Bend Sinister Inverted
+block_minecraft_banner_diagonal_up_right_light_blue: Light Blue Per Bend Sinister
+  Inverted
+block_minecraft_banner_diagonal_up_right_magenta: Magenta Per Bend Sinister Inverted
+block_minecraft_banner_diagonal_up_right_orange: Orange Per Bend Sinister Inverted
+block_minecraft_banner_diagonal_up_right_white: White Per Bend Sinister Inverted
+block_minecraft_banner_circle_black: Black Roundel
+block_minecraft_banner_circle_red: Red Roundel
+block_minecraft_banner_circle_green: Green Roundel
+block_minecraft_banner_circle_brown: Brown Roundel
+block_minecraft_banner_circle_blue: Blue Roundel
+block_minecraft_banner_circle_purple: Purple Roundel
+block_minecraft_banner_circle_cyan: Cyan Roundel
+block_minecraft_banner_circle_light_gray: Light Gray Roundel
+block_minecraft_banner_circle_gray: Gray Roundel
+block_minecraft_banner_circle_pink: Pink Roundel
+block_minecraft_banner_circle_lime: Lime Roundel
+block_minecraft_banner_circle_yellow: Yellow Roundel
+block_minecraft_banner_circle_light_blue: Light Blue Roundel
+block_minecraft_banner_circle_magenta: Magenta Roundel
+block_minecraft_banner_circle_orange: Orange Roundel
+block_minecraft_banner_circle_white: White Roundel
+block_minecraft_banner_rhombus_black: Black Lozenge
+block_minecraft_banner_rhombus_red: Red Lozenge
+block_minecraft_banner_rhombus_green: Green Lozenge
+block_minecraft_banner_rhombus_brown: Brown Lozenge
+block_minecraft_banner_rhombus_blue: Blue Lozenge
+block_minecraft_banner_rhombus_purple: Purple Lozenge
+block_minecraft_banner_rhombus_cyan: Cyan Lozenge
+block_minecraft_banner_rhombus_light_gray: Light Gray Lozenge
+block_minecraft_banner_rhombus_gray: Gray Lozenge
+block_minecraft_banner_rhombus_pink: Pink Lozenge
+block_minecraft_banner_rhombus_lime: Lime Lozenge
+block_minecraft_banner_rhombus_yellow: Yellow Lozenge
+block_minecraft_banner_rhombus_light_blue: Light Blue Lozenge
+block_minecraft_banner_rhombus_magenta: Magenta Lozenge
+block_minecraft_banner_rhombus_orange: Orange Lozenge
+block_minecraft_banner_rhombus_white: White Lozenge
+block_minecraft_banner_half_vertical_black: Black Per Pale
+block_minecraft_banner_half_vertical_red: Red Per Pale
+block_minecraft_banner_half_vertical_green: Green Per Pale
+block_minecraft_banner_half_vertical_brown: Brown Per Pale
+block_minecraft_banner_half_vertical_blue: Blue Per Pale
+block_minecraft_banner_half_vertical_purple: Purple Per Pale
+block_minecraft_banner_half_vertical_cyan: Cyan Per Pale
+block_minecraft_banner_half_vertical_light_gray: Light Gray Per Pale
+block_minecraft_banner_half_vertical_gray: Gray Per Pale
+block_minecraft_banner_half_vertical_pink: Pink Per Pale
+block_minecraft_banner_half_vertical_lime: Lime Per Pale
+block_minecraft_banner_half_vertical_yellow: Yellow Per Pale
+block_minecraft_banner_half_vertical_light_blue: Light Blue Per Pale
+block_minecraft_banner_half_vertical_magenta: Magenta Per Pale
+block_minecraft_banner_half_vertical_orange: Orange Per Pale
+block_minecraft_banner_half_vertical_white: White Per Pale
+block_minecraft_banner_half_horizontal_black: Black Per Fess
+block_minecraft_banner_half_horizontal_red: Red Per Fess
+block_minecraft_banner_half_horizontal_green: Green Per Fess
+block_minecraft_banner_half_horizontal_brown: Brown Per Fess
+block_minecraft_banner_half_horizontal_blue: Blue Per Fess
+block_minecraft_banner_half_horizontal_purple: Purple Per Fess
+block_minecraft_banner_half_horizontal_cyan: Cyan Per Fess
+block_minecraft_banner_half_horizontal_light_gray: Light Gray Per Fess
+block_minecraft_banner_half_horizontal_gray: Gray Per Fess
+block_minecraft_banner_half_horizontal_pink: Pink Per Fess
+block_minecraft_banner_half_horizontal_lime: Lime Per Fess
+block_minecraft_banner_half_horizontal_yellow: Yellow Per Fess
+block_minecraft_banner_half_horizontal_light_blue: Light Blue Per Fess
+block_minecraft_banner_half_horizontal_magenta: Magenta Per Fess
+block_minecraft_banner_half_horizontal_orange: Orange Per Fess
+block_minecraft_banner_half_horizontal_white: White Per Fess
+block_minecraft_banner_half_vertical_right_black: Black Per Pale Inverted
+block_minecraft_banner_half_vertical_right_red: Red Per Pale Inverted
+block_minecraft_banner_half_vertical_right_green: Green Per Pale Inverted
+block_minecraft_banner_half_vertical_right_brown: Brown Per Pale Inverted
+block_minecraft_banner_half_vertical_right_blue: Blue Per Pale Inverted
+block_minecraft_banner_half_vertical_right_purple: Purple Per Pale Inverted
+block_minecraft_banner_half_vertical_right_cyan: Cyan Per Pale Inverted
+block_minecraft_banner_half_vertical_right_light_gray: Light Gray Per Pale Inverted
+block_minecraft_banner_half_vertical_right_gray: Gray Per Pale Inverted
+block_minecraft_banner_half_vertical_right_pink: Pink Per Pale Inverted
+block_minecraft_banner_half_vertical_right_lime: Lime Per Pale Inverted
+block_minecraft_banner_half_vertical_right_yellow: Yellow Per Pale Inverted
+block_minecraft_banner_half_vertical_right_light_blue: Light Blue Per Pale Inverted
+block_minecraft_banner_half_vertical_right_magenta: Magenta Per Pale Inverted
+block_minecraft_banner_half_vertical_right_orange: Orange Per Pale Inverted
+block_minecraft_banner_half_vertical_right_white: White Per Pale Inverted
+block_minecraft_banner_half_horizontal_bottom_black: Black Per Fess Inverted
+block_minecraft_banner_half_horizontal_bottom_red: Red Per Fess Inverted
+block_minecraft_banner_half_horizontal_bottom_green: Green Per Fess Inverted
+block_minecraft_banner_half_horizontal_bottom_brown: Brown Per Fess Inverted
+block_minecraft_banner_half_horizontal_bottom_blue: Blue Per Fess Inverted
+block_minecraft_banner_half_horizontal_bottom_purple: Purple Per Fess Inverted
+block_minecraft_banner_half_horizontal_bottom_cyan: Cyan Per Fess Inverted
+block_minecraft_banner_half_horizontal_bottom_light_gray: Light Gray Per Fess Inverted
+block_minecraft_banner_half_horizontal_bottom_gray: Gray Per Fess Inverted
+block_minecraft_banner_half_horizontal_bottom_pink: Pink Per Fess Inverted
+block_minecraft_banner_half_horizontal_bottom_lime: Lime Per Fess Inverted
+block_minecraft_banner_half_horizontal_bottom_yellow: Yellow Per Fess Inverted
+block_minecraft_banner_half_horizontal_bottom_light_blue: Light Blue Per Fess Inverted
+block_minecraft_banner_half_horizontal_bottom_magenta: Magenta Per Fess Inverted
+block_minecraft_banner_half_horizontal_bottom_orange: Orange Per Fess Inverted
+block_minecraft_banner_half_horizontal_bottom_white: White Per Fess Inverted
+block_minecraft_banner_creeper_black: Black Creeper Charge
+block_minecraft_banner_creeper_red: Red Creeper Charge
+block_minecraft_banner_creeper_green: Green Creeper Charge
+block_minecraft_banner_creeper_brown: Brown Creeper Charge
+block_minecraft_banner_creeper_blue: Blue Creeper Charge
+block_minecraft_banner_creeper_purple: Purple Creeper Charge
+block_minecraft_banner_creeper_cyan: Cyan Creeper Charge
+block_minecraft_banner_creeper_light_gray: Light Gray Creeper Charge
+block_minecraft_banner_creeper_gray: Gray Creeper Charge
+block_minecraft_banner_creeper_pink: Pink Creeper Charge
+block_minecraft_banner_creeper_lime: Lime Creeper Charge
+block_minecraft_banner_creeper_yellow: Yellow Creeper Charge
+block_minecraft_banner_creeper_light_blue: Light Blue Creeper Charge
+block_minecraft_banner_creeper_magenta: Magenta Creeper Charge
+block_minecraft_banner_creeper_orange: Orange Creeper Charge
+block_minecraft_banner_creeper_white: White Creeper Charge
+block_minecraft_banner_bricks_black: Black Field Masoned
+block_minecraft_banner_bricks_red: Red Field Masoned
+block_minecraft_banner_bricks_green: Green Field Masoned
+block_minecraft_banner_bricks_brown: Brown Field Masoned
+block_minecraft_banner_bricks_blue: Blue Field Masoned
+block_minecraft_banner_bricks_purple: Purple Field Masoned
+block_minecraft_banner_bricks_cyan: Cyan Field Masoned
+block_minecraft_banner_bricks_light_gray: Light Gray Field Masoned
+block_minecraft_banner_bricks_gray: Gray Field Masoned
+block_minecraft_banner_bricks_pink: Pink Field Masoned
+block_minecraft_banner_bricks_lime: Lime Field Masoned
+block_minecraft_banner_bricks_yellow: Yellow Field Masoned
+block_minecraft_banner_bricks_light_blue: Light Blue Field Masoned
+block_minecraft_banner_bricks_magenta: Magenta Field Masoned
+block_minecraft_banner_bricks_orange: Orange Field Masoned
+block_minecraft_banner_bricks_white: White Field Masoned
+block_minecraft_banner_gradient_black: Black Gradient
+block_minecraft_banner_gradient_red: Red Gradient
+block_minecraft_banner_gradient_green: Green Gradient
+block_minecraft_banner_gradient_brown: Brown Gradient
+block_minecraft_banner_gradient_blue: Blue Gradient
+block_minecraft_banner_gradient_purple: Purple Gradient
+block_minecraft_banner_gradient_cyan: Cyan Gradient
+block_minecraft_banner_gradient_light_gray: Light Gray Gradient
+block_minecraft_banner_gradient_gray: Gray Gradient
+block_minecraft_banner_gradient_pink: Pink Gradient
+block_minecraft_banner_gradient_lime: Lime Gradient
+block_minecraft_banner_gradient_yellow: Yellow Gradient
+block_minecraft_banner_gradient_light_blue: Light Blue Gradient
+block_minecraft_banner_gradient_magenta: Magenta Gradient
+block_minecraft_banner_gradient_orange: Orange Gradient
+block_minecraft_banner_gradient_white: White Gradient
+block_minecraft_banner_gradient_up_black: Black Base Gradient
+block_minecraft_banner_gradient_up_red: Red Base Gradient
+block_minecraft_banner_gradient_up_green: Green Base Gradient
+block_minecraft_banner_gradient_up_brown: Brown Base Gradient
+block_minecraft_banner_gradient_up_blue: Blue Base Gradient
+block_minecraft_banner_gradient_up_purple: Purple Base Gradient
+block_minecraft_banner_gradient_up_cyan: Cyan Base Gradient
+block_minecraft_banner_gradient_up_light_gray: Light Gray Base Gradient
+block_minecraft_banner_gradient_up_gray: Gray Base Gradient
+block_minecraft_banner_gradient_up_pink: Pink Base Gradient
+block_minecraft_banner_gradient_up_lime: Lime Base Gradient
+block_minecraft_banner_gradient_up_yellow: Yellow Base Gradient
+block_minecraft_banner_gradient_up_light_blue: Light Blue Base Gradient
+block_minecraft_banner_gradient_up_magenta: Magenta Base Gradient
+block_minecraft_banner_gradient_up_orange: Orange Base Gradient
+block_minecraft_banner_gradient_up_white: White Base Gradient
+block_minecraft_banner_skull_black: Black Skull Charge
+block_minecraft_banner_skull_red: Red Skull Charge
+block_minecraft_banner_skull_green: Green Skull Charge
+block_minecraft_banner_skull_brown: Brown Skull Charge
+block_minecraft_banner_skull_blue: Blue Skull Charge
+block_minecraft_banner_skull_purple: Purple Skull Charge
+block_minecraft_banner_skull_cyan: Cyan Skull Charge
+block_minecraft_banner_skull_light_gray: Light Gray Skull Charge
+block_minecraft_banner_skull_gray: Gray Skull Charge
+block_minecraft_banner_skull_pink: Pink Skull Charge
+block_minecraft_banner_skull_lime: Lime Skull Charge
+block_minecraft_banner_skull_yellow: Yellow Skull Charge
+block_minecraft_banner_skull_light_blue: Light Blue Skull Charge
+block_minecraft_banner_skull_magenta: Magenta Skull Charge
+block_minecraft_banner_skull_orange: Orange Skull Charge
+block_minecraft_banner_skull_white: White Skull Charge
+block_minecraft_banner_flower_black: Black Flower Charge
+block_minecraft_banner_flower_red: Red Flower Charge
+block_minecraft_banner_flower_green: Green Flower Charge
+block_minecraft_banner_flower_brown: Brown Flower Charge
+block_minecraft_banner_flower_blue: Blue Flower Charge
+block_minecraft_banner_flower_purple: Purple Flower Charge
+block_minecraft_banner_flower_cyan: Cyan Flower Charge
+block_minecraft_banner_flower_light_gray: Light Gray Flower Charge
+block_minecraft_banner_flower_gray: Gray Flower Charge
+block_minecraft_banner_flower_pink: Pink Flower Charge
+block_minecraft_banner_flower_lime: Lime Flower Charge
+block_minecraft_banner_flower_yellow: Yellow Flower Charge
+block_minecraft_banner_flower_light_blue: Light Blue Flower Charge
+block_minecraft_banner_flower_magenta: Magenta Flower Charge
+block_minecraft_banner_flower_orange: Orange Flower Charge
+block_minecraft_banner_flower_white: White Flower Charge
+block_minecraft_banner_border_black: Black Bordure
+block_minecraft_banner_border_red: Red Bordure
+block_minecraft_banner_border_green: Green Bordure
+block_minecraft_banner_border_brown: Brown Bordure
+block_minecraft_banner_border_blue: Blue Bordure
+block_minecraft_banner_border_purple: Purple Bordure
+block_minecraft_banner_border_cyan: Cyan Bordure
+block_minecraft_banner_border_light_gray: Light Gray Bordure
+block_minecraft_banner_border_gray: Gray Bordure
+block_minecraft_banner_border_pink: Pink Bordure
+block_minecraft_banner_border_lime: Lime Bordure
+block_minecraft_banner_border_yellow: Yellow Bordure
+block_minecraft_banner_border_light_blue: Light Blue Bordure
+block_minecraft_banner_border_magenta: Magenta Bordure
+block_minecraft_banner_border_orange: Orange Bordure
+block_minecraft_banner_border_white: White Bordure
+block_minecraft_banner_curly_border_black: Black Bordure Indented
+block_minecraft_banner_curly_border_red: Red Bordure Indented
+block_minecraft_banner_curly_border_green: Green Bordure Indented
+block_minecraft_banner_curly_border_brown: Brown Bordure Indented
+block_minecraft_banner_curly_border_blue: Blue Bordure Indented
+block_minecraft_banner_curly_border_purple: Purple Bordure Indented
+block_minecraft_banner_curly_border_cyan: Cyan Bordure Indented
+block_minecraft_banner_curly_border_light_gray: Light Gray Bordure Indented
+block_minecraft_banner_curly_border_gray: Gray Bordure Indented
+block_minecraft_banner_curly_border_pink: Pink Bordure Indented
+block_minecraft_banner_curly_border_lime: Lime Bordure Indented
+block_minecraft_banner_curly_border_yellow: Yellow Bordure Indented
+block_minecraft_banner_curly_border_light_blue: Light Blue Bordure Indented
+block_minecraft_banner_curly_border_magenta: Magenta Bordure Indented
+block_minecraft_banner_curly_border_orange: Orange Bordure Indented
+block_minecraft_banner_curly_border_white: White Bordure Indented
+block_minecraft_banner_mojang_black: Black Thing
+block_minecraft_banner_mojang_red: Red Thing
+block_minecraft_banner_mojang_green: Green Thing
+block_minecraft_banner_mojang_brown: Brown Thing
+block_minecraft_banner_mojang_blue: Blue Thing
+block_minecraft_banner_mojang_purple: Purple Thing
+block_minecraft_banner_mojang_cyan: Cyan Thing
+block_minecraft_banner_mojang_light_gray: Light Gray Thing
+block_minecraft_banner_mojang_gray: Gray Thing
+block_minecraft_banner_mojang_pink: Pink Thing
+block_minecraft_banner_mojang_lime: Lime Thing
+block_minecraft_banner_mojang_yellow: Yellow Thing
+block_minecraft_banner_mojang_light_blue: Light Blue Thing
+block_minecraft_banner_mojang_magenta: Magenta Thing
+block_minecraft_banner_mojang_orange: Orange Thing
+block_minecraft_banner_mojang_white: White Thing
+block_minecraft_banner_straight_cross_black: Black Cross
+block_minecraft_banner_straight_cross_red: Red Cross
+block_minecraft_banner_straight_cross_green: Green Cross
+block_minecraft_banner_straight_cross_brown: Brown Cross
+block_minecraft_banner_straight_cross_blue: Blue Cross
+block_minecraft_banner_straight_cross_purple: Purple Cross
+block_minecraft_banner_straight_cross_cyan: Cyan Cross
+block_minecraft_banner_straight_cross_light_gray: Light Gray Cross
+block_minecraft_banner_straight_cross_gray: Gray Cross
+block_minecraft_banner_straight_cross_pink: Pink Cross
+block_minecraft_banner_straight_cross_lime: Lime Cross
+block_minecraft_banner_straight_cross_yellow: Yellow Cross
+block_minecraft_banner_straight_cross_light_blue: Light Blue Cross
+block_minecraft_banner_straight_cross_magenta: Magenta Cross
+block_minecraft_banner_straight_cross_orange: Orange Cross
+block_minecraft_banner_straight_cross_white: White Cross
+block_minecraft_banner_globe_black: Black Globe
+block_minecraft_banner_globe_red: Red Globe
+block_minecraft_banner_globe_green: Green Globe
+block_minecraft_banner_globe_brown: Brown Globe
+block_minecraft_banner_globe_blue: Blue Globe
+block_minecraft_banner_globe_purple: Purple Globe
+block_minecraft_banner_globe_cyan: Cyan Globe
+block_minecraft_banner_globe_light_gray: Light Gray Globe
+block_minecraft_banner_globe_gray: Gray Globe
+block_minecraft_banner_globe_pink: Pink Globe
+block_minecraft_banner_globe_lime: Lime Globe
+block_minecraft_banner_globe_yellow: Yellow Globe
+block_minecraft_banner_globe_light_blue: Light Blue Globe
+block_minecraft_banner_globe_magenta: Magenta Globe
+block_minecraft_banner_globe_orange: Orange Globe
+block_minecraft_banner_globe_white: White Globe
+block_minecraft_banner_piglin_black: Black Snout
+block_minecraft_banner_piglin_red: Red Snout
+block_minecraft_banner_piglin_green: Green Snout
+block_minecraft_banner_piglin_brown: Brown Snout
+block_minecraft_banner_piglin_blue: Blue Snout
+block_minecraft_banner_piglin_purple: Purple Snout
+block_minecraft_banner_piglin_cyan: Cyan Snout
+block_minecraft_banner_piglin_light_gray: Light Gray Snout
+block_minecraft_banner_piglin_gray: Gray Snout
+block_minecraft_banner_piglin_pink: Pink Snout
+block_minecraft_banner_piglin_lime: Lime Snout
+block_minecraft_banner_piglin_yellow: Yellow Snout
+block_minecraft_banner_piglin_light_blue: Light Blue Snout
+block_minecraft_banner_piglin_magenta: Magenta Snout
+block_minecraft_banner_piglin_orange: Orange Snout
+block_minecraft_banner_piglin_white: White Snout

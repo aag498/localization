@@ -1,0 +1,2943 @@
+# =======================
+#         Общее
+# =======================
+prefix: '§7[§cAstrona §4Network§7] §7'
+
+motd: |-
+  §7[§cAstrona §4Network§7] §7 Ебучий кокер руинит винтону день :(
+  §f§lХуесосание §8§l» §c2x1§7, §c2x2§7,§c 4x1
+motd_not_connected: |-
+  §7[§cAstrona §4Network§7] §7 Ебучий кокер руинит винтону день :(
+  §cИгровой координатор не работает. Возможно, тех. работы
+core_not_connected: |-
+  §cСвязь с игровым координатором потеряна
+  §f
+  §fВы сможете войти сразу, как только соединение
+  §fвосстановится, ожидайте.
+  §f
+  §fЕсли затем у вас возникнут какие-то вопросы,
+  §fобращайтесь в поддержку. §chttps://discord.gg/astrona
+kicked_for_afk_message: '$prefix$Вы были кикнуты нахождение в AFK слишком долго'
+kicked_for_afk_reason: '§cВы были кикнуты за нахождение в AFK слишком долго'
+please_no_afk_title: '§cНе стойте в AFK'
+please_no_afk_subtitle: '§7Или Вы будете кикнуты в Limbo'
+vanished_chat_format: '§7Скрыт §8| §f'
+
+website_AntiEurope_shop: 'Магазин Traveller-Land'
+website_nick_placeholder: 'Ник в игре'
+
+entity_get_result: |-
+  $prefix$Информация о §c#%id% §f(%name%)
+   §f- Фейк: §c%fake%
+   §f- Публичный: §c%public%
+   §f- Локация: §c%world%, %x%, %y%, %z%
+   §f- Тип: §c%type%
+
+unknown: '§cнеизвестно'
+never: '§cникогда'
+forever: 'навсегда'
+
+# =======================
+#         Группы
+# =======================
+group_expired: |-
+  $prefix$Срок действия привилегии %rank% §fистёк, она была снята
+   §c* §fВы можете приобрести новую на нашем сайте §d$website_url$
+group_expires: '$prefix$Срок действия привилегии %rank% §fистекает через §c%time%'
+group_expires_information: |-
+  §c* §fПо истечению Вам будет возвращена Ваша прошлая привилегия
+  §c* §fВы можете купить новую привилегию на сайте §d$website_url$
+# =======================
+#           ВК
+# =======================
+vk_link_notification: '$prefix$Привяжите аккаунт Вконтакте. Для этого напишите в сообщения группы §cvk.com/antieuropexyz§f слово "Привязать"'
+# =======================
+#        Спектаторы
+# =======================
+spectator_spectating_to_player: |-
+  $prefix$Вы наблюдаете за %name%
+  $prefix$Нажмите §cShift§f, чтобы выйти из режима наблюдения
+spectator_spectating_to_player_title: '§6Вы наблюдаете за %name%'
+spectator_spectating_to_player_subtitle: '§7Нажмите §fShift§7, чтобы выйти из режима наблюдения'
+spectator_spectating_to_player_bar: '§fНаблюдение за %name% §7| §cShift§f, чтобы выйти'
+spectator_game_started: '$prefix$Игра на данной арене уже началась. Вы можете только наблюдать за процессом'
+spectator_exit: '$prefix$Вы вышли из режима наблюдения'
+# =======================
+#           Гуи
+# =======================
+gui_loading_icon_name: '§7Идёт загрузка данных...'
+gui_loading_icon_lore: ''
+gui_back_to_menu_icon_name: '§6Вернуться назад'
+gui_back_to_menu_icon_lore: |-
+  §7Нажмите, чтобы вернуться
+  §7назад в предыдущее меню
+gui_totalcoins: '§7Total coins: §6%coins%'
+
+# =======================
+#         Борды
+# =======================
+board_display_name: '§e§l%name%'
+board_spectator_display_name: '§e§lSpectator'
+board_coins: '§fМонетки: §6%coins%'
+board_kills: '§fУбийств: §a%kills%'
+board_final_kills: '§fФинальных убийств: §a%final_kills%'
+board_mob_kills: '§fУбито мобов: §a%mob_kills%'
+board_deaths: '§fСмертей: §c%deaths%'
+board_current_kd: '§fТекущий K/D: §a%kdr%'
+board_kill_series: '§fСерия убийств: §e%series%'
+board_lives: '§fЖизней: §c%lives%§7/§a%max%'
+board_server: '§fСервер: §a%server%'
+board_mode: '§fРежим: §a%mode%'
+board_submode: '§fПодрежим: §a%submode%'
+board_game_map: '§fКарта: §a%map%'
+board_datetime: '§7%time%'
+board_players: '§fИгроков: §a%players%'
+board_teams: '§fКоманд: §a%teams%'
+board_waiting: 'Ожидание'
+board_until_start: 'До старта: §a%time%'
+board_spectator_spectators: 'Наблюдают: §a%spectators%'
+board_group: '§fРанг: §c%rank%'
+board_tugriks: '§fГемов: §b%tugriks%'
+board_level: '§fУровень: §d%level%'
+board_score: '§fОчков: §a%score%'
+board_level_scale: ' %scale%'
+board_multipliers: '§fВаши множители:'
+board_lobby_online: '§fОнлайн в лобби: §a%online%'
+board_lobby_stat_line: ' §f%name%: §a%value%'
+board_lobby_stat_title: '§eСтатистика %master%:'
+board_total_online: '§fОбщий онлайн: §a%online%'
+board_online: '§fОнлайн: §a%online%'
+board_website: '§e$website_url$'
+#
+#
+#
+friends_online: '$prefix$Друзья на сервере:'
+friend_online_others_entry: '§f...и §c%count% §fдругих...'
+friend_online_entry: ' §a • %name%§f, на сервере: §c%server%'
+friend_join_the_game: '§a • §fВаш друг §c%name% §fзашёл на сервер'
+friend_left_the_game: '§c • §fВаш друг §c%name% §fвышел с сервера'
+core_no_online_staff: '$prefix$Онлайн персонала нет'
+
+# =======================
+#         Языки
+# =======================
+language_gui_title: 'Выбор языка'
+language_gui_entry_name: '§6%language%'
+language_gui_entry_lore: |-
+  §f
+  §cВнимание! Некоторые элементы на
+  §cсервере могут быть переведены не
+  §cполностью или не переведены вовсе
+  §f
+  §7Процент перевода: §f%percentage%%
+  §f
+language_gui_entry_click_to_select: |-
+  §eНажмите, чтобы выбрать этот язык
+language_gui_entry_already_selected: |-
+  §cЭтот язык уже выбран как основной
+language_changed: '$prefix$Вы изменили свой язык на §c%language%'
+
+
+
+# =======================
+#         Профиль
+# =======================
+profile_recent_players_item_name: '§6Недавние игроки'
+profile_recent_players_item_lore: |-
+  §f
+  §7Посмотреть игроков, с которыми
+  §7Вы недавно играли в одной игре
+  §f
+  §eНажмите, чтобы открыть список
+
+stats_gui_title: 'Статистика %name%'
+stats_gui_main_item_name: '§6Общая информация'
+stats_gui_main_item_lore: |-
+  §f
+  §7Ранг: §f%rank%
+  §f
+  §7Времени отыграно:
+  §f%time_spent%
+  §f
+  §7Гемов: §b%gems%
+  §7Монеток: §6%coins%
+  §f
+  §7Уровень: §d%level%
+  §7Опыт: §3%experience%
+stats_gui_mode_item_name: '§6Статистика %mode%'
+stats_gui_mode_item_lore_global: |-
+  §7
+  §fОбщая статистика по режиму:
+stats_gui_mode_item_lore_stat: '§7- %stat%: §f%value%'
+stats_gui_mode_item_lore_detailed: |-
+  §7
+  §eПосмотреть детальную статистику
+detailed_stats_gui_title: 'Детальная статистика %name%'
+detailed_stats_gui_lore_title: |-
+  §8За все время / за месяц / за день
+  §7
+detailed_stats_gui_lore_stat: '§a%total% §8/ §e%monthly% §8/ §6%daily%'
+
+profile_gui_title: 'Профиль %name%'
+my_profile_gui_title: 'Профиль'
+profile_main_item_name: '§6Профиль игрока %name%'
+profile_main_item_lore: |-
+  §8Номер аккаунта: %id%
+  §f
+  §7Ваша привилегия: %group%
+profile_main_item_group_expiration: |-
+  §7Ваша привилегия истекает через:
+  §f%expires%
+profile_main_item_global_time: |-
+  §f
+  §7Времени проведено на сервере
+  §f%time%
+profile_main_item_lore_stats: |-
+  §f
+  §eНажмите, чтобы посмотреть статистику
+profile_leveling_item_name: '§6Уровни и награды'
+profile_leveling_item_lore: |-
+  §f
+  §7Ваш текущий уровень: §d%level%
+  §7Всего опыта: §3%experience%
+  §f
+  §7До достижения §d%next_level% §7уровня:
+  §a%leveling_scale% §6%percentage%% §3%curr_lvl_exp%§8/§3%exp_to_next_lvl% exp
+  §f
+  §7Игровой статус: §f%status%
+  §f
+  §7За достижение каждого из уровней
+  §7игрок получает различные награды,
+  §7а более высокий уровень открывает
+  §7намного больше возможностей
+  §f
+  §eНажмите, чтобы просмотреть награды
+profile_language_item_name: '§6Выбор языка'
+profile_language_item_lore_description: |-
+  §f
+  §7Наш проект поддерживает несколько
+  §7различных переводов на разные языки
+  §f
+  §7Список поддерживаемых языков:
+profile_language_item_lore_language_entry: '§8 • §7%name% (§f%percentage%%§7)'
+profile_language_item_lore_language_entry_selected: '§a • §7%name% (§f%percentage%%§7)'
+profile_language_item_lore_action: |-
+  §7
+  §7Вы можете помочь нам с переводом на
+  §7другие языки. Для этого обратитесь в
+  §7нашу группу разработчиков в VK:
+  §fvk.com/travellerland
+  §f
+  §eНажмите, чтобы изменить свой язык
+profile_boosters_item_name: '§6Бустеры'
+profile_boosters_item_lore: |-
+  §f
+  §7Бустеры дают возможность на короткий
+  §7срок получать в несколько раз больше
+  §7монеток за одну игру на мини-играх
+  §f
+  §eНажмите, чтобы открыть меню бустеров
+profile_friends_item_name: '§6Список друзей'
+profile_friends_item_lore: |-
+  §f
+  §7Просмотр списка друзей и
+  §7основной информации о них
+  §f
+  §7Всего друзей: §c%friends%§f/§a%limit%
+  §f
+  §eНажмите, чтобы открыть список
+profile_suffixes_item_name: '§6Суффиксы'
+profile_suffixes_item_lore: |-
+  §f
+  §7Суффикс - текст после вашего ника,
+  §7который видят все игроки на сервере
+  §f
+  §7Даёт возможность выделиться среди
+  §7толпы и показать свой статус!
+  §f
+  §7У вас имеется: §f%suffixes%
+  §f
+  §eНажмите, чтобы открыть меню суффиксов
+profile_join_messages_item_name: '§6Сообщения о входе'
+profile_join_messages_item_lore: |-
+  §f
+  §7Все донатеры на проекте имеют оповещение
+  §7при входе на сервер, отображаемое всем
+  §7игрокам онлайн
+  §f
+  §7В данном меню Вы можете отключить или
+  §7изменить текст этого оповещения!
+  §f
+  §eНажмите, чтобы открыть меню сообщений
+  §eо входе на сервер
+profile_party_list_name: '§6Участники Party'
+profile_party_list_lore: |-
+  §f
+  §7Просмотр списка участников
+  §7Вашей текущей Party
+  §f
+  §eНажмите, чтобы открыть список
+profile_skin_history_name: '§6История скинов'
+profile_skin_history_lore: |-
+  §f
+  §7Вы можете просматривать историю
+  §7установленных когда-либо скинов
+  §f
+  §eНажмите, чтобы просмотреть историю
+  §f
+  §7В истории хранятся только последние
+  §f7 §7записей об изменении скина
+profile_settings_name: '§6Личные настройки'
+profile_settings_lore: |-
+  §f
+  §7У каждого игрока есть возможность
+  §7изменять настройки приватности и
+  §7некоторые другие
+  §f
+  §eНажмите, чтобы открыть меню настроек
+profile_open_another_player_name: '§6Просмотр чужого профиля'
+profile_open_another_player_lore: |-
+  §f
+  §7Вы можете просматривать профили
+  §7других игроков, для того чтобы
+  §7узнать их статистику
+  §f
+  §eНажмите, чтобы найти игрока
+# =======================
+#      Выбор команды
+# =======================
+team_selector_item_name: '§6Создание команды'
+team_selector_item_lore: |-
+  §7Вы можете пригласить игроков
+  §7в свою команду через это меню,
+  §7или используя команду §f/party
+team_selector_invite_message: '$prefix$%name% §fприглашает вас в свою команду'
+team_selector_empty_item_name: '§6Игроки отсутствуют'
+team_selector_empty_item_lore: |-
+  §7Список доступных для приглашения
+  §7игроков пуст, сожалеем :(
+team_selector_invite_unavailable_item_name: '§cВы не можете приглашать игроков'
+team_selector_invite_unavailable_item_lore: |-
+  §7Приглашать новых игроков в вашу команду
+  §7может только лидер - %leader_name%
+team_selector_team_item_lore: |-
+  §f
+  §7Справа отображены все игроки,
+  §7с которыми Вы будете в одной
+  §7команде после начала игры
+  §f
+team_selector_leave: '$prefix$Вы покинули команду игрока %leader_name%'
+team_selector_leave_broadcast: '$prefix$Игрок %name% §fпокинул команду'
+team_selector_kicked: '$prefix$Вы были исключены из команды с игроком %leader_name%'
+team_selector_kicked_broadcast: '$prefix$Игрок %name% §fудалён из команды'
+team_selector_invite_ignored_sender: '$prefix$Игрок %name% §fне ответил на приглашение'
+team_selector_invite_ignored_receiver: '$prefix$Вы не ответили вовремя на приглашение игрока %name%'
+team_selector_team_leader_item_name: '§6Моя команда'
+team_selector_team_leader_item_lore: |-
+  §7Вы можете исключить игрока из
+  §7своей команды, нажав ПКМ на его
+  §7голову в списке
+  §f
+  §7Вы также можете приглашать новых
+  §7игроков из списка выше. В списке
+  §7отсутствуют игроки, у которых уже
+  §7есть команда или Party для игры
+team_selector_team_member_item_name: '§6Ваша команда'
+team_selector_team_member_item_lore: |-
+  §7Создатель команды - %leader_name%,
+  §f
+  §eНажмите, чтобы покинуть команду
+  §f
+  §7Вернуться в команду можно будет
+  §7только по повторному приглашению
+team_selector_full_item_name: '§cКоманда заполнена'
+team_selector_full_item_lore: |-
+  §7Вы не можете пригласить больше
+  §7игроков в вашу команду
+team_selector_click_to_kick: |-
+  §f
+  §eПКМ, чтобы удалить этого
+  §eигрока из вашей команды
+team_selector_already_sent: '$prefix$Вы уже отправили приглашение этому игроку'
+team_selector_sent: '$prefix$Вы отправили приглашение в команду игроку §c%name%'
+team_selector_request_not_found: '$prefix$Данный игрок не приглашал вас в свою команду'
+team_selector_cant_accept_party: '$prefix$Вы не можете принять запрос, т.к состоите в Party'
+team_selector_cant_accept_team: '$prefix$Вы уже состоите в чьей-то команде'
+team_selector_cant_accept_full: '$prefix$Команда данного игрока заполнена, войти в неё невозможно'
+team_selector_gui_title: 'Командная игра'
+team_selector_gui_click_to_invite: |-
+  §f
+  §eНажмите, чтобы пригласить данного
+  §eигрока в свою команду
+team_selector_accept_sender: '$prefix$Игрок %name% §fпринял приглашение и теперь будет в команде с Вами!'
+team_selector_accept_receiver: '$prefix$Вы приняли приглашение игрока %name%§f. Теперь в игре Вы будете в одной команде с ним'
+team_selector_reject_sender: '$prefix$Игрок %name% §fотклонил Ваше приглашение в командную игру'
+team_selector_reject_receiver: '$prefix$Вы отклонили приглашение игрока %name%'
+team_selector_unavailable_vanished: '$prefix$Вы не можете выбирать команду пока находитесь в режиме невидимки'
+
+waiting_not_enough_players: 'Недостаточно игроков для старта игры'
+
+# =======================
+#          Друзья
+# =======================
+friends_gui_title: 'Список друзей'
+friends_empty_name: '§6Друзей нет'
+friends_empty_lore: |-
+  §7У вас нет друзей.
+  §7Сожалеем об этом.
+friend_accept_description: |-
+  §7Нажмите, чтобы принять
+  §7приглашение в друзья
+friend_reject_description: |-
+  §7Нажмите, чтобы отклонить
+  §7приглашение в друзья
+friend_level_lore: |-
+  §f
+  §7Уровень игрока: §d%level%
+  §f
+friend_server_lore: |-
+  §7Текущий сервер: §f%server%
+  §f
+  §eНажмите для телепортации к другу
+friend_offline_lore: |-
+  §cВаш друг сейчас не на сервере
+  §f
+  §7Последний раз игрок был в сети:
+  §f%time% назад
+friends_is_not_friend: '$prefix$Данного игрока нет в вашем списке друзей'
+friends_is_already_friends: '$prefix$Данный игрок уже является вашим другом'
+friends_invites_empty: '$prefix$У вас нет ожидающих запросов в друзья'
+friends_invites_result: '$prefix$Нажмите на запрос, который хотите принять:'
+friends_invite_from: '§e- §fОт %name%'
+friends_invite_click: |-
+  §fНажмите, чтобы добавить в друзья
+  §fигрока %name%
+player_not_friend: '$prefix$Данный игрок не является вашим другом'
+friend_remove_sender: '$prefix$Игрок %name% §fудалён из списка ваших друзей'
+friend_remove_receiver: '$prefix$Игрок %name% §fудалил вас из списка своих друзей'
+friend_invitation_to_receiver_reject_by_quit: 'Приглашение в друзья для %name% §fотклонено, игрок вышел из сети.'
+friend_invitation_from_sender_reject_by_quit: 'Приглашение в друзья от %name% §fотклонено, игрок вышел из сети.'
+friend_accept: '$prefix$Игрок %name% §fдобавил вас в друзья'
+friend_invitation_already_sent: '$prefix$Вы уже отправили приглашение игроку %name%'
+friend_disabled_invitation_sent: '$prefix$Игрок %name% §fзапретил отправлять ему приглашения в друзья'
+friend_teleport_already: '$prefix$Вы уже на одном сервере'
+friend_teleport_sender: '$prefix$Вы были телепортированы на сервер %name% §f(§c%server%§f)'
+friend_teleport_receiver: '$prefix$Ваш друг %name% §fтелепортировался к вам на сервер'
+friend_add_limit: '$prefix$Вы не можете добавить больше друзей'
+friend_add_self: '$prefix$Вы не можете добавить в друзья самого себя'
+friend_add_already: '$prefix$Указанный игрок уже у тебя в друзьях'
+friend_add_target_limit: '$prefix$У данного игрока уже есть слишком много друзей'
+friend_reject_already: '$prefix$§fУказанный игрок уже есть у тебя в друзьях, удалить его можно командой §c/f remove %name%'
+friend_reject_self: "$prefix$Вы не отменить запрос в друзья от самого себя"
+friend_empty_list: '$prefix$Список друзей пуст. Чтобы добавить друга, пишите §c/f add <ник игрока>'
+friend_list_invalid_page: '$prefix$Вы указали неверный номер страницы'
+friend_list_result: '$prefix$Список друзей (страница §c%page%§7/§c%pages%§f):'
+friend_list_online_row: ' §a• %name%'
+friend_list_offline_row: ' §4• %name%'
+friend_list_vanished_row: ' §7(скрыт)'
+friend_list_server: '§f, играет на §c%server%'
+friend_invitation_expired_receiver: '$prefix$Приглашение в друзья от игрока %name% §fистекло'
+friend_invitation_expired_sender: '$prefix$Игрок %name% §fне ответил на приглашение в друзья'
+friend_invitation_rejected_receiver: '$prefix$Вы отклонили приглашение в друзья от игрока %name%'
+friend_invitation_rejected_sender: '$prefix$Игрок %name% §fотклонил ваше приглашение в друзья'
+friend_invitation: '$prefix$Игрок %name% §fприглашает вас в друзья'
+friend_invitation_sent: '$prefix$Приглашение в друзья отправлено'
+friend_invitation_not_found: '$prefix$§fПриглашение от игрока %name% §fотсутствует или истекло...'
+# =======================
+#         Реджоин
+# =======================
+rejoin_server_not_found: '$prefix$Недавно Вы нигде не играли или на предыдущем сервере уже закончилась игра'
+rejoin_server_found: '$prefix$Вы играли на арене §c%server%§f. Переподключение...'
+rejoin_available: '$prefix$Вы можете перезайти в игру на арене §c%server%§f. Для этого используйте §c/rejoin'
+# =======================
+#          Запросы
+# =======================
+request_sent_to_same_player: '$prefix$Вы не можете отправить запрос самому себе'
+accept_request_description: '§7Нажми, чтобы принять'
+reject_request_button: '§c[Отклонить]'
+reject_request_description: '§7Нажми, чтобы отклонить'
+# =======================
+#        Голограммы
+# =======================
+hologram_not_exists: '$prefix$Голограмма не найдена'
+hologram_exists: '$prefix$Голограмма уже существует'
+hologram_created: '$prefix$Голограмма §c%name% §fсоздана! По умолчанию она видна только вам'
+hologram_removed: '$prefix$Голограмма удалена'
+hologram_addline: '$prefix$Строка §c№%n% §fдобавлена'
+hologram_setline: '$prefix$Строка §c№%n% §fотредактирована'
+hologram_removeline: '$prefix$Строка §c№%n% §fудалена'
+hologram_line_not_found: '$prefix$Строка §c%n% §fне найдена'
+hologram_set_public: '$prefix$Голограмма теперь §aпубличная'
+hologram_set_private: '$prefix$Голограмма теперь §cприватная'
+hologram_teleport: '$prefix$Голограмма телепортирована на Вашу позицию'
+hologram_toggle_on: '$prefix$Теперь Вы §aвидите §fголограмму'
+hologram_toggle_off: '$prefix$Теперь Вы §cне видите §fголограмму'
+# =======================
+#         Суффиксы
+# =======================
+suffix_reloaded: '$prefix$Суффиксы перезагружены из базы данных'
+suffix_single: 'суффикс'
+suffix_onemore: 'суффикса'
+suffix_many: 'суффиксов'
+# =======================
+#         Бустеры
+# =======================
+booster_purchase_gui_title: 'Покупка бустеров'
+booster_single: 'бустер'
+booster_plural: 'бустеров'
+booster_onemore: 'бустера'
+booster_gui_name: '§6%booster%'
+booster_price_lore: |-
+  §f
+  §7Стоимость бустера: §f%cost%
+  §7Ваш текущий баланс: §f%balance%
+  §f
+booster_available_count_lore: |-
+  §f
+  §7У вас имеется: §f%amount% %format%
+booster_click_to_purchase: '§eНажмите, чтобы купить бустер'
+booster_activation_gui_title: 'Активация бустеров'
+booster_purchase_name: '§6Покупка бустеров'
+booster_purchase_lore: |-
+  §7Нажмите, чтобы перейти
+  §7в магазин бустеров
+booster_click_to_activate: |-
+  §f
+  §eНажмите, чтобы активировать бустер!
+booster_another_already_activated: |-
+  §f
+  §cДругой бустер уже активирован
+booster_not_found: '$prefix$У вас нет бустеров этого типа. Купить бустеры можно за тугрики.'
+booster_activated: '$prefix$Вы активировали бустер §c%name%§f!'
+booster_already_actived: 'У вас уже активирован бустер §c%name%§f. Дождитесь его истечения перед активацией нового бустера!'
+booster_this_already_activated: |-
+  §f
+  §cЭтот бустер уже активирован
+  §f
+  §7Срок действия истекает через:
+  §f%time%
+booster_not_found_lore: |-
+  §f
+  §cУ вас нет бустеров этого типа
+  §f
+  §7Бустеры повышают количество монет,
+  §7зарабатываемых на сервере. Купить
+  §7бустеры можно за тугрики в магазине
+  §7(нажмите на сундук в этом меню)
+booster_purchase: '$prefix$Вы купили бустер §c%name%§f! Активируйте его в меню бустеров - §7Профиль -> Бустеры'
+# =======================
+#          Уровни
+# =======================
+uncollected_level_reward_single: 'неполученная награда'
+uncollected_level_reward_onemore: 'неполученные награды'
+uncollected_level_reward_plural: 'неполученных наград'
+level_reward_coin_reason: 'награда за уровень'
+level_status_newbie: 'Новичок'
+level_status_established: 'Освоившийся'
+level_status_pro: 'Продвинутый'
+level_status_honorary: 'Почетный игрок'
+level_status_elder: 'Старейшина'
+uncollected_level_rewards: '$prefix$У вас есть §c%rewards% §f%ending% §fза уровни. Вы можете получить их в профиле §7(Профиль -> Уровни)'
+big_notify_message_line: '§8§m                                                          '
+levelup: |
+  §7
+  $big_notify_message_line$
+  §7
+  §7 §a§lПоздравляем! §fВы достигли §d%level% §fуровня!
+  §7 §fНе забудьте забрать награду §7(Лобби -> Профиль -> Уровни)
+  §7 §f
+  §7 §fДо следующего уровня осталось §3%exp% опыта
+  §7 §fИграйте в игры, забирайте награды и выполняйте квесты!
+  §7
+  $big_notify_message_line$
+settings_gui_title: 'Личные настройки'
+settings_click_to_enable: |-
+  §f
+  §eНажмите, чтобы включить
+settings_click_to_disable: |-
+  §f
+  §eНажмите, чтобы выключить
+setting_automatic_queuing_name: 'Автоматический вход'
+setting_automatic_queuing_description: |-
+  §7Автоматический телепорт на новую арену
+  §7текущего режима после окончания игры
+setting_forbid_friend_requests_name: 'Запретить добавлять меня в друзья'
+setting_forbid_friend_requests_description: |-
+  §7Позволяет включить или выключить
+  §7возможность добавить вас в друзья
+  §7Правила исходящих запросов не изменятся
+setting_forbid_party_requests_name: 'Запретить приглашать меня в Party'
+setting_forbid_party_requests_description: |-
+  §7Позволяет включить или выключить
+  §7возможность приглашать вас в Party
+  §7игрокам, которых нет у вас в друзьях
+setting_forbid_private_messages_name: 'Запретить отправлять мне сообщения'
+setting_forbid_private_messages_description: |-
+  §7Позволяет включить или выключить
+  §7возможность написать Вам в ЛС
+  §7игрокам, которых нет у вас в друзьях
+setting_hide_players_name: 'Скрывать игроков в лобби'
+setting_hide_players_description: |-
+  §7Вы все равно будете видеть всех
+  §7друзей и участников вашей Party
+  §7Если у вас нет привилегии, вы
+  §7также будете видеть донатеров
+setting_forbid_profile_viewing_name: 'Запретить просматривать мой профиль'
+setting_forbid_profile_viewing_description: |-
+  §7Позволяет включить или выключить
+  §7возможность просматривать ваш
+  §7профиль игрокам, которых нет в
+  §7вашем списке друзей
+
+setting_name: '§6%setting%'
+media_name: '§6%media%'
+
+media_click_to_set: |-
+  §c%media% еще не установлен
+  §eНажмите, чтобы установить %media%
+
+media_click_to_update: |-
+  §7Сейчас установлен %media%:
+  §f%value%
+  §f
+  §eНажмите ЛКМ, чтобы изменить %media%
+  §eНажмите SHIFT + ПКМ, чтобы сбросить %media%
+
+media_need_to_chat: |-
+  §f
+  §7Вам необходимо будет ввести в чате
+  §7%usage%
+
+media_removed: '$prefix$Данные успешно удалены'
+media_chat_to_continue: '$prefix$Напишите в чате %usage% для продолжения'
+
+media_bad_format: '$prefix$Неверный формат!'
+media_already_set: '$prefix$У вас уже установлен указанный %media%'
+media_already_set_by_another_player: '$prefix$Кто-то другой уже занял указанный Вами %media%'
+media_set: '$prefix$Вы успешно установили %usage% §fна §c%value%'
+enabled: '§aВключено'
+disabled: '§cВыключено'
+no: 'Нет'
+
+recent_players_gui_title: 'Список недавних игроков'
+
+profile_icon: §6Профиль %name%
+recent_players_empty_name: '§6Список игроков пуст'
+recent_players_empty_lore: |-
+  §7Вероятнее всего, за последние
+  §76 часов Вы не играли ни в 1 из
+  §7мини-игр на сервере
+
+recent_players_clear: '$prefix$Вы очистили список недавних игроков'
+
+recent_players_clear_name: '§6Очистить список'
+recent_players_clear_lore: |-
+  §f
+  §7По нажатию на эту кнопку
+  §7список недавних игроков
+  §7будет полностью очищен
+  §f
+  §eНажмите, чтобы очистить
+
+vanished: '$prefix$Вас не видят другие игроки. Все ваши сообщения в чате так же не видны игрокам'
+
+profile_player_main_title: '§6Профиль %name%'
+profile_player_main_lore: |-
+  §8Номер аккаунта: %player_id%
+  §f
+  §7Уровень игрока: §d%level%
+  §7Игровой статус: §f%status%
+  §f
+profile_player_main_offline: |-
+  §7Этого игрока сейчас нет на сервере
+  §f
+  §7В последний раз игрок был в сети:
+  §f%time% назад
+
+last_login_time_unknown: "§4N/A"
+
+profile_player_main_online: |-
+  §7Данный игрок сейчас §aонлайн
+  §7Текущий сервер игрока: §f%server_name%
+profile_player_media: '§6%media% игрока'
+profile_player_media_unset: '§cИгрок не установил %media%'
+profile_player_media_lore: |-
+  §7Установленный %media%:
+  §f%value%
+  §f
+  §eНажмите, чтобы скопировать в буфер обмена
+  §f
+  §7В чат будет отправлено сообщение. На него
+  §7нужно будет нажать, после чего откроется
+  §7чат с уже вставленными туда данными. Вам
+  §7нужно будет выделить содержимое сочетанием
+  §7клавиш §fCTRL + A§7, а затем скопировать
+  §7нажатием сочетания клавиш §fCTRL + C
+profile_player_media_message: '$prefix$Кликните на это сообщение, чтобы скопировать §c%media%'
+profile_player_media_hover: '§fМы не несем ответственности за контент этого игрока!'
+profile_player_message_name: '§6Отправить личное сообщение'
+profile_player_message_lore: |-
+  §f
+  §7Вы можете отправить личное сообщение
+  §7этому игроку, если он не запретил их
+  §7или если он есть у вас в друзьях
+  §f
+profile_player_message_forbidden: |-
+  §cДанный игрок запретил писать ему
+  §f
+  §7В настройках приватности игрок запретил
+  §7отправлять ему сообщения. Добавьте его
+  §7в друзья, чтобы написать в ЛС
+profile_player_message_offline: |-
+  §cДанного игрока нет на сервере
+profile_player_message_available: |-
+  §eНажмите, чтобы написать игроку в ЛС
+profile_player_message_message: '$prefix$Нажмите, чтобы написать игроку %name% §fличное сообщение'
+profile_player_message_hover: '§fНажмите, чтобы написать игроку в ЛС'
+profile_player_setskin_name: "§6Установить скин этого игрока"
+profile_player_setskin_unavailable_already: '§cУ вас уже установлен этот скин'
+profile_player_setskin_available: |-
+  §eНажмите, чтобы установить скин
+  §f
+  §7Данный игрок использует скин
+  §f%skin%
+profile_player_setskin_lore: |-
+  §f
+  §7Вы можете установить скин этого
+  §7игрока нажав на эту кнопку
+  §f
+profile_player_party_name: '§6Пригласить в Party'
+profile_player_party_lore: |-
+  §f
+  §7Вы можете пригласить игрока в
+  §7Party нажатием на эту кнопку
+  §f
+profile_player_party_forbidden: |-
+  §cДанный игрок не принимает запросы
+  §f
+  §7В настройках приватности игрок запретил
+  §7отправлять ему заявки в группу
+profile_player_party_offline: |-
+  §cДанного игрока нет на сервере
+profile_player_party_available: |-
+  §eНажмите, чтобы пригласить игрока
+profile_player_party_already_in: |-
+  §cДанный игрок уже состоит в Party
+  §f
+profile_player_party_already_in_yours: |-
+  §7Этот игрок итак состоит в одной
+  §7Party с вами
+profile_player_party_already_in_other: |-
+  §7Этот игрок уже состоит в другой
+  §7Party. Вы сможете пригласить его
+  §7только когда он покинет её
+profile_player_not_friends_name: '§6Добавить в друзья'
+profile_player_already_friends_name: '§6Удалить из друзей'
+profile_player_not_friends_lore: |-
+  §f
+  §7Вы можете добавить этого игрока
+  §7в друзья нажатием на эту кнопку
+  §f
+profile_player_already_friends_lore: |-
+  §f
+  §7Вы можете удалить этого игрока
+  §7из друзей нажатием на эту кнопку
+  §f
+profile_player_friends_remove_available: |-
+  §eНажмите, чтобы удалить из друзей
+profile_player_friends_offline: |-
+  §cДанного игрока нет на сервере
+profile_player_friends_forbidden: |-
+  §cДанный игрок не принимает запросы
+  §f
+  §7В настройках приватности игрок запретил
+  §7отправлять ему запросы в друзья
+profile_player_friends_add_available: |-
+  §eНажмите, чтобы добавить в друзья
+profile_player_stats_name: '§6Просмотр статистики'
+profile_player_stats_lore: |-
+  §f
+  §7Игроки со статусом §dUltra §7и выше
+  §7могут просматривать статистику других
+  §7игроков на игровых режимах
+  §f
+profile_player_stats_lore_unavailable: |-
+  §cВы не можете смотреть чужую статистику
+  §f
+  §7Вы можете приобрести привилегию §dUltra
+  §7на нашем сайте §f$website_url$
+profile_player_stats_lore_available: |-
+  §eНажмите, чтобы открыть статистику игрока
+  §f
+  §7Вы также можете использовать §f/stats <ник>§7,
+  §7чтобы просматривать статистику игроков
+recent_player_lore: |-
+  §f
+  §7Уровень игрока: §d%level%
+  §f
+  §7Вы играли на режиме §c%mode%
+  §f%time% назад
+configuration_reloaded: '$prefix$Конфигурация перезагружена'
+
+command_cooldown: '$prefix$Подождите немного перед повторным использованием'
+command_exception: '$prefix$Произошла ошибка при выполнении команды'
+command_available_only_in_lobby: '$prefix$Данная команда доступна только в лобби режимов или в хабе'
+
+no_permission: '$prefix$У вас недостаточно прав'
+no_permission_group: '$prefix$Минимальная привилегия для доступа к данной команде - §c%group%'
+
+player_offline: '$prefix$Данный игрок не в сети'
+player_not_found: '$prefix$Данный игрок никогда не играл на нашем проекте'
+
+player_incorrect_name: '$prefix$Вы указали неверный ник'
+
+server_name: 'Traveller-land'
+vk_group_url: 'vk.com/travellerland'
+vk_support_url: 'vk.me/travellerland'
+website_url: 'traveller-land.ru'
+website_url_capitalized: 'Traveller-Land.ru'
+
+#Фильтр чата
+filter_prefix: '§f[§cChatFilter§f] '
+
+filter_your_vl_level: '§cℹ Ваш счётчик нарушений: %vl_level%/%vl_threshold%'
+filter_chat_detection: '[ChatFilter] Нарушение многочисленных проверок чата'
+
+filter_flood_messages: |-
+  §f
+  §c ℹ Не повторяйте одинаковые сообщения!
+  §c $filter_your_vl_level$
+  §f
+filter_fast_packets_messages: |-
+  §f
+  §c ℹ Вы слишком быстро взаимодействуете с чатом!
+  §c $filter_your_vl_level$
+  §f
+filter_fast_chat_messages: |-
+  §f
+  §c ℹ Не пишите в чат так быстро!
+  §c $filter_your_vl_level$
+  §f
+
+fuck_started: '$prefix$Начинается отправка %entities% энтити за %time% секунд...'
+fuck_finished: '$prefix$Все энтити были отправлены'
+
+file_not_found: '$prefix$Файл не найден!'
+
+image_spawned: '$prefix$Картинка появилась!'
+image_cant_get_block: '$prefix$Вы ни на что не смотрите'
+
+#Банжа - прочее
+fallback_server: |-
+  $prefix$Вы были переброшены на сервер §c%kick_to_name%§f по причине:
+  §c%reason%
+tab_header: |
+  §c$server_name$
+  §fТекущий сервер: §c%server_name%
+tab_footer: |-
+  §f
+  §fГруппа ВК: §c$vk_group_url$
+  §fКупить донат: §c$website_url$
+
+# =======================
+#          Сервера
+# =======================
+server_not_found: '$prefix$Сервер не найден'
+servers_not_found: '$prefix$Сервера не найдены'
+server_already_is_full: '$prefix$Сервер уже заполнен'
+server_unknown_slots: '$prefix$Сервер не отправил количество слотов'
+server_teleportation_rejected: '$prefix$На данный сервер нельзя телепортироваться через команду!'
+server_teleportation_started: '$prefix$Телепортирую на сервер §c%server_name%'
+
+core_unavailable: '$prefix$Произошла ошибка подключения к Core!'
+
+no_online_players: '$prefix$Игроков онлайн нет'
+no_online_staff: '$prefix$Персонала онлайн нет'
+
+command_incorrect_usage: '$prefix$Неправильное использование команды!'
+
+message_self: '$prefix$Вы не можете написать самому себе...'
+
+message_format: '§6ЛС §7| §6%from% §f→ §6%to% §7| §f%message%'
+message_send_disabled: '$prefix$Игрок %name% §fзапретил писать ему личные сообщения'
+
+ignored_player_action: '$prefix$Вы не можете взаимодействовать с игроком %name%§f, поскольку он добавил Вас в список игнорируемых'
+
+message_send_hover: |-
+  §fСообщение игроку %name%
+  §fНажмите, чтобы написать еще
+  §fИли используйте §c/append [сообщение]
+message_receive_hover: |-
+  §fНажмите, чтобы ответить на сообщение игрока %name%
+  §fИли используйте §c/reply [сообщение]
+reply_nobody_pm: '$prefix$Вам никто еще не писал...'
+append_nobody_pm: '$prefix$Вы ещё никому не писали...'
+
+time_you_spent: '$prefix$Вы провели на сервере §c%time% §7(за всё время)'
+time_other_spent: '$prefix$%name% §fпровёл на сервере §c%time%'
+
+command_usage: '$prefix$Использование - §c%usage%'
+
+command_makebuilder_usage: '$arg_name$'
+command_makebuilder_already_better: '$prefix$У данного игрока уже есть привилегия выше строителя, Вы не можете управлять ею'
+command_makebuilder_give_broadcast: '$core_staffchat_prefix$§c%admin% §fвыдал статус §5Builder §fигроку %name%'
+command_makebuilder_reset_broadcast: '$core_staffchat_prefix$§c%admin% §fзабрал статус §5Builder §fу %name%'
+command_makebuilder_status_received: |-
+  $prefix$Вам была выдана привилегия §5Builder§f, поздравляем!
+  §c * §fТеперь у вас есть доступ к команде §c/server
+  §c * §fВам доступен строительный сервер - §cBuild
+  §c * §fВам доступен чат персонала - §c/staffchat
+
+command_speed_not_available_for: '$prefix$Данная команда недоступна Вам на данном режиме'
+command_speed_usage: '<скорость> [walk/fly]'
+command_speed_invalid_speed: '$prefix$Вы указали неверную скорость передвижения'
+command_speed_set_walk: '$prefix$Скорость ходьбы установлена на §c%speed%'
+command_speed_set_fly: '$prefix$Скорость полёта установлена на §c%speed%'
+command_speed_set_all: '$prefix$Скорость установлена на §c%speed%'
+
+command_gamemode_usage: '<режим> $arg_opt_name$'
+command_setproperty_usage: '$arg_name$ <ключ> <значение>'
+
+command_time_usage: '$arg_opt_name$'
+some_items_dropped: |-
+  $prefix$§c%items% §fпредметов не поместилось в ваш инвентарь.
+  $prefix$§cОни были выброшены на землю.
+server_loading: '$prefix$Сервер загружается, подождите...'
+
+command_trade_usage: '$arg_name$'
+command_trade_description: 'Отправить запрос обмена'
+
+command_trade_accept_usage: '$arg_name$'
+command_trade_accept_description: 'Принять запрос обмена'
+
+command_trade_reject_usage: '$arg_name$'
+command_trade_reject_description: 'Отклонить запрос обмена'
+
+command_list_usage: '$arg_opt_pattern$'
+command_compass_usage: '<X> <Y> <Z>'
+command_fuck_usage: '$arg_name$ [количество энтити] [время отправки]'
+command_image_usage: '<путь к изображению> <длина> <ширина>'
+command_action_usage: '$arg_name_or_ip$ [временной промежуток]'
+command_alert_usage: '$arg_msg$'
+command_server_usage: '$arg_server$'
+command_append_usage: '$arg_msg$'
+command_reply_usage: '$arg_msg$'
+command_message_usage: '$arg_name$ $arg_msg$'
+command_find_usage: '$arg_name$'
+command_getname_usage: '$arg_id$'
+command_findaccounts_usage: '$arg_name$'
+command_whois_usage: '$arg_name$'
+command_report_usage: '$arg_name$'
+
+command_analytics_protocol_description: 'Количество игроков по версиям'
+command_analytics_domains_description: 'Количество игроков по доменам'
+
+command_ignore_add_description: 'Игнорировать игрока'
+command_ignore_add_usage: '$arg_name$'
+command_ignore_add: '$prefix$Вы добавили игрока %name% §fв список игнорируемых. Теперь он не сможет написать вам, пригласить в Party или отправить запрос дружбы'
+command_ignore_remove: '$prefix$Вы удалили игрока %name% §fиз списка игнорируемых'
+command_ignore_already_ignored: '$prefix$Данный игрок уже находится в списке игнорируемых'
+command_ignore_not_ignored: '$prefix$Данного игрока нет в вашем списке игнорируемых'
+command_ignore_remove_description: 'Удалить из списка игнорируемых'
+command_ignore_remove_usage: '$arg_name$'
+command_ignore_list_description: 'Список игнорируемых'
+command_ignore_list_usage: '[страница]'
+command_ignore_list_empty: '$prefix$Список игнорируемых пуст'
+command_ignore_list_wrong_page: '$prefix$Вы указали неверный номер страницы'
+command_ignore_list_title: '$prefix$Список игнорируемых (страница §c%page% §fиз §c%pages%§f):'
+command_ignore_list_entry: '[{"text":" §7• %display%   ","extra":[{"text":"§4✘","clickEvent":{"action":"run_command","value":"/ignore remove %name%"},"hoverEvent":{"action":"show_text","value":{"text":"§fНажмите, чтобы перестать игнорировать %display%"}}}]}]'
+
+pageargument: 'номер страницы'
+idargument: 'id игрока'
+
+command_friend_add_description: 'Пригласить игрока в друзья'
+command_friend_add_usage: '$arg_name$'
+command_friend_remove_description: 'Удалить из друзей'
+command_friend_remove_usage: '$arg_name$'
+command_friend_reject_description: 'Отклонить приглашение в друзья'
+command_friend_reject_usage: '$arg_name$'
+command_friend_list_description: 'Показать список друзей'
+command_friend_invites_description: 'Показать заявки в друзья'
+command_friend_tp_description: 'Телепорт на сервер друга'
+command_friend_tp_usage: '$arg_name$'
+
+command_execute_usage: '$arg_server$ <команда>'
+command_execute_success: '$prefix$Команда отправлена на сервер §c%server%'
+
+command_send_usage: '$arg_name$ $arg_server$'
+command_sendall_usage: '$arg_server$'
+
+command_staffchat_usage: '$arg_msg$'
+command_status_usage: '$arg_pattern$'
+command_banbyinfo_usage: '$arg_admin_name$'
+command_banidinfo_usage: '<id бана>'
+command_baninfo_usage: '$arg_name_or_ip$'
+command_mutebyinfo_usage: '$arg_admin_name$'
+command_muteinfo_usage: '$arg_name$'
+command_muteidinfo_usage: '<id мута>'
+command_ban_usage: '$arg_name_or_ip$ $arg_reason$'
+command_tempban_usage: '$arg_name_or_ip$ $arg_time$ $arg_reason$'
+command_mute_usage: '$arg_name$ $arg_time$ $arg_reason$'
+command_banhistory_usage: '$arg_name_or_ip$'
+command_banhistory_show_usage: '$arg_name_or_ip$'
+command_banhistory_remove_usage: '$command_banidinfo_usage$'
+command_mutehistory_usage: '$arg_name$'
+command_mutehistory_show_usage: '$arg_name$'
+command_mutehistory_remove_usage: '$command_muteidinfo_usage$'
+command_kick_usage: '$arg_name_or_ip$ $arg_reason$'
+command_unmute_usage: '$arg_name$'
+command_unban_usage: '$arg_name_or_ip$'
+command_stream_usage: '<ссылка на вашу трансляцию>'
+
+command_skin_reset_description: 'Сбросить скин'
+command_skin_set_usage: '$arg_name$'
+command_skin_set_description: 'Установить скин по нику'
+command_skin_url_usage: '<ссылка на скин>'
+command_skin_url_description: 'Установить скин по ссылке'
+
+command_whitelist_on_description: 'Включить белый список'
+command_whitelist_off_description: 'Выключить белый список'
+command_whitelist_setgroup_usage: '<группа>'
+command_whitelist_setgroup_description: 'Установить минимальную группу для входа'
+command_whitelist_onautokick_description: 'Включить автокик'
+command_whitelist_offautokick_description: 'Выключить автокик'
+command_whitelist_add_description: 'Добавить игрока в список игнорируемых вайтлистом'
+command_whitelist_add_usage: '$arg_name$'
+command_whitelist_remove_description: 'Удалить игрока из списока игнорируемых вайтлистом'
+command_whitelist_remove_usage: '$arg_name$'
+
+arg_reason: '<причина>'
+arg_time: '<срок>'
+
+arg_pattern: '<регулярное выражение>'
+arg_opt_pattern: '[регулярное выражение]'
+arg_server: '<сервер>'
+
+arg_admin_name: '<ник администратора>'
+arg_opt_name: '[ник игрока]'
+arg_name: '<ник игрока>'
+arg_id: '<id игрока>'
+arg_name_or_ip: '<ник игрока/IP>'
+
+arg_msg: '<сообщение>'
+
+socialspy_enabled: '$prefix$Режим шпиона включен'
+socialspy_disabled: '$prefix$Режим шпиона выключен'
+
+gamemode_invalid: '$prefix$Вы указали неверный игровой режим'
+gamemode_unavailable: '$prefix$Вы не можете установить этот игровой режим'
+gamemode_unavailable_others: '$prefix$Вы не можете установить игровой режим другому игроку'
+gamemode_unavailable_here: '$prefix$Вы не можете установить этот игровой режим на этом режиме'
+gamemode_unavailable_timer: '$prefix$Вы не можете менять игровой режим, пока находитесь в бою'
+gamemode_changed: '$prefix$Ваш игровой режим был обновлен'
+gamemode_target_changed: '$prefix$Вы изменили игровой режим игроку %target%'
+
+core_invalid_time_format: '$prefix$Неверно указан формат времени!'
+
+status_header: '$prefix$Информация о серверах:'
+information_title_field: ' §8- §f%key%: §c%value%'
+information_field: '   §f%key%: §c%value%'
+
+information_master_servers: 'Сервера'
+information_server_name: 'Сервер'
+information_arena_map: 'Карта'
+information_arena_state: 'Статус'
+information_server_online: 'Онлайн'
+
+core_no_servers_available_by_map: |-
+  $prefix$На данный момент не найдено свободных серверов с данной картой
+  $prefix$Вы можете попробовать войти на сервер с другой картой
+
+core_no_servers_available_by_mode: |-
+  $prefix$На данный момент не найдено свободных серверов данного режима
+  $prefix$Вы сможете войти, как только на одном из серверов закончится игра
+
+core_your_group_updated: '$prefix$Ваша группа была обновлена администратором проекта.'
+
+command_nickhistory_usage: '$arg_name$'
+command_nickhistory_empty: '$prefix$История использования никнейма пуста'
+command_nickhistory_title: '$prefix$История использований никнейма §c%nick% §7| §fЗаписей - §c%size%'
+command_nickhistory_entry: '[{"text":" §7• §fМаскировка от §c%issue_date% §fпод привилегию §c%rank%","hoverEvent":{"action":"show_text","value":{"text":"§fИспользовал: §c%owner%\n§fСтатус маскировки: §c%status%"}}}]'
+command_nickhistory_entry_active: '§aсейчас активна'
+command_nickhistory_entry_finished: '§cотключена %end_date%'
+
+command_play_usage: '<режим/игровой сервер>'
+command_play_invalid_mode: '$prefix$Вы указали неверный режим для входа'
+command_play_no_free_servers: '$prefix$Свободных серверов данного режима не найдено. Повторите попытку позже'
+command_play_teleport_mode: '$prefix$Найден сервер §c%server% §fдля §c%mode%§f. Телепортация...'
+command_play_teleport_server: '$prefix$Телепортация на сервер §c%server%'
+command_play_server_full: '$prefix$На данном сервере недостаточно места'
+command_play_server_started: '$prefix$Игра на указанном вами сервере уже началась'
+
+game_fill_message_broadcast: '{"text":"$prefix$На одной из арен §c%mode% §fскоро начнётся игра!\n","extra":[{"text":"$prefix$Нажмите §a§nСЮДА§f, чтобы присоединиться к игре!","clickEvent":{"action":"run_command","value":"/play %server%"},"hoverEvent":{"action":"show_text","value":{"text":"§6Вход в игру\n§7Нажми, чтобы присоединится к\n§7начинающейся игре!"}}}]}'
+
+core_find_nicked_format: '%real_name% §f(замаскирован как §c%mask%§f)'
+core_find_result: '$prefix$Игрок §c%name% §fнаходится на сервере §c%server_name%'
+core_find_result_vanished: '$prefix$Игрок §c%name% §fскрыт от всех игроков и находится на сервере §c%server_name%'
+
+togglesupportchat_result_disabled: '$prefix$Теперь в чате персонала Вы будете видеть только сообщения хелперов и выше. Любое сообщение отправленное в чат персонала, будет также видно только хелперам и выше'
+togglesupportchat_result_enabled: '$prefix$Теперь Вы снова видите все сообщения в чате персонала'
+
+core_staffchat_prefix: '§9Персонал §8| §f'
+
+staffchat_message_sent: '$prefix$Вы отправили сообщение в чат персонала: §c%message%'
+core_staffchat_message_format: '$core_staffchat_prefix$§c%user%: §f%message%'
+core_alert_message_format: '$prefix$%message%'
+
+core_staff_join_notify: '$core_staffchat_prefix$%name% §fзашел на сервер'
+core_staff_leave_notify: '$core_staffchat_prefix$%name% §fвышел с сервера (%time_spent%§f)'
+core_staff_leave_time_played: 'за §7%date% §fнаиграно §7%time%'
+core_staff_leave_didnt_played: '§cне играл на сервере сегодня'
+core_staff_join_another_ip_notify: '$core_staffchat_prefix$У §c%name% §fизменился IP адрес §7[%old_addr% -> %new_addr%]'
+core_staffchat_discord_message_format: '$core_staffchat_prefix$%user% §5(Дискорд)§7: §f%message%'
+
+core_send_sender_result: '$prefix$Игрок §c%name% §fбыл телепортирован на сервер §c%server_name%'
+core_send_player_result: '$prefix$Вы были телепортированы на сервер §c%server_name% §fадминистратором §c%name%'
+
+core_setproperty_result: 'You changed property §c%key% §fof player §c%player% §fto §c%value%'
+
+core_stafflist_result: '$prefix$Список онлайн персонала (§c%count%§f):'
+core_stafflist_admins: ' §7- §cАдминистраторы§f: %names%'
+core_stafflist_moders: ' §7- §9Модераторы§f: %names%'
+core_stafflist_helpers: ' §7- §2Хелперы§f: %names%'
+core_stafflist_vanished: ' §7- §dСпрятаны от других§f: %names%'
+
+core_total_online_result: '$prefix$Общий онлайн со всех серверов: §c%online%'
+core_server_online_result: '$prefix$Онлайн указанных серверов (§c%pattern%§f): §c%online%'
+
+core_list_invalid_pattern: '$prefix$Неверное регулярное выражение: §c%exception%'
+core_list_result: '$prefix$Игроки: §c%players%'
+core_no_online_players: '$prefix$Игроков онлайн нет'
+core_servers_not_found: '$prefix$Сервера не найдены'
+
+core_hub_not_found: '$prefix$Хаб не найден'
+core_hub_already_in: '$prefix$Вы уже в хабе'
+core_hub_teleported: '$prefix$Телепортирую в хаб §c%hub_name%'
+
+core_teleportation_unsuccessful: '$prefix$Произошла ошибка при телепортации на сервер. Обратитесь к администрации проекта'
+
+core_vanish_enabled: '$prefix$Вы были скрыты для всех игроков'
+core_vanish_disabled: '$prefix$Вы были показаны для всех игроков'
+
+core_vanish_function_disabled: '$prefix$Вам запрещено использовать эту функцию, пока Вы скрыты от других игроков'
+
+core_vanish_enabled_broadcast: '$core_staffchat_prefix$%user% §fвключил режим невидимости для игроков'
+core_vanish_disabled_broadcast: '$core_staffchat_prefix$%user% §fвыключил режим невидимости для игроков'
+
+core_getname_result: '$prefix$Ник игрока - §c%name%'
+core_findaccounts_result: |-
+  $prefix$Список аккаунтов игрока %name%:
+  §c * §fIP регистрации: §c%reg_ip%
+  §c * §fАккаунты по рег. IP: §c%reg_ip_names%
+core_findaccounts_result_last: |-
+  §c * §fIP последнего входа: §c%last_ip%
+  §c * §fАккаунты по посл. IP: §c%last_ip_names%
+core_findaccounts_result_online: |-
+  §c * §fТекущий IP: §c%current_ip%
+  §c * §fОнлайн аккаунты: §c%current_ip_names%
+
+core_whois_result_base: |-
+  $prefix$Информация об игроке §c%name%§f:
+  §c * §fID: §c%id%
+  §c * §fПривилегии: §c%ranks%
+  §c * §fЯзык: §c%language%
+  §c * §fДрузья: §6%friends%§7/§c%friends_limit%
+  §c * §fЛицензия: §c%premium_auth%
+core_whois_result_registration_data: |-
+  §c * §fРегистрационный IP: §c%reg_ip%
+  §c * §fДата регистрации: §c%reg_date%
+core_whois_result_vk: '§c * §fПривязанный VK: §c%vk%'
+core_whois_result_nickname: |-
+  §c * §fНик маскировки: §c%fake_nickname%
+  §c * §fПривилегия маскировки: §c%fake_group%
+  §c * §fДата маскировки: §c%date_activated%
+core_whois_result_status: |-
+  §c * §aОнлайн §fуже §c%online_time%
+  §c * §fСервер: §c%server_name%
+  §c * §fПрокси: §c%proxy_name%
+  §c * §fВерсия клиента: §c%protocol%
+core_whois_result_status_ip: '§c * §fТекущий IP: §c%ip%'
+core_whois_result_party: |-
+  §c * §fВ Party: §aДа §7(party id - %id%)
+  §c * §fУчастники: %players%
+  §c * §fПубличность: §c%public%
+core_whois_result_session: |-
+  §c * §fПоследний вход: §c%last_login%
+  §c * §fПоследний сервер: §c%last_server%
+  §c * §fДлительность сессии: §c%duration%
+core_whois_result_session_ip: '§c * §fПоследний IP: §c%last_ip%'
+
+core_actions_empty_result: '$prefix$Информация отсутствует...'
+core_actions_name_result: '$prefix$Действия по нику §c%target% §fза %duration%§f:'
+core_actions_ip_result: '$prefix$Действия по IP §c%target% §fза %duration%§f:'
+
+#Стримы
+stream_prefix: '§f[§cStreams§f] '
+stream_only_youtube: '$stream_prefix$Пользоваться системой трансляций могут только игроки со статусом §cYou§fTube'
+stream_cooldown: '$stream_prefix$Недавно Вы удалили свой стрим из списка активных. Вы должны подождать какое-то время, перед тем как добавлять следующий'
+stream_already_started: '$stream_prefix$Вы уже ведете трансляцию, поэтому можете только удалить её. Использование - §c/stream remove'
+stream_no_streams: '$stream_prefix$Вы не ведете никаких трансляций на данный момент'
+stream_removed: '$stream_prefix$Ваш стрим удален из списка активных! В целях безопасности начать новую трансляцию можно будет только через §c5 §fминут'
+stream_unknown_platform: 'Вы указали неверную ссылку на стрим. Поддерживаемые платформы на данный момент: %platforms%'
+stream_similar_found: '$stream_prefix$Данная трансляция уже проходит у нас на сервере'
+stream_created: '$stream_prefix$Ваш стрим добавлен.'
+stream_ended: 'трансляция закончилась'
+stream_not_found: 'трансляция не найдена'
+stream_update_error: '$stream_prefix$Произошла ошибка при обновлении состояния стрима: §c%exception%'
+stream_update_removed: '$stream_prefix$Ваша трансляция была удалена из списка активных'
+stream_new_stream_first_line: ' %gamer% §fначал трансляцию на %platform%§f!'
+stream_new_stream_second_line: ' §fНажми, чтобы §eперейти §fк просмотру стрима!'
+stream_online_streams: |
+  §7
+  $big_notify_message_line$
+  §7 §fСейчас §c%stream_format% §f%player_format% у нас на сервере!
+  §7 §fИспользуйте §e/streams§f, чтобы просмотреть список стримов
+  $big_notify_message_line$
+stream_single: 'ведет стрим'
+stream_plural: 'ведут стримы'
+stream_click_to_go: '$prefix$Нажмите §nсюда§f, чтобы открыть стрим в браузере'
+
+stream_gui_title: 'Список активных трансляций'
+
+stream_gui_empty: '§cАктивных трансляций нет'
+stream_gui_empty_lore: |-
+  §7Они появятся в этом списке,
+  §7когда кто-то начнет трансляцию
+
+stream_gui_entry: '§6Стрим %name%'
+stream_gui_entry_lore: |-
+  §8%title%
+  §f
+  §7Стрим проходит на §c%platform% §7уже
+  §f%duration%
+  §f
+  §7Зрителей онлайн: §c%viewers%
+  §f
+  §eНажмите, чтобы перейти к просмотру!
+
+#Репорты
+report_prefix: '§f[§cReports§f] '
+report_self: '$report_prefix$Вы не можете подать жалобу на самого себя'
+report_cooldown: '$report_prefix$Вы должны подождать немного, перед тем как отправить еще одну жалобу'
+report_send_staff: '$report_prefix$Данный игрок состоит в персонале проекта. Вы не можете пожаловаться на него этой командой'
+report_send_success: '$report_prefix$Ваша жалоба была отправлена. В ближайшее время её рассмотрят наши модераторы'
+report_send_already_reported: '$report_prefix$Вы уже отправили жалобу на этого игрока'
+report_spectating_vanish: '$report_prefix$Для вас был автоматически включен режим невидимости для игроков'
+report_start_spectating: '$report_prefix$%admin% §fначал наблюдение за игроком %target%'
+report_player_left: '$report_prefix$Указанный вами игрок вышел с сервера. Вы можете подать на него жалобу в нашей группе VK - §c$vk_group_url$'
+report_already_closed: '$report_prefix$Жалоба на этого игрока уже рассмотрена'
+report_your_report_accepted: '$report_prefix$%admin% §fрассмотрел Вашу жалобу на игрока §c%target% §fи наказал его. Спасибо, что остались неравнодушны!'
+report_your_report_declined: '$report_prefix$Ваша жалоба была отклонена модераторами проекта. Если Вы все еще считаете, что это ошибка, запишите видеозапись нарушения и отправьте её в нашу группу VK в раздел жалоб. Адрес группы VK - §c$vk_group_url$'
+report_broadcast_guilty: '$core_staffchat_prefix$%admin% §fрассмотрел и §aодобрил §fжалобу на игрока %target%'
+report_broadcast_not_guilty: '$core_staffchat_prefix$%admin% §fрассмотрел и §cотклонил §fжалобу на игрока %target%'
+report_new_report: '[{"text":"\n","extra":[{"text":"§8§m                                                                            "},{"text":"\n"},{"text":" §6⚠ §fПоступила жалоба на игрока §a%target%§f!"},{"text":"\n\n"},{"text":" §fПричина жалобы: §a%reason%"},{"text":"\n"},{"text":" §fСервер игрока: §a%server% "},{"text":"§7(телепортироваться)","clickEvent":{"action":"run_command","value":"/server %server%"},"hoverEvent":{"action":"show_text","value":{"text":"§fНажмите для телепортации на сервер нарушителя"}}},{"text":"\n"},{"text":"§8§m                                                                            "},{"text":"\n"}]}]'
+report_new_report_vk: 'Жалоба на игрока %target%: %reason% на сервере %server% (Подал жалобу %name%).'
+action_register: 'Регистрация'
+action_login: 'Вход по паролю'
+action_session_login: 'Вход по сессии'
+action_premium_login: 'Вход по лицензии'
+action_fail_login: 'Неправильный пароль'
+action_change_pass: 'Смена пароля'
+action_log_out: 'Выход из сессии'
+action_assign_vk: 'Привязка VK'
+action_fail_login_vk: 'Провал входа VK'
+action_change_pass_vk: 'Восстановление из VK'
+action_remove_vk: 'Отвязка VK'
+action_kick_vk: 'Кик из VK'
+
+action_text: ' §7- §f%description% §c%time% §fназад'
+action_text_name: '§f, ник: §c%name%'
+action_text_ip: '§f, IP: §c%ip%'
+action_text_vk: '§f, VK ID: §c%vk_id%'
+
+#Наказания
+eternity: 'вечность'
+
+player_removed_from_server: |
+  §f
+  §cОдин из игроков на вашем сервере был заблокирован модератором
+  $player_hacks_are_banable$
+player_hacks_are_banable: '§cИспользование стороннего ПО запрещено на Traveller-Land!'
+
+muted_message_format: |-
+  §7▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+  §7 §cДоступ к чату заблокирован за %reason%,
+  §7 §cблокировка истекает через %time_left%
+  §7
+  §7 §7Обжаловать наказание можно в §e§n$vk_support_url$
+  §7 §7Уникальный ID блокировки: §f#%meta_id%
+  §7▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+muted_read_rules: |-
+  §f
+  §cОзнакомьтесь с правилами проекта (§c§lhttps://rules.traveller-land.ru/), чтобы избежать возможных блокировок и мутов в дальнейшем
+punishment_row: ' §7- §fID: §c%id%§f, выдан модератором по причине: §c%reason%'
+ban_hover_time: '§fБан выдан §c%time% §fназад'
+ban_hover_admin: '§fМодератор: §c%admin%'
+ban_hover_names: '§fЗабаненные игроки: §c%names%'
+ban_hover_ips: '§fЗабаненные IP: §c%ips%'
+ban_hover_expired: '§fБан истек §c%time% §fназад'
+ban_hover_unbanned_by: '§fРазбанил: §c%admin%'
+ban_hover_never_expired: '§fБан выдан навсегда'
+ban_hover_expiring: '§fБан истекает через §c%time%'
+
+mute_hover_time: '§fМут выдан §c%time% §fназад'
+mute_hover_admin: '§fМодератор: §c%admin%'
+mute_hover_muted: '§fНарушитель: §c%name%'
+mute_hover_expired: '§fСрок действия мута истек'
+mute_hover_unmuted_by: '§fСнял мут: §c%unmutedBy%'
+mute_hover_expiring: '§fМут истекает через §c%time%'
+
+kick_result: '$prefix$Вы кикнули §c%target% §fс сервера по причине §c%reason%'
+kick_single: '$core_staffchat_prefix$%name% §fкикнул игрока §c%target% §fс сервера по причине §c%reason%'
+kick_many: '$core_staffchat_prefix$%name% §fкикнул игроков §c%target% §fс сервера по причине §c%reason%'
+
+ban_stat_wipe_broadcast: '$core_staffchat_prefix$Статистика игрока для блокировки §c#%ban_id% §fбудет сброшена §c%date%§f. Остановить таймер - §c/cancelwipe <id бана>'
+ban_result: '$prefix$Вы заблокировали §c%target% §fсроком на §c%time% §fпо причине §c%reason%'
+ban_ip_broadcast: '$core_staffchat_prefix$§c%admin% §fзабанил IP §c%target%'
+ban_name_broadcast: '$core_staffchat_prefix$§c%admin% §fзабанил ник §c%target%'
+ban_stat_wipe_kick: |-
+  §cПожалуйста, перезайдите на сервер
+  §cНекоторая ваша статистика была сброшена
+  §f
+  §fЭто могло произойти потому что ранее Вы были
+  §fзаблокированы за использование стороннего ПО
+  §f
+  §7Мы очистили только заработанную статистику за
+  §710 дней до дня блокировки по сегодняшний день
+  §7на всех режимах на сервере (остров SkyBlock,
+  §7вещи на Anarchy или купленные предметы за тугрики
+  §7затронуты не были)
+ban_stat_wipe_removed: |
+  §f
+  §cБыла обнулена статистика %count% нарушителей правил
+  $player_hacks_are_banable$
+
+ban_with_ip: ' §fи IP: §c%ips%'
+ban_with_name: ' §f, а также ник §c%nick%'
+ban_with_names: ' §f, а также ники §c%nicks%'
+ban_enumeration_delimiter: '§f, §c'
+ban_with_time: ' §fсроком на §c%time%'
+ban_with_reason: ' §fпо причине §c%reason%'
+
+ban_disconnect_reason: |-
+  §cДанный аккаунт заблокирован на сервере
+  §c%expires%
+  §f
+  §7Причина блокировки: §f%reason%
+  §7Если Вы не согласны с наказанием, обратитесь
+  §7в нашу техническую поддержку в ВКонтакте по
+  §7адресу §b§n$vk_support_url$
+  §f
+  §7Уникальный ID блокировки: §f#%id%
+ban_disconnect_temporary_expiration: '§cвременно на %expires%'
+ban_disconnect_permanent: '§cАккаунт заблокирован навсегда'
+
+kick_disconnect_reason: |-
+  §cВы были кикнуты администратором %initiator%
+  §f
+  §7Причина: §c%reason%
+
+ban_disabled_command: '$prefix$Вы не можете использовать эту команду, пока заблокированы на сервере'
+
+ban_auto_remove: '$core_staffchat_prefix$Автоматически удалено §c%count% §fнедавно снятых блокировок с похожей причиной'
+ban_wrong_time: '$prefix$Вы указали неверный срок для блокировки игрока'
+ban_too_long_time: '$prefix$Вы не можете выдавать бан на такой большой срок'
+ban_wrong_name: '$prefix$Вы указали неверный ник'
+ban_already_given: '$prefix$Данный игрок уже в бане'
+ban_cant_ip: '$prefix$Вам недоступны баны по IP адресу'
+unban_not_banned: '$prefix$Данный игрок не заблокирован'
+unban_cant: '$prefix$Вы можете разбанивать только игроков, забаненных Вами'
+ban_empty_operation_list_empty: '$prefix$Из списка были удалены игроки, должность которых выше или равна вашей. Список игроков для проведения операции пуст'
+unban_result: '$prefix$Вы сняли блокировку с §c%target%'
+unban_ip: '$core_staffchat_prefix$§c%name% §fснял §c%count% §f%label% §f с IP §c%target%'
+unban_name: '$core_staffchat_prefix$§c%name% §fснял §c%count% §f%label% §fс ника §c%target%'
+unban_more_name_bans: '$prefix$Помимо §c%size_format%§f, имеется еще §c%left_format% §fна данный ник'
+unban_more_ip_bans: '$prefix$Помимо §c%size_format%§f, имеется еще §c%left_format% §fна данный IP'
+ban_single: 'бан'
+ban_onemore: 'бана'
+ban_plural: 'банов'
+
+prev_page_name: '§6Предыдущая страница'
+next_page_name: '§6Следущая страница'
+
+go_to_page: '§7На страницу %page%/%max%'
+
+mute_result: '$prefix$Вы заблокировали чат игроку §c%target% §fсроком на §c%time% §fпо причине §c%reason%'
+mute_cant: '$prefix$Вы не можете выдать мут этому игроку, поскольку его привилегия выше или равна вашей'
+mute_already_given: '$prefix$Данный игрок уже в муте'
+mute_too_long_time: '$prefix$Вы не можете выдавать мут на такой большой срок'
+mute_wrong_time: '$prefix$Вы указали неверный срок для выдачи мута игроку'
+mute_broadcast: '$core_staffchat_prefix$§c%name% §fвыдал мут игроку §c%target% §fсроком на §c%time% §fпо причине §c%reason%'
+mute_player: '$prefix$Доступ к чату был заблокирован на §c%time% §fпо причине §c%reason%'
+unmute_result: '$prefix$Вы сняли мут с игрока §c%target%'
+unmute: '$core_staffchat_prefix$§c%name% §fснял мут с игрока §c%target%'
+unmute_not_muted: '$prefix$Данный игрок не в муте'
+unmute_no_permission: '$prefix$Вы можете снять мут только с тех игроков, кому Вы его выдавали'
+
+mute_player_warning: '$prefix$Количество твоих выговоров увеличилось! Теперь у тебя их §c%count%§f. За каждое наказание ты получаешь на §a50% §fбольше времени!'
+
+kick_no_permission: '$prefix$Вы не можете кикать игроков по IP адресу'
+kick_empty: '$prefix$Игроков для проведения данного действия не найдено'
+
+banhistory_ip_unavailable: '$prefix$Вы не можете просматривать историю банов IP адресов'
+banhistory_ip_never_was_banned: '$prefix$IP адрес §c%target% §fникогда не был в бане'
+banhistory_name_never_was_banned: '$prefix$Игрок §c%target% §fникогда не был в бане'
+
+banbyinfo_empty_result: '$prefix$Банов, выданных игроком §c%ban_by% §fнет'
+banbyinfo_result: '$prefix$Баны, выданные игроком §c%ban_by%§f:'
+
+banhistory_ip_result: '$prefix$История блокировок IP адреса §c%target%§f:'
+banhistory_name_result: '$prefix$История блокировок игрока §c%target%§f:'
+banhistory_ban_count: '$prefix$Блокировок по времени истекло: §c%count%'
+banhistory_ban_removed: '$core_staffchat_prefix$%admin% §fудалил информацию о блокировке §c#%id%'
+
+command_unavailable: '$prefix$У вас недостаточно прав'
+command_unavailable_on_production: '$prefix$Данная команда недоступна для Вас на основном сервере'
+command_unavailable_group: '$prefix$Команда доступна с привилегии %group_name% §fи выше'
+command_unavailable_minargs: '$prefix$Правильное использование команды: §c%usage%'
+command_unavailable_console: '$prefix$Данную команду можно выполнять только от имени игрока'
+command_unavailable_cooldown: '$prefix$Команда будет доступна через §c%time%'
+command_int_required: '$prefix$Аргумент %arg% должен являться числом!'
+command_help: '$prefix$Помощь по командам:'
+command_help_row: ' §c%usage% §f- %description%'
+command_help_no_description: 'Нет описания'
+command_firework_ingame: '$prefix$Вы не можете запускать фейерверки в игре'
+
+command_whitelist_enabled: |-
+  $prefix$Белый список включён
+  $prefix$На сервер могут войти игроки только с привилегией %group% §fи выше
+command_whitelist_disabled: '$prefix$Белый список выключен'
+
+command_whitelist_setgroup: '$prefix$Теперь на сервер можно будет войти с привилегии %group% §fи выше'
+
+command_whitelist_autokick_enabled: '$prefix$Теперь игроки будут автоматически кикнуты из игры, если вы включите белый список'
+command_whitelist_autokick_disabled: '$prefix$Автокик выключен'
+
+tugrikshop_item_bought: |-
+  $prefix$Вы приобрели предмет §c%name% §fв нашем онлайн-магазине
+   §fДля получения своей покупки напишите команду §c/items §fна нужном режиме
+
+suffix_bought: |-
+  $prefix$Вы приобрели суффикс '§c%name%§f'!
+    §fЧтобы активировать его напишите команду §c/suffix
+joinmessage_bought: |-
+  $prefix$Вы приобрели сообщение о входе '§c%name%§f'!
+    §fЧтобы активировать его напишите команду §c/joinmessage
+
+case_reward_duplicate: '$prefix$У вас уже есть выпавший предмет - §c%item%§f'
+
+case_duplicate_tugriks: '$prefix$Вы получаете §c%tugriks% §fза дубликат'
+case_duplicate_dust: '$prefix$Вы получаете §5%dust% пыли §fза дубликат'
+case_duplicate_mode_coins: '$prefix$Вы получаете §7+§6%coins% §fна режиме §c%mode% §fза дубликат'
+case_duplicate_coins: '$prefix$Вы получаете §7+§6%coins% §fза дубликат'
+
+case_reward_given: '$prefix$Вы выбили %rarity% §fпредмет §c%item% §fиз кейса'
+case_broadcast: '$prefix$%name% §fвыбил %rarity% §fпредмет §c%item% §fиз кейса!'
+case_purchase_advertise: |-
+  $prefix$Хотите испытать свою удачу и тоже открыть кейс?
+  §c * §fПриобрести кейсы можно на сайте §d$website_url$
+case_out_of_cases: |-
+  $prefix$К сожалению, Вы открыли все имеющиеся кейсы
+  §c * §fХотите еще? Приобрести кейсы можно на сайте §d$website_url$'
+
+case_content_game_item: '%rarity%%name% §8(§7%category%§8)'
+case_content_suffix: '§6%suffix% §8(%rarity_color%Суффикс§8)'
+case_content_keys: '§dx%amount% §8(%rarity_color%%name%§8)'
+
+case_craft: '$prefix$Вы создали новый кейс из пыли. Открыть его можно в сундуке удачи'
+case_craft_available: '§eКликните, чтобы обменять %dust% пыли на кейс'
+case_craft_unavailable_dust: '§cУ вас недостаточно пыли для создания'
+
+case_purchase_title: 'Покупка кейсов'
+case_list_title: 'Кейсы'
+case_open_unavailable_processing: '$prefix$Этот сундук удачи уже кем-то открывается. Подождите немного!'
+
+case_gui_name: '§6%case%'
+
+case_list_empty: '§6У вас нет кейсов'
+case_list_empty_lore: |-
+  §7На данный момент у вас нет
+  §7кейсов, которые можно открыть
+  §7Кейсы можно купить за тугрики,
+  §7а также выиграть в играх
+
+case_list_shop: '§6Магазин кейсов'
+case_list_shop_lore: |-
+  §f
+  §7Вы можете приобрести любой кейс
+  §7в магазине кейсов за тугрики
+  §f
+  §eНажмите, чтобы открыть магазин
+
+case_open_click: |-
+  §f
+  §eНажмите, чтобы открыть этот кейс
+
+case_open_unavailable_group: |-
+  §f
+  §cВы не можете открыть этот кейс
+  §f
+  §7Для открытия нужен статус %group%
+  §f
+  §7Купить привилегию можно на нашем
+  §7официальном сайте: §f$website_url$
+
+case_craft_available_name: '§6Создание кейса из пыли'
+case_craft_unavailable_name: '§cСоздание кейса из пыли'
+
+case_craft_lore: |-
+  §f
+  §7Сейчас у вас §f%dust% §7пыли
+  §f
+  §7Пыль накапливается, когда вам выпадают,
+  §7вещи, которые у вас уже есть, а также
+  §7каждый раз, когда вы будете открывать
+  §7косметические кейсы. Как только у вас
+  §7накопится §f%required% §7пыли, её можно будет
+  §7обменять на новый косметический кейс!
+  §f
+
+purchase_unavailable_cost_message: '$prefix$У вас недостаточно тугриков для покупки. Приобрести тугрики можно на нашем сайте §d$website_url$'
+purchase_unavailable_cost_lore: |-
+  §cУ вас недостаточно тугриков
+  §f
+  §7Приобрести тугрики можно на нашем
+  §7сайте §f$website_url$
+
+stats_unavailable_group: '$prefix$Просматривать статистику других игроков можно только со статуса §dUltra'
+stats_result: '$prefix$Статистика %name% §fна §c%mode%§f:'
+stats_row: '§7- §f%description%: §c%stat%'
+
+daily_rewards_title: 'Меню наград'
+
+award_type_daily_default: 'Ежедневная награда'
+award_type_monthly_default: 'Ежемесячная награда'
+award_type_monthly_donate: 'Ежемесячная награда (увеличенная)'
+
+monthly_reward_unavailable_collected: |-
+  §cНаграда за месяц уже получена
+  §f
+  §7Вы сможете получить ее снова
+  §7только через §f%days% §7%day_label%
+
+monthly_reward_unavailable_group: |-
+  §cДанная награда Вам недоступна
+  §f
+  §7Для получения особой ежемесячной
+  §7награды купите привилегию %group%,
+  §7на нашем сайте §f$website_url$
+
+monthly_reward_unavailable_level: |-
+  §cДанная награда Вам недоступна
+  §f
+  §7Для получения ежемесячной награды
+  §7вам необходим уровень не ниже §f%level%
+
+monthly_reward_collected: '$prefix$Вы получили ежемесячную награду!'
+monthly_reward_for_donaters_collected: '$prefix$Вы получили ежемесячную награду для донатеров!'
+
+daily_reward_unavailable_collected: '§cВы уже получили эту награду сегодня'
+
+daily_reward_unavailable_not_collected: |-
+  §cЭтот день еще не наступил
+  §f
+daily_reward_unavailable_days: |-
+  §7Заходите на сервер ещё §7%day_label%
+  §7подряд для получения награды
+daily_reward_unavailable_tomorrow: |-
+  §7Заходите на сервер завтра!
+
+
+daily_reward_unavailable_skip: §cНаграда уже получена или пропущена
+
+daily_reward_name: '§6Ежедневная награда: день %day%'
+
+daily_reward_thanks: '$prefix$Вы заходили на сервер §c7 §fдней подряд. Спасибо за игру на нашем проекте!'
+daily_reward_tugrik_gift: '$prefix$В качестве благодарности с шансом §c30% §fвы получили дополнительно §b1 $noun_tugrik_masculine_accusative$'
+daily_reward_collected: '$prefix$Вы получили награду за день §c%num%'
+daily_reward: |-
+  §f
+  §7Награда за этот день:
+reward_row: §8▪ §7%reward_name%
+
+click_to_collect_reward: '§eНажмите, чтобы получить награду'
+
+level_rewards_temporary_unavailable: '$prefix$Награды за уровни временно недоступны'
+level_rewards_title: 'Награды за уровни'
+level_rewards_collected: '$prefix$Вы получили награды за §c%level% §fуровень!'
+level_rewards_unavailable_collected: '§cЭта награда уже получена вами'
+level_rewards_unavailable_collect_previous: '§cСначала получите предыдущие награды'
+level_rewards_unavailable_unreached: '§cЭтот уровень еще не достигнут'
+
+level_reward_name: '§6Награда за %level% уровень'
+
+level_reward: |-
+  §f
+  §7Награда за достижение уровня:
+level_rewards: |-
+  §f
+  §7Награды за достижение уровня:
+
+level_reward_row: ' §8+ §7%reward_name%'
+
+level_rewards_status: |-
+  §f
+  %status%
+
+case_purchase_lore: |-
+  §f
+  §7Стоимость кейса: §f%cost%
+  §7На вашем счету: §f%balance%
+  §f
+
+case_purchase_click: '§eКликните, чтобы купить кейс'
+case_purchase: '$prefix$Вы приобрели кейс §c%name% §fза §c%cost%'
+
+reward_booster_name: '§ex%amount% §7%name%'
+reward_case_key_name: '§dx%amount% §7%type%'
+reward_coin_mode_name: '§6%amount% §7на %mode%'
+reward_coin_name: '§6%amount%'
+reward_tugrik_name: '§b%amount%'
+reward_dust_name: '§5%amount% пыли'
+reward_experience_name: '§3%exp% опыта'
+reward_group_name: '§7Ранг %group% §8(§7%duration%§8)'
+reward_suffix_name: '§7Суффикс %suffix%'
+reward_game_item_name: '§a%name% §8(§7%category%§8)'
+
+daily_quest_completed: |-
+  $prefix$Ежедневный квест §c%mode% §fвыполнен!
+  §f
+daily_quest_progress: |-
+  $prefix$Задание "%description%" в квесте на %mode% выполнено!
+  §c * §fДля получения награды выполните остальные задания. Осталось заданий: §c%uncompleted_quests%
+  §c * §fПодробнее о ежедневных заданиях - §c/quest §7(доступно только в лобби)
+quest_completed: 'выполнен квест'
+
+item_reward_full: '$prefix$Ваш инвентарь переполнен. Вам был возвращен кейс этого типа'
+
+suffix_purchased: '$prefix$Вы приобрели суффикс "§c%suffix%§f". Активировать его можно в меню суффиксов (команда §c/suffix§f)'
+
+suffix_change_title: 'Суффиксы'
+suffix_color_title: 'Изменение цвета суффикса'
+
+suffix_color_future_lore: |-
+  §f
+  §7Ваш ник после применения этого цвета:
+  %name% %suffix%
+  §f
+
+suffix_color_already_set: '§cВы уже выбрали данный цвет суффикса'
+suffix_color_click_to_change: '§eНажмите, чтобы изменить цвет суффикса'
+
+suffix_empty: '§6Суффиксов нет'
+suffix_empty_lore: |-
+  §7Вы еще не приобрели ни одного
+  §7суффикса. Сделать это можно на
+  §7нашем сайте §f$website_url$
+
+suffix_info: '§6Подробнее о суффиксах'
+suffix_info_lore: |-
+  §f
+  §7Суффикс - это определённый текст,
+  §7который будет отображаться после
+  §7вашего ника в списке игроков
+  §f
+  §7Они приобретаются на нашем сайте
+  §f$website_url$§7. Также получить их
+  §7можно открывая кейсы с суффиксами.
+  §f
+  §7Суффиксы доступны как донатерам, так
+  §7и обычным игрокам. Однако в суффиксах
+  §7обычных игроков не будет видно цвета.
+  §f
+  §7Игроки с привилигией §aElite §7могут
+  §7сами выбирать цвет своего суффикса
+
+suffix_name: '§6Суффикс %suffix%'
+suffix_lore: |-
+  §f
+  §7После применения после вашего ника
+  §7появится суффикс
+  §f
+  §7Он будет выглядеть для всех так:
+  %display%
+
+suffix_colored_lore: |-
+  §f
+  §7Поскольку у вас есть статус %group%§7,
+  §7Вы можете изменить цвет суффикса!
+  §f
+  §eПКМ, чтобы изменить цвет суффикса
+
+suffix_uncolored_lore: |-
+  §f
+  §7У вас нет доната, поэтому выбранный
+  §7суффикс будет отображаться без цвета',
+  §f
+  §7Вы можете приобрести %group% §7на сайте
+  §f$website_url$§7, чтобы все видели цвет
+
+suffix_selected_lore: |-
+  §f
+  §cВы уже выбрали данный суффикс
+
+suffix_cooldown_lore: |-
+  §f
+  §cВы уже меняли свой суффикс недавно
+  §f
+  §7Сделать это снова можно будет только
+  §7через §c%time%
+
+suffix_unavailable_tugriks: '$prefix$У вас недостаточно Гемов для изменения суффикса'
+
+suffix_force_change_lore: |-
+  §f
+  §7Вы можете не ждать, пока пройдет таймер
+  §7и изменить суффикс всего за §b2 §7тугрика!
+  §f
+  §eЛКМ, чтобы изменить суффикс прямо сейчас
+
+suffix_changed: '$prefix$Вы изменили свой суффикс на %suffix%'
+suffix_force_changed: '$prefix$Вы изменили свой суффикс досрочно за §c2 §f$noun_tugrik_masculine_genitive$!'
+suffix_color_changed: '$prefix$Вы изменили цвет суффикса на %color%'
+suffix_reset: '$prefix$Выбранный суффикс сброшен'
+
+suffix_reset_name: '§6Сбросить активный суффикс'
+suffix_reset_lore: |-
+  §f
+  §7Вы можете сбросить текущий
+  §7выбранный вами суффикс
+  §f
+suffix_reset_lore_unavailable: |-
+  §cВы еще не выбрали суффикс
+suffix_reset_lore_available: |-
+  §7Выбран суфикс: §f%suffix%
+  §f
+  §eНажмите, чтобы убрать выбор
+
+suffix_click: |-
+  §f
+  §eЛКМ, чтобы выбрать данный суффикс
+
+prefix_unavailable: '$prefix$Менять префикс можно только от привилегии %group% §fи выше'
+prefix_need_tugriks: '$prefix$У вас недостаточно тугриков. Изменение префикса стоит §c%cost% тугриков'
+
+prefix_wrong_text: '$prefix$В префиксе найдены запрещенные слова или символы. Длина префикса должна также составлять от §c3 §fдо §c10 §fсимволов'
+prefix_usage: '$prefix$Использование - §c/prefix <текст префикса>'
+
+prefix_changed: '$prefix$Вы изменили свой префикс на %text%'
+prefix_updated: '$prefix$Ваш префикс успешно изменен на §c%text%'
+prefix_reset: '$prefix$Вы сбросили префикс, вам был установлен стандартный для вашей привилегии'
+
+prefix_set_description: |-
+  §c* §fПрефикс изменяется сроком на §c1 неделю §fза §b%cost%
+  §c* %group% §fможет изменить свой префикс бесплатно
+
+prefix_update_description: |-
+  §c* §fВы можете изменить свой префикс, стоимость - §b%cost%
+  §c* §fСрок действия вашего префикса заканчивается через §c%time%
+  §c* §f%group% §fможет изменить свой префикс бесплатно
+
+prefix_description: |-
+  §c* §fЦвет префикса равен цвету вашей привилегии на сервере
+  §c* §fДлина префикса должна составлять от §c3 §fдо §c10 §fсимволов
+
+prefix_reset_description: |-
+  §c* §fВы можете удалить установленный префикс - §c/prefix reset
+
+group_not_found: '$prefix$Группа §c%group% §fне найдена'
+
+predicate_group_default_status: 'у вас нет статуса'
+predicate_group_other_status: 'ваш статус: %group%§c'
+predicate_group_requirement_status: 'Статус %required% %match_type% §c(%current%)'
+
+predicate_level_requirement: '%level% (ваш уровень: %required%)'
+
+predicate_currency_requirement: '%cost% (у вас %balance%)'
+predicate_sponsor_discount: '§fВаша скидка на покупку составляет 20%!'
+predicate_currency_purchase: '§eКликните, чтобы купить предмет за %cost%'
+
+predicate_upgrade: 'купленная вещь предыдущего уровня: §c%upgrade%'
+
+failed_predicate: ' §c• §7%label%'
+failed_predicate_and: '§7 и'
+failed_predicate_or: '§7 или'
+
+period_halloween: 'Хеллоуинский эксклюзив'
+period_new_year: 'Новогодний эксклюзив'
+
+game_item_exclusive_name: '%exclusive%: §f%name%'
+game_item_name: '§6%name%'
+
+upgradeable_item_lore: '§7Уровень: %level%'
+
+group_available_at_website: '$prefix$Купить данную привилегию можно на сайте §c$website_url$'
+
+game_item_available_for_purchase: '§aВы можете купить этот предмет!'
+game_item_already_purchased: '§6Данный предмет уже куплен'
+game_item_purchase_confirm: |-
+  §f
+  §eВы действительно хотите приобрести
+  §eэтот предмет? Действие необратимо!
+
+game_item_selected: '$prefix$Вы выбрали %label% §c%item%'
+game_item_unselected: '$prefix$Выбор убран с предмета'
+game_item_unselected_from: '$prefix$Вы убрали выбор с %label%'
+
+page_next_name: §6Листать вправо
+page_next_lore: |-
+  §7Нажмите, чтобы просмотреть
+  §7следующий уровень улучшения
+
+page_prev_name: §6Листать влево
+page_prev_lore: |-
+  §7Нажмите, чтобы просмотреть
+  §7предыдущий уровень улучшения
+
+game_item_no_upgrades: '§cУлучшений нет'
+
+game_item_case_hint_title: |-
+  §8
+  §7Выпадает из следующих кейсов:
+game_item_case_hint_entry: ' §8- §f%type% §7(§f%rarity%§7)'
+
+game_item_exclusive_unavailable: |-
+  §f
+  §7Это §6специальный предмет§7, доступный в
+  §7ограниченный период времени
+  §f
+  §7%label% станет доступным для покупки
+  §7с §f%start% §7по §f%end%
+  §f
+  §cПриходите позже! Необходимая дата еще
+  §cне наступила, предмет недоступен для
+  §cпокупки
+  §f
+  §7Приобретённые ранее эксклюзивные предметы
+  §7можно использовать в любой момент, даже
+  §7после окончания их срока действия
+
+game_item_preview_available: |-
+  §7
+  §eНажмите ПКМ для предпросмотра предмета
+
+game_item_preview_kit_title: 'Предпросмотр набора'
+
+game_item_select_available: '§f%label% можно выбрать!'
+game_item_select_click: '§eКликните, чтобы выбрать %label%'
+
+game_item_unselect_available: '§f%label%!'
+game_item_unselect_click: '§eКликните, чтобы убрать выбор'
+
+game_item_buy_unavailable: '§cВы не можете купить %label%'
+game_item_buy_requirements: '§cДля покупки %label% вам необходимо:'
+
+category_gui_title: 'Предметы'
+
+category_sm_trails_description: |-
+  §7Сборник крутых эффектов, которые
+  §7будут видны вам и всем игрокам на
+  §7сервере при выстрелах из лука
+category_sm_kill_effects_description: |-
+  §7Различные эффекты, которые будут
+  §7воспроизведены при убийстве Вами
+  §7любого игрока. Выбирайте свой и
+  §7вперёд к новым победам!
+
+category_gui_selected_lore: |-
+  §f
+  §7Ваш текущий выбор:
+  §f%selected_item%
+category_gui_category_lore: |-
+  §f
+  %description%
+  §f
+  §7Общее количество предметов: §a%size%
+  §f
+  §7Из них на данный момент доступно:
+  §e %available% §7%scale% §6%percentage%%
+  §f
+  §eНажмите, чтобы выбрать предмет!
+
+game_item_buy: '$prefix$Вы приобрели %label% §c%item%'
+
+game_item_unlock_unavailable: '§cВам недоступен %label%'
+game_item_unlock_requirements: '§cДля того, чтобы получить %label%, вам необходимо:'
+
+game_item_select_unavailable: '§cВы не можете выбрать %label%'
+game_item_select_requirements: '§cДля выбора %label% вам необходимо:'
+
+game_item_sort_mode_a_z: 'По названию (А-я)'
+game_item_sort_mode_z_a: 'По названию (Я-а)'
+game_item_sort_mode_first_available: 'Сначала доступные мне'
+game_item_sort_mode_price_desc: 'Цена (По убыванию)'
+game_item_sort_mode_price_asc: 'Цена (По возрастанию)'
+
+game_item_sort_mode_changed: '$prefix$Режим сортировки предметов изменён на §c"%mode%"'
+
+game_item_gui_sort_mode: '§6Режим сортировки'
+game_item_gui_sort_mode_lore: |-
+  §f%current%
+  §f
+  §7Предметы из этой категории
+  §7будут всегда отсортированы
+  §7в выбранном порядке
+  §f
+  §eНажмите, чтобы сменить режим
+  §eсортировки предметов
+  §f
+  §7Следующий режим сортировки:
+  §f%next%
+
+game_item_gui_unselect_name: '§f%name%'
+game_item_gui_rarity_lore: |-
+  §f
+  §7Редкость: §7%rarity%
+
+game_item_gui_unselect_lore: |-
+  §f
+  §eКликните, чтобы убрать выбор
+game_item_gui_nothing_selected: '§7Ничего не выбрано'
+
+or_lower: 'или ниже'
+or_upper: 'или выше'
+
+baninfo_ip_result: '$prefix$Баны выданные на IP §c%target%§f:'
+baninfo_name_result: '$prefix$Баны выданные игроку §c%target%§f:'
+
+banidinfo_empty_result: '$prefix$Бан с таким ID не найден'
+banidinfo_result: '$prefix$Информация о бане с ID §c%id%§f:'
+
+baninfo_result: '$prefix$Баны, выданные игроку §c%target%§f:'
+
+banlist_empty_result: '$prefix$Последних банов за §c%duration% §fнет'
+banlist_result: '$prefix$Последние баны за §c%duration%§f:'
+
+muteinfo_result: '$prefix$Муты, выданные игроку §c%target%§f:'
+
+mutebyinfo_empty_result: '$prefix$Мутов, выданных игроком §c%ban_by% §fнет'
+mutebyinfo_result: '$prefix$Муты, выданные игроком §c%ban_by%§f:'
+muteidinfo_empty_result: '$prefix$Мут с таким ID не найден'
+muteidinfo_result: '$prefix$Информация о муте с ID §c%id%§f:'
+
+mutehistory_never_was_muted: '$prefix$Игрок §c%target% §fникогда не получал мутов'
+mutehistory_result: '$prefix$История мутов игрока §c%target%§f:'
+mutehistory_mute_removed: '$core_staffchat_prefix$%admin% §fудалил информацию о муте §c#%id%'
+
+mutelist_empty_result: '$prefix$Последних мутов за §c%duration% §fнет'
+mutelist_result: '$prefix$Последние муты за §c%duration%§f:'
+
+#Авторизация
+auth_prefix: '§f[§cAuth§f] '
+auth_registration_format: '/register <пароль> <повтор пароля>'
+auth_login_format: '/login <ваш пароль>'
+auth_changepassword_format: '/changepassword <старый пароль> <новый пароль>'
+auth_not_authorized: '$auth_prefix$Вы не авторизованы'
+auth_already_authorized: '$auth_prefix$Вы уже авторизованы'
+auth_not_registered: '$auth_prefix$Вы еще не зарегистрированы. Используйте команду §c$auth_registration_format$ §fдля регистрации на сервере'
+auth_idle_registration: '$auth_prefix$Зарегистрируйтесь - §c$auth_registration_format$'
+auth_idle_login: '$auth_prefix$Авторизируйтесь - §c$auth_login_format$'
+auth_idle_too_long: '§cВы слишком долго входили в игру'
+auth_already_registered: '$auth_prefix$Такой пользователь уже зарегистрирован'
+auth_nick_registration_disallowed: '$auth_prefix$Вы не можете зарегистрировать данный аккаунт. Попробуйте позже'
+auth_should_disable_license: '$auth_prefix$Вы не можете использовать эту команду, пока у вас включена авторизация по лицензии §7(напишите /license, чтобы выключить её)'
+auth_invalid_password: '$auth_prefix$Введенный вами пароль неверен'
+auth_min_password_length: '$auth_prefix$ длина пароля - §c4 символа'
+auth_max_password_length: '$auth_prefix$Максимальная длина пароля - §c16 символов'
+auth_password_has_illegal_symbols: '$auth_prefix$В пароле есть недопустимые символы!'
+auth_changepassword_passwords_equal: '$auth_prefix$Старый и новый пароли совпадают!'
+auth_changepassword_success: '$auth_prefix$Ваш пароль был изменен'
+auth_registration_passwords_different: '$auth_prefix$Введенные вами пароли отличаются!'
+auth_registration_success: '$auth_prefix$Вы успешно зарегистрировались, приятной игры!'
+vk_warning: '$prefix$Привяжите аккаунт Вконтакте. Для этого напишите в сообщения группы §c$vk_group_url$§f слово "Привязать"'
+auth_license_enabled_status_checking: '$auth_prefix$Вы уже включили авторизацию по лицензии. Сейчас вам нужно перезайти на сервер, чтобы применить изменения'
+auth_license_enabled_status_enabled: '$auth_prefix$Авторизация по лицензии §aвключена§f. Перезайдите на сервер, чтобы изменения вступили в силу'
+auth_license_enabled_status_disabled: '$auth_prefix$Авторизация по лицензии §cвыключена§f. Теперь при следующем входе вам потребуется вновь вводить пароль.'
+auth_login_two_factor_authentication: '$auth_prefix$Введите код, отправленный вам в личном сообщении ВКонтакте'
+auth_login_two_factor_authentication_invalid_code: '$auth_prefix$Вы ввели неверный код подтверждения'
+auth_login_two_factor_allowed: '$auth_prefix$Авторизация подтверждена из VK. Вы успешно авторизовались.'
+auth_login_success: '$auth_prefix$Вы успешно авторизовались'
+auth_language_detected: '$auth_prefix$Ваш язык был автоматически определён по IP адресу как §c%language%'
+auth_password_migrated: '$auth_prefix$Ваши данные для авторизации успешно мигрированы на новую систему. Это никак не отразится на вас, продолжайте игру!'
+
+#Система скинов
+skin_history_empty: '§6История скинов пуста'
+skin_history_empty_lore: |-
+  §7Вероятно, Вы никогда не меняли
+  §7скин командой §f/skin <ник>
+skin_history_gui_title: 'История скинов'
+skin_history_gui_reset_icon: '§6Сбросить скин'
+skin_history_gui_reset_icon_lore: |-
+  §f
+  §7У вас установлен скин игрока
+  §f%skin_name%
+  §f
+skin_history_gui_reset_available: |-
+  §eНажмите, чтобы сбросить скин
+skin_history_gui_reset_default: |-
+  §cВы используете скин по умолчанию
+skin_history_gui_entry: '§6Скин игрока %player%'
+skin_history_gui_entry_available: |-
+  §f
+  §eКликните, чтобы установить скин снова!
+skin_history_gui_entry_already: |-
+  §f
+  §cУ вас сейчас установлен этот скин
+skin_history_gui_entry_lore: |-
+  §f
+  §7С последней установки прошло:
+  §f%duration%
+
+skin_prefix: '§f[§cSkins§f] '
+skin_reset_ok: '$skin_prefix$Скин сброшен!'
+skin_url_invalid: '$skin_prefix$Вы указали неверную ссылку на скин'
+skin_url_ok: '$skin_prefix$Скин по ссылке §c%skin_url% §fустановлен!'
+skin_set_error: '$skin_prefix$Для сброса скина используйте §c/skin reset'
+skin_load_error: '$skin_prefix$Произошла непредвиденная ошибка при загрузке скина, попробуйте использовать другой ник'
+skin_set_invalid: '$skin_prefix$Вы указали неверный ник игрока для получения скина'
+skin_set_cooldown: '$skin_prefix$Истёк лимит запросов'
+skin_set_profile_not_found: '$skin_prefix$Игрок не имеет лицензионного аккаунта'
+skin_set_no_skin: '$skin_prefix$У игрока не установлен скин'
+skin_set_ok: '$skin_prefix$Скин игрока §c%skin_name% §fустановлен!'
+game_skin_change_disabled: '§fПерезайдите, чтобы скин обновился'
+
+#Бустеры
+booster_coins_1_name: 'Бустер монет x2 на 1.5 часа'
+booster_coins_2_name: 'Бустер монет x3 на 2 часа'
+booster_coins_3_name: 'Бустер монет x4 на 3 часа'
+
+booster_experience_1_name: 'Бустер опыта x2 на 1.5 часа'
+booster_experience_2_name: 'Бустер опыта x3 на 2 часа'
+booster_experience_3_name: 'Бустер опыта x4 на 3 часа'
+
+#Кейсы
+cosmetic_case_name: 'Косметический кейс'
+donate_case_name: 'Донат-кейс'
+suffix_case_name: 'Кейс с суффиксами'
+skyblock_case_name: 'SkyBlock кейс'
+anarchy_case_name: 'Anarchy кейс'
+game_case_name: 'Игровой кейс'
+
+#Rarity
+rarity_none: 'Другой'
+rarity_common: 'Обычный'
+rarity_rare: 'Редкий'
+rarity_epic: 'Эпический'
+rarity_legendary: 'Легендарный'
+
+cosmetic_case_description: |-
+  §f
+  §7Выпадает различная косметика, которую
+  §7можно использовать во всех лобби. Самый
+  §7доступный кейс из всех возможных. Испытай
+  §7свою удачу прямо сейчас.
+  §f
+  §cЕсли вам выпадает косметика которая у вас
+  §cуже есть, Вы получите пыль. Каждое открытие
+  §cкосметического кейса также дает +1 пыль
+  §f
+  §7Кейс можно скрафтить самому используя пыль
+donate_case_description: |-
+  §f
+  §7Уникальный шанс испытать свою удачу!
+  §f
+  §7Может выпасть §c§lЛЮБАЯ §7привилегия
+  §7от §6Premium §7до §eUltra
+  §f
+  §c§lВнимание! §cЕсли вам выпадет привилегия
+  §cниже, чем ваша, она останется на своем
+  §cместе, а взамен Вы получите тугрики!
+suffix_case_description: |-
+  §f
+  §7Хотите уникальный суффикс и хотите
+  §7испытать свою удачу?
+  §f
+  §7Может выпасть любой суффикс, который
+  §7есть на сервере: от обычного класса до
+  §7ТОП суффиксов
+  §f
+  §c§lВнимание! §cЕсли вам выпадет суффикс,
+  §cкоторый у вас уже куплен, Вы получите
+  §cтугрики взамен него
+anarchy_case_description: |-
+  §f
+  §7Из данного кейса могут выпасть
+  §7абсолютно любые вещи из магазина
+  §7за тугрики. От обычных до крутых
+  §7легендарных предметов!
+game_case_description: |-
+  §7
+  §7Из данного кейса выпадают игровые
+  §7предметы, которые можно купить за
+  §7монеты или тугрики.
+  §7
+  §7Клетки, наборы, перки, эффекты и
+  §7многое другое!
+skyblock_case_description: |-
+  §f
+  §7Из данного кейса могут выпасть
+  §7абсолютно любые вещи из магазина
+  §7за тугрики. От обычных до крутых
+  §7легендарных предметов!
+
+#Мультипликаторы
+donate_coin_multiplier_name: '§fДонат-множитель §6монет §fдля %group%§f: §6x%multiplier%'
+donate_experience_multiplier_name: '§fДонат-множитель §3опыта §fдля %group%§f: §3x%multiplier%'
+level_coin_multiplier_name: '§fМножитель §6монет §fза уровень §d%level%§f: §6x%multiplier%'
+multiplier_add_lore_initial: |-
+  §7Изначальное количество: %color%%initial_value%
+  §7Применены множители монет:
+experience_no_multipliers_used_lore: '§cМножителей опыта не применялось'
+coin_no_multipliers_used_lore: '§cМножителей монет не применялось'
+
+#Топ игроков
+stat_player_top_title: '§6§l%mode% - лучшие игроки'
+stat_player_top_subtitle: '§7%field% %timestamp%'
+stat_player_top_mode_changer_title: '§6§lВыбор режима'
+stat_player_top_changer_value_active: '§a%value%'
+stat_player_top_changer_value: '§7%value%'
+stat_player_top_changer_scroll_vertical: '§7↓ ... ↓'
+stat_player_top_changer_scroll_horizontal: '§7← %values% §7→'
+stat_player_mode_changed: '$prefix$Режим изменен на §c%mode%'
+stat_player_period_changed: '$prefix$Период отображения изменен на §c%period%'
+
+prop_player_top_title: '§6§lТоп %count% игроков'
+prop_player_top_subtitle: '§7%type%'
+
+prop_player_top_entry: '§7%place%. %player%'
+prop_player_top_player_entry: '%name% §7- §e%value%'
+prop_player_top_empty_entry: '§4N/A'
+
+player_top_entry: '$prop_player_top_entry$'
+player_top_entry_you: '§a%place%. %player% §7(Вы)'
+player_top_player_entry: '$prop_player_top_player_entry$'
+player_top_empty_entry: '$prop_player_top_empty_entry$'
+
+level_player_top_name: 'По игровому уровню'
+time_player_top_name: 'По наигранному времени'
+parkour_player_top_name: 'По времени прохождения паркура'
+emerald_player_top_name: 'По количеству изумрудов на острове'
+kills_player_top_name: 'По убийствам'
+deaths_player_top_name: 'По количеству смертей'
+best_kill_series_player_top_name: 'По лучшей серии убийств'
+mob_kills_player_top_name: 'По убийствам мобов'
+final_kills_player_top_name: 'По финальным убийствам'
+wins_player_top_name: 'По победам'
+best_winstreak_player_top_name: 'По лучшей серии побед'
+
+overall_player_top_name: 'Все режимы'
+
+week_player_top_name: 'За неделю'
+month_player_top_name: 'За месяц'
+today_player_top_name: 'За день'
+all_player_top_name: 'За всё время'
+
+#Discord привязка
+discord_already_linked: '$prefix$К вашему аккаунту уже привязан Discord, чтобы отвязать его используйте §c/discord unlink'
+discord_already_awaiting:  '$prefix$Вы уже начали процесс привязки аккаунта'
+discord_link_action: '[{"text":"$prefix$Для завершения процесса привязки Вам необходимо написать в текстовый канал §7#привязка §fна нашем "},{"text":"§nDiscord сервере","clickEvent":{"action":"open_url","value":"https://discord.traveller-land.ru/"},"hoverEvent":{"action":"show_text","value":"Нажмите, чтобы перейти на наш сервер Discord"}},{"text":" §fсообщение следующего содержания:\n  "},{"text":"§c%code% §7(наведите)","hoverEvent":{"action":"show_text","value":"Нажмите, чтобы скопировать"},"clickEvent":{"action":"suggest_command","value":"%code%"}}]'
+discord_link_success: '$prefix$Вы успешно привязали Discord §c%tag% §fк игровому аккаунту! Теперь ваша роль будет синхронизирована с вашей привилегией в игре.'
+discord_not_linked: '$prefix$К вашему игровому аккаунту еще не привязан Discord!'
+discord_unlink_success: '$prefix$Вы отвязали игровой аккаунт от Discord. Ваши роли больше не синхронизируются.'
+command_discord_link_description: 'Привязать Discord'
+command_discord_unlink_description: 'Отвязать Discord'
+discord_nitro_gained: |-
+  $prefix$Спасибо за буст нашего сервера в §9Discord§f!
+  §c * §fВы получаете префикс §8[§9Nitro§8]§f, пока бустите сервер
+  §c * §fА также получаете возможность писать цветным текстом в чат!
+discord_nitro_thanks: |-
+  $prefix$Спасибо, что поддерживаете нас и бустите сервер в §9Discord§f!
+  §c * §fДля Вас по-прежнему активен ранг §dNitro Booster §fна сервере
+discord_nitro_removed: '$prefix$Вы больше не бустите Discord-сервер: с вас были сняты все серверные привилегии нитро-бустера. Спасибо за вашу поддержку!'
+
+#VK привязка
+vk_already_linked: '$prefix$Ваш аккаунт уже привязан, чтобы его отвязать используйте: §c/vk unlink'
+vk_already_awaiting: '$prefix$Вы уже начали процесс привязки вашего аккаунта!'
+vk_link_action: '[{"text":"$prefix$Чтобы завершить процесс, вам нужно написать боту в личные сообщения" ,"clickEvent":{"action":"open_url","value":"https://vk.anti-europe.xyz"},"hoverEvent":{"action":"show_text","value":"Нажмите, чтобы перейти в личные сообщения с Ботом"}},{"text":" §fсообщение следующего содержания:\n  "},{"text":"§c%code% §7(hover)","hoverEvent":{"action":"show_text","value":"Нажмите, чтобы скопировать"},"clickEvent":{"action":"suggest_command","value":"%code%"}}]'
+vk_link_success: '$prefix$Вы успешно привязали ВК §c%vk_name% §fк игроковому аккаунту! Теперь ваши данные будут синхронизированы с вашим игровым профилем!.'
+vk_not_linked: '$prefix$ВК не привязан к вашему игровому аккаунту!'
+vk_unlink_success: '$prefix$Вы отвязали ваш игровой аккаунт от ВК. Ваши данные теперь не синхронизируются.'
+command_vk_link_description: 'Привязать ВК'
+command_vk_unlink_description: 'Отвязать ВК'
+
+#Соц. сети
+social_vk_name: 'Профиль VK'
+social_vk_usage: 'ссылку на свою страницу в VK'
+social_discord_name: 'Discord'
+social_discord_usage: 'свой тэг Discord'
+social_telegram_name: 'Telegram'
+social_telegram_usage: 'свой логин в Telegram'
+social_youtube_name: 'Канал YouTube'
+social_youtube_usage: 'ссылку на свой канал YouTube'
+
+lobby_donate_join_message: 'зашёл на сервер'
+#lobby_donate_join_message: 'заехал на санках' #NewYear
+#lobby_donate_join_message: 'влетел на метле' #Halloween
+
+lobby_donate_join_message_format: ' §2► %player% §6%message%'
+lobby_donate_join_message_format_elite: ' §e►§c►§d► %player% §a%message%! §e◄§c◄§d◄'
+#lobby_donate_join_message_format_elite: ' §c►§f►§c► %player% §2%message%! §c◄§f◄§c◄'
+
+lobby_players_hidden: '$prefix$Вы скрыли всех игроков'
+lobby_players_shown: '$prefix$Вы показали всех игроков'
+
+parkour_start_line_1_hologram: '§e§lПаркур'
+parkour_start_line_2_hologram: '§fНаграда: §3%reward% EXP'
+parkour_start_line_3_hologram: '§fНачало паркура'
+
+parkour_finish_line_1_hologram: '§a§lФиниш'
+parkour_finish_line_2_hologram: '§fКонец паркура'
+
+parkour_checkpoint_line_1_hologram: '§e§lЧекпоинт №%index%'
+parkour_checkpoint_line_2_hologram: '§fТочка сохранения'
+
+quest_npc_hologram_title: '§eЕжедневные задания'
+quest_npc_hologram_action: '§fНажмите, чтобы открыть'
+quests_not_found: '$prefix$Квестов на данном режиме не найдено'
+quests_reloaded: '$prefix$Квесты перезагружены для этого лобби'
+quests_available: '$prefix$Квестов, доступных для выполнения: §c%quests%§f. Подробнее - §c/quests'
+quests_gui_title: 'Задания %mode%'
+quests_gui_completed_entry: '§a%mode%: Квест выполнен'
+quests_gui_completed_entry_lore: |-
+  §f
+  §7§oДанный квест уже выполнен вами
+  §f
+  §7Следующий квест будет доступен через
+  §f%time_before_next_day%
+  §f
+  §7Список выполненных заданий квеста:
+quests_gui_uncompleted_entry: '§6%mode%: Квест выполняется'
+quests_gui_uncompleted_entry_lore: |-
+  §f
+  §7§oВы еще не выполнили сегодняшний квест.
+  §f
+  §7Прогресс выполнения сбросится, а также
+  §7сгенерируются новые задания через:
+  §f%time_before_next_day%
+  §f
+  §7Сейчас квест выполнен на §e%progress%%
+  §f
+  §7Список заданий сегодняшнего квеста:
+quests_gui_completed_requirement: ' §7- §a%name% §7(§a%value%§7/§a%value%§7)'
+quests_gui_uncompleted_requirement: ' §7- %name% §7(§6%current%§7/§a%total%§7)'
+quests_gui_entry_reward: |-
+  §f
+  §7Награды за выполнение этого квеста:
+  §7 - §fОпыт §7(§3+%exp%§7)
+  §7 - §fМонеты §7(§6+%coins%§7)
+
+lobby_player_profile_protected: '$prefix$Данный игрок запретил просматривать его профиль'
+
+start_game_on_gamemode: '§eПрыгайте в портал, чтобы начать игру'
+start_game_on_random_gamemode: '§eПрыгайте в портал для телепорта на случайный режим'
+
+rewards_npc_hologram_title: '§eИгровые награды'
+rewards_npc_hologram_action: '§fНажми, чтобы получить'
+
+votes_npc_hologram_title: '§eНаграды за голосование'
+votes_npc_hologram_action: '§fНажми, чтобы получить'
+
+mysterybox_hologram_title: '§e§lСундук удачи'
+mysterybox_hologram_title_action: '§7Нажмите, чтобы открыть!'
+mysterybox_no_items: '$prefix$В выбранном вами кейсе не оказалось никаких предметов. Это серверная ошибка, не волнуйтесь. Сообщите о ней администрации: $vk_group_url$'
+
+gamemode_npc_full: |-
+  §fДоступ к переполненным серверам
+  §fимеют донатеры. Купить привилегию
+  §fможно на сайте §c$website_url$
+
+tutorial_level_up: '$prefix$Поздравляем! Вы прошли обучение и получаете за это §c2 §fуровень!'
+tutorial_npc_hologram_title: '§eТуториал по Traveller-Land'
+tutorial_npc_hologram_action: '§7Нажмите, чтобы посмотреть'
+tutorial_already_started: '$prefix$Вы уже начали просмотр туториала, подождите'
+tutorial_hub_start_title: '§7§lTraveller-Land'
+tutorial_hub_start_subtitle: '§7Представляет...'
+tutorial_hub_start_chat: |-
+  §f
+  §f[§cTraveller-Land§f] §fВы попали на наш туториал, где можно узнать все особенности сервера в потрясающей анимации
+
+tutorial_hub_rewards_title: '§eНужен опыт и суффиксы?'
+tutorial_hub_rewards_subtitle: '§7Забирайте ежедневные награды'
+tutorial_hub_rewards_chat: |-
+  §f
+  §f[§cTraveller-Land§f] §fНаграда может сбрасываться заново, поэтому не забывайте сюда заходить раз в день, ведь с каждым днем она увеличивается
+
+tutorial_hub_voting_title: '§eГолосуйте за сервер'
+tutorial_hub_voting_subtitle: '§7Получайте кейсы и тугрики'
+tutorial_hub_voting_chat: |-
+  §f
+  §f[§cTraveller-Land§f] §fЗдесь можно проголосовать за сервер и обменять свои голоса на игровые ценности
+
+tutorial_hub_chat_title: '§eБудьте всегда первым'
+tutorial_hub_chat_subtitle: '§7'
+tutorial_hub_chat_chat: |-
+  §f
+  §f[§cTraveller-Land§f] §fА вы знали, что у нас часто проходят скидки и конкурсы? Как не знали? Тогда подписывайтесь на наши социальные сети, где можно найти настоящих друзей!
+
+tutorial_hub_tops_title: '§eЗнайте в лицо наших героев'
+tutorial_hub_tops_subtitle: '§7Или станьте одним из них'
+tutorial_hub_tops_chat: |-
+  §f
+  §f[§cTraveller-Land§f] §fЗдесь находятся наши главные герои по игровому уровню и по количеству тугриков. Героем можете стать даже вы!
+
+tutorial_hub_cases_title: '§eПопытайте свою удачу'
+tutorial_hub_cases_subtitle: '§7'
+tutorial_hub_cases_chat: |-
+  §f
+  §f[§cTraveller-Land§f] §fПриобретайте на нашем сайте от беспроигрышных донат-кейсов до кейсов с суффиксами - §ctraveller-land.ru§f. Кейсы можно также выиграть в играх и скрафтить самому!
+
+tutorial_hub_player_title: '§e'
+tutorial_hub_player_subtitle: '§7'
+tutorial_hub_player_chat: |-
+  §f
+  §f[§cTraveller-Land§f] §fЛюбите красоваться перед игроками и хотите стать той самой звездочкой сервера? Неплохой вариант!
+
+tutorial_hub_minigames_title: '§eИгровые режимы'
+tutorial_hub_minigames_subtitle: '§7Всегда найдется где поиграть!'
+tutorial_hub_minigames_chat: |-
+  §f
+  §f[§cTraveller-Land§f] §fЗдесь можно выбрать игру, кликнув по NPC, либо же через компас в меню. Сотни игроков уже ждут вас на наших мини-играх!
+
+tutorial_hub_holo_title: '§e'
+tutorial_hub_holo_subtitle: '§7'
+tutorial_hub_holo_chat: |-
+  §f
+  §f[§cTraveller-Land§f] §fЦены и список привилегий можно узнать в этой голограмме и на нашем сайте - §ctraveller-land.ru
+
+tutorial_hub_end_title: '§aТуториал окончен'
+tutorial_hub_end_subtitle: '§7Но не окончено путешествие!'
+tutorial_hub_end_chat: |-
+  §f
+  §f[§cTraveller-Land§f] §fТуториал подошел к концу. Теперь мы в праве называть вас опытным игроком сервера Traveller-Land! Впереди много приключений, готовы к ним?
+
+parkour_leave_icon: '§6Покинуть паркур'
+parkour_leave_icon_lore: |-
+  §7Используйте этот предмет,
+  §7чтобы закончить прохождение
+  §7паркура
+
+parkour_checkpoint_icon: '§6Вернуться к чекпоинту'
+parkour_checkpoint_icon_lore: |-
+  §7Используйте этот предмет,
+  §7чтобы вернуться к последнему
+  §7чекпоинту
+
+lobby_select_icon: '§6Выбор лобби'
+lobby_select_icon_lore: |-
+  §7Используйте этот предмет
+  §7для выбора лобби
+
+server_select_icon: '§6Выбор серверов'
+server_select_icon_lore: |-
+  §7Используйте этот предмет,
+  §7чтобы самостоятельно выбрать
+  §7игровой сервер
+
+queue_join_icon: '§6Встать в очередь'
+queue_join_icon_lore: |-
+  §7Используйте этот предмет,
+  §7чтобы встать в очередь для
+  §7игры на определенном режиме
+
+queue_leave_icon: '§cПокинуть очередь'
+queue_leave_icon_lore: |-
+  §7Используйте этот предмет,
+  §7чтобы покинуть очередь на
+  §7игру
+
+map_select_icon: '§6Выбор карты'
+map_select_icon_lore: |-
+  §7Используйте этот предмет,
+  §7чтобы самостоятельно выбрать
+  §7игровой сервер с нужной картой
+
+shop_icon: '§6Магазин предметов'
+shop_icon_lore: |-
+  §7Используйте этот предмет,
+  §7чтобы открыть магазин
+
+donate_icon: '§6Привилегии'
+donate_icon_lore: |-
+  §7Используйте этот предмет, чтобы
+  §7посмотреть все доступные для
+  §7покупки на сервере привилегии
+
+hide_players_icon: '§6Скрыть игроков'
+show_players_icon: '§6Показать игроков'
+
+hider_icon_lore: |-
+  §7Используйте этот предмет, чтобы
+  §7управлять видимостью игроков в
+  §7лобби. Донатеры, ваши друзья а
+  §7также члены Party не будут скрыты
+
+command_region_find_description: 'Поиск региона'
+
+command_whitelist_remove: '$prefix$Игрок §c%name% §fудалён из списока игнорируемых вайтлистом'
+command_whitelist_add: '$prefix$Игрок §c%name% §fдобавлен в список игнорируемых вайтлистом'
+
+command_wipestat_usage: '$arg_name$ [режим]'
+wipestat_mode_not_found: '$prefix$Указанный вами режим не найден'
+wipestat_kick: '§cВаша статистика будет обнулена за нарушение правил проекта'
+wipestat_done_single: '$core_staffchat_prefix$§c%admin% §fобнулил статистику %name% §fна режиме §c%mode%'
+wipestat_done_all: '$core_staffchat_prefix$§c%admin% §fобнулил статистику %name% §fна всех режимах'
+wipestat_result_single: '$prefix$Вы обнулили статистику игрока §c%target% §fна режиме §c%mode%'
+wipestat_result_all: '$prefix$Вы обнулили статистику игрока §c%target% §fна всех режимах'
+
+translate_button: ' §3[перевести]'
+# для переводчиков - на РУССКИЙ язык мы заменяем нужным языком
+# в англ. версии - на АНГЛИЙСКИЙ язык
+translate_button_description: |-
+  §6Перевод сообщения
+  §7Нажмите, чтобы перевести данное
+  §7сообщение на русский язык
+  §7
+  §cВнимание! Перевод не гарантирует
+  §c100% точность и правильность!
+translate_result_success: '$prefix$Перевод сообщения - §c%message%'
+translate_result_error: '$prefix$Ваше сообщение не получилось перевести, увы :('
+translate_result_fail: '$prefix$Произошла внутренняя ошибка. Сообщите об этом разработчикам - vk.me/%id%'
+command_cancelwipe_usage: '<id бана>'
+command_cancelwipe_empty: '$prefix$Ни на одного из заблокированных игроков из этой блокировки не запланировано очистки статистики'
+command_cancelwipe_fail: '$prefix$Произошла внутренняя ошибка сервера при попытке очистки статистики'
+command_cancelwipe_broadcast: |-
+  $core_staffchat_prefix$§c%admin% §fотменил очистку статистики для блокировки §c#%id%
+  §7 - §c%count% §fигроков сохранили свою статистику
+
+core_reconnect_success_title: '§aСоединение восстановлено'
+core_reconnect_success_subtitle: '§fПриятной игры!'
+core_reconnect_process_title: '§6Переподключение...'
+core_reconnect_process_subtitle: '§fПожалуйста, подождите'
+core_reconnect_message: '$prefix$Соединение с игровым координатором потеряно! В ближайшую минуту вам могут быть недоступны некоторые команды а также перемещение между серверами. Мы сообщим, как только соединение восстановится'
+core_reconnect_server_not_found: '§cСервер для переподключения не найден'
+
+donate_purchase_transaction_failed: '§cТранзакция не может быть выполнена в данный момент! Повторите попытку позже.'
+donate_purchase_successful: |-
+  §7 
+  §a§lВЫ УСПЕШНО КУПИЛИ ПРИВИЛЕГИЮ %group% §a§lЗА §c§l%cost% §a§lГЕМОВ
+  §7 
+
+donate_dolbaeb_title: '§e§l§nwww.$website_url_capitalized$'
+donate_dolbaeb_subtitle: '§e§lСкидки пиздец!!'
+donate_want_purchase_message: |-
+  §6§l| §eСкидки §c§l§m15%§a§l 90%§e успей купить донат
+  §7 
+  §4§l| §cПокупка донат привилегий на сайте
+  §7 
+  §3§l| §bНажми → §с§nwww.$website_url_capitalized$§e (скидки 90%)
+donate_description_gui_title: 'Донат-возможности'
+donate_description_gui_modes_title: '§6Возможности %group%'
+donate_purchase_gui_confirmation: '§6Купить %group% §6за §a%cost% гемов'
+donate_purchase_sub_gui_confirmation: '§6Купить %group% §6за §a%cost% гемов/$noun_month_masculine_nominative$'
+donate_description_gui_others: '§6Прочие игровые ценности'
+donate_description_gui_others_lore: |-
+  §7
+  §7Помимо привилегий на нашем сайте
+  §7можно приобрести игровую валюту,
+  §7возможности на режимах, суффиксы,
+  §7бустеры и многое другое!
+  §7
+  §7Просто переходите на наш сайт и
+  §7выбирайте необходимую категорию
+  §7товаров. Найдите понравившийся
+  §7вам товар и переходите к оплате
+  §7
+  §7Сайт: §d$website_url$
+  §7
+  §eНажмите, чтобы перейти к покупке!
+donate_description_gui_purchase_book_other: |-
+  Переход на официальный сайт Traveller-Land для покупки привилегий или прочих игровых ценностей
+  §7
+  §7
+donate_description_gui_purchase_book_donate: |-
+  Покупка привилегии %rank%
+  §r
+  Если у вас уже есть привилегия, цена будет рассчитана с учётом текущей. Все привилегии покупаются навсегда
+  §7
+  §7
+donate_description_gui_purchase_book_subscription: |-
+  Покупка подписки %subscription%
+  §r
+  Если у вас уже есть действующая подписка, срок её действия будет продлён. После истечения срока действия вам вернется привилегия %rank%
+  §7
+  §7
+
+donate_description_gui_purchase_book_url: ' §r- §2[Перейти к покупке]'
+donate_description_gui_purchase_book_hover: |-
+  §6Открытие ссылки
+  §7Нажмите на это сообщение,
+  §7чтобы открыть официальный
+  §7сайт Traveller-Land
+
+donate_description_gui_premium: '§6Привилегия Premium §7($website_url_capitalized$)'
+donate_description_gui_premium_lore: |-
+  §7
+  §8► §7Ваш префикс - %prefix%
+  §8► §7Белый цвет текста в общем чате
+  §8► §7Оповещение при входе на сервер
+  §8► §7Постоянный множитель опыта - §bx1.3
+  §8► §7Полёт в лобби и на спавне режимов
+  §8► §7Возможность иметь ЦВЕТНОЙ суффикс
+  §8► §7Изменение скинов - %col%/skin <ник>
+  §8► §7Лимит друзей увеличен до %col%15
+  §8► §7Фейерверки в лобби - %col%/firework
+  §8► §7Сидеть в лобби - %col%/sit
+  §8► §7Вход на заполненный сервер
+  §8 
+  §8► %col%§l[НАЖМИТЕ, ЧТО БЫ ПОЛУЧИТЬ БОЛЬШЕ ИНФОРМАЦИИ О ВОЗМОЖНОСТЯХ]
+  §7 
+  %col%■ §fСайт для покупки доната: §e§nwww.$website_url_capitalized$
+  %col%■ §fДонат выдается на всех серверах
+  %col%■ §fДонат не исчезает после вайпа
+  §e 
+  §7Стоимость привилегии: §a§n%cost% гемов%col% §n(%cost_rub% рублей/навсегда)
+
+donate_description_gui_premium_survival: '§6Возможности §6Premium §6на выживании'
+donate_description_gui_premium_lore_survival: |-
+  §7
+  %col%► §fВозможность получить набор %col%/kit premium
+  %col%► §fВозможность открыть переносной верстак %col%/workbench
+  %col%► §fВозможность открыть переносной эндер-сундук %col%/ec
+  %col%► §fВозможность сидеть на земле %col%/sit
+  %col%► §fВозможность отключить телепортацию к себе %col%/tptoggle
+  %col%► §fВозможность очистить свой инвентарь %col%/ci
+  %col%► §fВозможность одеть предмет на голову %col%/hat
+  %col%► §fВозможность вернуться на предыдущую локацию %col%/back
+  %col%► §fВозможность включить флай %col%/fly
+  %col%► §fВозможность включить режим бога %col%/god
+  %col%► §fВозможность восстановить себе голод %col%/feed
+  %col%► §fВозможность восстановить себе здоровье %col%/heal
+  %col%► §fВозможность починить предмет %col%/fix
+  %col%► §fВсего %col%10 §fточек дома
+  §7
+  %col%§l[Нажмите, чтобы перейти к оплате]
+
+donate_description_gui_legend: '§6Привилегия §bLegend §7($website_url_capitalized$)'
+donate_description_gui_legend_lore: |-
+  §7
+  §8► §7Ваш префикс - %prefix%
+  §8► §7Постоянный множитель опыта - §bx1.6
+  §8► §7Лимит друзей увеличен до §f20
+  §8► §7Все возможности §6Premium
+  §8 
+  §8► %col%§l[НАЖМИТЕ, ЧТО БЫ ПОЛУЧИТЬ БОЛЬШЕ ИНФОРМАЦИИ О ВОЗМОЖНОСТЯХ]
+  §e 
+  %col%■ §fСайт для покупки доната: §e§nwww.$website_url_capitalized$
+  %col%■ §fДонат выдается на всех серверах
+  %col%■ §fДонат не исчезает после вайпа
+  §e 
+  §7Стоимость привилегии: §a§n%cost% гемов%col% §n(%cost_rub% рублей/навсегда)
+
+donate_description_gui_legend_survival: '§6Возможности §bLegend §6на выживании'
+donate_description_gui_legend_lore_survival: |-
+  §7
+  %col%► §fВозможность получить набор %col%/kit legend
+  %col%► §fВозможность телепортации к игроку %col%/tp
+  %col%► §fВозможность телепортации игрока к себе %col%/tphere
+  %col%► §fВозможность телепортироваться на блок %col%/jump
+  %col%► §fВозможность установить погоду %col%/weather
+  %col%► §fВозможность установить время %col%/time
+  %col%► §fВозможность телепортации на координаты %col%/tppos
+  %col%► §fВозможность ДЮПА %col%/dupe
+  %col%► §fВозможность переименовать предмет в руке %col%/setname
+  %col%► §fВозможность изменить лор предмета в руке %col%/setlore
+  %col%► §fВозможность узнать координаты игрока %col%/getpos
+  %col%► §fВозможность посмотреть ТОП богачей %col%/baltop
+  %col%► §fВозможность поджечь игрока %col%/burn
+  %col%► §fВозможность установить варп %col%/setwarp
+  %col%► §fВозможность удалить свой варп %col%/delwarp
+  %col%► §fВозможность посмотреть свои варпы %col%/mywarps
+  %col%► §fВсего %col%20 §fточек дома
+  §7
+  %col%§l[Нажмите, чтобы перейти к оплате]
+
+donate_description_gui_enigma: '§6Привилегия §dEnigma §7($website_url_capitalized$)'
+donate_description_gui_enigma_lore: |-
+  §7
+  §8► §7Ваш префикс - %prefix%
+  §8► §7Постоянный множитель опыта - §bx1.8
+  §8► §7Постоянный множитель монет - §6x2.0
+  §8► §7Лимит друзей увеличен до §f25
+  §8► §7Платная смена префикса - %col%/prefix
+  §8► §7Иммунитет от блокировок АНТИЧИТА
+  §8► §7Доступ к покупке подписки §aELITE
+  §8► §7Все возможности §bLegend
+  §8 
+  §8► %col%§l[НАЖМИТЕ, ЧТО БЫ ПОЛУЧИТЬ БОЛЬШЕ ИНФОРМАЦИИ О ВОЗМОЖНОСТЯХ]
+  §e 
+  %col%■ §fСайт для покупки доната: §e§nwww.$website_url_capitalized$
+  %col%■ §fДонат выдается на всех серверах
+  %col%■ §fДонат не исчезает после вайпа
+  §e 
+  §7Стоимость привилегии: §a§n%cost% гемов%col% §n(%cost_rub% рублей/навсегда)
+
+donate_description_gui_enigma_survival: '§6Возможности §dEnigma §6на выживании'
+donate_description_gui_enigma_lore_survival: |-
+  §7
+  %col%► §fВозможность получить набор %col%/kit enigma
+  %col%► §fВозможность ударить игрока молнией %col%/lightning
+  %col%► §fВозможность наложить эффект %col%/potion
+  %col%► §fДоступ к %col%WorldEdit §fс некоторыми ограничениями
+  %col%► §fВозможность сделать объявление %col%/broadcast
+  %col%► §fВозможность сделать ВЗРЫВ %col%/tnt
+  %col%► §fВозможность телепортировать кого-то на спавн %col%/spawn
+  %col%► §fВозможность дать другу возможность летать %col%/fly
+  %col%► §fВозможность отправить %col%Fake OP §fсообщение игроку %col%/fakeop
+  %col%► §fВозможность настроить форматирование сообщений в чате %col%/chatformat
+  %col%► §fВсего %col% БЕСКОНЕЧНОЕ КОЛИЧЕСТВО §fточек дома
+  §7
+  %col%§l[Нажмите, чтобы перейти к оплате]
+donate_description_gui_deluxe: '§6Привилегия §eDeluxe §7($website_url_capitalized$)'
+donate_description_gui_deluxe_lore: |-
+  §7
+  §8► §7Ваш префикс - %prefix%
+  §8► §7Постоянный множитель опыта - §bx2.0
+  §8► §7Постоянный множитель монет - §6x3.0
+  §8► §7Лимит друзей увеличен до %col%30
+  §8► §7Больше бесплатной косметики в хабе
+  §8► §7Некоторая косметика на режимах дешевле
+  §8► §7Скидка %col%20% §7для покупки игровых предметов
+  §8► §7Все возможности §dEnigma
+  §8 
+  §8► %col%§l[НАЖМИТЕ, ЧТО БЫ ПОЛУЧИТЬ БОЛЬШЕ ИНФОРМАЦИИ О ВОЗМОЖНОСТЯХ]
+  §e 
+  %col%■ §fСайт для покупки доната: §e§nwww.$website_url_capitalized$
+  %col%■ §fДонат выдается на всех серверах
+  %col%■ §fДонат не исчезает после вайпа
+  §e 
+  §7Стоимость привилегии: §a§n%cost% гемов%col% §n(%cost_rub% рублей/навсегда)
+
+donate_description_gui_deluxe_survival: '§6Возможности §eDeluxe §6на выживании'
+donate_description_gui_deluxe_lore_survival: |-
+  §7
+  %col%► §fВозможность получить набор %col%/kit deluxe
+  %col%► §fВозможность установить префикс в табе %col%/tabprefix
+  %col%► §fВозможность установить суффикс в табе %col%/tabsuffix
+  %col%► §fВозможность дать/забрать деньги игроку %col%/eco
+  %col%► §fВозможность включить подсветку %col%/glow
+  %col%► §fВозможность включить эффекты игрока %col%/particles
+  §7
+  %col%§l[Нажмите, чтобы перейти к оплате]
+
+donate_description_gui_elite: '§6Подписка §aELITE §e§lNEW §7($website_url_capitalized$)'
+donate_description_gui_elite_lore: |-
+  §7
+  §7Временная привилегия, покупаемая ПОВЕРХ
+  §7основной и дающая дополнительные и очень
+  §7крутые возможности на сервере!
+  §7
+  §8► §7Все возможности ВАШЕГО ТЕКУЩЕГО ДОНАТА +
+  §7
+  §e► §7Новый префикс - %prefix%
+  §e► §7Особое оповещение о входе на режим
+  §e► §7Фейерверк при входе в лобби
+  §e► §7ВСЯ косметика на режимах §aБЕСПЛАТНА
+  §e► §7Дополнительная СКИДКА %col%§l10% §7при покупке гемов
+  §e► §7Изменение цвета собственного суффикса
+  §e► §7Бесплатное и безлимитное изменение префикса
+  §e► §7Скрытие НИКНЕЙМА (маскировка) - %col%/nick
+  §e► §7Отключен фильтр чата на КАПС и повтор символов
+  §e► §7Лимит друзей увеличен до %col%§l50
+  §e► §7Цветные ЭМОЦИИ в чате - %col%/emotes
+  §e 
+  §e■ §fСайт для покупки доната: §e§nwww.$website_url_capitalized$
+  §e■ §fДонат выдается на всех серверах
+  §e■ §fДонат не исчезает после вайпа
+  §7
+  §7Стоимость подписки: от §a§n%cost% гемов/месяц%col% §n(%cost_rub% рублей/месяц)
+
+#donate_description_gui_youtube: '§6Привилегия §cYou§fTube'
+#donate_description_gui_youtube_lore: |-
+#  §7
+#  §7Привилегия для начинающих ютуберов, дающая
+#  §7возможность рекламировать своё творчество!
+#  §7
+#  §8► §7Ваш префикс - %prefix%
+#  §8► §7Постоянный множитель опыта - §bx2
+#  §8► §7Доступ к ЗБТ новых режимов ПЕРВЫМИ
+#  §8► §7Все возможности §eSponsor
+#  §7
+#  §eУникальные возможности ТОЛЬКО для YouTube:
+#  §8 - §7Реклама стримов на весь сервер - §f/stream
+#  §8 - §7Иммунитет от блокировок за рекламу своих
+#  §7   стримов или видео в чате
+#  §7
+#  §7Стоимость привилегии: §a§n1799 рублей
+
+#donate_description_gui_support: '§6Привилегия §3Support'
+#donate_description_gui_support_lore: |-
+#  §7
+#  §7Привилегия для тех, кто мечтает навести
+#  §7порядок и наказывать нарушителей!
+#  §7
+#  §8► §7Ваш префикс - %prefix%
+#  §8► §7Все основные возможности §cYou§fTube
+#  §7
+#  §eУникальные возможности только для Support:
+#  §8 - §7Временный бан - §f/tempban
+#  §8 - §7Временный мут - §f/mute
+#  §8 - §7Возможность кикнуть игрока - §f/kick
+#  §8 - §7Доступ к чату персонала - §f/staffchat
+#  §8 - §7Приватная беседа ВКонтакте для Support
+#  §8 - §7Возможность ПОВЫШЕНИЯ за хорошую работу
+#  §7
+#  §7Стоимость привилегии: §a§n2699 рублей
+
+donate_description_gui_purchase: '§6Покупка %rank%'
+donate_description_gui_purchase_lore: |-
+  §7
+  §7Если Вас заинтересовали возможности
+  §7этой привилегии, Вы можете приобрести
+  §7её в любой момент на нашем сайте
+  §7
+  §7Привилегия выдаётся моментально после
+  §7покупки и без перезахода
+  §7
+donate_description_gui_purchase_already: |-
+  §7Вы уже приобрели данную привилегию и
+  §7имеете все её преимущества
+  §7
+  §cДанная привилегия уже приобретена ранее
+donate_description_gui_purchase_click: |-
+  §7Стоимость привилегии может отличаться от
+  §7фактической стоимости на сайте после всех
+  §7проверок и ввода промокода. После покупки
+  §7возврат денежных средств невозможен.
+  §7
+  §7Если у вас уже есть привилегия, то цена
+  §7новой будет рассчитана по формуле:
+  §f Цена новой привилегиии -
+  §f Цена текущей привилегии
+  §7
+  §eНажмите, чтобы перейти к покупке привилегии!
+donate_description_gui_purchase_subscription_unavailable: |-
+  §7К сожалению, покупка подписки возможна только
+  §7при наличии у вас привилегии §dEnigma §7или выше
+  §7
+  §cПокупка подписки невозможна, требуется Enigma
+donate_description_gui_purchase_subscription_click: |-
+  §7Если у вас уже есть подписка, то срок
+  §7её действия будет продлён. Например,
+  §7если у вас Elite на §f30 дней§7, а Вы решили
+  §7приобрести её еще на §f3 месяца§7, то срок
+  §7действия увеличится до §f120 дней§7!
+  §7
+  §7После окончания срока действия подписки
+  §7Вам будет выдана предыдущая привилегия.
+  §7
+  §cВнимание! §7Подписка не даёт прав, которые
+  §7дают донат-привилегии. Она предподлагает
+  §7доступ к дополнительным возможностям.
+  §7
+  §eНажмите, чтобы перейти к покупке подписки!
+#§8 - §7Доступно больше регионов (всего §f6§7)
+#§8 - §7Больше лимит участников региона (всего §f20§7)
+#§8 - §7Больше эффектов в регионе (всего §f3§7)
+
+emotion_list: '$prefix$Доступные эмоции в чате:'
+emotion_entry_format: ' §c* §f%emote% §7- §e%aliases%'
+emotion_in_chat_available: '$prefix$А вы знали, что вам доступны эмоции в чате? Попробуйте - §c/emotes'
+
+sit_not_on_ground: '$prefix$Вы должны находиться на земле'
+sit_actionbar: 'Напишите §c/sit§f, чтобы встать'
+sit_down: '$prefix$Вы сели! Напишите §c/sit §fснова, чтобы встать'
+sit_up: '$prefix$Вы встали!'
+
+command_chat_usage: |-
+  $prefix$Использование - §c/chat <%available%>
+  §c * §fТекущий режим чата - §c%current%
+
+command_chat_invalid_mode: '$prefix$Вы указали неверный режим чата! Доступные режимы: §c%modes%'
+command_chat_mode_set: '$prefix$Режим чата изменён на "%mode%§f"'
+chat_mode_all_name: '§6Общий чат'
+chat_mode_party_name: '§dParty чат'
+chat_mode_staff_name: '§9Чат персонала'
+chat_mode_helper_name: '§eЧат хелперов'
+chat_mode_party_empty: '$prefix$Вы больше не состоите в Party, режим чата был переключён на §6ОБЩИЙ'
+chat_mode_no_permission: '$prefix$У вас больше нет доступа к выбранному режиму чата'
+
+confirmation_gui_title: 'Подтверждение действия'
+
+confirmation_gui_yes: '§aПодтвердить'
+confirmation_gui_yes_lore: |-
+  §f
+  §7Ваше действие будет подтверждено
+  §cВнимание! §7Это необратимо.
+  §f
+  §eНажмите сюда для подтверждения
+
+confirmation_gui_no: '§cОтменить'
+confirmation_gui_no_lore: |-
+  §f
+  §7Вы еще можете отменить свое действие:
+  §7Меню закроется и ничего не произойдет
+  §f
+  §eНажмите сюда для отмены действия
+
+confirmation_gui_cancel_message: '$prefix$Действие отменено.'
+
+color_aqua: 'Голубой'
+color_blue: 'Синий'
+color_dark_aqua: 'Бирюзовый'
+color_dark_green: 'Темно-зелёный'
+color_dark_purple: 'Фиолетовый'
+color_green: 'Лаймовый'
+color_gold: 'Оранжевый'
+color_gray: 'Серый'
+color_pink: 'Розовый'
+color_red: 'Красный'
+color_yellow: 'Жёлтый'
+color_white: 'Белый'
+color_black: 'Чёрный'
+color_dark_blue: 'Темно-синий'
+
+free_elite_for_support: '$prefix$Спасибо за покупку §3Support§f. Вы получаете §aElite §fна 3 месяца в подарок!'
+
+# new trash
+core_tunnel_observed: '§eВы начали отслеживаеть игрока %target%'
+core_tunnel_removed: '§eВы больше не отслеживаете игрока %target%'
+core_tunnel_invaliduser: '§cДанный игрок оффлайн или никогда не заходил на сервер.'
+core_tunnel_emptylist: '§cВы не отслеживаете никого.'
+core_tunnel_list: '§eСписок игроков, за которыми вы наблюдаете §7(§a%size%§7)§e:'
+
+core_port_successful: '§eВы переместили игрока §b%player%§e на ваш сервер.'
+core_port_self: '§cВы не можете отправлять себя на свой же сервер :)'
+core_port_invaliduser: '§cДанный игрок оффлайн или никогда не заходил на сервер.'
+core_port_error: '§cПроизошла ошибка во время перемещения игрока %player% §cна ваш сервер. (§e%error§c)'
+core_port_alreadyconnected: '%player%§c уже находится на вашем сервере!'
+
+# sync groups
+core_syncgroup_help: '§c/group <addall/set> <user> <group>'
+core_syncgroup_invalid_group: '§cНекорректное наименование группы!'
+core_syncgroup_invalid_group_type: '§cНекорректный тип группы! Только покупные/персонал/медиа группы могут быть выданны этой командой!'
+core_syncgroup_added: '§7Обновлены группы у §f%target%§7: §7%groups%'
+core_syncgroup_set: '§7Группы игрока §f%target%§7 были установлены на: §7%groups%'
+
+
+#joinme
+joinme_broadcast: '[
+    {
+      "text": "\n",
+      "extra": [
+        {
+          "text": "§8§m                                                  "
+        },
+        {
+          "text": "\n\n §7%name% §fиграет §e%server%\n\n"
+        },
+        {
+          "text": " §a[Присоединиться]",
+          "clickEvent": {
+            "action": "run_command",
+            "value": "/joinme jump %raw_name%"
+          },
+          "hoverEvent": {
+            "action": "show_text",
+            "value": {
+              "text": "§aНажми чтобы присоединиться к серверу!"
+            }
+          }
+        },
+        {
+          "text": "\n\n"
+        },
+        {
+          "text": "§8§m                                                  "
+        }
+      ]
+    }
+  ]
+'
+joinme_not_enough_tokens: '§cУ вас не достаточно JoinMe токенов!'
+joinme_on_active_server: '§cВы уже использовали JoinMe!'
+joinme_in_lobby: '§cВы не можете использовать JoinMe в лобби!'
+joinme_jump_offline_gamer: '§cИгрок создавший JoinMe не в сети'
+joinme_jump_expired: '§cЭто сообщение JoinMe истекло :('
+joinme_cant_join: '§cВы не можете присоединиться на этот сервер :('
+joinme_same_server: '§cВы уже находитесь на этом сервере'
+
+
+# denick command
+command_denick_base: |-
+  §7Информация о нике §e%fakename%
+  §c* §7ID: §f#%nickid%
+  §c* §7Группа: %group%
+  §c* §7Используется игроком: §f%used_by%
+command_denick_notfound: '§cЭтот никнейм не существует в базе данных!'
+command_denick_unused: '§fНикем' # This name is used by: None / Gamer name :)
+
+
+# Best Player
+best_player_npc_title: '§e§lСамый ценный игрок сервера'
+best_player_npc_action: '§aНажмите, чтобы получить информацию'
+best_player_nobody: '§7В данный момент ценного игрока :('
+best_player_gui_title: '§e§lСамый ценный игрок'
+best_player_gui_skull_lore: |-
+  §fЧтобы стать §6§l"Ценным игроком"§f 
+  §fВам нужно внести минимум §e%required_min%§f $noun_tugrik_masculine_genitive_multi$
+  §7
+  §a[Нажмите, чтобы внести $noun_tugrik_masculine_nominative_multi$]
+
+best_player_gui_info_name: '§e§lЦенный игрок сервера'
+best_player_gui_info_lore: |-
+  §f Ценный игрок сервера §7- это игрок,
+  §7 купивший этот статус...
+  §7 Купив этот статус, ваш игровой персонаж
+  §7 займет это §fтитульное место§7.
+  §7 Плюсы этого статуса в том, что
+  §7 любой игрок может пожертвовать вам §f$noun_tugrik_masculine_nominative_multi$,
+  §7 или перекупить этот статус, забрав §fтитульное §7место у вас
+
+best_player_command_deposit_intexception: '§cНеверное кол-во $noun_tugrik_masculine_genitive_multi$ для депозита!'
+best_player_command_deposit_insufficient_founds: '§cУ вас недостаточно $noun_tugrik_masculine_genitive_multi$!'
+best_player_command_base: |-
+  §7 Чтобы купить статус §fЦенного игрока,
+  §7 вы должны иметь минимум §e%requires_min% §7%format%
+  §7 Если у вас есть минимальная сумма §f$noun_tugrik_masculine_genitive_multi$ §7то,
+  §7 вы можете приобрести этот титульный статус §fЦенного игрока
+best_player_command_deposit_less_than_required: '§cМинимальное кол-во для внесения §e%required_min% $noun_tugrik_masculine_accusative_multi$'
+best_player_command_successful: '§aВы успешно внесли §e%deposit% §a$noun_tugrik_masculine_accusative_multi$ и теперь вы §e§lСамый ценный игрок сервера! §lСпасибо!'
+best_player_command_successful_purchase: '§aВы успешно купили статус §e§lЦенного игрока §aза §e%deposit% §a%format%! §6§lСпасибо!'
+best_player_command_successful_deposit: '§aВы успешно внесли §e%deposit% §a$noun_tugrik_masculine_accusative_multi$ на баланс депозита §e§lЦенного игрока'
+best_player_gui_skull_you_lore: |-
+  §f Вы уже §6§lЦенный игрок сервера 
+  §f Если кто-то перекупит этот статус, вы потеряете
+  §f ваш депозитный баланс и статус §6§lЦенного игрока :(
+  §7
+  §7 Так же вы можете внести еще §f$noun_tugrik_masculine_genitive_multi$§ f7
+  §7 и удерживать этот статус §2§lдольше §7:)
+  §7 (конечно пока кто-то не перекупит этот статус,
+  §7 любой игрок перекупает ваш статус за §e1.25§7 * цену вашего статуса)
+  §7
+  §7 Ваш баланс MVP: §e%mvp_balance%
+  §7
+  §a [Нажмите чтобы внести депозит $noun_tugrik_masculine_accusative_multi$]
+best_player_gui_skull_notyou_lore: |-
+  §f Чтобы купить §6§l"Ценного игрока сервера"
+  §f вам нужно внести депозит минимум
+  §e %required_min% §f$noun_tugrik_masculine_genitive_multi$
+  §7
+  §7 Пожалуйста, прочтите информацию §eочень внимательно! §7Это правда важно,
+  §7 для того чтобы избежать нежелательных ситуаций!
+  §7 Например, §4Утрата§7 ваших $noun_tugrik_masculine_genitive_multi$ :)
+  §7
+  §7 Ваш баланс MVP: §e%mvp_balance%
+  §7
+  §a [Нажмите, чтобы купить статус]
+best_player_gui_confirmbuy: '§8Подтвердите покупку §e§lСтатуса'
+best_player_command_already_best: '{"text":"\n§eВы уже Ценный игрок сервера!\n\n§7Если вы хотите внести больше $noun_tugrik_masculine_accusative_multi$ в ваш баланс §6§lЦенного игрока§7","extra":[{"text":"\n§7Вы можете прописать "},{"text":"§e/bestplayer deposit","clickEvent":{"action":"suggest_command","value":"/bestplayer deposit <amount>"},"hoverEvent":{"action":"show_text","value":{"text":"Нажмите сюда, чтобы воспользоваться подсказкой!"}}},{"text":"\n"}]}'
+best_player_new_broadcast: '%username% §aтолько что купил статус §e§lСамого Ценного Игрока сервера! §7- Теперь он в центре внимания в лобби :)'
+
+
+
+# Новый год
+# newyear_foundpresent_reason: 'найден подарок'
+# newyear_congratulate: 'Поздравляем! Вы нашли все подарки!'
+# newyear_congratulate_broadcast: '§fИгрок %player%§f нашел все подарки в лобби!'
+# newyear_congratulate_title: '§f§lС §a§lНОВЫМ §d§lГОДОМ'
+# newyear_congratulate_subtitle: '§fВы нашли все подарки!'
+# newyear_tugriks_reward: '§a§lВы получили §e§l5 §a§lгемов в награду!'
+# newyear_actionbar_notification: '§aВы нашли §e%amount% §a%presents% §aиз §e%all%'
+# newyear_snow_enabled: '$prefix$Вы включили отображение снега'
+# newyear_snow_disabled: '$prefix$Вы выключили отображение снега'
+# newyear_snow_toggle: '$prefix$Вы можете включить/отключить отображение снега командой §c/togglesnow'

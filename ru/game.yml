@@ -1,0 +1,217 @@
+game_name: '§6§l%game%'
+
+game_only_has_donate_perks: '$prefix$Перки доступны только донатерам. Вы можете приобрести привилегию на нашем сайте §d$website_url$ §fи открыть для себя все преимущества!'
+game_is_full: '§cНа сервере нет мест. Приобретите любую привилегию, чтобы заходить на заполненные сервера'
+game_is_full_and_all_is_donaters: '§cНа сервере нет мест. Все игроки - донатеры'
+game_prefix: '§f[§c%game%§f] '
+game_force_started: 'Игра была запущена принудительно.'
+game_nearest_player_bar: '§fБлижайший игрок: §a%name%       §fРасстояние: §a%distance%'
+game_nearest_player_not_found: '§cЖивых игроков не найдено'
+game_broadcaster_line: '§7§l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
+game_winner_title: '§a§lПобеда'
+game_winner_subtitle: '§7Вы одержали победу в этой игре!'
+game_loser_title: '§c§lИгра окончена'
+game_loser_subtitle: '§7Вы проиграли'
+game_draw_title: '§c§lНичья'
+game_draw_subtitle: '§7Игра з акончилась в ничью'
+game_dead_title: '§cВы погибли'
+game_reconnect_message: '%player% §fпереподключился к игре'
+game_dead_subtitle: '§7Теперь Вы можете только наблюдать за игровым процессом'
+game_join_spectator_title: '§cИгра на арене уже началась'
+game_join_spectator_subtitle: '§7Вы стали наблюдателем'
+game_bow_hit_health: 'У игрока §c%player% §fосталось §c%health%❤'
+game_error: '$prefix$Ошибка при подключении к §c%name%§f: §c%error%'
+game_is_ending: 'игра на арене уже закончилась'
+game_not_found: 'игра для подключения не найдена'
+
+game_kill_reward_reason: 'убийство игрока'
+game_final_kill_reward_reason: 'финальное убийство'
+game_win_reward_reason: 'победа в игре'
+game_solo_chat_player: '§6Игрок'
+game_team_chat_global: '§aВсем игрокам'
+game_team_chat_local: '§eКоманде'
+game_team_eliminated: |-
+  §c
+  %color% Команда %team% выбыла из битвы
+  §c §f
+game_chat_format: '%color% §8| §f'
+game_spectator_chat_format: '§7Наблюдателям §8| §f'
+game_tracker_mode_changed: '$prefix$Режим компаса изменен на §c%mode%'
+game_tracker_mode_nearest_player: 'поиск ближайшего игрока'
+game_tracker_mode_nearest_teammate: 'поиск ближайшего тиммейта'
+game_spectator_teleport_gui_title: 'Телепортер'
+game_spectator_teleport_gui_entry: '§6%name%'
+game_spectator_teleport_gui_entry_lore: |-
+  §eНажмите ЛКМ, чтобы телепортироваться
+  §eНажмите ПКМ, чтобы наблюдать
+game_spectator_compass_icon: '§6Телепорт к игрокам'
+game_spectator_compass_icon_lore: |-
+  §7Используйте этот предмет, чтобы
+  §7телепортироваться к живым игрокам
+game_spectator_replay_icon: '§6Играть еще раз'
+game_spectator_replay_icon_lore: |-
+  §7Используйте этот предмет, чтобы
+  §7начать игру на новой арене
+game_shop_icon: '§6Магазин'
+game_shop_icon_lore: |-
+  §7Используйте данный предмет,
+  §7чтобы открыть магазин
+game_lobby_icon: '§6Вернуться в лобби'
+game_lobby_icon_lore: |-
+  §7Используйте данный предмет,
+  §7чтобы вернуться в лобби
+game_player_join: '%name% §fприсоединился к игре (§c%online%§f/§c%slots%§f)'
+game_player_quit: '%name% §fпокинул игру (§c%online%§f/§c%slots%§f)'
+game_start_timer_message: 'Игра начнётся через §c%time%'
+game_end_timer_message: 'Игра закончится в ничью через §c%time%'
+game_vanished: '$prefix$Вы стали наблюдателем после старта игры, поскольку были в режиме невидимости'
+game_vanished_title: '§cВы наблюдаете за игрой'
+game_vanished_subtitle: '§7Видит вас только персонал проекта'
+game_end_stat_row: '§f%stat_description%: §a%stat_value%'
+game_multiplier_row: ' §7- §f%multiplier%'
+game_multipliers: '§lИспользованные множители:'
+game_end_stats: '§e§lСтатистика за игру:'
+game_blocks_not_exploded: '$prefix$Блоки, поставленные Вашими тиммейтами взорваны не были'
+game_case_broadcast: 'Игроку §c%name% §fвыпал кейс §7%case%§f!'
+game_case_available: 'Вы можете открыть полученный кейс в лобби'
+game_case_unavailable: 'Для открытия кейса вам нужна привилегия §c%group%§f. Вы можете приобрести её у нас на сайте §c$website_url$'
+game_lobby_connect_failed: "Произошла ошибка при телепортации (Core)"
+game_feature_auto_queuing_disabled: 'Вы можете включить автоматическую телепортацию на арены того же режима по окончанию игры в настройках. Подробнее - §c/settings'
+game_player_left: '%player% §fпокинул игру'
+game_final_kill: '%message% §6§lФИНАЛЬНАЯ СМЕРТЬ'
+game_death_cause_entity_explosion: '%player% §fвзорвался'
+game_death_cause_block_explosion: '%player% §fвзорвался'
+game_death_cause_block_explosion_by: '%player% §fвзорвался, пока боролся с %killer%'
+game_death_cause_entity_explosion_by: '%player% §fвзорвался, пока боролся с %killer%'
+game_death_cause_drowning: '%player% §fзабыл, что не умеет дышать под водой'
+game_death_cause_drowning_by: '%player% §fпытался спастись от %killer% §fв воде, но смерть была неизбежна...'
+game_death_cause_lava: '%player% §fрешил поплавать в лаве, но не учёл ее температуру'
+game_death_cause_lava_by: '%player% §fпрыгнул в лаву, спасаясь от %killer%'
+game_death_cause_fire: '%player% §fсгорел заживо'
+game_death_cause_fire_by: '%player% §fсгорел заживо, борясь с %killer%'
+game_death_cause_entity_attack: '%player% §fбыл зверски растерзан'
+game_death_cause_entity_attack_by: '%player% §fбыл убит игроком %killer%'
+game_death_cause_suffocation: '%player% §fзастрял в стене и задохнулся'
+game_death_cause_suffocation_by: '%player% §fзадохнулся, спасаясь от рук игрока %killer%'
+game_death_cause_projectile: '%player% §fбыл застрелен'
+game_death_cause_projectile_by: '%player% §fполучил смертельный выстрел от игрока %killer%'
+game_death_cause_void: '%player% §fупал в бездну'
+game_death_cause_void_by: '%player% §fбыл скинут в бездну игроком %killer%'
+game_death_cause_fall: '%player% §fразбился'
+game_death_cause_fall_by: '%player% §fбыл скинут игроком %killer%'
+game_death_cause_lightning: '%player% §fбыл убит разъяренным зевсом'
+game_death_cause_lightning_by: '%player% §fумер от молнии, сражаясь с %killer%'
+game_death_cause_contact: '%player% §fумер в объятиях кактуса'
+game_death_cause_contact_by: '%player% §fбыл брошен к кактусу на растерзание игроком %killer%'
+game_death_cause_magic: '%player% §fбыл убит зельем'
+game_death_cause_magic_by: '%player% §fумер от зелья игрока %killer%'
+game_death_cause_eliminated: '%player% §fвыбыл из игры'
+game_death_cause_custom: '%player% §fпогиб'
+game_end_winner: '§fПобедитель:'
+game_end_winners: '§fПобедители:'
+game_end_draw: '§fИгра закончилась в ничью'
+game_end_board_end: 'Игра окончена!'
+game_end_bossbar_timer: '§fВремени осталось: §a%time%'
+game_end_bossbar_end: '§cИгра окончена!'
+game_end_board_winners: 'Победители:'
+game_end_board_winner: 'Победитель:'
+game_end_board_draw: 'Ничья'
+game_broadcast_line: '▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
+game_broadcast_title: '§e§l%mini%'
+game_max_height_limit_reached: 'Лимит строительства по высоте вверх был достигнут!'
+game_min_height_limit_reached: 'Лимит строительства по высоте вниз был достигнут!'
+
+game_bow_health_actionbar: '%player% §7| %health%'
+game_bow_health_message: 'У игрока %player% §fосталось §c%health%❤'
+
+game_bw_description: |-
+  §eЗащищайте свою кровать и ломайте другие!
+  §eВы можете возрождаться до тех пор, пока
+  §eваша кровать не будет сломана.
+  §eПобедит последняя выжившая команда!
+game_SW_description: |-
+  §eСтройся к центру,
+  §eубей всех игроков
+  §eна арене
+  §eПобедит последний выживший игрок!
+game_bp_description: |-
+  §eВставайте на нужные блоки и старайтесь
+  §eуспеть до того, как остальные блоки исчезнут
+  §eПобедит последний оставшийся на полу игрок
+game_bl_description: |-
+  §eБросай динамит на базу противоположной команды
+  §eДля победы все противники должны быть уничтожены
+game_tr_description: |-
+  §eБеги и не останавливайся, под тобой пропадают блоки
+  §eПобедителем станет последний выживший игрок
+game_duel_bridge_description: |-
+  §eВаша задача - прыгнуть в портал противника
+  §eПобедит игрок, запрыгнувший в портал 5 раз
+game_duel_bridge_duo_description: |-
+  §eВаша задача - прыгнуть в портал противника
+  §eПобедит команда, запрыгнувшая в портал 5 раз
+game_duel_bow_description: |-
+  §eВаша задача - застрелить противника
+  §eиз лука. Победит самый меткий из вас!
+game_duel_bow_duo_description: |-
+  §eВаша задача - застрелить противника
+  §eиз лука. Победит самая меткая команда!
+game_duel_sumo_description: |-
+  §eВаша задача - скинуть противника
+  §eс платформы. Победит сильнейший!
+game_duel_sumo_duo_description: |-
+  §eЗадача обеих команд - скинуть всех
+  §eврагов с платформы. Победителем станет
+  §eединственная выжившая команда или игрок
+game_duels_description: |-
+  §eЧестный поединок между игроками на мечах
+  §eУбей противника, чтобы победить в игре!
+
+game_cc_description: |-
+  §eЗахватывайте кубы и получайте вещи
+  §eЭкипируйтесь получше и захватите чужую базу
+  §eПобедит команда, которая убьет всех противников
+  §eПомните, что у каждого игрока всего 3 жизни!
+
+game_respawning_title: '§7Вы возродитесь через %seconds%'
+game_respawned_title: '§aВы возродились!'
+game_rejoin_title: '§aВы перезашли в игру'
+game_vanish_killed: 'Вы были исключены из игры, поскольку перешли в режим невидимости'
+
+game_statistic_disabled: 'Ваша статистика не будет затронута в ходе этой игры'
+
+# =======================
+#          Тимы
+# =======================
+team_color_red_their: 'Красных'
+team_color_red_them: 'Красным'
+team_color_red_they: 'Красные'
+team_color_red_he: 'Красный'
+team_color_blue_their: 'Синих'
+team_color_blue_them: 'Синим'
+team_color_blue_they: 'Синие'
+team_color_blue_he: 'Синий'
+team_color_green_their: 'Зелёных'
+team_color_green_them: 'Зелёным'
+team_color_green_they: 'Зелёные'
+team_color_green_he: 'Зелёный'
+team_color_yellow_their: 'Желтых'
+team_color_yellow_them: 'Желтым'
+team_color_yellow_they: 'Желтые'
+team_color_yellow_he: 'Желтый'
+team_color_gold_their: 'Оранжевых'
+team_color_gold_them: 'Оранжевым'
+team_color_gold_they: 'Оранжевые'
+team_color_gold_he: 'Оранжевый'
+team_color_pink_their: 'Розовых'
+team_color_pink_them: 'Розовым'
+team_color_pink_they: 'Розовые'
+team_color_pink_he: 'Розовый'
+team_color_dark_aqua_their: 'Бирюзовых'
+team_color_dark_aqua_them: 'Бирюзовым'
+team_color_dark_aqua_they: 'Бирюзовые'
+team_color_dark_aqua_he: 'Бирюзовый'
+team_color_white_their: 'Белых'
+team_color_white_them: 'Белым'
+team_color_white_they: 'Белые'
+team_color_white_he: 'Белый'

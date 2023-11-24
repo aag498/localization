@@ -1,0 +1,415 @@
+party_gui_title: 'Участники Party'
+
+party_empty_name: '§6Party нет'
+
+party_empty_lore: |-
+
+  §7Вы не состоите в Party
+
+  §7Тем не менее, Вы можете
+
+  §7создать свою используя
+
+  §7команду §f/party <ник>
+
+party_leader_role: '§6Лидер'
+
+party_member_role: '§fУчастник'
+
+party_entry_lore: |-
+
+  §f
+
+  §7Роль: %role%
+
+party_entry_teleport_lore: |-
+
+  §f
+
+  §eНажмите для телепортации к игроку
+
+party_entry_leader_lore: |-
+
+  §f
+
+  §aВы являетесь лидером Party
+
+  §f
+
+  §7Для управления группой используйте
+
+  §7подкоманды из помощи по §f/party
+
+party_line: '§8§m                                                 '
+
+party_invitation:
+
+  '{
+
+    "text": "\n$prefix$%name% §fприглашает вас в Party\n\n",
+
+    "extra": [
+
+    {
+
+      "text": "           "
+
+    },
+
+    {
+
+      "text": "",
+
+      "clickEvent": {
+
+        "action": "run_command",
+
+        "value": "/party accept %id%"
+
+      },
+
+      "hoverEvent": {
+
+        "action": "show_text",
+
+        "value": {
+
+          "text": "$accept_request_description$"
+
+        }
+
+      }
+
+    },
+
+    {
+
+      "text": "           "
+
+    },
+
+    {
+
+      "text": "$reject_request_button$",
+
+      "clickEvent": {
+
+        "action": "run_command",
+
+        "value": "/party cancel %id%"
+
+      },
+
+      "hoverEvent": {
+
+        "action": "show_text",
+
+        "value": {
+
+          "text": "$reject_request_description$"
+
+        }
+
+      }
+
+    },
+
+    {
+
+      "text": "\n"
+
+    }
+
+    ]
+
+  }'
+
+party_invitation_broadcast: |-
+
+  §7
+
+  $party_line$
+
+  §f %name% §fпригласил в Party игрока %target%
+
+  §f У него есть §c60 секунд§f, чтобы принять предложение
+
+  $party_line$
+
+party_invitation_expired_receiver: '$prefix$Приглашение в Party от %name% §fистекло'
+
+party_invitation_expired_sender: '$prefix$%name% §fне ответил на приглашение в Party'
+
+party_invitation_rejected_receiver: '$prefix$Вы отклонили приглашение в Party от %name%'
+
+party_invitation_rejected_sender: '$prefix$%name% §fотклонил приглашение в Party'
+
+
+party_chat:
+
+  '{
+
+       "text": "§dParty чат §8| §f%name%: §f%message%",
+
+       "clickEvent": {
+
+           "action": "suggest_command",
+
+           "value": "/pc "
+
+       },
+
+       "hoverEvent": {
+
+           "action": "show_text",
+
+           "value": {
+
+               "text": "$party_chat_hover$"
+
+           }
+
+       }
+
+   }'
+
+party_chat_hover: '§fНажмите, чтобы написать в чат Party'
+
+
+party_join_broadcast: |-
+
+  $party_line$
+
+  §f %name% §fприсоединился к Party!
+
+  $party_line$
+
+party_member_left_the_game: |-
+
+  $party_line$
+
+  §f Игрок %name% §fвышел с сервера
+
+  §f Он будет кикнут из Party через §c5 минут
+
+  $party_line$
+
+party_member_kicked_too_long_offline: |-
+
+  $party_line$
+
+  §f Игрок %name% §fбыл кикнут из Party, поскольку
+
+  §f его не было на сервере уже более §c5 минут
+
+  $party_line$
+
+party_member_kicked_offline: |-
+
+  $party_line$
+
+  §f Оффлайн игрок %name% §fбыл кикнут из Party
+
+  $party_line$
+
+party_member_rejoin: '§a • §f%name% §fперезашёл в игру и снова в Party'
+
+party_receiver_left_the_game: '$prefix$Игрок %name% §fвышел из игры, приглашение в Party удалено'
+
+party_join_game_leader_only: '$prefix$Подключаться к игре может только лидер Party!'
+
+party_join: "$prefix$Вы присоединились к Party игрока %name%"
+
+party_without_party: '$prefix$У вас нет Party'
+
+party_with_party: '$prefix$Вы уже состоите в Party'
+
+party_not_party: '$prefix$Вы должны быть лидером Party'
+
+party_not_leader: '$prefix$Вы должны быть владельцем Party'
+
+party_invites_empty: '$prefix$У вас нет приглашений'
+
+party_invites_result: '$prefix$Нажмите на приглашение, которое хотите принять:'
+
+party_invite_from: '§e- §fОт %name%%participants%'
+
+party_invitations_not_found: '$prefix$У вас нет приглашений в Party'
+
+party_invitation_receiver_vanished: '$prefix$В данной группе есть обычные игроки. Вы не можете присоединиться к ней'
+
+party_invite_click: |-
+
+  §fНажмите, чтобы присоединиться
+
+  §fк Party игрока %name%
+
+party_invite_participants: '§f, участников: §c%count%'
+
+party_warp_special_server: '$prefix$Вы не можете телепортировать членов Party на данный сервер'
+
+party_warp: '$prefix$Вы телепортировали всех участников Party на ваш сервер'
+
+party_member_warped: '$prefix$Вы были телепортированы на сервер лидера Party'
+
+party_invite_self: '$prefix$Вы не можете пригласить в группу самого себя...'
+
+party_invite_staff_only: '$prefix$Вы не можете пригласить в свою группу игрока не состоящего в персонале'
+
+party_invite_already_in_your_party: '$prefix$Этот игрок уже состоит в вашей Party'
+
+party_invite_already_in_other_party: '$prefix$Этот игрок уже состоит в другой Party'
+
+party_kickoffline_no_players: '$prefix$Оффлайн игроков в Party нет'
+
+party_kickoffline_broadcast: |-
+
+  $party_line$
+
+  §f %name% §fкикнул из Party §c%count% §fоффлайн игроков
+
+  $party_line$
+
+party_kick_self: '$prefix$Вы не можете удалить из Party самого себя'
+
+party_kick_target: '$prefix$Вы были кикнуты из Party'
+
+party_kick_leader: '$prefix$Вы кикнули игрока %name% из Party'
+
+party_kick_broadcast: |-
+
+  $party_line$
+
+  §f %name% §fкикнул из Party игрока %target%
+
+  $party_line$
+
+party_setleader_broadcast: |-
+
+  $party_line$
+
+  §f %name% §fпередал управление Party игроку %target%
+
+  $party_line$
+
+party_leave_broadcast: |-
+
+  $party_line$
+
+  §f Игрок %name% §fпокинул Party
+
+  $party_line$
+
+party_kick_others: '$prefix$Игрок %name% §fбыл кикнут из Party'
+
+party_setleader_old_leader: '$prefix$Вы передали управление Party игроку %name%'
+
+party_setleader_new_leader: '$prefix$Бывший лидер передал вам управление Party'
+
+party_setleader_others: '$prefix$Игрок %name% §fстал новым лидером Party'
+
+party_leave_is_leader: '$prefix$Вы являетесь лидером и не можете покинуть Party. Расформируйте ее: §c/party disband'
+
+party_leave: '$prefix$Вы покинули Party'
+
+party_leave_others: '$prefix$Игрок %name% §fпокинул Party'
+
+party_list_result: '$prefix$Список участников Party:'
+
+party_list_member_row: '%name% %status%'
+
+party_list_leader_row: '%name% §7(§6♛§7) %status%'
+
+party_not_in_party: '$prefix$Игрок не в Party'
+
+party_removed_by_core: '$prefix$Ваша Party была удалена по причине переподключения к Core'
+
+party_disband_broadcast: |-
+
+  $party_line$
+
+  §f Ваша группа была расформирована и удалена
+
+  $party_line$
+
+party_disband: '$prefix$Текущая Party была расформирована'
+
+party_invitation_sent: '$prefix$Игроку было отправлено приглашение в Party'
+
+party_accept_description: |-
+
+  §7Нажмите, чтобы принять
+
+  §7приглашение в Party
+
+party_reject_description: |-
+
+  §7Нажмите, чтобы отклонить
+
+  §7приглашение в Party
+
+
+party_public_status_unavailable: |-
+
+  $prefix$Создавать публичные Party могут только подписчики §aElite
+
+  §c * §fВы можете приобрести подписку на нашем сайте §d$website_url$
+
+
+party_public_status_enabled_broadcast: |-
+
+  $party_line$
+
+  §f %name% §fсделал Party публичной. Теперь к ней
+
+  §f можно присоединиться используя §e/party join
+
+  $party_line$
+
+party_public_status_disabled_broadcast: |-
+
+  $party_line$
+
+  §f %name% §fвыключил режим публичности для Party
+
+  §f Присоединиться вновь можно только по приглашению
+
+  $party_line$
+
+
+party_kicked_before: '$prefix$Вы не можете присоединиться к данной Party, поскольку Вас кикнули из неё'
+
+party_not_public: '$prefix$Данный игрок не состоит в группе или она не является публичной'
+
+
+command_party_join_usage: '$arg_name$'
+
+command_party_join_description: 'Присоединиться к публичной Party игрока'
+
+command_party_chat_usage: '$arg_msg$'
+
+command_party_chat_description: 'Написать сообщение в Party чат'
+
+command_party_leave_description: 'Покинуть Party'
+
+command_party_list_description: 'Посмотреть участников Party'
+
+command_party_disband_description: 'Расформировать Party'
+
+command_party_setleader_usage: '$arg_name$'
+
+command_party_setleader_description: 'Передать лидерство Party'
+
+command_party_kick_usage: '$arg_name$'
+
+command_party_kick_description: 'Кикнуть игрока из Party'
+
+command_party_warp_description: 'Переместить Party на текущий сервер'
+
+command_party_invites_description: 'Посмотреть приглашения в Party'
+
+command_party_kickoffline_description: 'Кикнуть всех оффлайн участников Party'
+
+command_party_invite_usage: '$arg_name$'
+
+command_party_invite_description: 'Пригласить игрока в Party'

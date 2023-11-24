@@ -1,0 +1,393 @@
+game_name: '§6§l%game%'
+
+game_only_has_donate_perks: '$prefix$Perks are only available to donators. You can purchase any rank on our website §d$website_url$ §fand discover all the benefits!'
+game_is_full: '§cThere are no places on the server. Purchase any rank to log in to the full servers'
+game_is_full_and_all_is_donaters: '§cThere are no places on the server. All players are donators'
+game_prefix: '§f[§c%game%§f] '
+game_force_started: 'Force-started the game'
+game_nearest_player_bar: '§fClosest player: §a%name%       §fDistance: §a%distance%'
+game_nearest_player_not_found: '§cNo live players found'
+game_broadcaster_line: '§a§l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
+game_winner_title: '§6§lVICTORY'
+game_winner_subtitle: '§7You were the last man standing!'
+game_loser_title: '§c§lGAME END'
+game_loser_subtitle: '§7You weren''t the victorious this time'
+game_draw_title: '§c§lDraw'
+game_draw_subtitle: '§7Game over in a draw'
+game_dead_title: '§cYou died'
+game_reconnect_message: '%player% §frejoined the game'
+game_dead_subtitle: '§7Now you can spectate the game'
+game_join_spectator_title: '§cGame already started'
+game_join_spectator_subtitle: '§7You are now spectator'
+game_bow_hit_health: '§c%player% §fhas §c%health%❤ §fleft'
+game_error: '$prefix$Error connecting to §c%name%§f: §c%error%'
+game_is_ending: 'this game is already ended'
+game_not_found: 'the game to connect was not found'
+game_kill_reward_reason: 'Kill'
+game_playtime_reward_reason: 'Play Time'
+game_final_kill_reward_reason: 'Final Kill'
+game_win_reward_reason: 'Game Win'
+game_solo_chat_player: '§6Player'
+game_team_chat_global: '§aAll players'
+game_team_chat_local: '§eTeam'
+game_team_eliminated: |-
+  §c
+  %color% Team %team% is out of the game
+  §c §f
+game_chat_format: '%color% §8| §f'
+game_spectator_chat_format: '§7[SPECTATOR] §f'
+game_tracker_mode_changed: '$prefix$Compass mode changed to §c%mode%'
+game_tracker_mode_nearest_player: 'search for nearest player'
+game_tracker_mode_nearest_teammate: 'search for nearest teammate'
+game_spectator_teleport_gui_title: 'Teleporter'
+game_spectator_teleport_gui_entry: '§6%name%'
+game_spectator_teleport_gui_entry_lore: |-
+  §eClick LMB to teleport
+  §eClick RMB to spectate
+game_spectator_compass_icon: '§6Teleport to players'
+game_spectator_compass_icon_lore: |-
+  §7Use this item to
+  §7teleport to alive players
+game_spectator_replay_icon: '§6Play again'
+game_spectator_replay_icon_lore: |-
+  §7Use this item to play
+  §7a game on new arena
+game_shop_icon: '§6Shop'
+game_shop_icon_lore: |-
+  §7Use this item
+  §7to open shop
+game_lobby_icon: '§6Return to lobby'
+game_lobby_icon_lore: |-
+  §7Use this item to
+  §7return to lobby
+game_player_join: '%name% §ehas joined §e(§b%online%§e/§b%slots%§e)'
+game_player_quit: '%name% §equit'
+game_start_timer_message: '§eThe game will start in %time%§e %ending%'
+game_end_timer_message: '§eThe game will end in %time%§e %ending%'
+game_vanished: '$prefix$You are now spectator, because you were vanished before game started'
+game_vanished_title: '§cYou are watching the game'
+game_vanished_subtitle: '§7Only staff can see you'
+game_end_stat_row: '§f%stat_description%: §a%stat_value%'
+game_multiplier_row: ' §7- §f%multiplier%'
+game_multipliers: '§lUsed multipliers:'
+game_end_stats: '§e§lGame stats:'
+game_blocks_not_exploded: '$prefix$Blocks, placed by your teammates were not exploded'
+game_lobby_connect_failed: "An error occurred while teleporting (Core)"
+game_feature_auto_queuing_disabled: 'You can enable automatic teleportation to the arenas of the same mode at the end of the game in the settings. More detailed - §c/settings'
+game_player_left: '%player% §equit'
+game_final_kill: '%message% §6§lFINAL DEATH'
+game_death_cause_entity_explosion: '%player% §eexploded'
+game_death_cause_block_explosion: '%player% §eexploded'
+game_death_cause_block_explosion_by: '%player% §eexploded while fighting %killer%'
+game_death_cause_entity_explosion_by: '%player% §eexploded while fighting %killer%'
+game_death_cause_drowning: '%player% §eforgot he can`t breathe underwater'
+game_death_cause_drowning_by: '%player% §etried to escape %killer% §ein the water, but drowned...'
+game_death_cause_lava: '%player% §eburnt in lava'
+game_death_cause_lava_by: '%player% §eslipped into lava while running from %killer%'
+game_death_cause_fire: '%player% §eburnt alive'
+game_death_cause_fire_by: '%player% §eburnt alive while fighting %killer%'
+game_death_cause_entity_attack: '%player% §ewas killed by random entity'
+game_death_cause_entity_attack_by: '%player% §ewas killed by %killer%'
+game_death_cause_suffocation: '%player% §estuck in the wall and died'
+game_death_cause_suffocation_by: '%player% §esuffocated, escaping from %killer%'
+game_death_cause_projectile: '%player% §ewas shot'
+game_death_cause_projectile_by: '%player% §ewas shot by %killer%'
+game_death_cause_void: '%player% §efell into the void'
+game_death_cause_void_by: '%player% §ewas thrown into the void by %killer%'
+game_death_cause_fall: '%player% §etried to cosplay assassin but done maths wrong'
+game_death_cause_fall_by: '%player% §ewas thrown off by %killer%'
+game_death_cause_lightning: '%player% §ewas killed by zeus'
+game_death_cause_lightning_by: '%killer%§e fighted %player% §e,but zeus stole the kill'
+game_death_cause_contact: '%player% §etried to hug cactus'
+game_death_cause_contact_by: '%player% §ewas forced to hug cactus by %killer%'
+game_death_cause_magic: '%player% §ewas killed with potion'
+game_death_cause_magic_by: '%player% §etried %killer%§e`s potion and died...'
+game_death_cause_eliminated: '%player% §eis eliminated'
+game_death_cause_custom: '%player% §edied'
+game_end_winner: '§fWinner:'
+game_end_winners: '§fWinners:'
+game_end_draw: '§fGame ended by draw'
+game_end_board_end: 'Game ended!'
+game_end_bossbar_timer: '§fTime left: §a%time%'
+game_end_bossbar_end: '§cGame ended!'
+game_end_board_winners: 'Winners:'
+game_end_board_winner: 'Winner:'
+game_end_board_draw: 'Draw'
+game_broadcast_line: '§a§l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
+game_broadcast_title: '§e§l%mini%'
+
+game_end_announcement: |-
+  $game_broadcast_line$
+  §7%game_name%
+  §7 
+  §e%winner%
+  §7 
+  §7%1_killer%
+  §7%2_killer%
+  §7%3_killer%
+  §7 
+  $game_broadcast_line$
+
+game_end_placeholder_winner: '§eWinner§7 - %name%'
+game_end_placeholder_k1: '§e§l1st Killer§7 - %name%§7 - %kills%'
+game_end_placeholder_k2: '§6§l2nd Killer§7 - %name%§7 - %kills%'
+game_end_placeholder_k3: '§c§l3rd Killer§7 - %name%§7 - %kills%'
+
+reward_summary_header: '{"text":"§a$game_broadcast_line$\n  §7                       §f§lReward Summary\n  §7 \n  §7 You earned\n","extra":[]}'
+reward_summary_tail: '$game_broadcast_line$'
+you_gathered: 'You gathered'
+you_earned: 'You earned'
+you_harvested: 'You harvested'
+
+game_max_height_limit_reached: 'Build limit for height up has been reached!'
+game_min_height_limit_reached: 'Build limit for height down has been reached!'
+
+game_bow_health_actionbar: '%player% §7| %health%'
+game_bow_health_message: '§c%player% §fhas §c%health%❤ §fleft'
+
+board_waiting: '§fWaiting'
+board_until_start: '§fStarting in §a%time%'
+board_game_map: '§fMap: §a%map%'
+board_mode: '§fMode: §a%mode%'
+board_players: '§fPlayers: §a%players%'
+
+game_bw_description: |-
+  §eProtect your bed and break others!
+  §eYou can be reborn until
+  §eyour bed is broken.
+  §eLast team standing wins!
+game_SW_description: |-
+  §eLine up to the center,
+  §ekill all the players
+  §eon arena
+  §eThe last surviving player will win!
+game_bp_description: |-
+  §eTry not to fall
+  §eLast player standing wins
+game_bl_description: |-
+  §eThrow tnt to opponent base
+  §eTo win game every enemy must be dead
+game_tr_description: |-
+  §eRun and dont stop, blocks under you disappear
+  §eLast player alive wins
+game_duel_bridge_description: |-
+  §eYour goal - jump into opponent`s portal
+  §ePlayer that jumped into portal 5 times wins
+game_duel_bridge_duo_description: |-
+  §eYour goal - jump into opponent`s portal
+  §eTeam that jumped into portal 5 times wins
+game_duel_bow_description: |-
+  §eYour goal - kill enemy with the bow
+  §eThe most accurate player wins!
+game_duel_bow_duo_description: |-
+  §eYour goal - kill enemy with the bow
+  §eThe most accurate team wins!
+game_duel_sumo_description: |-
+  §eYour goal - throw enemy off platform
+  §eThe strongest player wins!
+game_duel_sumo_duo_description: |-
+  §eYour goal - throw enemy off platform
+  §eThe strongest players wins!
+game_duels_description: |-
+  §eFair fight between players on swords
+  §eKill your opponent to win the game!
+
+game_cc_description: |-
+  §eGrab cubes and get things
+  §eEquip yourself higher and capture someone else's base
+  §eThe team that kills all opponents will win
+  §eRemember that each player has only 3 lives!
+
+game_respawning_title: '§7You will respawn in %seconds%'
+game_respawned_title: '§aYor have respawned!'
+game_rejoin_title: '§aYou have rejoined the game'
+game_vanish_killed: 'You have excluded from the game because you went into vanish mode'
+
+game_statistic_disabled: 'This game will not affect your stats'
+game_reward_added: '%color%+ %word% %reason%'
+
+# ==========================
+#  Teams
+# ==========================
+team_color_red_their: 'Red'
+team_color_red_them: 'Red'
+team_color_red_they: 'Red'
+team_color_red_he: 'Red'
+team_color_blue_their: 'Blue'
+team_color_blue_them: 'Blue'
+team_color_blue_they: 'Blue'
+team_color_blue_he: 'Blue'
+team_color_green_their: 'Green'
+team_color_green_them: 'Green'
+team_color_green_they: 'Green'
+team_color_green_he: 'Green'
+team_color_yellow_their: 'Yellow'
+team_color_yellow_them: 'Yellow'
+team_color_yellow_they: 'Yellow'
+team_color_yellow_he: 'Yellow'
+team_color_gold_their: 'Orange'
+team_color_gold_them: 'Orange'
+team_color_gold_they: 'Orange'
+team_color_gold_he: 'Orange'
+team_color_pink_their: 'Pink'
+team_color_pink_them: 'Pink'
+team_color_pink_they: 'Pink'
+team_color_pink_he: 'Pink'
+team_color_dark_aqua_their: 'Aqua'
+team_color_dark_aqua_them: 'Aqua'
+team_color_dark_aqua_they: 'Aqua'
+team_color_dark_aqua_he: 'Aqua'
+team_color_white_their: 'White'
+team_color_white_them: 'White'
+team_color_white_they: 'White'
+team_color_white_he: 'White'
+
+predicate_upgrade: 'purchased item previous level: §c%upgrade%'
+
+failed_predicate: ' §c• §7%label%'
+failed_predicate_and: '§7 and'
+failed_predicate_or: '§7 or'
+
+period_halloween: 'Halloween exclusive'
+period_new_year: 'New Year exclusive'
+
+game_item_exclusive_name: '%exclusive%: §f%name%'
+game_item_name: '§6%name%'
+
+upgradeable_item_lore: '§7Level: %level%'
+
+game_item_available_for_purchase: '§aYou can purchase this item!'
+game_item_already_purchased: '§6This item is already purchased'
+game_item_purchase_confirm: |-
+  §f
+  §eYou want to buy this item
+  §efor real nigga? Cant be //undo'ed!
+
+game_item_selected: 'You selected %label% §c%item%'
+game_item_unselected: 'Un-selected this item'
+game_item_unselected_from: 'You un-selected %label%'
+
+
+predicate_group_default_status: 'you don''t have a rank'
+predicate_group_other_status: 'your rank: %group%§c'
+predicate_group_requirement_status: 'Rank %required% %match_type% §c(%current%)'
+
+predicate_level_requirement: '%level% (your level: %required%)'
+
+predicate_currency_requirement: '%cost% (you have %balance%)'
+predicate_currency_purchase: '§eClick to buy an item for %cost%'
+
+page_next_name: '§6Move right'
+page_next_lore: |-
+  §7Click to view
+  §7next upgrade level
+
+page_prev_name: '§6Move left'
+page_prev_lore: |-
+  §7Click to view
+  §7previous upgrade level
+
+game_item_no_upgrades: '§cNo upgrades'
+
+game_item_exclusive_unavailable: |-
+  §f
+  §7This is §6exclusive item§7, available
+  §7only in specific period of time
+  §f
+  §7%label% will be available for purchasing
+  §7since §f%start% §7to §f%end%
+
+game_item_preview_available: |-
+  §7
+  §eClick RMB to preview this item
+
+game_item_preview_kit_title: 'Kit preview'
+
+game_item_select_available: '§f%label% can be selected!'
+game_item_select_click: '§eClick to select %label%'
+click_to_select: '§eClick to select!'
+currently_selected: '§aCurrently selected!'
+
+game_item_unselect_available: '§f%label%!'
+game_item_unselect_click: '§eClick to unselect kit'
+
+game_item_buy_unavailable: '§cYou can''t buy %label%'
+game_item_buy_requirements: '§cTo purchase %label% you''ll need:'
+
+category_gui_title: 'Items'
+
+category_sm_trails_description: |-
+  §7Сборник крутых эффектов, которые
+  §7будут видны вам и всем игрокам на
+  §7сервере при выстрелах из лука
+category_sm_kill_effects_description: |-
+  §7Различные эффекты, которые будут
+  §7воспроизведены при убийстве Вами
+  §7любого игрока. Выбирайте свой и
+  §7вперёд к новым победам!
+
+category_gui_selected_lore: |-
+  §f
+  §7Your current selected item:
+  §f%selected_item%
+category_gui_category_lore: |-
+  §f
+  %description%
+  §f
+  §7Overall items: §a%size%
+  §f
+  §7Availability:
+  §e %available% §7%scale% §6%percentage%%
+  §f
+  §eClick to select item!
+
+game_item_buy: 'You purchased %label% §c%item%'
+
+game_item_unlock_unavailable: '§c%label%§c is unavailable'
+game_item_unlock_requirements: '§cTo purchase %label% you need:'
+
+game_item_select_unavailable: '§cYou cannot select %label%'
+game_item_select_requirements: '§cTo select %label% you need:'
+
+game_item_sort_mode_a_z: 'By name (A-z)'
+game_item_sort_mode_z_a: 'By name (Z-a)'
+game_item_sort_mode_first_available: 'Available first'
+game_item_sort_mode_price_desc: 'Cost (Descent)'
+game_item_sort_mode_price_asc: 'Cost (Ascent)'
+
+game_item_sort_mode_changed: 'Changed sort mode to §c"%mode%"'
+
+game_item_gui_sort_mode: '§6Sort mode'
+game_item_gui_sort_mode_lore: |-
+  §f%current%
+  §f
+  §7Items from this category
+  §7will be always sorted
+  §7in chosen order
+  §f
+  §eClick to switch between
+  §esort modes
+  §f
+  §7Next sort mode:
+  §f%next%
+
+game_item_gui_unselect_name: '§f%name%'
+game_item_gui_rarity_lore: |-
+  §f
+  §7Rarity: §7%rarity%
+game_item_gui_unselect_lore: |-
+  §f
+  §eClick to unselect
+game_item_gui_nothing_selected: '§7Nothing selected'
+
+game_karma_add: '§d+%amount% Karma'
+game_explanation_skywars: |-
+  $game_broadcast_line$
+  §f§l                                  SkyClash
+  §7 
+  §e§l         Gather resources and equipment on your
+  §e§l     island in order to eliminate every other player.
+  §e§l        Go to the center island for special chests
+  §e§l                           with special items!
+  §7 
+  $game_broadcast_line$
