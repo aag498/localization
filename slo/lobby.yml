@@ -144,9 +144,9 @@ map_cluster_gui_best_lore: |-
   §f
   §eClick to find optimal server!
 
-gamemode_select_icon: '§aGame Menu §7(Right Click)'
+gamemode_select_icon: '§aIgralni Meni §7(Desni Klik)'
 gamemode_select_icon_lore: |-
-  §7Right Click to bring up the Game Menu!
+  §7Desni klik, da odpreš igralni meni!
 
 spectate_npc_hologram_title: '§eSpectate games'
 spectate_npc_hologram_action: '§fClick to open'
@@ -302,24 +302,24 @@ friend_gui_lore_online: |-
 friend_gui_lore_offline: |-
   §7Last Online: §b%last%
 
-lobby_gui_myprofile_title: 'My Profile'
+lobby_gui_myprofile_title: 'Moj Profil'
 lobby_gui_myprofile_head_lore: |-
   §7Astrona Level: §6%level%
   §7Achievement Points: §e%ap%
 
-lobby_gui_myprofile_friends_name: '§aFriends'
+lobby_gui_myprofile_friends_name: '§aPrijatelji'
 lobby_gui_myprofile_friends_lore: |-
   §7View your Astrona friends'
   §7profiles, and interact with your
   §7online friends!
 
-lobby_gui_myprofile_party_name: '§aParty'
+lobby_gui_myprofile_party_name: '§aSkupina'
 lobby_gui_myprofile_party_lore: |-
   §7Create a party and join up with
   §7other players to play games
   §7together!
 
-lobby_gui_myprofile_guild_name: '§aGuild'
+lobby_gui_myprofile_guild_name: '§aKlan'
 lobby_gui_myprofile_guild_lore: |-
   §7Form a guild with other Astrona
   §7players to conquer game modes
