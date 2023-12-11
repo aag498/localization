@@ -185,11 +185,13 @@ fallback_server_notify: |-
   §c kick:%reason%
 
 tab_header: |-
-
+  §r
   §r §bYou are playing on §3§lASTRONA.NET §r
+  §r
 tab_footer: |-
-
+  §r
   §estore.astrona.net
+  §r
 
 # =======================
 #          Servers
