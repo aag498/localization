@@ -184,8 +184,9 @@ fallback_server_notify: |-
   $prefix$The server you were on was turned off. You were sended to §c%kick_to_name%
   §c kick:%reason%
 
-tab_header: |
-  §bYou are playing on §3§lASTRONA.NET
+tab_header: |-
+
+  §r §bYou are playing on §3§lASTRONA.NET §r
 tab_footer: |-
 
   §estore.astrona.net

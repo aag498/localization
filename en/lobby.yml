@@ -456,8 +456,8 @@ lobby_gui_myprofile_catstore_lore_2: |-
 
 # Bossbar messages in the main lobby
 lobby_bossbar_messages: |-
-  §e§lAstrona
-  §6§lAstrona
+  §b§lFULL RELEASE NOW!
+  §3§lFULL RELEASE NOW!
 
 # ----------------------------
 #         Daily Rewards
