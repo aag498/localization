@@ -1,7 +1,7 @@
 # =======================
 #         General
 # =======================
-prefix: '§bAstrona §3Network§7 §7> '
+prefix: '§b§lASTRONA §8§L> '
 discord_link: 'https://discord.gg/astrona'
 store_link: 'https://store.astrona.net'
 
@@ -188,7 +188,7 @@ tab_header: |
   §bYou are playing on §3§lASTRONA.NET
 tab_footer: |-
 
-  §aRanks, Boosters & MORE! §3§lSTORE.ASTRONA.NET
+  §estore.astrona.net
 
 # =======================
 #          Servers
