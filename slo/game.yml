@@ -11,7 +11,7 @@ game_broadcaster_line: '§a§l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬�
 game_winner_title: '§6§lVICTORY'
 game_winner_subtitle: '§7You were the last man standing!'
 game_loser_title: '§c§lGAME END'
-game_loser_subtitle: '§7You weren''t the victorious this time'
+game_loser_subtitle: '§7You weren't the victorious this time'
 game_draw_title: '§c§lDraw'
 game_draw_subtitle: '§7Game over in a draw'
 game_dead_title: '§cYou died'
@@ -35,16 +35,16 @@ game_team_eliminated: |-
   %color% Team %team% is out of the game
   §c §f
 game_chat_format: '%color% §8| §f'
-game_spectator_chat_format: '§7[SPECTATOR] §f'
+game_spectator_chat_format: '§7[GLEDALEC] §f'
 game_tracker_mode_changed: '$prefix$Compass mode changed to §c%mode%'
-game_tracker_mode_nearest_player: 'search for nearest player'
-game_tracker_mode_nearest_teammate: 'search for nearest teammate'
+game_tracker_mode_nearest_player: 'išči najbližjega igralca'
+game_tracker_mode_nearest_teammate: 'išči najbližega soigralca'
 game_spectator_teleport_gui_title: 'Teleporter'
 game_spectator_teleport_gui_entry: '§6%name%'
 game_spectator_teleport_gui_entry_lore: |-
   §eClick LMB to teleport
   §eClick RMB to spectate
-game_spectator_compass_icon: '§6Teleport to players'
+game_spectator_compass_icon: '§6Teleportiraj se do igralcev'
 game_spectator_compass_icon_lore: |-
   §7Use this item to
   §7teleport to alive players

@@ -1,45 +1,45 @@
 gamemode_selector_gui_no_slots_lore: |-
   §f
-  §cThere is no empty slots
+  §cNi praznih mest
   §f
-  §7If you want to join full servers
-  §7purchase §nany rank§7 on our site
+  §7Če se hočeš pridružiti polnim strežnikom
+  §7kupi §katerikoli rank§7 na naši strani
   §f
-  §7Our site: §f$website_url$
+  §7Naša stran: §f$website_url$
 gamemode_selector_gui_full_servers_lore: |-
   §f
-  §7One or more servres are full
-  §7If you want to join full servers
-  §7purchase §nany rank§7 on
-  §7our site §f$website_url$
+  §7Eden ali več strežnikov je polnih
+  §7Če se hočeš pridružiti polnim strežnikom
+  §7kupi §katerikoli rank§7 na
+  §7naši strani §f$website_url$
 gamemode_selector_gui_offline_lore: |-
   §cGame mode is offline
 gamemode_selector_gui_title: 'Game modes'
 gamemode_selector_gui_hub_teleport: '§6Return to hub'
 gamemode_selector_gui_hub_teleport_lore: |-
   §f
-  §eClick to teleport
+  §eKlikni da se teleportiraš
 gamemode_selector_gui_help: '§6Server guide'
 gamemode_selector_gui_help_lore: |-
   §f
   §7For every one that didn`t mastered
   §7main aspects of $server_name$
   §f
-  §eClick to show info
-gamemode_selector_gui_donate: '§6Ranks'
+  §eKlikni da prikažeš informacije
+gamemode_selector_gui_donate: '§6Ranki'
 gamemode_selector_gui_donate_lore: |-
   §f
   §7Every one can help project materially.
   §7And we can offer something to you.
   §f
-  §eClick to go
-gamemode_selector_gui_choose_server: '§eClick to choose server!'
-gamemode_selector_gui_connect: '§eClick to join!'
+  §eKlikni da greš
+gamemode_selector_gui_choose_server: '§eKlikni da izbereš strežnik!'
+gamemode_selector_gui_connect: '§eKlikni da se pridružiš!'
 gamemode_selector_gui_entry_available: '§6%mode%'
 gamemode_selector_gui_entry_disabled: '§c%mode%'
 gamemode_selector_gui_entry_list_item_available: '§f%mode%:'
 gamemode_selector_gui_entry_list_item_full: '§c%mode%:'
-gamemode_selector_gui_single_mode_info: '§7Online: §f%online%§7, servers: §f%servers%'
+gamemode_selector_gui_single_mode_info: '§7Online: §f%online%§7, strežniki: §f%servers%'
 gamemode_selector_gui_mode_info: '§7- $gamemode_selector_gui_single_mode_info$'
 gamemode_selector_gui_uncommon_single_online: '§7Online now §f%format%'
 gamemode_selector_gui_uncommon_online: '§7 - Current online: §f%online%/%slots%'
@@ -52,8 +52,8 @@ master_sw_description: |-
 
 master_bw_description: |-
   §7Fight between teams for bed!
-  §7Protect your bed and destroy other ones to win
-  §7If you want to win...
+  §7Varujte svojo posteljo in uničite druge da zmagate
+  §7Če želite zmagati...
 
 uncommon_anarchy_description: |-
   §7Survive on the only server mode
