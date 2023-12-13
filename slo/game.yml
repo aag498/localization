@@ -11,7 +11,7 @@ game_broadcaster_line: '§a§l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬�
 game_winner_title: '§6§lVICTORY'
 game_winner_subtitle: '§7You were the last man standing!'
 game_loser_title: '§c§lGAME END'
-game_loser_subtitle: '§7You weren't the victorious this time'
+game_loser_subtitle: '§7You weren''t the victorious this time'
 game_draw_title: '§c§lDraw'
 game_draw_subtitle: '§7Game over in a draw'
 game_dead_title: '§cYou died'
