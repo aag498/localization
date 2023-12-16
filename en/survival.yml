@@ -1,3 +1,4 @@
+survival_board_level: '§fSurvival Level:§b %level%'
 survival_board_competitive_kills: '§fComp Kills:§e %kills%'
 survival_board_competitive_deaths: '§fComp Deaths:§e %deaths%'
 survival_board_vanilla_kills: '§fVanilla Kills:§a %kills%'
