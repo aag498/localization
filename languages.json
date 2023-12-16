@@ -13,6 +13,7 @@
     "en/en.yml": "#*",
     "en/game.yml": "#isMaster",
     "en/sw.yml": "#isMaster",
+    "en/survival.yml": "#isMaster",
     "en/legacy_mc.yml": "#*",
     "en/lobby.yml": "#isLobby",
     "en/new_mc.yml": "#1.16.5",
