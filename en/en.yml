@@ -1092,7 +1092,8 @@ player_top_player_entry: '$prop_player_top_player_entry$'
 player_top_empty_entry: '$prop_player_top_empty_entry$'
 
 level_player_top_name: 'By Network Level'
-kills_player_top_name: 'Lifetime Kills'
+kills_player_top_name: '§b§l§nLifetime Kills'
+deaths_player_top_name: '§b§l§nLifetime Deaths'
 #deaths_player_top_name: 'Lifetime Deaths' ????
 #best_kill_series_player_top_name: 'By best kill stream' ???
 final_kills_player_top_name: 'By final kills'
