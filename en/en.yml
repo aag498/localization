@@ -1140,6 +1140,10 @@ core_vanish_nochat: '§cYou cannot chat while vanished!'
 core_vanish_notification: '§cYou are currently vanished! (just a reminder)'
 core_vanish_noserver: '§cYou cannot play while you''re vanished!'
 
+# buildmode
+core_buildmode_enabled: '§aYou are now in build mode!'
+core_buildmode_disabled: '§cYou are no longer in build mode!'
+
 lobby_active_statuses: "§fYou are currently %statuses%"
 lobby_status_vanished: "§cVANISHED"
 lobby_status_nicked_ingame: "§cNICKED (in games only)"
