@@ -1103,6 +1103,8 @@ sclevel_player_top_name: '§b§l§nSkyclash Levels'
 rating_player_top_name: '§b§l§nRanked Rating'
 
 ranked_mode_display: '§7Ranked'
+display_survival_competitive: '§7Competitive'
+display_survival_vanilla: '§7Vanilla'
 
 overall_player_top_name: '§7All Modes'
 
