@@ -459,6 +459,10 @@ lobby_bossbar_messages: |-
   §b§lFULL RELEASE NOW!
   §3§lFULL RELEASE NOW!
 
+pack_lobby_bossbar_messages: |-
+  §b§lFULL RELEASE NOW! MODERN!
+  §3§lFULL RELEASE NOW! MODERN!
+
 # ----------------------------
 #         Daily Rewards
 # ----------------------------
