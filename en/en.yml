@@ -73,6 +73,7 @@ board_group: '§fRank: §c%rank%'
 board_website: '§e$website_url$'
 board_hub_title: "ASTRONA"
 board_kills: '§fKills: §a%kills%'
+board_deaths: '§fDeaths: §a%deaths%'
 #
 #
 #
