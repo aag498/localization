@@ -62,17 +62,18 @@ store_link_message: '§eRanks, Mystery Boxes, Network Boosters and more: §b$sto
 #         Scoreboards
 # =======================
 board_display_name: '§e§l%name%'
-board_achievements: '§fAchievements: §e%achievements%'
+board_achievements: '§fPriznanja: §e%achievements%'
 board_netlevel: '§fNetwork Level: §3%level%'
-board_coins: '§fCoins: §a%coins%'
+board_coins: '§fKovanci: §a%coins%'
 board_tokens: '§fTokens: §2%tokens%'
 board_lobby: '§fLobby: §a%number%'
-board_online: '§fPlayers: §a%online%'
+board_online: '§fIgralci: §a%online%'
 board_datetime: '§7%time%'
 board_group: '§fRank: §c%rank%'
 board_website: '§e$website_url$'
 board_hub_title: "ASTRONA"
-board_kills: '§fKills: §a%kills%'
+board_kills: '§fUmori: §a%kills%'
+board_deaths: '§fSmrti: §a%kills%'
 #
 #
 #
