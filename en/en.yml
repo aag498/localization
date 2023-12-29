@@ -75,7 +75,15 @@ board_hub_title: "ASTRONA"
 board_kills: '§fKills: §a%kills%'
 board_deaths: '§fDeaths: §a%deaths%'
 board_money: '§fMoney: §2$%money%'
-pack_board_kills: '§fMKills: §a%kills%'
+pack_board_achievements: '§f Achievements: §e%achievements%'
+pack_board_netlevel: '§f Network Level: §3%level%'
+pack_board_coins: '§f Coins: §a%coins%'
+pack_board_lobby: '§f Lobby: §a%number%'
+pack_board_online: '§f Players: §a%online%'
+pack_board_group: '§f Rank: §c%rank%'
+pack_board_deaths: '§f Deaths: §a%deaths%'
+pack_board_money: '§f Money: §2$%money%'
+pack_board_kills: '§f Kills: §a%kills%'
 #
 #
 #

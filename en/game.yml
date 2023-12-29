@@ -149,7 +149,7 @@ board_waiting: '§fWaiting'
 board_until_start: '§fStarting in §a%time%'
 board_game_map: '§fMap: §a%map%'
 board_mode: '§fMode: §a%mode%'
-board_players: '§fPlayers: §a%players%'
+pack_board_mode: '§f Mode: §a%mode%'
 
 game_bw_description: |-
   §eProtect your bed and break others!
