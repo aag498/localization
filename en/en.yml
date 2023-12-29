@@ -75,6 +75,7 @@ board_hub_title: "ASTRONA"
 board_kills: '§fKills: §a%kills%'
 board_deaths: '§fDeaths: §a%deaths%'
 board_money: '§fMoney: §2$%money%'
+pack_board_kills: '§fMKills: §a%kills%'
 #
 #
 #
